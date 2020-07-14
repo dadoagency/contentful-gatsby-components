@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import Image from "../Image"
 
 const ProductCard = ({
   headerImage,
@@ -10,7 +11,7 @@ const ProductCard = ({
 }) => {
   return (
     <div className={`meta-info product-card ${className}`} {...props}>
-      <center>{headerImage && <img src={headerImage} alt="header" />}</center>
+      <center>{headerImage && <Image {...headerImage} alt="header" />}</center>
       <div className="figure caption" style={{ marginTop: 0 }}>
         {subHeading}
       </div>
@@ -22,8 +23,13 @@ const ProductCard = ({
 
 ProductCard.propTypes = {
   actionButton: PropTypes.object,
-  subHeading: PropTypes.object,
+  subHeading: PropTypes.array,
   className: PropTypes.string,
+  headerImage: PropTypes.shape({
+    fluid: PropTypes.object,
+    fixed: PropTypes.object,
+    src: PropTypes.string,
+  }).isRequired,
 }
 
 export default ProductCard

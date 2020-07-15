@@ -4,13 +4,15 @@
   "main": "index.js",
   "author": "geimaj",
   "private": false,
-  "exports": {
-    "import": "./index.mjs",
-    "require": "./index.cjs"
-  },
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^14.1.1",
     "@contentful/rich-text-types": "^14.1.1",
+    
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
     "gatsby": "^2.23.12",
     "gatsby-image": "^2.4.9",
     "gatsby-plugin-manifest": "^2.4.14",
@@ -18,12 +20,7 @@
     "gatsby-plugin-react-helmet": "^3.3.6",
     "gatsby-plugin-sharp": "^2.6.14",
     "gatsby-source-filesystem": "^2.3.14",
-    "gatsby-transformer-sharp": "^2.5.7",
-    "node-sass": "^4.14.1",
-    "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-helmet": "^6.1.0"
+    "gatsby-transformer-sharp": "^2.5.7"
   },
   "devDependencies": {
     "prettier": "2.0.5"

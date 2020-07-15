@@ -6,7 +6,10 @@ import DynamicReviewList from "./src/components/Reviews/ReviewList"
 //util
 import renderOptions from "./src/utils/richText"
 //templates
-import AdvertorialType1 from "./src/templates/AdvertorialType1"
+import AdvertorialType1, {
+  advertorialType1Page,
+} from "./src/templates/AdvertorialType1"
+
 const RichText = {
   renderOptions,
 }
@@ -18,4 +21,5 @@ export {
   RichText,
   DynamicReviewList,
   AdvertorialType1,
+  advertorialType1Page,
 }

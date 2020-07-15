@@ -3,7 +3,10 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin")
 const nodeExternals = require("webpack-node-externals")
 module.exports = {
   entry: "./index.js",
-  externals: [nodeExternals()],
+  externals: [
+    nodeExternals(),
+    { react: "react", reactDOM: "react-dom", gatsby: "gatsby" },
+  ],
   output: {
     path: path.join(__dirname, "dist"),
     filename: "bundle.js",

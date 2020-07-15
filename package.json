@@ -4,21 +4,21 @@
   "main": "index.js",
   "author": "geimaj",
   "dependencies": {
-    "@babel/runtime": "^7.9.6"
-    
+    "@babel/runtime": "^7.9.6",
+    "@contentful/rich-text-react-renderer": "^14.1.1",
+    "@contentful/rich-text-types": "^14.1.1"
   },
   "peerDependencies": {
-    "gatsby": "^2.24.2",
-    "gatsby-image": "^2.4.13",
-    "react": "^16.13.1",
     "@contentful/rich-text-react-renderer": "^14.1.1",
     "@contentful/rich-text-types": "^14.1.1",
+    "gatsby": "^2.24.2",
+    "gatsby-image": "^2.4.13",
     "object-fit-images": "^3.2.4",
     "prop-types": "^15.7.2",
+    "react": "^16.13.1",
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "webpack-node-externals": "^2.5.0",
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
@@ -29,11 +29,15 @@
     "clean-webpack-plugin": "^3.0.0",
     "cross-env": "^5.2.1",
     "css-loader": "^3.6.0",
+    "gatsby": "^2.24.2",
+    "gatsby-image": "^2.4.13",
     "node-sass": "^4.14.1",
+    "react-helmet": "^6.1.0",
     "sass-loader": "^9.0.2",
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-node-externals": "^2.5.0"
   },
   "keywords": [
     "gatsby"

@@ -9,7 +9,8 @@ import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import { graphql } from "gatsby"
 import "./style.scss"
 // import Tracking from "../../components/Tracking"
-// import useRedirectDestination from "../../hooks/useRedirectDestination"
+import useRedirectDestination from "../../hooks/useRedirectDestination"
+import { PageProvider } from "../../context/PageContext"
 
 export const AdvertorialType1Page = graphql`
   fragment AdvertorialType1Page on ContentfulAdvertorialType1 {
@@ -84,17 +85,14 @@ const AdvertorialType1 = ({
   references,
   ...props
 }) => {
-  // useRedirectDestination(data.contentfulAdvertorialType1.redirectDestinations)
+  useRedirectDestination(redirectDestinations)
   const ArticleBody = () => {
     let document = body.json
     return documentToReactComponents(document, renderOptions)
   }
-  console.log("lib", props)
-
   const documentTitle = (
     <>{documentToReactComponents(headline.json, renderOptions)}</>
   )
-
   return (
     <Layout
       className="advertorial-type-1"
@@ -156,4 +154,12 @@ AdvertorialType1.propTypes = {
   ),
 }
 
-export default AdvertorialType1
+// export default AdvertorialType1
+
+export default props => {
+  return (
+    <PageProvider>
+      <AdvertorialType1 {...props} />
+    </PageProvider>
+  )
+}

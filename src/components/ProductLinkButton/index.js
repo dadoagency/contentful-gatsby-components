@@ -7,14 +7,11 @@ import Image from "../Image"
 
 ProductLinkButton.propTypes = {
   cta: PropTypes.string.isRequired,
-  icon: PropTypes.object,
+  // icon: PropTypes.object,
 }
 
 export default function ProductLinkButton({ cta, icon, children, ...props }) {
-  // const { redirectDestination } = useContext(PageContext)
-  const redirectDestination = "/"
-  // let x = useState()
-  console.log(icon)
+  const { redirectDestination } = useContext(PageContext)
   return (
     <ProductLink redirectDestination={redirectDestination} {...props}>
       <div className="page-btn">
@@ -22,7 +19,6 @@ export default function ProductLinkButton({ cta, icon, children, ...props }) {
           <span>{cta}</span>
           {icon && (
             <div className="arrow-img">
-              {/* <img src={icon} alt="icon" /> */}
               <Image {...icon} />
             </div>
           )}

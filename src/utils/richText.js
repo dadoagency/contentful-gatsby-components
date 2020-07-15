@@ -47,9 +47,13 @@ const renderOptions = {
           }
           let caption = null
           if (node.data.target.fields.caption) {
-            caption = documentToReactComponents(
-              getFirstValue(node.data.target.fields.caption),
-              renderOptions
+            caption = (
+              <>
+                {documentToReactComponents(
+                  getFirstValue(node.data.target.fields.caption),
+                  renderOptions
+                )}
+              </>
             )
           }
           //TODO: use child image sharp

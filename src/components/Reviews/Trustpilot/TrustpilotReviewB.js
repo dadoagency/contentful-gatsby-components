@@ -1,5 +1,5 @@
 import React from "react"
-import Img from "gatsby-image"
+import Image from "../../Image"
 import { useStaticQuery } from "gatsby"
 
 const TrustpilotReviewB = ({ title, body, ...props }) => {
@@ -24,12 +24,12 @@ const TrustpilotReviewB = ({ title, body, ...props }) => {
   return (
     <div className="righttestibox trustpilot-review-b">
       <div className="text-center">
-        <Img fixed={data.tp.childImageSharp.fixed} alt="petlab logo" />
+        <Image fixed={data.tp.childImageSharp.fixed} alt="petlab logo" />
       </div>
       <p>{body}</p>
       <div className="user">
         <strong>{title}</strong>
-        <Img fixed={data.stars.childImageSharp.fixed} alt="petlab logo" />
+        <Image fixed={data.stars.childImageSharp.fixed} alt="petlab logo" />
       </div>
     </div>
   )

@@ -1,0 +1,52 @@
+.title {
+  h1 {
+    margin-bottom: 25px;
+    text-align: center;
+    background: #fdfbf6;
+    color: #213f4e;
+    font-weight: 700;
+  }
+}
+.article {
+  .section {
+    box-shadow: none;
+    padding: 20px 20px;
+    box-shadow: 0 0 28px -1px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+  }
+
+  b {
+    font-weight: 700;
+  }
+
+  .article-img-wrapper {
+    margin: 0;
+    padding: 0;
+    background-color: #fdfbf6;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #505050;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .special-offer {
+    margin: 45px 0;
+
+    p {
+      margin: 0;
+    }
+  }
+  div.styledText {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    list-style: disc;
+    margin-left: 2%;
+  }
+}

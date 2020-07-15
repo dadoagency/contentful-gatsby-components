@@ -5,14 +5,14 @@ import PropTypes from "prop-types"
 // uses gatsby-image when passed fluid or fixed
 //uses html image tag when passed src
 
-const Image = ({ fluid, fixed, src, alt, caption, ...props }) => {
+const Image = ({ fluid, fixed, src, alt, caption, width, ...props }) => {
   let image = null
   if (fluid) {
     image = <Img fluid={fluid} alt={alt} {...props} />
   } else if (fixed) {
     image = <Img fixed={fixed} alt={alt} {...props} />
   } else if (src) {
-    image = <img src={src} alt={alt} {...props} />
+    image = <img style={{ width }} src={src} alt={alt} {...props} />
   }
   return (
     <div className="article-img-wrapper">

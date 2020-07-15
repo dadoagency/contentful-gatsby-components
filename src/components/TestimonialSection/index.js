@@ -1,12 +1,15 @@
 import React from "react"
 import PropTypes from "prop-types"
 import ProductCard from "../ProductCard"
+import DynamicReviewList from "../../components/Reviews/ReviewList"
 
 const TestimonialSection = ({ reviews, headerImage, subHeading, ...props }) => {
   return (
     <div className="right-data-wrapper reviews">
       <ProductCard headerImage={headerImage} subHeading={subHeading} />
-      <div className="reviews-list">{reviews}</div>
+      <div className="reviews-list">
+        <DynamicReviewList reviews={reviews} />
+      </div>
     </div>
   )
 }
@@ -18,7 +21,23 @@ TestimonialSection.propTypes = {
     src: PropTypes.string,
   }).isRequired,
   // subHeading: PropTypes.object,
-  reviews: PropTypes.object,
+
+  reviews: PropTypes.arrayOf(
+    PropTypes.shape({
+      __typename: PropTypes.string.isRequired,
+      title: PropTypes.string.isRequired,
+      subHeading: PropTypes.shape({
+        json: PropTypes.object.isRequired,
+      }),
+      body: PropTypes.shape({
+        json: PropTypes.object.isRequired,
+      }).isRequired,
+      productLinkButton: PropTypes.shape({
+        icon: PropTypes.object,
+        text: PropTypes.string,
+      }),
+    })
+  ),
 }
 
 export default TestimonialSection

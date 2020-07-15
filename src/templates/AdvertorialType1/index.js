@@ -4,7 +4,6 @@ import renderOptions from "../../utils/richText"
 import Layout from "../../components/Layout"
 import Article from "../../components/Article"
 import Reviews from "../../components/TestimonialSection"
-import DynamicReviewList from "../../components/Reviews/ReviewList"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import { graphql } from "gatsby"
 import "./style.scss"
@@ -107,7 +106,7 @@ const AdvertorialType1 = ({
           testimonialSection.subtitle.json,
           renderOptions
         )}
-        reviews={<DynamicReviewList reviews={testimonialSection.reviews} />}
+        reviews={testimonialSection.reviews}
       />
     </Layout>
   )

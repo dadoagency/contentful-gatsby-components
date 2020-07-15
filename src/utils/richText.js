@@ -86,7 +86,7 @@ const renderOptions = {
             </StyledText>
           )
         case "trustpilotWidget":
-          const fields = node.data.target.fields
+          // const fields = node.data.target.fields
           // return (
           //   <List
           //     culture={getFirstValue(fields.culture)}

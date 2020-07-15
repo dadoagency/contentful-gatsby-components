@@ -8,6 +8,7 @@ const Video = ({ src }) => {
         maxWidth: "100%",
       }}
     >
+      {/* eslint-disable-next-line */}
       <video
         style={{ maxWidth: "100%" }}
         src={src}

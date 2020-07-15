@@ -8,7 +8,7 @@ import DynamicReviewList from "../../components/Reviews/ReviewList"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import { graphql } from "gatsby"
 import "./style.scss"
-// import Tracking from "../../components/Tracking"
+import Tracking from "../../components/Tracking"
 import useRedirectDestination from "../../hooks/useRedirectDestination"
 import { PageProvider } from "../../context/PageContext"
 
@@ -83,7 +83,6 @@ const AdvertorialType1 = ({
   redirectDestinations,
   testimonialSection,
   references,
-  ...props
 }) => {
   useRedirectDestination(redirectDestinations)
   const ArticleBody = () => {
@@ -100,7 +99,7 @@ const AdvertorialType1 = ({
       locale={node_locale}
       logo={logo}
     >
-      {/* <Tracking pixelId={facebookPixelId} /> */}
+      <Tracking pixelId={facebookPixelId} />
       <Article title={documentTitle} body={<ArticleBody />} />
       <Reviews
         headerImage={testimonialSection.headerImage}
@@ -153,8 +152,6 @@ AdvertorialType1.propTypes = {
     })
   ),
 }
-
-// export default AdvertorialType1
 
 export default props => {
   return (

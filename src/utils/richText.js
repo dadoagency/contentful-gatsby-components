@@ -8,7 +8,7 @@ import ArticleImage from "../components/Image"
 import ProductLinkButton from "../components/ProductLinkButton"
 import StyledText from "../components/StyledText"
 
-export const renderOptions = {
+const renderOptions = {
   renderNode: {
     [BLOCKS.EMBEDDED_ASSET]: (node, children) => {
       const url = getFirstValue(node.data.target.fields.file).url
@@ -151,3 +151,5 @@ export const renderOptions = {
   },
   renderMark: {},
 }
+
+export default renderOptions

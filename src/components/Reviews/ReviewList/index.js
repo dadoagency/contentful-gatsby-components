@@ -1,6 +1,6 @@
 import React from "react"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
-import { renderOptions } from "../../../utils/richText"
+import renderOptions from "../../../utils/richText"
 import BasicReview from "../Trustpilot"
 import ProductLinkButton from "../../ProductLinkButton"
 import AmazonReviewComponent from "../Amazon"

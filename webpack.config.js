@@ -1,11 +1,14 @@
 const path = require("path")
-
+const { CleanWebpackPlugin } = require("clean-webpack-plugin")
+const nodeExternals = require("webpack-node-externals")
 module.exports = {
   entry: "./index.js",
+  externals: [nodeExternals()],
   output: {
     path: path.join(__dirname, "dist"),
     filename: "bundle.js",
   },
+  plugins: [new CleanWebpackPlugin()],
   module: {
     rules: [
       {
@@ -13,7 +16,13 @@ module.exports = {
         exclude: /node_modules\/(?!(gatsby)\/)/,
         use: {
           loader: "babel-loader",
-          presets: ["@babel/preset-react", "@babel/preset-env"],
+          options: {
+            presets: ["@babel/preset-react", "@babel/preset-env"],
+            plugins: [
+              "@babel/plugin-proposal-class-properties",
+              "babel-plugin-remove-graphql-queries",
+            ],
+          },
         },
       },
       {

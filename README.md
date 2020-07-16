@@ -2,6 +2,18 @@
 
 `yarn add @dadoagency/contentful-gatsby-components`
 
+### Edit gatsby config
+
+```
+module.exports = {
+  ...
+  plugins: [
+        `@dadoagency/contentful-gatsby-components`,
+  ]
+}
+```
+
+
 ## How to develop
 
 ```

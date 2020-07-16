@@ -44,7 +44,6 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "0BSD",
   "scripts": {
     "build": "webpack --mode=production",
     "watch": "webpack -w"

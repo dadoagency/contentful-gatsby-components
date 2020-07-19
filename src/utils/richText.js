@@ -74,9 +74,14 @@ const renderOptions = {
             cta = getLocaleValueOrDefault(text)
           }
 
-          if (icon) {
-            const file = getFirstValue(icon).fields.file
-            graphic = getFirstValue(file).url
+          const { fields } = getLocaleValueOrDefault(icon)
+
+          if (fields) {
+            const { file } = fields
+            const { url } = getFirstValue(file)
+            graphic = { src: url }
+          } else {
+            // console.log("node has no icon", node)
           }
 
           return <ProductLinkButton cta={cta} icon={graphic} />

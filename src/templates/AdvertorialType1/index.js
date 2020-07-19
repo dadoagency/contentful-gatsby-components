@@ -47,6 +47,9 @@ export const AdvertorialType1Page = graphql`
           body {
             json
           }
+          internal {
+            type
+          }
           productLinkButton {
             text
             icon {

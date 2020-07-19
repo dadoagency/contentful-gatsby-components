@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "dado",
+  "private": false,
   "dependencies": {
     "@babel/runtime": "^7.9.6",
     "@contentful/rich-text-react-renderer": "^14.1.1",

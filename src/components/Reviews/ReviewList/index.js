@@ -55,13 +55,14 @@ const AmazonReview = ({ review }) => {
 }
 
 const FaceBookReview = ({ review }) => {
-  const { title, body, avatar } = review
+  const { title, body, avatar, productLinkButton } = review
   const renderedBody = documentToReactComponents(body.json, renderOptions)
   return (
     <FacebookReviewComponent
       title={title}
       body={renderedBody}
-      avatar={avatar.localFile.childImageSharp.fixed}
+      avatar={avatar}
+      productLinkButton={productLinkButton}
     />
   )
 }

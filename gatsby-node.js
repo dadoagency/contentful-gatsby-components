@@ -128,25 +128,7 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
     }),
 
     // ContentfulTrustpilotReview
-    `
-    type contentfulTrustpilotReviewBodyRichTextNode implements Node @derivedTypes @dontInfer {
-      nodeType: String
-      content: [contentfulTrustpilotReviewBodyRichTextNodeContent]
-      body: String
-    }
-    
-    type contentfulTrustpilotReviewBodyRichTextNodeContent @derivedTypes {
-      nodeType: String
-      content: [contentfulTrustpilotReviewBodyRichTextNodeContentContent]
-    }
-    
-    type contentfulTrustpilotReviewBodyRichTextNodeContentContent {
-      nodeType: String
-      value: String
-    }
-
-    `,
-
+    require("./src/schema/reviews/trustpilot/trustpilotReview"),
     schema.buildObjectType({
       name: "ContentfulTrustpilotReview",
       infer: true,
@@ -163,32 +145,32 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
       interfaces: ["Node"],
     }),
     // ContentfulTrustpilotReviewB
-
-    `
-type contentfulTrustpilotReviewBBodyRichTextNode implements Node @derivedTypes @dontInfer {
-  nodeType: String
-  content: [contentfulTrustpilotReviewBBodyRichTextNodeContent]
-  body: String
-}
-
-type contentfulTrustpilotReviewBBodyRichTextNodeContent @derivedTypes {
-  nodeType: String
-  content: [contentfulTrustpilotReviewBBodyRichTextNodeContentContent]
-}
-
-type contentfulTrustpilotReviewBBodyRichTextNodeContentContent {
-  nodeType: String
-  value: String
-}
-    `,
+    require("./src/schema/reviews/trustpilot/trustpilotReviewB"),
     schema.buildObjectType({
       name: "ContentfulTrustpilotReviewB",
       interfaces: ["Node"],
       fields: {
-        test: "String!",
         title: "String!",
         body: {
           type: "contentfulTrustpilotReviewBBodyRichTextNode",
+          extensions: {
+            link: {
+              by: "id",
+              from: "body___NODE",
+            },
+          },
+        },
+      },
+    }),
+    // ContentfulFacebookReviewB
+    // require("./src/schema/reviews/trustpilot/trustpilotReviewB"),
+    schema.buildObjectType({
+      name: "ContentfulFacebookReview",
+      interfaces: ["Node"],
+      fields: {
+        title: "String!",
+        body: {
+          type: "contentfulFacebookReviewBodyRichTextNode",
           extensions: {
             link: {
               by: "id",
@@ -202,7 +184,11 @@ type contentfulTrustpilotReviewBBodyRichTextNodeContentContent {
     schema.buildUnionType({
       name: "TestimonialReview",
       infer: true,
-      types: ["ContentfulTrustpilotReview", "ContentfulTrustpilotReviewB"],
+      types: [
+        "ContentfulTrustpilotReview",
+        "ContentfulTrustpilotReviewB",
+        "ContentfulFacebookReview",
+      ],
     }),
     //not using type builder syntax to use @link... try with extensions: {link}
     `

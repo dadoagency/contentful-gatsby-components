@@ -23,7 +23,7 @@ const ProductCard = ({
 
 ProductCard.propTypes = {
   actionButton: PropTypes.object,
-  subHeading: PropTypes.object,
+  // subHeading: PropTypes.object,
   className: PropTypes.string,
   headerImage: PropTypes.shape({
     fluid: PropTypes.object,

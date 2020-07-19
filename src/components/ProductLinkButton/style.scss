@@ -20,6 +20,18 @@
   width: auto;
   font-weight: bold;
   font-size: 16px !important;
+
+  .arrow-img {
+    .article-image-wrapper {
+      width: fit-content;
+      display: inline-flex;
+
+      img {
+        max-width: 100% !important;
+        width: 100% !important;
+      }
+    }
+  }
 }
 .page-btn:hover {
   background-color: #e37100;
@@ -30,10 +42,6 @@
   color: #fff !important;
   font-size: 1.1em !important;
   font-weight: 500;
-}
-.article-image-wrapper {
-  width: fit-content;
-  display: inline-flex;
 }
 
 // .page-btn img {

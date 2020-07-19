@@ -67,6 +67,32 @@ export const AdvertorialType1Page = graphql`
             }
           }
         }
+
+        ... on ContentfulFacebookReview {
+          title
+          body {
+            json
+          }
+          internal {
+            type
+          }
+          productLinkButton {
+            text
+            icon {
+              fixed(width: 12) {
+                base64
+                tracedSVG
+                aspectRatio
+                srcWebp
+                srcSetWebp
+                height
+                src
+                srcSet
+                width
+              }
+            }
+          }
+        }
       }
     }
     references {

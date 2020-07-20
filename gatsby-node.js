@@ -1,6 +1,8 @@
 exports.createSchemaCustomization = ({ actions, schema }) => {
   const { createTypes } = actions
   const typeDefs = [
+    //productLinkButton
+    require("./src/schema/productLinkButton/productLinkButton"),
     // advertorial type 1 headline rich text
     `
     type contentfulAdvertorialType1HeadlineRichTextNode implements Node @derivedTypes @dontInfer {
@@ -64,6 +66,13 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
       body: contentfulAdvertorialType1BodyRichTextNode @link(by: "id", from: "body___NODE")
     }
     `,
+    schema.buildObjectType({
+      name: "ContentfulRedirectDestination",
+      fields: {
+        url: "String!",
+        utm: "String!",
+      },
+    }),
     schema.buildObjectType({
       name: "ContentfulReference",
       fields: {
@@ -162,8 +171,8 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
         },
       },
     }),
-    // ContentfulFacebookReviewB
-    // require("./src/schema/reviews/trustpilot/trustpilotReviewB"),
+    // ContentfulFacebookReviews
+    require("./src/schema/reviews/facebook/facebookReview"),
     schema.buildObjectType({
       name: "ContentfulFacebookReview",
       interfaces: ["Node"],

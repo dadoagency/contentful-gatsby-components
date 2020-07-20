@@ -6,10 +6,12 @@ const useRedirectDestination = candidates => {
   const { setRedirectDestination } = useContext(PageContext)
 
   useEffect(() => {
-    const { url, utm } = getRedirectDestination(candidates)
-    const queryString = getQueryParam(utm)
-    window.history.replaceState(null, null, queryString)
-    setRedirectDestination(url + queryString)
+    if (candidates && candidates.length > 0) {
+      const { url, utm } = getRedirectDestination(candidates)
+      const queryString = getQueryParam(utm)
+      window.history.replaceState(null, null, queryString)
+      setRedirectDestination(url + queryString)
+    }
   }, [setRedirectDestination, candidates])
 }
 

@@ -178,6 +178,7 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
             },
           },
         },
+        productLinkButton: "ContentfulProductLinkButton",
       },
     }),
 
@@ -223,19 +224,3 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
   ]
   createTypes(typeDefs)
 }
-
-// exports.createResolvers = ({ createResolvers }) => {
-//   const resolvers = {
-//     Review: {
-//       fields: {
-//         __typename: {
-//           type: "String!",
-//           resolve(source) {
-//             return "test time" //source.name
-//           },
-//         },
-//       },
-//     },
-//   }
-//   createResolvers(resolvers)
-// }

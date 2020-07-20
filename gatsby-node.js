@@ -72,6 +72,7 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
         url: "String!",
         utm: "String!",
       },
+      interfaces: ["Node"],
     }),
     schema.buildObjectType({
       name: "ContentfulReference",

@@ -91,10 +91,12 @@ const AdvertorialType2 = ({
       className="advertorial-type-2"
       logo={logo}
       extra={
-        <ProductLinkButton
-          {...stickyProductButton}
-          cta={stickyProductButton.text}
-        />
+        stickyProductButton ? (
+          <ProductLinkButton
+            icon={stickyProductButton.icon ? stickyProductButton.icon : null}
+            cta={stickyProductButton.text ? stickyProductButton.text : null}
+          />
+        ) : null
       }
       footer={
         <footer>
@@ -114,43 +116,48 @@ const AdvertorialType2 = ({
         />
 
         <div className="right-sidebar">
-          <TestimonialSection
-            headerImage={testimonialSection.headerImage}
-            subHeading={
-              <>
-                {documentToReactComponents(
-                  testimonialSection.subtitle.json,
-                  renderOptions
-                )}
-              </>
-            }
-            reviews={testimonialSection.reviews}
-          />
+          {testimonialSection ? (
+            <>
+              <TestimonialSection
+                headerImage={testimonialSection.headerImage}
+                subHeading={
+                  <>
+                    {documentToReactComponents(
+                      testimonialSection.subtitle.json,
+                      renderOptions
+                    )}
+                  </>
+                }
+                reviews={testimonialSection.reviews}
+              />
 
-          <ProductCard
-            className="floating"
-            headerImage={testimonialSection.headerImage}
-            subHeading={
-              <>
-                {documentToReactComponents(
-                  testimonialSection.subtitle.json,
-                  renderOptions
-                )}
-              </>
-            }
-          />
+              <ProductCard
+                className="floating"
+                headerImage={testimonialSection.headerImage}
+                subHeading={
+                  <>
+                    {documentToReactComponents(
+                      testimonialSection.subtitle.json,
+                      renderOptions
+                    )}
+                  </>
+                }
+              />
+            </>
+          ) : null}
 
           <div className="social-icons">
-            {socialMediaIcons.map((socialMediaIcon, index) => {
-              const { link, icon } = socialMediaIcon
-              return (
-                <div className="social-icon" key={index}>
-                  <a href={link}>
-                    <img alt="social icon" src={icon.file.url} />
-                  </a>
-                </div>
-              )
-            })}
+            {socialMediaIcons &&
+              socialMediaIcons.map((socialMediaIcon, index) => {
+                const { link, icon } = socialMediaIcon
+                return (
+                  <div className="social-icon" key={index}>
+                    <a href={link}>
+                      <img alt="social icon" src={icon.file.url} />
+                    </a>
+                  </div>
+                )
+              })}
           </div>
         </div>
       </div>

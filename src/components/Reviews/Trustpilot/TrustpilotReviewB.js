@@ -1,6 +1,6 @@
 import React from "react"
 import Image from "../../Image"
-import { useStaticQuery } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 
 const TrustpilotReviewB = ({ title, body, ...props }) => {
   const data = useStaticQuery(graphql`

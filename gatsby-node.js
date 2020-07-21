@@ -70,7 +70,7 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
       name: "ContentfulRedirectDestination",
       fields: {
         url: "String!",
-        utm: "String!",
+        utm: "String",
       },
       interfaces: ["Node"],
     }),
@@ -143,7 +143,13 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
       name: "ContentfulTrustpilotReview",
       infer: true,
       fields: {
-        productLinkButton: "ContentfulProductLinkButton",
+        productLinkButton: {
+          type: "ContentfulProductLinkButton",
+          extensions: {
+            infer: true,
+            link: { by: "id", from: "productLinkButton___NODE" },
+          },
+        },
         title: "String!",
         body: {
           type: "contentfulTrustpilotReviewBodyRichTextNode",
@@ -207,14 +213,6 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
       reviews: [TestimonialReview] @link(by: "id", from: "reviews___NODE")
     }
     `,
-    schema.buildObjectType({
-      name: "File",
-      fields: {
-        sys: "Sys",
-        url: "String",
-      },
-      interfaces: ["Node"],
-    }),
     schema.buildObjectType({
       name: "Asset",
       fields: {

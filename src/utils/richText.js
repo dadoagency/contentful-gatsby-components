@@ -140,7 +140,9 @@ const renderOptions = {
             )
         }
       } catch (error) {
-        console.log("Error rendering node", node)
+        if (process.env.NODE_ENV === "development") {
+          console.log("Error rendering node", node)
+        }
       }
     },
     [INLINES.EMBEDDED_ENTRY]: (node, children) => {

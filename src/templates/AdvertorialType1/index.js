@@ -131,10 +131,14 @@ const AdvertorialType1 = ({
       <Article title={documentTitle} body={<ArticleBody />} />
       <Reviews
         headerImage={testimonialSection.headerImage}
-        subHeading={documentToReactComponents(
-          testimonialSection.subtitle.json,
-          renderOptions
-        )}
+        subHeading={
+          testimonialSection.subtitle
+            ? documentToReactComponents(
+                testimonialSection.subtitle.json,
+                renderOptions
+              )
+            : null
+        }
         reviews={testimonialSection.reviews}
       />
     </Layout>

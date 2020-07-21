@@ -4,8 +4,12 @@
   p {
     color: inherit !important;
   }
-
-  p {
+  * {
+    display: inline;
+  }
+}
+span.styledText {
+  * {
     display: inline;
   }
 }

@@ -35,7 +35,6 @@ export const ProductLinkButtonFields = graphql`
     icon {
       fixed(width: 12) {
         base64
-        tracedSVG
         aspectRatio
         srcWebp
         srcSetWebp

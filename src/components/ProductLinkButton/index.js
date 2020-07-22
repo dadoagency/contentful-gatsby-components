@@ -4,6 +4,7 @@ import ProductLink from "../ProductLink/"
 import "./style.scss"
 import PageContext from "../../context/PageContext"
 import Image from "../Image"
+import { graphql } from "gatsby"
 
 ProductLinkButton.propTypes = {
   cta: PropTypes.string.isRequired,
@@ -27,3 +28,22 @@ export default function ProductLinkButton({ cta, icon, children, ...props }) {
     </ProductLink>
   )
 }
+
+export const ProductLinkButtonFields = graphql`
+  fragment ProductLinkButtonFields on ContentfulProductLinkButton {
+    text
+    icon {
+      fixed(width: 12) {
+        base64
+        tracedSVG
+        aspectRatio
+        srcWebp
+        srcSetWebp
+        height
+        src
+        srcSet
+        width
+      }
+    }
+  }
+`

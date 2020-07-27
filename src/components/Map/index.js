@@ -37,6 +37,8 @@ const Map = () => {
     DC: [760, 235 + buttonHeight * 5],
   }
 
+  // This is a manual hover toggle, which is used for the off-map buttons
+  //    to toggle the states they are related to.
   function handleHover(currentState) {
     if (currentState === "reset") {
       setCurrentState({ id: "ZZ", val: "-1" })
@@ -91,7 +93,7 @@ const Map = () => {
                   }
                 />
               ))}
-              {geographies.map((geo, index) => {
+              {geographies.map(geo => {
                 const centroid = geoCentroid(geo)
                 const cur = allStates.find(s => s.val === geo.id)
                 return (
@@ -147,6 +149,7 @@ const Map = () => {
           )}
         </Geographies>
       </ComposableMap>
+      {/* <div>Buttons container</div> */}
     </div>
   )
 }

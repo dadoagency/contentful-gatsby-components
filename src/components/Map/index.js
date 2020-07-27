@@ -5,9 +5,8 @@ import {
   Geographies,
   Geography,
   Marker,
-  Annotation,
 } from "react-simple-maps"
-import { useMediaQuery } from "react-responsive"
+// import { useMediaQuery } from "react-responsive"
 
 import "./map.scss"
 

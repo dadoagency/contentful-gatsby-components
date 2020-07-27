@@ -24,14 +24,12 @@ export default ({
       <section className="site-data-container">
         <div className="site-data-wrapper section">{children}</div>
       </section>
-      {footerBody.length > 0 ? (
-        <Footer
-          references={references}
-          footerLinks={footerLinks}
-          companyDetails={companyDetails}
-          footerBody={footerBody}
-        />
-      ) : null}
+      <Footer
+        references={references}
+        footerLinks={footerLinks}
+        companyDetails={companyDetails}
+        footerBody={footerBody}
+      />
     </div>
   )
 }

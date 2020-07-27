@@ -54,7 +54,6 @@ export const AdvertorialType1Page = graphql`
             ...ProductLinkButtonFields
           }
         }
-
         ... on ContentfulFacebookReview {
           title
           body {
@@ -108,7 +107,11 @@ const AdvertorialType1 = ({
       logo={logo}
       companyDetails={companyDetails}
       footerLinks={footerLinks}
-      footerBody={documentToReactComponents(footer.json, renderOptions)}
+      footerBody={
+        Object.entries(footer.json).length > 0
+          ? documentToReactComponents(footer.json, renderOptions)
+          : null
+      }
     >
       <Tracking pixelId={facebookPixelId} />
       <Article title={documentTitle} body={<ArticleBody />} />
@@ -166,10 +169,12 @@ AdvertorialType1.propTypes = {
       url: PropTypes.string,
     })
   ),
+  footer: PropTypes.shape({
+    json: PropTypes.object.isRequired,
+  }).isRequired,
 }
 
 export default props => {
-  console.log(props)
   return (
     <PageProvider>
       <AdvertorialType1 {...props} />

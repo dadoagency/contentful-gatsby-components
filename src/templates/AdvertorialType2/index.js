@@ -40,7 +40,6 @@ export const AdvertorialType2Page = graphql`
         fluid {
           aspectRatio
           base64
-          tracedSVG
           srcWebp
           srcSetWebp
           sizes

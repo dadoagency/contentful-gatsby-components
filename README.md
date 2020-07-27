@@ -13,29 +13,17 @@ module.exports = {
 }
 ```
 
-
 ## How to develop
 
 ```
 yarn
 yarn link
-yarn watch
-
 ```
 
 ### TODO:
 
 ---
 
-- [] tp widgets
-- [] product link button
-  - [] icon
-  - [] breakpoints ?
-- [] graph-ql
-  - [] schema
-  - [] fragments
-- [] dependencies
-  - [] peer
-  - [] dev
-- [] write tests
-- [] fix errors
+- [ ] tp widgets
+- [ ] write tests
+- [ ] fix errors

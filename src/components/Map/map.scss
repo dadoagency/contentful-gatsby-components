@@ -4,30 +4,28 @@
 .map-button-container {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  align-content: space-between;
+  flex-wrap: wrap-reverse;
+  // align-content: space-between;
+  justify-content: center;
   position: absolute;
   right: 0;
-  top: 45%;
-  background: red;
-  height: 150px;
-}
-
-.map-state-svg-group {
-}
-
-.map-state-svg-button {
-  fill: #333333;
-  &:hover {
-    fill: pink;
+  top: 40%;
+  height: 120px;
+  width: 50px;
+  @media (max-width: 480px) {
   }
 }
 
-.map-state-svg-button-text {
-  // stroke: blue;
-  font-size: 9px;
-  fill: #fff;
-  pointer-events: none;
+.map-button {
+  width: 20px;
+  height: 15px;
+  background: #333333;
+  border-radius: 4px;
+  margin: 3px 0;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
 }
 
 .svg-state {

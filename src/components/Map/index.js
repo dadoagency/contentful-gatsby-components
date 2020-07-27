@@ -53,63 +53,44 @@ const Map = () => {
           {({ geographies }) => (
             <>
               {geographies.map(geo => (
-                <>
-                  {currentState.val == geo.id ? (
-                    <Geography
-                      key={geo.rsmKey}
-                      stroke="#FFF"
-                      geography={geo}
-                      onMouseEnter={() => {
-                        // onMouseEnter
-                      }}
-                      onMouseLeave={() => {
-                        // onMouseLeave
-                      }}
-                      onClick={() => {
-                        alert("CLICKED ON" + geo)
-                      }}
-                      style={{
-                        default: {
-                          fill: "#333333",
-                          outline: "none",
-                        },
-                        pressed: {
-                          fill: "#E42",
-                          outline: "none",
-                        },
-                      }}
-                    />
-                  ) : (
-                    <Geography
-                      key={geo.rsmKey}
-                      stroke="#FFF"
-                      geography={geo}
-                      onMouseEnter={() => {
-                        // onMouseEnter
-                      }}
-                      onMouseLeave={() => {
-                        // onMouseLeave
-                      }}
-                      onClick={() => {
-                        alert("CLICKED ON" + geo)
-                      }}
-                      style={{
-                        default: {
-                          fill: "#db9e1d",
-                          outline: "none",
-                        },
-                        hover: {
-                          fill: "#333333",
-                          outline: "none",
-                        },
-                        pressed: {
-                          fill: "#E42",
-                          outline: "none",
-                        },
-                      }}
-                    />
-                  )}
-                </>
+                <Geography
+                  key={geo.rsmKey}
+                  className="svg-state"
+                  stroke="#FFF"
+                  geography={geo}
+                  onMouseEnter={() => {
+                    // onMouseEnter
+                  }}
+                  onMouseLeave={() => {
+                    // onMouseLeave
+                  }}
+                  onClick={() => {
+                    alert("CLICKED ON" + geo)
+                  }}
+                  style={
+                    currentState.val == geo.id
+                      ? {
+                          default: {
+                            fill: "#333333",
+                            outline: "none",
+                          },
+                          pressed: {
+                            fill: "#E42",
+                            outline: "none",
+                          },
+                        }
+                      : {
+                          default: {
+                            fill: "#db9e1d",
+                            outline: "none",
+                          },
+                          pressed: {
+                            fill: "#E42",
+                            outline: "none",
+                          },
+                        }
+                  }
+                />
               ))}
               {geographies.map((geo, index) => {
                 const centroid = geoCentroid(geo)

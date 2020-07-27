@@ -73,6 +73,9 @@ export const AdvertorialType1Page = graphql`
       displayText
       url
     }
+    footer {
+      json
+    }
   }
 `
 
@@ -82,9 +85,12 @@ const AdvertorialType1 = ({
   body,
   node_locale,
   logo,
+  companyDetails,
+  footerLinks,
   redirectDestinations,
   testimonialSection,
   references,
+  footer,
 }) => {
   useRedirectDestination(redirectDestinations)
   const ArticleBody = () => {
@@ -100,6 +106,9 @@ const AdvertorialType1 = ({
       references={references}
       locale={node_locale}
       logo={logo}
+      companyDetails={companyDetails}
+      footerLinks={footerLinks}
+      footerBody={documentToReactComponents(footer.json, renderOptions)}
     >
       <Tracking pixelId={facebookPixelId} />
       <Article title={documentTitle} body={<ArticleBody />} />
@@ -160,6 +169,7 @@ AdvertorialType1.propTypes = {
 }
 
 export default props => {
+  console.log(props)
   return (
     <PageProvider>
       <AdvertorialType1 {...props} />

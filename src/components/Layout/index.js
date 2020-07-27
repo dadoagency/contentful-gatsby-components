@@ -10,7 +10,9 @@ export default ({
   locale,
   logo,
   extra,
-  footer,
+  companyDetails,
+  footerLinks,
+  footerBody,
   ...props
 }) => {
   return (
@@ -22,7 +24,14 @@ export default ({
       <section className="site-data-container">
         <div className="site-data-wrapper section">{children}</div>
       </section>
-      {footer ? footer : <Footer references={references} />}
+      {footerBody.length > 0 ? (
+        <Footer
+          references={references}
+          footerLinks={footerLinks}
+          companyDetails={companyDetails}
+          footerBody={footerBody}
+        />
+      ) : null}
     </div>
   )
 }

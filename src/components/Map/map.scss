@@ -13,11 +13,19 @@
   height: 150px;
 }
 
-.map-state-button {
+.map-state-svg-group {
 }
 
-.map-state-button-text {
-  stroke: blue;
-  fill: blue;
-  font-size: 10px;
+.map-state-svg-button {
+  fill: #333333;
+  &:hover {
+    fill: pink;
+  }
+}
+
+.map-state-svg-button-text {
+  // stroke: blue;
+  font-size: 9px;
+  fill: #fff;
+  pointer-events: none;
 }

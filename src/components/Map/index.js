@@ -33,10 +33,8 @@ const Map = () => {
   //    to toggle the states they are related to.
   function handleHover(id) {
     if (id === "reset") {
-      console.log("END HOVERING")
       setCurrentState({ id: "ZZ", val: "-1" })
     } else {
-      console.log("START HOVERING: ", id)
       setCurrentState(id)
     }
   }

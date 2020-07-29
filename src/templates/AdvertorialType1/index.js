@@ -102,17 +102,19 @@ const AdvertorialType1 = ({
       locale={node_locale}
       logo={logo}
       footer={
-        <Footer
-          companyDetails={companyDetails}
-          footerLinks={footerLinks}
-          footerBody={
-            <>
-              {Object.entries(footer.json).length > 0
-                ? documentToReactComponents(footer.json, renderOptions)
-                : null}
-            </>
-          }
-        />
+        footer && (
+          <Footer
+            companyDetails={companyDetails}
+            footerLinks={footerLinks}
+            footerBody={
+              <>
+                {Object.entries(footer.json).length > 0
+                  ? documentToReactComponents(footer.json, renderOptions)
+                  : null}
+              </>
+            }
+          />
+        )
       }
     >
       <Tracking pixelId={facebookPixelId} />

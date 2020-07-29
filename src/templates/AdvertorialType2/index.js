@@ -100,18 +100,20 @@ const AdvertorialType2 = ({
       footer={
         <footer>
           <div className="site-footer-wrapper">
-            {documentToReactComponents(footer.json, renderOptions)}
+            {footer && documentToReactComponents(footer.json, renderOptions)}
           </div>
         </footer>
       }
     >
       <Tracking pixelId={facebookPixelId} />
       <div className="title">
-        {documentToReactComponents(headline.json, renderOptions)}
+        {headline && documentToReactComponents(headline.json, renderOptions)}
       </div>
       <div className="flex-wrapper">
         <Article
-          body={<>{documentToReactComponents(body.json, renderOptions)}</>}
+          body={
+            <>{body && documentToReactComponents(body.json, renderOptions)}</>
+          }
         />
 
         <div className="right-sidebar">

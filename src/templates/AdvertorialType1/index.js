@@ -10,6 +10,7 @@ import "./style.scss"
 import Tracking from "../../components/Tracking"
 import useRedirectDestination from "../../hooks/useRedirectDestination"
 import { PageProvider } from "../../context/PageContext"
+import Footer from "../../components/Footer"
 
 export const AdvertorialType1Page = graphql`
   fragment AdvertorialType1Page on ContentfulAdvertorialType1 {
@@ -53,7 +54,6 @@ export const AdvertorialType1Page = graphql`
             ...ProductLinkButtonFields
           }
         }
-
         ... on ContentfulFacebookReview {
           title
           body {
@@ -68,9 +68,8 @@ export const AdvertorialType1Page = graphql`
         }
       }
     }
-    references {
-      displayText
-      url
+    footer {
+      json
     }
   }
 `
@@ -81,9 +80,12 @@ const AdvertorialType1 = ({
   body,
   node_locale,
   logo,
+  companyDetails,
+  footerLinks,
   redirectDestinations,
   testimonialSection,
   references,
+  footer,
 }) => {
   useRedirectDestination(redirectDestinations)
   const ArticleBody = () => {
@@ -99,6 +101,19 @@ const AdvertorialType1 = ({
       references={references}
       locale={node_locale}
       logo={logo}
+      footer={
+        <Footer
+          companyDetails={companyDetails}
+          footerLinks={footerLinks}
+          footerBody={
+            <>
+              {Object.entries(footer.json).length > 0
+                ? documentToReactComponents(footer.json, renderOptions)
+                : null}
+            </>
+          }
+        />
+      }
     >
       <Tracking pixelId={facebookPixelId} />
       <Article title={documentTitle} body={<ArticleBody />} />
@@ -156,6 +171,11 @@ AdvertorialType1.propTypes = {
       url: PropTypes.string,
     })
   ),
+  footer: PropTypes.shape({
+    json: PropTypes.object.isRequired,
+  }).isRequired,
+  companyDetails: PropTypes.object.isRequired,
+  footerLinks: PropTypes.object,
 }
 
 export default props => {

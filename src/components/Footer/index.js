@@ -1,41 +1,40 @@
 import React from "react"
+import PropTypes from "prop-types"
 
-export default ({ references }) => (
-  <footer className="site-footer-contianer">
+const Footer = ({ companyDetails, footerLinks, footerBody }) => (
+  <footer className="site-footer-container">
     <div className="site-footer-wrapper">
-      <div className="copy-wrights">
+      <div className="copyrights">
         <p>
           Copyright © {new Date().getFullYear()}{" "}
-          <a href="https://thepetlabco.com">Petlab Co.</a>
+          <a href={companyDetails.url}>{companyDetails.name}</a>
         </p>
       </div>
       <div className="footer-nav">
-        <a href="https://thepetlabco.com/pages/our-story">About Us</a>
-        <a href="https://thepetlabco.com/pages/faq">FAQ</a>
-        <a href="https://thepetlabco.com/pages/terms-conditions">Terms</a>
-        <a href="https://thepetlabco.com/pages/privacy-statement">Privacy</a>
+        {footerLinks &&
+          footerLinks.map(link => (
+            <a key={`footer-link-${link.to}`} href={link.to}>
+              {link.text}
+            </a>
+          ))}
       </div>
-      <div className="footer-msg">
-        <p>
-          *Results May Vary. Not intended for human consumption. Please consult
-          your veterinarian regarding any change in treatment or
-          supplementation.
-        </p>
-        {references
-          ? references.map((reference, index) => {
-              return (
-                <p key={index}>
-                  {reference.displayText}{" "}
-                  <a href={reference.url} target="_blank" rel="noreferrer">
-                    {reference.url}
-                  </a>
-                </p>
-              )
-            })
-          : null}
-
-        <p>Disclaimer: This is an advertisement by Petlab Co.</p>
-      </div>
+      <div className="footer-msg">{footerBody}</div>
     </div>
   </footer>
 )
+
+Footer.propTypes = {
+  companyDetails: PropTypes.shape({
+    url: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+  }).isRequired,
+  footerLinks: PropTypes.arrayOf(
+    PropTypes.shape({
+      to: PropTypes.string.isRequired,
+      text: PropTypes.string.isRequired,
+    })
+  ),
+  footerBody: PropTypes.object,
+}
+
+export default Footer

@@ -7,7 +7,7 @@ export default function styleLeafNodes(Element, style) {
     Element.props.children.length >= 1
   ) {
     const hasReactChildren = Element.props.children.some(
-      child => child.$$typeof
+      child => child && child.$$typeof
     )
 
     if (hasReactChildren) {

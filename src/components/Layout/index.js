@@ -5,7 +5,6 @@ import { Helmet } from "react-helmet"
 
 export default ({
   children,
-  references,
   className,
   locale,
   logo,
@@ -22,7 +21,7 @@ export default ({
       <section className="site-data-container">
         <div className="site-data-wrapper section">{children}</div>
       </section>
-      {footer ? footer : <Footer references={references} />}
+      {footer}
     </div>
   )
 }

@@ -7,6 +7,7 @@ import AdvertorialVideo from "../components/Video"
 import ArticleImage from "../components/Image"
 import ProductLinkButton from "../components/ProductLinkButton"
 import StyledText from "../components/StyledText"
+import Map from "../components/Map"
 
 const renderOptions = {
   renderNode: {
@@ -67,6 +68,8 @@ const renderOptions = {
                 />
               </center>
             )
+          case "map":
+            return <Map />
           case "productLinkButton":
             const { text, icon } = node.data.target.fields
             let cta,

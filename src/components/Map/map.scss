@@ -1,0 +1,32 @@
+.map-main-container {
+  position: relative;
+}
+.map-button-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  top: 40%;
+  height: 120px;
+  width: 50px;
+  @media (max-width: 480px) {
+  }
+}
+
+.map-button {
+  width: 20px;
+  height: 15px;
+  background: #333333;
+  border-radius: 4px;
+  margin: 3px 0;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.svg-state {
+  transition: fill 700ms linear;
+}

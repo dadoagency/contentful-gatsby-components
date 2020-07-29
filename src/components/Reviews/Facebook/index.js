@@ -10,7 +10,7 @@ const FacebookReview = ({ title, body, avatar, productLinkButton }) => {
     query facebookReview {
       fb: file(relativePath: { eq: "fb.png" }) {
         childImageSharp {
-          fixed(width: 74) {
+          fixed(width: 73) {
             ...GatsbyImageSharpFixed_withWebp
           }
         }

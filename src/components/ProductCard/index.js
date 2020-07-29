@@ -21,6 +21,10 @@ const ProductCard = ({
   )
 }
 
+ProductCard.defaultProps = {
+  className: "",
+}
+
 ProductCard.propTypes = {
   actionButton: PropTypes.object,
   // subHeading: PropTypes.object,

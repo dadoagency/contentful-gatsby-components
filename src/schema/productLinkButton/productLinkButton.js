@@ -1,4 +1,4 @@
-module.exports = `type ContentfulProductLinkButton implements Node @derivedTypes  {
+module.exports = `type ContentfulProductLinkButton implements Node @derivedTypes  @infer {
   text: String
   icon: ContentfulAsset @link(by: "id", from: "icon___NODE")
   trustpilot_review: [ContentfulTrustpilotReview] @link(by: "id", from: "trustpilot review___NODE") @proxy(from: "trustpilot review___NODE")

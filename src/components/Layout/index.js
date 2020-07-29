@@ -5,14 +5,11 @@ import { Helmet } from "react-helmet"
 
 export default ({
   children,
-  references,
   className,
   locale,
   logo,
   extra,
-  companyDetails,
-  footerLinks,
-  footerBody,
+  footer,
   ...props
 }) => {
   return (
@@ -24,12 +21,7 @@ export default ({
       <section className="site-data-container">
         <div className="site-data-wrapper section">{children}</div>
       </section>
-      <Footer
-        references={references}
-        footerLinks={footerLinks}
-        companyDetails={companyDetails}
-        footerBody={footerBody}
-      />
+      {footer}
     </div>
   )
 }

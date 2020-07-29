@@ -1,6 +1,7 @@
 import React from "react"
+import PropTypes from "prop-types"
 
-export default ({ companyDetails, footerLinks, footerBody }) => (
+const Footer = ({ companyDetails, footerLinks, footerBody }) => (
   <footer className="site-footer-container">
     <div className="site-footer-wrapper">
       <div className="copyrights">
@@ -10,13 +11,30 @@ export default ({ companyDetails, footerLinks, footerBody }) => (
         </p>
       </div>
       <div className="footer-nav">
-        {footerLinks.map(link => (
-          <a key={`footer-link-${link.to}`} href={link.to}>
-            {link.text}
-          </a>
-        ))}
+        {footerLinks &&
+          footerLinks.map(link => (
+            <a key={`footer-link-${link.to}`} href={link.to}>
+              {link.text}
+            </a>
+          ))}
       </div>
       <div className="footer-msg">{footerBody}</div>
     </div>
   </footer>
 )
+
+Footer.propTypes = {
+  companyDetails: PropTypes.shape({
+    url: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+  }).isRequired,
+  footerLinks: PropTypes.arrayOf(
+    PropTypes.shape({
+      to: PropTypes.string.isRequired,
+      text: PropTypes.string.isRequired,
+    })
+  ),
+  footerBody: PropTypes.object,
+}
+
+export default Footer

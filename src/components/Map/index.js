@@ -61,7 +61,7 @@ const Map = () => {
                     alert("CLICKED ON" + geo)
                   }}
                   style={
-                    currentState == geo.id
+                    currentState === geo.id
                       ? {
                           default: {
                             fill: "#333333",

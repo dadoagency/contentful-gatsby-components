@@ -6,6 +6,7 @@ import ProductLinkButton from "../../ProductLinkButton"
 import AmazonReviewComponent from "../Amazon"
 import FacebookReviewComponent from "../Facebook"
 import TrustPilotReviewB from "../Trustpilot/TrustpilotReviewB"
+import TrustPilotReviewC from "../Trustpilot/TrustpilotReviewC"
 
 const DynamicReviewList = ({ reviews }) => {
   return (
@@ -20,6 +21,17 @@ const DynamicReviewList = ({ reviews }) => {
             case "ContentfulAmazonReview":
               return <AmazonReview review={review} key={index} />
             case "ContentfulTrustpilotReviewB":
+              return (
+                <TrustPilotReviewB
+                  title={review.title}
+                  body={documentToReactComponents(
+                    review.body.json,
+                    renderOptions
+                  )}
+                  key={index}
+                />
+              )
+            case "ContentfulTrustpilotReviewC":
               return (
                 <TrustPilotReviewB
                   title={review.title}

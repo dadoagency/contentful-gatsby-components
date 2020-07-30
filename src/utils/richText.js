@@ -8,6 +8,7 @@ import ArticleImage from "../components/Image"
 import ProductLinkButton from "../components/ProductLinkButton"
 import StyledText from "../components/StyledText"
 import Map from "../components/Map"
+import ImageCarouselMobile from "../components/ImageCarouselMobile"
 
 const renderOptions = {
   renderNode: {
@@ -37,11 +38,10 @@ const renderOptions = {
             const { url } = getFirstValue(
               getFirstValue(node.data.target.fields.image).fields.file
             )
-
             let width = "100%"
             let borderRadius = "0"
-            if (node.data.target.fields.hasOwnProperty("width")) {
-              width = getFirstValue(node.data.target.fields.width) + "px"
+            if (node.data.target.fields.hasOwnProperty("maxWidth")) {
+              width = getFirstValue(node.data.target.fields.maxWidth) + "px"
             }
             if (node.data.target.fields.hasOwnProperty("borderRadius")) {
               borderRadius =
@@ -58,6 +58,10 @@ const renderOptions = {
                 </>
               )
             }
+            let hyperlink = "";
+            if(node.data.target.fields.hasOwnProperty("hyperlink")) {
+              hyperlink = getFirstValue(node.data.target.fields.hyperlink)
+            }
             //TODO: use child image sharp
             return (
               <center>
@@ -65,9 +69,29 @@ const renderOptions = {
                   src={url}
                   style={{ width: width, borderRadius }}
                   caption={caption}
+                  hyperlink={hyperlink}
                 />
               </center>
             )
+          case "imageCarouselMobile":
+              const images = []
+              const title = getLocaleValueOrDefault(node.data.target.fields.title)
+              const contentfulImages = getLocaleValueOrDefault(node.data.target.fields.images)
+              for (let i = 0; i < contentfulImages.length; i += 1) {
+                // Creating a node so the image can be passed through BLOCK.EMBEDDED_ENTRY again to create an
+                //    advertorialImage
+                const node = {
+                  node: {
+                    content: [],
+                    data: {
+                      target: contentfulImages[i],
+                    },
+                    nodeType: "embedded-entry-block",
+                  }
+                }
+                images.push(node)
+              }
+            return <ImageCarouselMobile title={title} images={images}/>
           case "map":
             return <Map />
           case "productLinkButton":

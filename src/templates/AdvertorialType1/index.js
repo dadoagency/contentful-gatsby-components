@@ -177,7 +177,7 @@ AdvertorialType1.propTypes = {
     json: PropTypes.object.isRequired,
   }).isRequired,
   companyDetails: PropTypes.object.isRequired,
-  footerLinks: PropTypes.object,
+  footerLinks: PropTypes.array,
 }
 
 export default props => {

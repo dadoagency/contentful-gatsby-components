@@ -6,7 +6,7 @@ import ProductLinkButton from "../../ProductLinkButton"
 import AmazonReviewComponent from "../Amazon"
 import FacebookReviewComponent from "../Facebook"
 import TrustPilotReviewB from "../Trustpilot/TrustpilotReviewB"
-import TrustPilotReviewC from "../Trustpilot/TrustpilotReviewC"
+import TrustpilotReviewC from "../Trustpilot/TrustpilotReviewC"
 
 const DynamicReviewList = ({ reviews }) => {
   return (
@@ -32,16 +32,7 @@ const DynamicReviewList = ({ reviews }) => {
                 />
               )
             case "ContentfulTrustpilotReviewC":
-              return (
-                <TrustPilotReviewB
-                  title={review.title}
-                  body={documentToReactComponents(
-                    review.body.json,
-                    renderOptions
-                  )}
-                  key={index}
-                />
-              )
+                return <TrustPilotReviewTypeC review={review} key={index} />
             default:
               console.log(
                 "unhandled review type. Will not render " + review.__typename
@@ -98,6 +89,32 @@ const TrustPilotReview = ({ review }) => {
   }
   return (
     <BasicReview
+      title={title}
+      body={renderedBody}
+      avatar={avatar && avatar.localFile.childImageSharp.fixed}
+    />
+  )
+}
+
+const TrustPilotReviewTypeC = ({ review }) => {
+  const { title, body, productLinkButton, avatar } = review
+  const renderedBody = documentToReactComponents(body.json, renderOptions)
+  if (productLinkButton) {
+    return (
+      <TrustpilotReviewC
+        title={title}
+        body={renderedBody}
+        action={
+          <ProductLinkButton
+            cta={productLinkButton.text}
+            icon={productLinkButton.icon}
+          />
+        }
+      />
+    )
+  }
+  return (
+    <TrustpilotReviewC
       title={title}
       body={renderedBody}
       avatar={avatar && avatar.localFile.childImageSharp.fixed}

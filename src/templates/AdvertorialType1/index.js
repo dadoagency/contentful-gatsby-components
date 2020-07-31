@@ -66,6 +66,18 @@ export const AdvertorialType1Page = graphql`
             ...ProductLinkButtonFields
           }
         }
+        ... on ContentfulTrustpilotReviewC {
+          title
+          body {
+            json
+          }
+          internal {
+            type
+          }
+          productLinkButton {
+            ...ProductLinkButtonFields
+          }
+        }
       }
     }
     footer {

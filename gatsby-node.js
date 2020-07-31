@@ -86,6 +86,29 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
         },
       },
     }),
+    // ContentfulTrustpilotReview
+    require("./src/schema/reviews/trustpilot/trustpilotReviewC"),
+    schema.buildObjectType({
+      name: "ContentfulTrustpilotReviewC",
+      infer: true,
+      fields: {
+        productLinkButton: {
+          type: "ContentfulProductLinkButton",
+          extensions: {
+            infer: true,
+            link: { by: "id", from: "productLinkButton___NODE" },
+          },
+        },
+        title: "String!",
+        body: {
+          type: "contentfulTrustpilotReviewCBodyRichTextNode",
+          extensions: {
+            link: { by: "id", from: "body___NODE" },
+          },
+        },
+      },
+      interfaces: ["Node"],
+    }),
     // ContentfulFacebookReviews
     require("./src/schema/reviews/facebook/facebookReview"),
     schema.buildObjectType({
@@ -113,6 +136,7 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
         "ContentfulTrustpilotReview",
         "ContentfulTrustpilotReviewB",
         "ContentfulFacebookReview",
+        "ContentfulTrustpilotReviewC",
       ],
     }),
     //not using type builder syntax to use @link... try with extensions: {link}

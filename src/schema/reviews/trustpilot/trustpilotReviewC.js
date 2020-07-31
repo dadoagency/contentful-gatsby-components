@@ -1,5 +1,5 @@
 module.exports = `
-    type contentfulTrustpilotCReviewBodyRichTextNode implements Node @derivedTypes @dontInfer {
+    type contentfulTrustpilotReviewCBodyRichTextNode implements Node @derivedTypes @dontInfer {
       nodeType: String
       content: [contentfulTrustpilotReviewCBodyRichTextNodeContent]
       body: String

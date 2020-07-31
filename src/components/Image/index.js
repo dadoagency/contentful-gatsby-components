@@ -3,9 +3,9 @@ import Img from "gatsby-image"
 import PropTypes from "prop-types"
 
 // uses gatsby-image when passed fluid or fixed
-//uses html image tag when passed src
+// uses html image tag when passed src
 
-const Image = ({ fluid, fixed, src, alt, caption, width, ...props }) => {
+const Image = ({ fluid, fixed, src, alt, caption, width, hyperlink, ...props }) => {
   let image = null
   if (fluid) {
     image = <Img fluid={fluid} alt={alt} {...props} />
@@ -16,8 +16,7 @@ const Image = ({ fluid, fixed, src, alt, caption, width, ...props }) => {
   }
   return (
     <div className="article-img-wrapper">
-      {image}
-
+      {hyperlink ? <a href={hyperlink}>{image}</a> : image}
       {caption ? (
         <div
           style={{

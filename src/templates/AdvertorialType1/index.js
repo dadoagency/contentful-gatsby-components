@@ -66,6 +66,18 @@ export const AdvertorialType1Page = graphql`
             ...ProductLinkButtonFields
           }
         }
+        ... on ContentfulTrustpilotReviewC {
+          title
+          body {
+            json
+          }
+          internal {
+            type
+          }
+          productLinkButton {
+            ...ProductLinkButtonFields
+          }
+        }
       }
     }
     footer {
@@ -177,7 +189,7 @@ AdvertorialType1.propTypes = {
     json: PropTypes.object.isRequired,
   }).isRequired,
   companyDetails: PropTypes.object.isRequired,
-  footerLinks: PropTypes.object,
+  footerLinks: PropTypes.array,
 }
 
 export default props => {

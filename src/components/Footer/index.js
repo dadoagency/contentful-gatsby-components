@@ -30,8 +30,8 @@ Footer.propTypes = {
   }).isRequired,
   footerLinks: PropTypes.arrayOf(
     PropTypes.shape({
-      to: PropTypes.string.isRequired,
       text: PropTypes.string.isRequired,
+      to: PropTypes.string.isRequired,
     })
   ),
   footerBody: PropTypes.object,

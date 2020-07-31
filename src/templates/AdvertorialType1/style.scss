@@ -376,6 +376,14 @@ html.advertorial-type-1 {
   .amazon-product-desc {
     font-weight: 500;
   }
+
+  .trustpilot-review-c {
+      /* margin-top: 2em; */
+      padding: 2em;
+      background-color: #f7f7f7;
+      border-bottom: 3px solid #c4e7d9;
+  }
+
   .site-footer-container {
     margin-top: 3em;
     padding: 32px;
@@ -436,6 +444,54 @@ html.advertorial-type-1 {
   .footer-nav {
     text-align: center;
   }
+
+  .image-carousel-mobile-wrapper {
+    padding: 0 10px;
+
+
+  }
+
+  .image-carousel-mobile-title {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+
+  }
+
+  .image-carousel-mobile-images-container {
+    margin-bottom: 1em;
+    .slick-track {
+      display: flex;
+      align-items: center;
+    }
+    a {
+      height: 100%;
+      display: block;
+    }
+    img {
+      margin-top: 0;
+      display: inline-block;
+      vertical-align: middle;
+      margin: 10px 10px 0 10px;
+      text-align: center;
+      @media (max-width: 499px) {
+        margin: 0;
+        width: 80% !important;
+      }
+    }
+    @media (min-width: 499px) {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+
+
   @media (max-width: 992px) {
     .site-data-wrapper {
       flex-direction: column;

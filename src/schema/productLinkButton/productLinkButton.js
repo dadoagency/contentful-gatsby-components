@@ -8,4 +8,5 @@ module.exports = `type ContentfulProductLinkButton implements Node @derivedTypes
   updatedAt: Date @dateformat
   node_locale: String
   advertorial_type_2: [ContentfulAdvertorialType2] @link(by: "id", from: "advertorial type 2___NODE") @proxy(from: "advertorial type 2___NODE")
+  additionalText: String
 }`

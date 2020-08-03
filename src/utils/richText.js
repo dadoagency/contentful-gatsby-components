@@ -1,5 +1,5 @@
 import React from "react"
-import { BLOCKS, INLINES } from "@contentful/rich-text-types"
+import { BLOCKS, INLINES, MARKS } from "@contentful/rich-text-types"
 // import { List } from "@dadoagency/gatsby-plugin-trustpilot-widget"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import { getFirstValue, getLocaleValueOrDefault } from "./locale"
@@ -58,8 +58,8 @@ const renderOptions = {
                 </>
               )
             }
-            let hyperlink = "";
-            if(node.data.target.fields.hasOwnProperty("hyperlink")) {
+            let hyperlink = ""
+            if (node.data.target.fields.hasOwnProperty("hyperlink")) {
               hyperlink = getFirstValue(node.data.target.fields.hyperlink)
             }
             //TODO: use child image sharp
@@ -74,36 +74,48 @@ const renderOptions = {
               </center>
             )
           case "imageCarouselMobile":
-              const images = []
-              const title = getLocaleValueOrDefault(node.data.target.fields.title)
-              const contentfulImages = getLocaleValueOrDefault(node.data.target.fields.images)
-              for (let i = 0; i < contentfulImages.length; i += 1) {
-                // Creating a node so the image can be passed through BLOCK.EMBEDDED_ENTRY again to create an
-                //    advertorialImage
-                const node = {
-                  node: {
-                    content: [],
-                    data: {
-                      target: contentfulImages[i],
-                    },
-                    nodeType: "embedded-entry-block",
-                  }
-                }
-                images.push(node)
+            const images = []
+            const title = getLocaleValueOrDefault(node.data.target.fields.title)
+            const contentfulImages = getLocaleValueOrDefault(
+              node.data.target.fields.images
+            )
+            for (let i = 0; i < contentfulImages.length; i += 1) {
+              // Creating a node so the image can be passed through BLOCK.EMBEDDED_ENTRY again to create an
+              //    advertorialImage
+              const node = {
+                node: {
+                  content: [],
+                  data: {
+                    target: contentfulImages[i],
+                  },
+                  nodeType: "embedded-entry-block",
+                },
               }
-            return <ImageCarouselMobile title={title} images={images}/>
+              images.push(node)
+            }
+            return <ImageCarouselMobile title={title} images={images} />
           case "map":
-            return <Map />
+            let mapClickUrl = null
+            if (Object(node.data.target.fields).hasOwnProperty("clickUrl")) {
+              mapClickUrl = getLocaleValueOrDefault(
+                node.data.target.fields.clickUrl
+              )
+            }
+            return <Map clickUrl={mapClickUrl} />
           case "productLinkButton":
-            const { text, icon } = node.data.target.fields
+            const { text, icon, additionalText } = node.data.target.fields
             let cta,
               graphic = null
             if (text) {
               cta = getLocaleValueOrDefault(text)
             }
 
-            const { fields } = getLocaleValueOrDefault(icon)
+            let cta2 = null
+            if (additionalText) {
+              cta2 = getLocaleValueOrDefault(additionalText)
+            }
 
+            const { fields } = getLocaleValueOrDefault(icon)
             if (fields) {
               const { file } = fields
               const { url } = getFirstValue(file)
@@ -111,8 +123,7 @@ const renderOptions = {
             } else {
               // console.log("node has no icon", node)
             }
-
-            return <ProductLinkButton cta={cta} icon={graphic} />
+            return <ProductLinkButton cta={cta} cta2={cta2} icon={graphic} />
           case "styledText":
             return (
               <StyledText fields={node.data.target.fields}>
@@ -191,7 +202,11 @@ const renderOptions = {
       }
     },
   },
-  renderMark: {},
+  renderMark: {
+    [MARKS.CODE]: (node, children) => {
+      return <sup>{node}</sup>
+    },
+  },
 }
 
 export default renderOptions

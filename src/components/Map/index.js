@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import PropTypes from "prop-types"
 import { geoCentroid } from "d3-geo"
 import {
   ComposableMap,
@@ -6,14 +7,13 @@ import {
   Geography,
   Marker,
 } from "react-simple-maps"
-
 import "./map.scss"
-
 import allStates from "./allstates.json"
+import { navigate } from "gatsby"
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json"
 
-const Map = () => {
+const Map = ({ clickUrl }) => {
   const [currentState, setCurrentState] = useState({ id: "ZZ", val: "-1" })
 
   // Magic numbers are the IDs for each state
@@ -58,7 +58,9 @@ const Map = () => {
                     // onMouseLeave
                   }}
                   onClick={() => {
-                    alert("CLICKED ON" + geo)
+                    if (clickUrl) {
+                      navigate(clickUrl)
+                    }
                   }}
                   style={
                     currentState === geo.id
@@ -127,6 +129,14 @@ const Map = () => {
       </div>
     </div>
   )
+}
+
+Map.propTypes = {
+  clickUrl: PropTypes.string,
+}
+
+Map.defaultProps = {
+  clickUrl: null,
 }
 
 export default Map

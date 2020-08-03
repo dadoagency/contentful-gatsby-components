@@ -8,20 +8,45 @@ import { graphql } from "gatsby"
 
 ProductLinkButton.propTypes = {
   cta: PropTypes.string.isRequired,
+  cta2: PropTypes.string,
   // icon: PropTypes.object,
 }
 
-export default function ProductLinkButton({ cta, icon, children, ...props }) {
+ProductLinkButton.defaultProps = {
+  cta2: null,
+}
+
+export default function ProductLinkButton({
+  cta,
+  cta2,
+  icon,
+  children,
+  ...props
+}) {
   const { redirectDestination } = useContext(PageContext)
   return (
     <ProductLink redirectDestination={redirectDestination} {...props}>
       <div className="page-btn">
         <div className="arrow-wrapper">
-          <span>{cta}</span>
-          {icon && (
-            <div className="arrow-img">
-              <Image {...icon} />
-            </div>
+          {cta2 ? (
+            <>
+              <p>{cta}</p>
+              <span>{cta2}</span>
+              {icon && (
+                <div className="arrow-img">
+                  <Image {...icon} />
+                </div>
+              )}
+            </>
+          ) : (
+            <>
+              <span>{cta}</span>
+              {icon && (
+                <div className="arrow-img">
+                  <Image {...icon} />
+                </div>
+              )}
+            </>
           )}
         </div>
       </div>
@@ -44,5 +69,6 @@ export const ProductLinkButtonFields = graphql`
         width
       }
     }
+    additionalText
   }
 `

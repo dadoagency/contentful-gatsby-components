@@ -103,7 +103,17 @@ const renderOptions = {
             }
             return <Map clickUrl={mapClickUrl} />
           case "productLinkButton":
-            const { text, icon, additionalText } = node.data.target.fields
+            const {
+              text,
+              additionalText,
+              icon,
+              bgColour,
+              bgHoverColour,
+              fontColour,
+              fontHoverColour,
+              borderColour,
+              borderHoverColour,
+            } = node.data.target.fields
             let cta,
               graphic = null
             if (text) {
@@ -116,6 +126,7 @@ const renderOptions = {
             }
 
             const { fields } = getLocaleValueOrDefault(icon)
+
             if (fields) {
               const { file } = fields
               const { url } = getFirstValue(file)
@@ -123,7 +134,61 @@ const renderOptions = {
             } else {
               // console.log("node has no icon", node)
             }
-            return <ProductLinkButton cta={cta} cta2={cta2} icon={graphic} />
+
+            let buttonBgColour
+            if (bgColour) {
+              buttonBgColour = `${getLocaleValueOrDefault(bgColour)} !important`
+            }
+
+            let buttonBgHoverColour
+            if (bgHoverColour) {
+              buttonBgHoverColour = `${getLocaleValueOrDefault(
+                bgHoverColour
+              )} !important`
+            }
+
+            let buttonFontColour
+            if (fontColour) {
+              buttonFontColour = `${getLocaleValueOrDefault(
+                fontColour
+              )} !important`
+            }
+
+            let buttonFontHoverColour
+            if (fontHoverColour) {
+              buttonFontHoverColour = `${getLocaleValueOrDefault(
+                fontHoverColour
+              )} !important`
+            }
+
+            let buttonBorderColour
+            if (borderColour) {
+              buttonBorderColour = `${getLocaleValueOrDefault(
+                borderColour
+              )} !important`
+            }
+
+            let buttonBorderHoverColour
+            if (borderHoverColour) {
+              buttonBorderHoverColour = `${getLocaleValueOrDefault(
+                borderHoverColour
+              )} !important`
+            }
+
+            return (
+              <ProductLinkButton
+                cta={cta}
+                cta2={cta2}
+                icon={graphic}
+                bgColour={buttonBgColour}
+                bgHoverColour={buttonBgHoverColour}
+                fontColour={buttonFontColour}
+                fontHoverColour={buttonFontHoverColour}
+                borderColour={buttonBorderColour}
+                borderHoverColour={buttonBorderHoverColour}
+              />
+            )
+
           case "styledText":
             return (
               <StyledText fields={node.data.target.fields}>

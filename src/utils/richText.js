@@ -1,5 +1,5 @@
 import React from "react"
-import { BLOCKS, INLINES, MARKS } from "@contentful/rich-text-types"
+import { BLOCKS, INLINES } from "@contentful/rich-text-types"
 // import { List } from "@dadoagency/gatsby-plugin-trustpilot-widget"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import { getFirstValue, getLocaleValueOrDefault } from "./locale"
@@ -58,8 +58,8 @@ const renderOptions = {
                 </>
               )
             }
-            let hyperlink = ""
-            if (node.data.target.fields.hasOwnProperty("hyperlink")) {
+            let hyperlink = "";
+            if(node.data.target.fields.hasOwnProperty("hyperlink")) {
               hyperlink = getFirstValue(node.data.target.fields.hyperlink)
             }
             //TODO: use child image sharp
@@ -74,36 +74,28 @@ const renderOptions = {
               </center>
             )
           case "imageCarouselMobile":
-            const images = []
-            const title = getLocaleValueOrDefault(node.data.target.fields.title)
-            const contentfulImages = getLocaleValueOrDefault(
-              node.data.target.fields.images
-            )
-            for (let i = 0; i < contentfulImages.length; i += 1) {
-              // Creating a node so the image can be passed through BLOCK.EMBEDDED_ENTRY again to create an
-              //    advertorialImage
-              const node = {
-                node: {
-                  content: [],
-                  data: {
-                    target: contentfulImages[i],
-                  },
-                  nodeType: "embedded-entry-block",
-                },
+              const images = []
+              const title = getLocaleValueOrDefault(node.data.target.fields.title)
+              const contentfulImages = getLocaleValueOrDefault(node.data.target.fields.images)
+              for (let i = 0; i < contentfulImages.length; i += 1) {
+                // Creating a node so the image can be passed through BLOCK.EMBEDDED_ENTRY again to create an
+                //    advertorialImage
+                const node = {
+                  node: {
+                    content: [],
+                    data: {
+                      target: contentfulImages[i],
+                    },
+                    nodeType: "embedded-entry-block",
+                  }
+                }
+                images.push(node)
               }
-              images.push(node)
-            }
-            return <ImageCarouselMobile title={title} images={images} />
+            return <ImageCarouselMobile title={title} images={images}/>
           case "map":
-            let mapClickUrl = null
-            if (Object(node.data.target.fields).hasOwnProperty("clickUrl")) {
-              mapClickUrl = getLocaleValueOrDefault(
-                node.data.target.fields.clickUrl
-              )
-            }
-            return <Map clickUrl={mapClickUrl} />
+            return <Map />
           case "productLinkButton":
-            const { text, icon, additionalText } = node.data.target.fields
+            const { text, additionalText, icon, bgColour, bgHoverColour, fontColour, fontHoverColour, borderColour, borderHoverColour } = node.data.target.fields
             let cta,
               graphic = null
             if (text) {
@@ -116,6 +108,7 @@ const renderOptions = {
             }
 
             const { fields } = getLocaleValueOrDefault(icon)
+
             if (fields) {
               const { file } = fields
               const { url } = getFirstValue(file)
@@ -123,7 +116,38 @@ const renderOptions = {
             } else {
               // console.log("node has no icon", node)
             }
-            return <ProductLinkButton cta={cta} cta2={cta2} icon={graphic} />
+
+            let buttonBgColour
+            if(bgColour) {
+              buttonBgColour = `${getLocaleValueOrDefault(bgColour)} !important`
+            }
+
+            let buttonBgHoverColour
+            if(bgHoverColour) {
+              buttonBgHoverColour = `${getLocaleValueOrDefault(bgHoverColour)} !important`
+            }
+
+            let buttonFontColour
+            if(fontColour) {
+              buttonFontColour = `${getLocaleValueOrDefault(fontColour)} !important`
+            }
+
+            let buttonFontHoverColour
+            if(fontHoverColour) {
+              buttonFontHoverColour = `${getLocaleValueOrDefault(fontHoverColour)} !important`
+            }
+
+            let buttonBorderColour
+            if (borderColour) {
+              buttonBorderColour = `${getLocaleValueOrDefault(borderColour)} !important`
+            }
+
+            let buttonBorderHoverColour
+            if (borderHoverColour) {
+              buttonBorderHoverColour = `${getLocaleValueOrDefault(borderHoverColour)} !important`
+            }
+
+            return <ProductLinkButton cta={cta} cta2={cta2} icon={graphic} bgColour={buttonBgColour} bgHoverColour={buttonBgHoverColour} fontColour={buttonFontColour} fontHoverColour={buttonFontHoverColour} borderColour={buttonBorderColour} borderHoverColour={buttonBorderHoverColour}/>
           case "styledText":
             return (
               <StyledText fields={node.data.target.fields}>
@@ -202,11 +226,7 @@ const renderOptions = {
       }
     },
   },
-  renderMark: {
-    [MARKS.CODE]: (node, children) => {
-      return <sup>{node}</sup>
-    },
-  },
+  renderMark: {},
 }
 
 export default renderOptions

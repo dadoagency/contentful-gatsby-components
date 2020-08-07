@@ -5,6 +5,7 @@ import "./style.scss"
 import PageContext from "../../context/PageContext"
 import Image from "../Image"
 import { graphql } from "gatsby"
+import styled from "styled-components"
 
 ProductLinkButton.propTypes = {
   cta: PropTypes.string.isRequired,

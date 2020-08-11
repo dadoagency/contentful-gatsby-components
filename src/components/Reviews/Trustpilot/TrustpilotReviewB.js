@@ -26,7 +26,7 @@ const TrustpilotReviewB = ({ title, body, ...props }) => {
       <div className="text-center">
         <Image fixed={data.tp.childImageSharp.fixed} alt="petlab logo" />
       </div>
-      <p>{body}</p>
+      <div>{body}</div>
       <div className="user">
         <strong>{title}</strong>
         <Image fixed={data.stars.childImageSharp.fixed} alt="petlab logo" />

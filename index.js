@@ -7,6 +7,9 @@ import Tracking from "./src/components/Tracking"
 import Pixel from "./src/components/Tracking/Pixel"
 import ProductCard from "./src/components/ProductCard"
 import ProductLinkButton from "./src/components/ProductLinkButton"
+import TrustpilotReview from "./src/components/Reviews/Trustpilot/index"
+import TrustpilotReviewB from "./src/components/Reviews/Trustpilot/TrustpilotReviewB"
+import TrustpilotReviewC from "./src/components/Reviews/Trustpilot/TrustpilotReviewC"
 
 //util
 import renderOptions from "./src/utils/richText"
@@ -30,4 +33,7 @@ export {
   ProductCard,
   ProductLinkButton,
   AdvertorialType2,
+  TrustpilotReview,
+  TrustpilotReviewB,
+  TrustpilotReviewC,
 }

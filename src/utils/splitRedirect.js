@@ -2,10 +2,10 @@ export function getRedirectDestination(candidates) {
   return candidates && candidates[Math.floor(Math.random() * candidates.length)]
 }
 
-export function getQueryParam(utm) {
+export function getQueryParam(keyVals) {
   const params = new URLSearchParams(document.location.search)
-  params.set("id", utm)
-  params.set("utm_source", utm)
-  params.set("utm_medium", utm)
+  for (const param of keyVals) {
+    params.set(param.key, param.value)
+  }
   return `?${params.toString()}`
 }

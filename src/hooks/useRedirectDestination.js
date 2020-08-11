@@ -8,13 +8,9 @@ const useRedirectDestination = candidates => {
   useEffect(() => {
     if (candidates && candidates.length > 0) {
       const redirectDestination = getRedirectDestination(candidates)
-      if (
-        redirectDestination &&
-        redirectDestination.url &&
-        redirectDestination.utm
-      ) {
-        const { url, utm } = redirectDestination
-        const queryString = getQueryParam(utm)
+      if (redirectDestination && redirectDestination.url) {
+        const { url, params } = redirectDestination
+        const queryString = getQueryParam(params)
         window.history.replaceState(null, null, queryString)
         setRedirectDestination(url + queryString)
       }

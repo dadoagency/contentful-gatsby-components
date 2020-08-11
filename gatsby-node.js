@@ -6,10 +6,18 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
 
     require("./src/schema/advertorialType1"),
     schema.buildObjectType({
+      name: "contentfulRedirectDestinationJsonNode",
+      fields: {
+        key: "String!",
+        value: "String!",
+      },
+      interfaces: ["Node"],
+    }),
+    schema.buildObjectType({
       name: "ContentfulRedirectDestination",
       fields: {
         url: "String!",
-        utm: "String",
+        params: ["contentfulRedirectDestinationJsonNode"],
       },
       interfaces: ["Node"],
     }),

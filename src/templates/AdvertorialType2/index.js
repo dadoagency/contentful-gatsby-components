@@ -19,7 +19,10 @@ export const AdvertorialType2Page = graphql`
     facebookPixelId
     redirectDestinations {
       url
-      utm
+      params {
+        key
+        value
+      }
     }
     headline {
       json

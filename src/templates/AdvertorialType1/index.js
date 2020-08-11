@@ -18,7 +18,10 @@ export const AdvertorialType1Page = graphql`
     node_locale
     redirectDestinations {
       url
-      utm
+      params {
+        key
+        value
+      }
     }
     headline {
       json

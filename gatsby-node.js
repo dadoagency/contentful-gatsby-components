@@ -5,30 +5,8 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
     require("./src/schema/productLinkButton/productLinkButton"),
 
     require("./src/schema/advertorialType1"),
-    schema.buildObjectType({
-      name: "contentfulRedirectDestinationJsonNode",
-      fields: {
-        key: "String!",
-        value: "String!",
-      },
-      interfaces: ["Node"],
-    }),
-    schema.buildObjectType({
-      name: "ContentfulRedirectDestination",
-      fields: {
-        url: "String!",
-        params: ["contentfulRedirectDestinationJsonNode"],
-      },
-      interfaces: ["Node"],
-    }),
-    schema.buildObjectType({
-      name: "ContentfulReference",
-      fields: {
-        displayText: "String",
-        url: "String",
-      },
-      interfaces: ["Node"],
-    }),
+
+    require("./src/schema/redirectDestination/redirectDestination"),
 
     //advertorial type 2 headline rich text
     require("./src/schema/advertorialType2/headline"),

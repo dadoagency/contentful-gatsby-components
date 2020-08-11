@@ -179,7 +179,12 @@ AdvertorialType2.propTypes = {
   redirectDestinations: PropTypes.arrayOf(
     PropTypes.shape({
       url: PropTypes.string.isRequired,
-      utm: PropTypes.string.isRequired,
+      params: PropTypes.arrayOf(
+        PropTypes.shape({
+          key: PropTypes.string,
+          value: PropTypes.string,
+        })
+      ),
     })
   ),
   headline: PropTypes.shape({

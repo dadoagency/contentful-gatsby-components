@@ -72,7 +72,7 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
         },
       },
     }),
-    // ContentfulTrustpilotReview
+    // ContentfulTrustpilotReviewC
     require("./src/schema/reviews/trustpilot/trustpilotReviewC"),
     schema.buildObjectType({
       name: "ContentfulTrustpilotReviewC",
@@ -95,7 +95,30 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
       },
       interfaces: ["Node"],
     }),
-    // ContentfulFacebookReviews
+    // ContentfulTrustpilotReviewD
+    require("./src/schema/reviews/trustpilot/trustpilotReviewD"),
+    schema.buildObjectType({
+      name: "ContentfulTrustpilotReviewD",
+      infer: true,
+      fields: {
+        productLinkButton: {
+          type: "ContentfulProductLinkButton",
+          extensions: {
+            infer: true,
+            link: { by: "id", from: "productLinkButton___NODE" },
+          },
+        },
+        title: "String!",
+        body: {
+          type: "contentfulTrustpilotReviewDBodyRichTextNode",
+          extensions: {
+            link: { by: "id", from: "body___NODE" },
+          },
+        },
+      },
+      interfaces: ["Node"],
+    }),
+    // ContentfulFacebookReview
     require("./src/schema/reviews/facebook/facebookReview"),
     schema.buildObjectType({
       name: "ContentfulFacebookReview",
@@ -114,15 +137,36 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
         productLinkButton: "ContentfulProductLinkButton",
       },
     }),
+        // ContentfulFacebookReviewD
+    require("./src/schema/reviews/facebook/facebookReviewD"),
+    schema.buildObjectType({
+      name: "ContentfulFacebookReviewD",
+      interfaces: ["Node"],
+      fields: {
+        title: "String!",
+        body: {
+          type: "contentfulFacebookReviewDBodyRichTextNode",
+          extensions: {
+            link: {
+              by: "id",
+              from: "body___NODE",
+            },
+          },
+        },
+        productLinkButton: "ContentfulProductLinkButton",
+      },
+    }),
 
     schema.buildUnionType({
       name: "TestimonialReview",
       infer: true,
       types: [
+        "ContentfulFacebookReview",
+        "ContentfulFacebookReviewD",
         "ContentfulTrustpilotReview",
         "ContentfulTrustpilotReviewB",
-        "ContentfulFacebookReview",
         "ContentfulTrustpilotReviewC",
+        "ContentfulTrustpilotReviewD",
       ],
     }),
     //not using type builder syntax to use @link... try with extensions: {link}

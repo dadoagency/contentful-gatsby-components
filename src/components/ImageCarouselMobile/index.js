@@ -1,9 +1,13 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { useMediaQuery } from 'react-responsive'
+import { useMediaQuery } from "react-responsive"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
-import renderOptions from '../../utils/richText'
+import renderOptions from "../../utils/richText"
 import Slider from "react-slick"
+
+// Displays an image carousel, but only on mobile devices. It otherwise just
+//    displays all of the images in a container
+
 const ImageCarouselMobile = ({ title, images }) => {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 499px)" })
   const settings = {
@@ -21,24 +25,36 @@ const ImageCarouselMobile = ({ title, images }) => {
         <div className="image-carousel-mobile-title">{title}</div>
       ) : null}
       <div className="image-carousel-mobile-images-container">
-      {isTabletOrMobile ?
-          <Slider {...settings}>{images.map((image, index) => <React.Fragment key={`image-carousel-mobile-img-${index}`}>{documentToReactComponents(image.node, renderOptions)}</React.Fragment>)}</Slider> :
-          <>{images.map((image, index) =><React.Fragment key={`image-carousel-mobile-img-${index}`}>{documentToReactComponents(image.node, renderOptions)}</React.Fragment>)}</>}
+        {isTabletOrMobile ? (
+          <Slider {...settings}>
+            {images.map((image, index) => (
+              <React.Fragment key={`image-carousel-mobile-img-${index}`}>
+                {documentToReactComponents(image.node, renderOptions)}
+              </React.Fragment>
+            ))}
+          </Slider>
+        ) : (
+          <>
+            {images.map((image, index) => (
+              <React.Fragment key={`image-carousel-mobile-img-${index}`}>
+                {documentToReactComponents(image.node, renderOptions)}
+              </React.Fragment>
+            ))}
+          </>
+        )}
       </div>
     </div>
   )
 }
 
 ImageCarouselMobile.defaultProps = {
-  title: '',
+  title: "",
   images: [],
 }
 
 ImageCarouselMobile.propTypes = {
   title: PropTypes.string,
-  images: PropTypes.arrayOf(
-    PropTypes.object
-  )
+  images: PropTypes.arrayOf(PropTypes.object),
 }
 
 export default ImageCarouselMobile

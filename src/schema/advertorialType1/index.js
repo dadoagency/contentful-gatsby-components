@@ -3,6 +3,8 @@ type ContentfulAdvertorialType1 implements Node @infer {
   path: String
   facebookPixelId: String
   redirectDestinations: [ContentfulRedirectDestination] @link(by: "id", from: "redirectDestinations___NODE")
+  logoPosition: String
+  headerText: String
   testimonialSection: ContentfulTestimonialSection @link(by: "id", from: "testimonialSection___NODE")
   spaceId: String
   contentful_id: String
@@ -36,7 +38,7 @@ type contentfulAdvertorialType1HeadlineRichTextNodeContentContent @derivedTypes 
 type contentfulAdvertorialType1HeadlineRichTextNodeContentContentMarks {
     type: String
 }
-    
+
 type contentfulAdvertorialType1BodyRichTextNode implements Node @derivedTypes @dontInfer {
     content: [contentfulAdvertorialType1BodyRichTextNodeContent]
     nodeType: String
@@ -65,23 +67,23 @@ type contentfulAdvertorialType1FooterRichTextNode implements Node @derivedTypes 
     content: [contentfulAdvertorialType1FooterRichTextNodeContent]
     footer: String
   }
-  
+
   type contentfulAdvertorialType1FooterRichTextNodeContent @derivedTypes {
     nodeType: String
     content: [contentfulAdvertorialType1FooterRichTextNodeContentContent]
   }
-  
+
   type contentfulAdvertorialType1FooterRichTextNodeContentContent @derivedTypes {
     nodeType: String
     value: String
     data: contentfulAdvertorialType1FooterRichTextNodeContentContentData
     content: [contentfulAdvertorialType1FooterRichTextNodeContentContentContent]
   }
-  
+
   type contentfulAdvertorialType1FooterRichTextNodeContentContentData {
     uri: String
   }
-  
+
   type contentfulAdvertorialType1FooterRichTextNodeContentContentContent {
     nodeType: String
     value: String

@@ -17,7 +17,7 @@ export function TrustpilotReviewCPure({
   avatar,
   action,
   logo,
-  url,
+  logoLink,
 }) {
   return (
     <div className="facebook-container">
@@ -46,7 +46,7 @@ export function TrustpilotReviewCPure({
           }}
           className="logo"
         >
-          <a href={url}>
+          <a href={logoLink}>
             <GatsbyImage fixed={logo} alt="logo" />
           </a>
         </div>
@@ -82,7 +82,7 @@ export default function TrustpilotReviewC({ title, body, avatar, action }) {
 
   return (
     <TrustpilotReviewCPure
-      url={url}
+      logoLink={url}
       title={title}
       body={body}
       avatar={avatar}

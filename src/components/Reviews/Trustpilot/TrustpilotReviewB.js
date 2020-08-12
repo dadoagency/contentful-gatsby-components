@@ -25,31 +25,17 @@ const TrustpilotReviewB = ({ title, body, ...props }) => {
   const url = useTrustpilotLink()
   return (
     <TrustpilotReviewBPure
-      tpUrl={url}
+      logoLink={url}
       logo={data.tp.childImageSharp.fixed}
       body={body}
       title={title}
       starsLogo={data.stars.childImageSharp.fixed}
     />
   )
-  // return (
-  //   <div className="righttestibox trustpilot-review-b">
-  //     <div className="text-center">
-  //       <a href={url}>
-  //         <Image fixed={data.tp.childImageSharp.fixed} alt="petlab logo" />
-  //       </a>
-  //     </div>
-  //     <div>{body}</div>
-  //     <div className="user">
-  //       <strong>{title}</strong>
-  //       <Image fixed={data.stars.childImageSharp.fixed} alt="petlab logo" />
-  //     </div>
-  //   </div>
-  // )
 }
 
 export const TrustpilotReviewBPure = ({
-  tpUrl,
+  logoLink,
   logo,
   body,
   title,
@@ -57,7 +43,7 @@ export const TrustpilotReviewBPure = ({
 }) => (
   <div className="righttestibox trustpilot-review-b">
     <div className="text-center">
-      <a href={tpUrl}>
+      <a href={logoLink}>
         <Image fixed={logo} alt="trustpilot logo" />
       </a>
     </div>

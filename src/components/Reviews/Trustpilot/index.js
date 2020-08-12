@@ -44,11 +44,16 @@ export function TrustpilotReviewPure({
   body,
   avatar,
   action,
-  url,
+  logoLink,
 }) {
   return (
     <div className="facebook-container">
-      <ReviewHead title={title} logo={logo} logoLink={url} avatar={avatar} />
+      <ReviewHead
+        title={title}
+        logo={logo}
+        logoLink={logoLink}
+        avatar={avatar}
+      />
       <ReviewBody>{body}</ReviewBody>
       <div className="page-btn-container">{action}</div>
     </div>

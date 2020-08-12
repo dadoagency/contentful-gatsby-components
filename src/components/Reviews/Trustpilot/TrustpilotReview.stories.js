@@ -2,6 +2,7 @@ import React from "react"
 import { TrustpilotReviewPure } from "./index"
 import { TrustpilotReviewBPure } from "./TrustpilotReviewB"
 import { TrustpilotReviewCPure } from "./TrustpilotReviewC"
+import { TrustpilotReviewDPure } from "./TrustpilotReviewD"
 import * as ProductLinkButtonStories from "../../ProductLinkButton/ProductLinkButton.stories"
 
 import logo from "../../../images/trustpilot.png"
@@ -29,6 +30,7 @@ Default.args = {
     tracedSVG:
       "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='74'%20height='31'%20viewBox='0%200%2074%2031'%20preserveAspectRatio='none'/%3e",
   },
+  logoLink: "/redirected",
   title: "A kind review",
   body: "Some text describing what a great service we provided",
   component: TrustpilotReviewPure,
@@ -55,5 +57,17 @@ TypeC.args = {
 export const TypeCWithAction = Template.bind({})
 TypeCWithAction.args = {
   ...TypeC.args,
+  action: WithAction.args.action,
+}
+
+export const TypeD = Template.bind({})
+TypeD.args = {
+  ...Default.args,
+  component: TrustpilotReviewDPure,
+}
+
+export const TypeDWithAction = Template.bind({})
+TypeDWithAction.args = {
+  ...TypeD.args,
   action: WithAction.args.action,
 }

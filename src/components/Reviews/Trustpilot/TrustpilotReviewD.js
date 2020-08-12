@@ -23,6 +23,27 @@ export default function TrustpilotReviewD({ title, body, avatar, action }) {
     }
   `)
   const url = useTrustpilotLink()
+
+  return (
+    <TrustpilotReviewDPure
+      title={title}
+      avatar={avatar}
+      logo={data.trustpilot.childImageSharp.fixed}
+      logoLink={url}
+      body={body}
+      action={action}
+    />
+  )
+}
+
+export function TrustpilotReviewDPure({
+  title,
+  avatar,
+  logo,
+  logoLink,
+  body,
+  action,
+}) {
   return (
     <div className="facebook-container">
       <div
@@ -45,16 +66,13 @@ export default function TrustpilotReviewD({ title, body, avatar, action }) {
         </div>
         <div
           style={{
-            height: data.trustpilot.childImageSharp.height,
+            height: logo.height,
             alignSelf: "flex-start",
           }}
           className="logo"
         >
-          <a href={url}>
-            <GatsbyImage
-              fixed={data.trustpilot.childImageSharp.fixed}
-              alt="logo"
-            />
+          <a href={logoLink}>
+            <GatsbyImage fixed={logo} alt="logo" />
           </a>
         </div>
         <span>{title}</span>

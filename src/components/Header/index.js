@@ -8,7 +8,6 @@ import propTypes from "prop-types"
         classes that only consist of these values.
     e.g. 'jc-start' will have justify-content 'flex-start'
 
-    They could also be refactored to have
 */
 
 const Wrapper = styled.div`

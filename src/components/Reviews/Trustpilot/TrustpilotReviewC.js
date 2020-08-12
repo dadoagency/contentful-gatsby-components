@@ -10,19 +10,15 @@ TrustpilotReviewC.propTypes = {
   avatar: PropTypes.object,
   action: PropTypes.object,
 }
-export default function TrustpilotReviewC({ title, body, avatar, action }) {
-  const data = useStaticQuery(graphql`
-    query trustPilotC {
-      trustpilot: file(relativePath: { eq: "trustpilot.png" }) {
-        childImageSharp {
-          fixed(width: 90) {
-            ...GatsbyImageSharpFixed_withWebp
-          }
-        }
-      }
-    }
-  `)
-  const url = useTrustpilotLink()
+
+export function TrustpilotReviewCPure({
+  title,
+  body,
+  avatar,
+  action,
+  logo,
+  url,
+}) {
   return (
     <div className="facebook-container">
       <div
@@ -45,16 +41,13 @@ export default function TrustpilotReviewC({ title, body, avatar, action }) {
         </div>
         <div
           style={{
-            height: data.trustpilot.childImageSharp.height,
+            height: logo.height,
             alignSelf: "center",
           }}
           className="logo"
         >
           <a href={url}>
-            <GatsbyImage
-              fixed={data.trustpilot.childImageSharp.fixed}
-              alt="logo"
-            />
+            <GatsbyImage fixed={logo} alt="logo" />
           </a>
         </div>
         <span>{title}</span>
@@ -70,5 +63,31 @@ export default function TrustpilotReviewC({ title, body, avatar, action }) {
       </div>
       <div className="page-btn-container">{action}</div>
     </div>
+  )
+}
+
+export default function TrustpilotReviewC({ title, body, avatar, action }) {
+  const data = useStaticQuery(graphql`
+    query trustPilotC {
+      trustpilot: file(relativePath: { eq: "trustpilot.png" }) {
+        childImageSharp {
+          fixed(width: 90) {
+            ...GatsbyImageSharpFixed_withWebp
+          }
+        }
+      }
+    }
+  `)
+  const url = useTrustpilotLink()
+
+  return (
+    <TrustpilotReviewCPure
+      url={url}
+      title={title}
+      body={body}
+      avatar={avatar}
+      action={action}
+      logo={data.trustpilot.childImageSharp.fixed}
+    />
   )
 }

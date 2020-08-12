@@ -1,6 +1,7 @@
 import React from "react"
 import { TrustpilotReviewPure } from "./index"
 import { TrustpilotReviewBPure } from "./TrustpilotReviewB"
+import { TrustpilotReviewCPure } from "./TrustpilotReviewC"
 import * as ProductLinkButtonStories from "../../ProductLinkButton/ProductLinkButton.stories"
 
 import logo from "../../../images/trustpilot.png"
@@ -43,4 +44,16 @@ export const TypeB = Template.bind({})
 TypeB.args = {
   ...Default.args,
   component: TrustpilotReviewBPure,
+}
+
+export const TypeC = Template.bind({})
+TypeC.args = {
+  ...Default.args,
+  component: TrustpilotReviewCPure,
+}
+
+export const TypeCWithAction = Template.bind({})
+TypeCWithAction.args = {
+  ...TypeC.args,
+  action: WithAction.args.action,
 }

@@ -23,6 +23,8 @@ export const AdvertorialType1Page = graphql`
         value
       }
     }
+    logoPosition
+    headerText
     headline {
       json
     }
@@ -69,7 +71,31 @@ export const AdvertorialType1Page = graphql`
             ...ProductLinkButtonFields
           }
         }
+        ... on ContentfulFacebookReviewD {
+          title
+          body {
+            json
+          }
+          internal {
+            type
+          }
+          productLinkButton {
+            ...ProductLinkButtonFields
+          }
+        }
         ... on ContentfulTrustpilotReviewC {
+          title
+          body {
+            json
+          }
+          internal {
+            type
+          }
+          productLinkButton {
+            ...ProductLinkButtonFields
+          }
+        }
+        ... on ContentfulTrustpilotReviewD {
           title
           body {
             json
@@ -94,6 +120,8 @@ const AdvertorialType1 = ({
   headline,
   body,
   node_locale,
+  logoPosition,
+  headerText,
   logo,
   companyDetails,
   footerLinks,
@@ -115,6 +143,8 @@ const AdvertorialType1 = ({
       className="advertorial-type-1"
       references={references}
       locale={node_locale}
+      logoPosition={logoPosition}
+      headerText={headerText}
       logo={logo}
       footer={
         footer && (
@@ -153,6 +183,8 @@ const AdvertorialType1 = ({
 AdvertorialType1.propTypes = {
   logo: PropTypes.object.isRequired,
   facebookPixelId: PropTypes.string,
+  logoPosition: PropTypes.string,
+  headerText: PropTypes.string,
   headline: PropTypes.shape({
     json: PropTypes.object,
   }).isRequired,

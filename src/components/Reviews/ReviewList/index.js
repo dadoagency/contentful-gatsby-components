@@ -5,8 +5,10 @@ import BasicReview from "../Trustpilot"
 import ProductLinkButton from "../../ProductLinkButton"
 import AmazonReviewComponent from "../Amazon"
 import FacebookReviewComponent from "../Facebook"
+import FacebookReviewD from "../Facebook/FacebookReviewD"
 import TrustPilotReviewB from "../Trustpilot/TrustpilotReviewB"
 import TrustpilotReviewC from "../Trustpilot/TrustpilotReviewC"
+import TrustpilotReviewD from "../Trustpilot/TrustpilotReviewD"
 
 const DynamicReviewList = ({ reviews }) => {
   return (
@@ -18,6 +20,8 @@ const DynamicReviewList = ({ reviews }) => {
               return <TrustPilotReview review={review} key={index} />
             case "ContentfulFacebookReview":
               return <FaceBookReview review={review} key={index} />
+            case "ContentfulFacebookReviewD":
+              return <FacebookReviewTypeD review={review} key={index} />
             case "ContentfulAmazonReview":
               return <AmazonReview review={review} key={index} />
             case "ContentfulTrustpilotReviewB":
@@ -32,7 +36,9 @@ const DynamicReviewList = ({ reviews }) => {
                 />
               )
             case "ContentfulTrustpilotReviewC":
-                return <TrustPilotReviewTypeC review={review} key={index} />
+              return <TrustPilotReviewTypeC review={review} key={index} />
+            case "ContentfulTrustpilotReviewD":
+              return <TrustPilotReviewTypeD review={review} key={index} />
             default:
               console.log(
                 "unhandled review type. Will not render " + review.__typename
@@ -52,7 +58,19 @@ const AmazonReview = ({ review }) => {
       title={title}
       body={renderedBody}
       stars={stars}
-      productLinkButton={<ProductLinkButton cta={productLinkButton.text} />}
+      productLinkButton={
+        <ProductLinkButton
+          cta={productLinkButton.text}
+          cta2={productLinkButton.additionalText}
+          icon={productLinkButton.icon}
+          bgColour={productLinkButton.bgColour}
+          bgHoverColour={productLinkButton.bgHoverColour}
+          fontColour={productLinkButton.fontColour}
+          fontHoverColour={productLinkButton.fontHoverColour}
+          borderColour={productLinkButton.borderColour}
+          borderHoverColour={productLinkButton.borderHoverColour}
+        />
+      }
     />
   )
 }
@@ -69,6 +87,38 @@ const FaceBookReview = ({ review }) => {
     />
   )
 }
+const FacebookReviewTypeD = ({ review }) => {
+  const { title, body, productLinkButton, avatar } = review
+  const renderedBody = documentToReactComponents(body.json, renderOptions)
+  if (productLinkButton) {
+    return (
+      <FacebookReviewD
+        title={title}
+        body={renderedBody}
+        action={
+          <ProductLinkButton
+            cta={productLinkButton.text}
+            cta2={productLinkButton.additionalText}
+            icon={productLinkButton.icon}
+            bgColour={productLinkButton.bgColour}
+            bgHoverColour={productLinkButton.bgHoverColour}
+            fontColour={productLinkButton.fontColour}
+            fontHoverColour={productLinkButton.fontHoverColour}
+            borderColour={productLinkButton.borderColour}
+            borderHoverColour={productLinkButton.borderHoverColour}
+          />
+        }
+      />
+    )
+  }
+  return (
+    <FacebookReviewD
+      title={title}
+      body={renderedBody}
+      avatar={avatar && avatar.localFile.childImageSharp.fixed}
+    />
+  )
+}
 
 const TrustPilotReview = ({ review }) => {
   const { title, body, productLinkButton, avatar } = review
@@ -81,7 +131,14 @@ const TrustPilotReview = ({ review }) => {
         action={
           <ProductLinkButton
             cta={productLinkButton.text}
+            cta2={productLinkButton.additionalText}
             icon={productLinkButton.icon}
+            bgColour={productLinkButton.bgColour}
+            bgHoverColour={productLinkButton.bgHoverColour}
+            fontColour={productLinkButton.fontColour}
+            fontHoverColour={productLinkButton.fontHoverColour}
+            borderColour={productLinkButton.borderColour}
+            borderHoverColour={productLinkButton.borderHoverColour}
           />
         }
       />
@@ -107,7 +164,14 @@ const TrustPilotReviewTypeC = ({ review }) => {
         action={
           <ProductLinkButton
             cta={productLinkButton.text}
+            cta2={productLinkButton.additionalText}
             icon={productLinkButton.icon}
+            bgColour={productLinkButton.bgColour}
+            bgHoverColour={productLinkButton.bgHoverColour}
+            fontColour={productLinkButton.fontColour}
+            fontHoverColour={productLinkButton.fontHoverColour}
+            borderColour={productLinkButton.borderColour}
+            borderHoverColour={productLinkButton.borderHoverColour}
           />
         }
       />
@@ -115,6 +179,39 @@ const TrustPilotReviewTypeC = ({ review }) => {
   }
   return (
     <TrustpilotReviewC
+      title={title}
+      body={renderedBody}
+      avatar={avatar && avatar.localFile.childImageSharp.fixed}
+    />
+  )
+}
+
+const TrustPilotReviewTypeD = ({ review }) => {
+  const { title, body, productLinkButton, avatar } = review
+  const renderedBody = documentToReactComponents(body.json, renderOptions)
+  if (productLinkButton) {
+    return (
+      <TrustpilotReviewD
+        title={title}
+        body={renderedBody}
+        action={
+          <ProductLinkButton
+            cta={productLinkButton.text}
+            cta2={productLinkButton.additionalText}
+            icon={productLinkButton.icon}
+            bgColour={productLinkButton.bgColour}
+            bgHoverColour={productLinkButton.bgHoverColour}
+            fontColour={productLinkButton.fontColour}
+            fontHoverColour={productLinkButton.fontHoverColour}
+            borderColour={productLinkButton.borderColour}
+            borderHoverColour={productLinkButton.borderHoverColour}
+          />
+        }
+      />
+    )
+  }
+  return (
+    <TrustpilotReviewD
       title={title}
       body={renderedBody}
       avatar={avatar && avatar.localFile.childImageSharp.fixed}

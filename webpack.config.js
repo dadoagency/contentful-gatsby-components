@@ -24,6 +24,7 @@ module.exports = {
             plugins: [
               "@babel/plugin-proposal-class-properties",
               "babel-plugin-remove-graphql-queries",
+              "babel-plugin-react-docgen",
             ],
           },
         },

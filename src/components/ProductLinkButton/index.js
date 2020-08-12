@@ -7,6 +7,18 @@ import Image from "../Image"
 import { graphql } from "gatsby"
 import styled from "styled-components"
 
+ProductLinkButtonPure.propTypes = {
+  cta: PropTypes.string.isRequired,
+  cta2: PropTypes.string,
+  bgColour: PropTypes.string,
+  bgHoverColour: PropTypes.string,
+  fontColour: PropTypes.string,
+  fontHoverColour: PropTypes.string,
+  borderColour: PropTypes.string,
+  borderHoverColour: PropTypes.string,
+  // icon: PropTypes.object,
+}
+
 ProductLinkButton.propTypes = {
   cta: PropTypes.string.isRequired,
   cta2: PropTypes.string,
@@ -19,7 +31,7 @@ ProductLinkButton.propTypes = {
   // icon: PropTypes.object,
 }
 
-ProductLinkButton.defaultProps = {
+ProductLinkButtonPure.defaultProps = {
   cta2: null,
   bgColour: "#e70b2f",
   bgHoverColour: "#e37100",
@@ -48,7 +60,19 @@ const Button = styled.div`
   }
 `
 
-export default function ProductLinkButton({
+export default function ProductLinkButton({ cta, ...props }) {
+  const { redirectDestination } = useContext(PageContext)
+
+  return (
+    <ProductLinkButtonSimple
+      cta={cta}
+      {...props}
+      redirectDestination={redirectDestination}
+    />
+  )
+}
+
+export function ProductLinkButtonPure({
   cta,
   cta2,
   icon,
@@ -59,9 +83,9 @@ export default function ProductLinkButton({
   borderColour,
   borderHoverColour,
   children,
+  redirectDestination,
   ...props
 }) {
-  const { redirectDestination } = useContext(PageContext)
   return (
     <ProductLink redirectDestination={redirectDestination} {...props}>
       <Button

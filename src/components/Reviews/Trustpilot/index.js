@@ -5,13 +5,13 @@ import ReviewBody from "../ReviewBody"
 import ReviewHead from "../ReviewHead"
 import useTrustpilotLink from "../../../hooks/useTrustpilotLink"
 
-BasicReview.propTypes = {
+TrustpilotReview.propTypes = {
   title: PropTypes.string.isRequired,
   body: PropTypes.node.isRequired,
   avatar: PropTypes.object,
   action: PropTypes.object,
 }
-export default function BasicReview({ title, body, avatar, action }) {
+export function TrustpilotReview({ title, body, avatar, action }) {
   const data = useStaticQuery(graphql`
     query facebookReviews {
       trustpilot: file(relativePath: { eq: "trustpilot.png" }) {
@@ -26,16 +26,45 @@ export default function BasicReview({ title, body, avatar, action }) {
 
   const url = useTrustpilotLink()
 
+  // return (
+  //   <div className="facebook-container">
+  //     <ReviewHead
+  //       title={title}
+  //       logo={data.trustpilot.childImageSharp.fixed}
+  //       logoLink={url}
+  //       avatar={avatar}
+  //     />
+  //     <ReviewBody>{body}</ReviewBody>
+  //     <div className="page-btn-container">{action}</div>
+  //   </div>
+  // )
+  return (
+    <TrustpilotReviewPure
+      title={title}
+      logo={data.trustpilot.childImageSharp.fixed}
+      logoLink={url}
+      avatar={avatar}
+      body={body}
+      action={action}
+    />
+  )
+}
+
+export function TrustpilotReviewPure({
+  title,
+  logo,
+  body,
+  avatar,
+  action,
+  url,
+}) {
   return (
     <div className="facebook-container">
-      <ReviewHead
-        title={title}
-        logo={data.trustpilot.childImageSharp.fixed}
-        logoLink={url}
-        avatar={avatar}
-      />
+      <ReviewHead title={title} logo={logo} logoLink={url} avatar={avatar} />
       <ReviewBody>{body}</ReviewBody>
       <div className="page-btn-container">{action}</div>
     </div>
   )
 }
+
+export default TrustpilotReview

@@ -49,6 +49,9 @@ const Overlay = styled.div`
 `
 
 function Header({ logoPosition, headerText, logo }) {
+  if (!logoPosition) {
+    logoPosition = 'center'
+  }
   let textPosition = ""
   if (
     logoPosition.toLowerCase() === "left" ||
@@ -74,14 +77,17 @@ function Header({ logoPosition, headerText, logo }) {
   )
 }
 
-Header.defaultProps = {
-  bannerHeight: 0,
-}
+
 
 Header.propTypes = {
   logoPosition: propTypes.string,
   headerText: propTypes.string,
   logo: propTypes.object,
+}
+
+Header.defaultProps = {
+  logoPosition: 'center',
+  headerText: '',
 }
 
 export default Header

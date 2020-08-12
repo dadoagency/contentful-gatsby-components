@@ -1,5 +1,7 @@
 import React from "react"
 import Article from "./index"
+import * as StyledTextStories from "../StyledText/StyledText.stories"
+import { StyledTextPure } from "../StyledText"
 
 export default {
   title: "Article",
@@ -17,6 +19,14 @@ Default.args = {
     <div>
       this is the body content for the article
       <p>You can nest content in here</p>
+      <p>
+        This is an example of styled text{" "}
+        <StyledTextPure {...StyledTextStories.Colored.args} />
+      </p>
+      <p>
+        This is an example of inline styled text{" "}
+        <StyledTextPure {...StyledTextStories.InlineColored.args} />
+      </p>
     </div>
   ),
 }

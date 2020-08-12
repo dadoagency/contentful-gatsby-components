@@ -39,3 +39,10 @@ Inline.args = {
   ...Default.args,
   inline: true,
 }
+
+export const InlineColored = Template.bind({})
+InlineColored.args = {
+  ...Default.args,
+  inline: true,
+  color: "red",
+}

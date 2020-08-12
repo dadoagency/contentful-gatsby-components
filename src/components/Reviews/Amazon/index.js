@@ -1,6 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import GatsbyImage from "gatsby-image"
 import PropTypes from "prop-types"
 import ReviewBody from "../ReviewBody"
 
@@ -14,12 +14,9 @@ AmazonReview.propTypes = {
 export default function AmazonReview({
   title,
   body,
-  stars = 5,
+  stars,
   productLinkButton,
 }) {
-  if (!stars) {
-    stars = 5
-  }
   const data = useStaticQuery(graphql`
     query amazonReview {
       star: file(relativePath: { eq: "review_star.png" }) {
@@ -39,15 +36,35 @@ export default function AmazonReview({
       }
     }
   `)
+
+  return (
+    <AmazonReviewPure
+      logo={data.amazonLogo.childImageSharp.fixed}
+      title={title}
+      body={body}
+      productLinkButton={productLinkButton}
+      numStars={stars}
+      starIcon={data.star.childImageSharp.fixed}
+    />
+  )
+}
+
+export function AmazonReviewPure({
+  logo,
+  title,
+  body,
+  productLinkButton,
+  numStars,
+  starIcon,
+}) {
+  if (!numStars) {
+    numStars = 5
+  }
   const Rating = () => {
     const ratings = []
-    for (let index = 0; index < stars; index++) {
+    for (let index = 0; index < numStars; index++) {
       ratings.push(
-        <Img
-          fixed={data.star.childImageSharp.fixed}
-          alt="Review star"
-          key={index}
-        />
+        <GatsbyImage fixed={starIcon} alt="Review star" key={index} />
       )
     }
     return ratings
@@ -57,7 +74,7 @@ export default function AmazonReview({
       <div style={{ fontFamily: "lato, arial, sans-serif", fontSize: "14px" }}>
         <Rating />
         &nbsp;&nbsp;
-        <Img fixed={data.amazonLogo.childImageSharp.fixed} alt="Amazon logo" />
+        <GatsbyImage fixed={logo} alt="Amazon logo" />
         &nbsp;&nbsp; Verified Purchase
       </div>
 

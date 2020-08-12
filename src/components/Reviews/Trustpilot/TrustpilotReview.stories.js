@@ -13,7 +13,6 @@ export default {
   component: TrustpilotReviewPure,
 }
 const Template = args => {
-  console.log("render args", args)
   return <args.component {...args} />
 }
 

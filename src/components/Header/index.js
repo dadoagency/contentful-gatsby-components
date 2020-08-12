@@ -1,5 +1,5 @@
 import React from "react"
-import Img from "gatsby-image"
+import GatsbyImage from "gatsby-image"
 import styled from "styled-components"
 import propTypes from "prop-types"
 
@@ -50,7 +50,7 @@ const Overlay = styled.div`
 
 function Header({ logoPosition, headerText, logo }) {
   if (!logoPosition) {
-    logoPosition = 'center'
+    logoPosition = "center"
   }
   let textPosition = ""
   if (
@@ -65,7 +65,7 @@ function Header({ logoPosition, headerText, logo }) {
     <section className="site-logo-container">
       <Wrapper logoPosition={logoPosition.toLowerCase()} className="section">
         <div className="site-logo">
-          {logo && <Img fixed={logo.childImageSharp.fixed} alt="Logo" />}
+          {logo && <GatsbyImage fixed={logo} alt="Logo" />}
         </div>
         {headerText && (
           <Overlay textPosition={textPosition.toLowerCase()}>
@@ -77,8 +77,6 @@ function Header({ logoPosition, headerText, logo }) {
   )
 }
 
-
-
 Header.propTypes = {
   logoPosition: propTypes.string,
   headerText: propTypes.string,
@@ -86,8 +84,8 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  logoPosition: 'center',
-  headerText: '',
+  logoPosition: "center",
+  headerText: "",
 }
 
 export default Header

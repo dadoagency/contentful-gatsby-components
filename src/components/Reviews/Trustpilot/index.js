@@ -26,18 +26,6 @@ export function TrustpilotReview({ title, body, avatar, action }) {
 
   const url = useTrustpilotLink()
 
-  // return (
-  //   <div className="facebook-container">
-  //     <ReviewHead
-  //       title={title}
-  //       logo={data.trustpilot.childImageSharp.fixed}
-  //       logoLink={url}
-  //       avatar={avatar}
-  //     />
-  //     <ReviewBody>{body}</ReviewBody>
-  //     <div className="page-btn-container">{action}</div>
-  //   </div>
-  // )
   return (
     <TrustpilotReviewPure
       title={title}

@@ -9,7 +9,7 @@ export default {
 const Template = args => <ProductLinkButtonPure {...args} />
 
 export const Text = Template.bind({})
-Text.args = { cta: "Click me" }
+Text.args = { cta: "Click me", redirectDestination: "/" }
 
 export const BonusText = Template.bind({})
 BonusText.args = { ...Text.args, cta2: "Bonus text" }

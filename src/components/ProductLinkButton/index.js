@@ -64,7 +64,7 @@ export default function ProductLinkButton({ cta, ...props }) {
   const { redirectDestination } = useContext(PageContext)
 
   return (
-    <ProductLinkButtonSimple
+    <ProductLinkButtonPure
       cta={cta}
       {...props}
       redirectDestination={redirectDestination}

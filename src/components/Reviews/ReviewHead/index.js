@@ -1,5 +1,7 @@
 import React from "react"
 import GatsbyImage from "gatsby-image"
+import Image from "../../Image"
+
 const ReviewHead = ({ title, logo, logoLink, avatar, ...props }) => (
   <div
     className="review-head"

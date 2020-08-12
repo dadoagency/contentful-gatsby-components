@@ -4,17 +4,20 @@ import styleLeafNodes from "../../utils/styleLeafNodes"
 import { getFirstValue } from "../../utils/locale"
 
 const StyledText = ({ children, fields, inline }) => {
-  let color = null
-  if (fields.colour) {
-    color = getFirstValue(fields.colour)
-  }
-  let backgroundColor = null
-  if (fields.backgroundColour) {
-    backgroundColor = getFirstValue(fields.backgroundColour)
-  }
-  const style = {
-    color,
-  }
+  console.log(fields)
+  let colour = getFirstValue(fields?.colour)
+  let backgroundColor = getFirstValue(fields?.backgroundColor)
+
+  return (
+    <StyledTextPure
+      color={colour}
+      backgroundColor={backgroundColor}
+      inline={inline}
+    />
+  )
+}
+
+export function StyledTextPure({ children, color, backgroundColor, inline }) {
   const Wrapper = ({ children, ...props }) => {
     if (inline) {
       return <span {...props}>{children}</span>
@@ -24,7 +27,7 @@ const StyledText = ({ children, fields, inline }) => {
   }
 
   return (
-    <Wrapper className="styledText" style={style}>
+    <Wrapper className="styledText" style={{ color: color }}>
       {Children.map(children, child => {
         return styleLeafNodes(child, { backgroundColor })
       })}

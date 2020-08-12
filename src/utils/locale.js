@@ -1,5 +1,5 @@
 export const getFirstValue = obj => {
-  return Object.keys(obj).length >= 1 ? obj[Object.keys(obj)[0]] : null
+  return obj && Object.keys(obj).length >= 1 ? obj[Object.keys(obj)[0]] : null
 }
 
 export const getLocaleValueOrDefault = obj => {

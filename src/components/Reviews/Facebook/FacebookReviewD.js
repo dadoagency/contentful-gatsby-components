@@ -21,6 +21,19 @@ export default function FacebookReviewD({ title, body, avatar, action }) {
       }
     }
   `)
+
+  return (
+    <FacebookReviewDPure
+      title={title}
+      body={body}
+      avatar={avatar}
+      action={action}
+      logo={data.facebook.childImageSharp.fixed}
+    />
+  )
+}
+
+export function FacebookReviewDPure({ avatar, logo, title, body, action }) {
   return (
     <div className="facebook-container">
       <div
@@ -43,15 +56,12 @@ export default function FacebookReviewD({ title, body, avatar, action }) {
         </div>
         <div
           style={{
-            height: data.facebook.childImageSharp.height,
+            height: logo.height,
             alignSelf: "flex-start",
           }}
           className="logo"
         >
-          <GatsbyImage
-            fixed={data.facebook.childImageSharp.fixed}
-            alt="logo"
-          />
+          <GatsbyImage fixed={logo} alt="logo" />
         </div>
         <span>{title}</span>
       </div>

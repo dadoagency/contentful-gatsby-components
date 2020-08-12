@@ -1,5 +1,7 @@
 import React from "react"
 import { FacebookReviewPure } from "./index"
+import { FacebookReviewDPure } from "./FacebookReviewD"
+
 import logo from "../../../images/fb.png"
 import * as ProductLinkButtonStories from "../../ProductLinkButton/ProductLinkButton.stories"
 import ProductLinkButton from "../../ProductLinkButton"
@@ -36,4 +38,17 @@ WithAction.args = {
   productLinkButton: (
     <ProductLinkButton {...ProductLinkButtonStories.Text.args} />
   ),
+}
+
+export const TypeD = Template.bind({})
+TypeD.args = {
+  ...Default.args,
+  component: FacebookReviewDPure,
+}
+
+export const TypeDWithAction = Template.bind({})
+TypeDWithAction.args = {
+  ...WithAction.args,
+  component: FacebookReviewDPure,
+  action: WithAction.args.productLinkButton,
 }

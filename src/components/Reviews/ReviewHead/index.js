@@ -1,6 +1,6 @@
 import React from "react"
 import GatsbyImage from "gatsby-image"
-const ReviewHead = ({ title, logo, avatar, ...props }) => (
+const ReviewHead = ({ title, logo, logoLink, avatar, ...props }) => (
   <div
     className="review-head"
     {...props}
@@ -28,7 +28,9 @@ const ReviewHead = ({ title, logo, avatar, ...props }) => (
       }}
       className="logo"
     >
-      <GatsbyImage fixed={logo} alt="logo" />
+      <a href={logoLink}>
+        <GatsbyImage fixed={logo} alt="logo" />
+      </a>
     </div>
   </div>
 )

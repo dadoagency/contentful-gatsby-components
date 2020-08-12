@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import PropTypes from "prop-types"
 import ReviewBody from "../ReviewBody"
 import ReviewHead from "../ReviewHead"
+import useTrustpilotLink from "../../../hooks/useTrustpilotLink"
 
 BasicReview.propTypes = {
   title: PropTypes.string.isRequired,
@@ -22,11 +23,15 @@ export default function BasicReview({ title, body, avatar, action }) {
       }
     }
   `)
+
+  const url = useTrustpilotLink()
+
   return (
     <div className="facebook-container">
       <ReviewHead
         title={title}
         logo={data.trustpilot.childImageSharp.fixed}
+        logoLink={url}
         avatar={avatar}
       />
       <ReviewBody>{body}</ReviewBody>

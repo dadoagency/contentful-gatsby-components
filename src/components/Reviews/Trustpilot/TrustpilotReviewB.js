@@ -1,6 +1,7 @@
 import React from "react"
 import Image from "../../Image"
 import { useStaticQuery, graphql } from "gatsby"
+import useTrustpilotLink from "../../../hooks/useTrustpilotLink"
 
 const TrustpilotReviewB = ({ title, body, ...props }) => {
   const data = useStaticQuery(graphql`
@@ -21,10 +22,14 @@ const TrustpilotReviewB = ({ title, body, ...props }) => {
       }
     }
   `)
+  const url = useTrustpilotLink()
+
   return (
     <div className="righttestibox trustpilot-review-b">
       <div className="text-center">
-        <Image fixed={data.tp.childImageSharp.fixed} alt="petlab logo" />
+        <a href={url}>
+          <Image fixed={data.tp.childImageSharp.fixed} alt="petlab logo" />
+        </a>
       </div>
       <div>{body}</div>
       <div className="user">

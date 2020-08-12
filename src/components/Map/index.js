@@ -116,6 +116,7 @@ const Map = ({ clickUrl }) => {
       </ComposableMap>
       <div className="map-button-container">
         {Object.keys(offsets).map(key => (
+          // eslint-disable-next-line
           <a
             key={`off-map-button-${key}`}
             onClick={() => alert("CLICK")}

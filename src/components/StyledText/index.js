@@ -4,8 +4,6 @@ import styleLeafNodes from "../../utils/styleLeafNodes"
 import { getFirstValue } from "../../utils/locale"
 
 const StyledText = ({ children, fields, inline }) => {
-  console.log(fields)
-
   // Colour:
   let color = null
   if (fields.colour) {
@@ -29,27 +27,26 @@ const StyledText = ({ children, fields, inline }) => {
   }
 
   if (isCentered) {
-    style.textAlign = 'center'
+    style.textAlign = "center"
   }
 
-  let fontClass = ''
+  let fontClass = ""
   if (fields.baseFontSize) {
     const baseFontSize = getFirstValue(fields.baseFontSize).toLowerCase()
     switch (baseFontSize) {
-      case 'small':
-        fontClass = 'font-size-s'
-        break;
-      case 'medium':
-        fontClass = 'font-size-m'
-        break;
-      case 'large':
-        fontClass = 'font-size-l'
-        break;
+      case "small":
+        fontClass = "font-size-s"
+        break
+      case "medium":
+        fontClass = "font-size-m"
+        break
+      case "large":
+        fontClass = "font-size-l"
+        break
       default:
-        fontClass = 'font-size-m'
+        fontClass = "font-size-m"
     }
   }
-
 
   const Wrapper = ({ children, ...props }) => {
     if (inline) {
@@ -58,8 +55,6 @@ const StyledText = ({ children, fields, inline }) => {
       return <div {...props}>{children}</div>
     }
   }
-
-  console.log(style)
 
   return (
     <Wrapper className={`styledText ${fontClass}`} style={style}>

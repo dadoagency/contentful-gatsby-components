@@ -35,6 +35,12 @@ html.advertorial-type-1 {
     margin: 0px;
     padding: 0px;
   }
+  h3 {
+    color: #1d1d1d;
+    font-size: 1.17em;
+    font-weight: 600;
+    line-height: 1.6;
+  }
   ul {
     margin: 0px;
     padding: 0px;
@@ -554,6 +560,10 @@ html.advertorial-type-1 {
     }
   }
   @media (max-width: 630px) {
+    h3 {
+      font-size: 24.336px;
+      line-height:36.504px;
+    }
     .article-data-container h1,
     .creator-tips h1 {
       font-size: 1.5em;

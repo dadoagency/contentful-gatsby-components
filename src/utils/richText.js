@@ -190,8 +190,6 @@ const renderOptions = {
             )
 
           case "styledText":
-            console.log('styled text')
-            console.log(node)
             return (
               <StyledText fields={node.data.target.fields}>
                 {documentToReactComponents(

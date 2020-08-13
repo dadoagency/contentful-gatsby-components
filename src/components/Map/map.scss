@@ -1,5 +1,6 @@
 .map-main-container {
   position: relative;
+
 }
 .map-button-container {
   display: flex;
@@ -11,6 +12,7 @@
   top: 40%;
   height: 120px;
   width: 50px;
+
   @media (max-width: 480px) {
   }
 }
@@ -29,4 +31,8 @@
 
 .svg-state {
   transition: fill 700ms linear;
+}
+
+.rsm-geography {
+  cursor: pointer;
 }

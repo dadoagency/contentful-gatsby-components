@@ -102,6 +102,7 @@ const Map = ({ clickUrl }) => {
                             fontSize={14}
                             textAnchor="middle"
                             fill="#fff"
+                            pointerEvents="none"
                           >
                             {cur.id}
                           </text>

@@ -125,14 +125,15 @@ const renderOptions = {
               cta2 = getLocaleValueOrDefault(additionalText)
             }
 
-            const { fields } = getLocaleValueOrDefault(icon)
-
-            if (fields) {
-              const { file } = fields
-              const { url } = getFirstValue(file)
-              graphic = { src: url }
-            } else {
-              // console.log("node has no icon", node)
+            if (icon) {
+              const { fields } = getLocaleValueOrDefault(icon)
+              if (fields) {
+                const { file } = fields
+                const { url } = getFirstValue(file)
+                graphic = { src: url }
+              } else {
+                // console.log("node has no icon", node)
+              }
             }
 
             let buttonBgColour

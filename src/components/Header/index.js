@@ -48,9 +48,9 @@ const Overlay = styled.div`
   width: 100%;
 `
 
-function Header({ logoPosition, headerText, logo }) {
+function Header({ logoPosition, headerText, logo, extra }) {
   if (!logoPosition) {
-    logoPosition = 'center'
+    logoPosition = "left"
   }
   let textPosition = ""
   if (
@@ -62,8 +62,11 @@ function Header({ logoPosition, headerText, logo }) {
     textPosition = "left"
   }
   return (
-    <section className="site-logo-container">
-      <Wrapper logoPosition={logoPosition.toLowerCase()} className="section">
+    <section className="site-logo-container header">
+      <Wrapper
+        logoPosition={logoPosition.toLowerCase()}
+        className="section site-logo-wrapper"
+      >
         <div className="site-logo">
           {logo && <Img fixed={logo.childImageSharp.fixed} alt="Logo" />}
         </div>
@@ -72,12 +75,11 @@ function Header({ logoPosition, headerText, logo }) {
             {headerText && <div>{headerText}</div>}
           </Overlay>
         )}
+        {extra && <div className="extra">{extra}</div>}
       </Wrapper>
     </section>
   )
 }
-
-
 
 Header.propTypes = {
   logoPosition: propTypes.string,
@@ -86,8 +88,8 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  logoPosition: 'center',
-  headerText: '',
+  logoPosition: "center",
+  headerText: "",
 }
 
 export default Header

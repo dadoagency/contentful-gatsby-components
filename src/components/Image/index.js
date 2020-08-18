@@ -5,7 +5,16 @@ import PropTypes from "prop-types"
 // uses gatsby-image when passed fluid or fixed
 // uses html image tag when passed src
 
-const Image = ({ fluid, fixed, src, alt, caption, width, hyperlink, ...props }) => {
+const Image = ({
+  fluid,
+  fixed,
+  src,
+  alt,
+  caption,
+  width,
+  hyperlink,
+  ...props
+}) => {
   let image = null
   if (fluid) {
     image = <Img fluid={fluid} alt={alt} {...props} />
@@ -36,6 +45,7 @@ const Image = ({ fluid, fixed, src, alt, caption, width, hyperlink, ...props }) 
 Image.propTypes = {
   caption: PropTypes.object,
   alt: PropTypes.string,
+  fixed: PropTypes.object,
 }
 
 export default Image

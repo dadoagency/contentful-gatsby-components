@@ -28,7 +28,7 @@ BackgroundColor.args = {
 }
 
 export const ColorAndBackgroundColor = Template.bind({})
-BackgroundColor.args = {
+ColorAndBackgroundColor.args = {
   ...Default.args,
   backgroundColor: "red",
   color: "white",
@@ -45,4 +45,16 @@ InlineColored.args = {
   ...Default.args,
   inline: true,
   color: "red",
+}
+
+export const InlineBackground = Template.bind({})
+InlineBackground.args = {
+  ...BackgroundColor.args,
+  inline: true,
+}
+
+export const InlineBackgroundAndColor = Template.bind({})
+InlineBackgroundAndColor.args = {
+  ...ColorAndBackgroundColor.args,
+  inline: true,
 }

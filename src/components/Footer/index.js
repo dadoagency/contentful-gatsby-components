@@ -12,8 +12,8 @@ const Footer = ({ companyDetails, footerLinks, footerBody }) => (
       </div>
       <div className="footer-nav">
         {footerLinks &&
-          footerLinks.map(link => (
-            <a key={`footer-link-${link.to}`} href={link.to}>
+          footerLinks.map((link, i) => (
+            <a key={`footer-link-${link.to}-${i}`} href={link.to}>
               {link.text}
             </a>
           ))}

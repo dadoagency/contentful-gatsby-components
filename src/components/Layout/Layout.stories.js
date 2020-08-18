@@ -12,8 +12,6 @@ const Template = args => {
   return <Layout {...args} />
 }
 
-console.log(ImageStories.Fixed)
-
 export const Default = Template.bind({})
 Default.args = {
   children: <div>the content</div>,
@@ -21,7 +19,7 @@ Default.args = {
   locale: "en-US",
   logoPosition: "left",
   logo: ImageStories.Fixed.args.fixed,
-  headerText: <h4>Advertorial</h4>,
+  headerText: "Advertorial",
   footer: <Footer {...FooterStories.Default.args} />,
   extra: <div>extra content</div>,
 }

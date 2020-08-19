@@ -7,7 +7,7 @@ const Footer = ({ companyDetails, footerLinks, footerBody }) => (
       <div className="copyrights">
         <p>
           Copyright © {new Date().getFullYear()}{" "}
-          <a href={companyDetails.url}>{companyDetails.name}</a>
+          <a href={companyDetails?.url}>{companyDetails?.name}</a>
         </p>
       </div>
       <div className="footer-nav">

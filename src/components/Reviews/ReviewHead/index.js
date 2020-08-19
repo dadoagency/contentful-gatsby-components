@@ -25,7 +25,7 @@ const ReviewHead = ({ title, logo, logoLink, avatar, ...props }) => (
     </div>
     <div
       style={{
-        height: logo.height,
+        height: logo?.height,
         marginBottom: "5px",
       }}
       className="logo"

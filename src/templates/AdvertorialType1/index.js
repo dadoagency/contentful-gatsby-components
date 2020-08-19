@@ -132,12 +132,13 @@ const AdvertorialType1 = ({
 }) => {
   useRedirectDestination(redirectDestinations)
   const ArticleBody = () => {
-    let document = body.json
+    let document = body?.json
     return documentToReactComponents(document, renderOptions)
   }
   const documentTitle = (
-    <>{documentToReactComponents(headline.json, renderOptions)}</>
+    <>{documentToReactComponents(headline?.json, renderOptions)}</>
   )
+
   return (
     <Layout
       className="advertorial-type-1"
@@ -165,16 +166,16 @@ const AdvertorialType1 = ({
       <Tracking pixelId={facebookPixelId} />
       <Article title={documentTitle} body={<ArticleBody />} />
       <Reviews
-        headerImage={testimonialSection.headerImage}
+        headerImage={testimonialSection?.headerImage}
         subHeading={
-          testimonialSection.subtitle
+          testimonialSection?.subtitle
             ? documentToReactComponents(
                 testimonialSection.subtitle.json,
                 renderOptions
               )
             : null
         }
-        reviews={testimonialSection.reviews}
+        reviews={testimonialSection?.reviews}
       />
     </Layout>
   )

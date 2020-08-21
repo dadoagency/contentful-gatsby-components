@@ -137,7 +137,7 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
         productLinkButton: "ContentfulProductLinkButton",
       },
     }),
-        // ContentfulFacebookReviewD
+    // ContentfulFacebookReviewD
     require("./src/schema/reviews/facebook/facebookReviewD"),
     schema.buildObjectType({
       name: "ContentfulFacebookReviewD",
@@ -169,12 +169,12 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
         "ContentfulTrustpilotReviewD",
       ],
     }),
-    //not using type builder syntax to use @link... try with extensions: {link}
     `
     type ContentfulTestimonialSection implements Node {
       reviews: [TestimonialReview] @link(by: "id", from: "reviews___NODE")
     }
     `,
+    require("./src/schema/contentful/schema"),
     schema.buildObjectType({
       name: "Asset",
       fields: {

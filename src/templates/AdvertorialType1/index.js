@@ -208,7 +208,9 @@ AdvertorialType1.propTypes = {
     headerImage: PropTypes.object.isRequired,
     reviews: PropTypes.arrayOf(
       PropTypes.shape({
-        __typename: PropTypes.string.isRequired,
+        internal: PropTypes.shape({
+          type: PropTypes.string.isRequired,
+        }).isRequired,
         title: PropTypes.string.isRequired,
         body: PropTypes.shape({
           json: PropTypes.object.isRequired,

@@ -24,7 +24,9 @@ TestimonialSection.propTypes = {
 
   reviews: PropTypes.arrayOf(
     PropTypes.shape({
-      __typename: PropTypes.string.isRequired,
+      internal: PropTypes.shape({
+        type: PropTypes.string.isRequired,
+      }).isRequired,
       title: PropTypes.string.isRequired,
       subHeading: PropTypes.shape({
         json: PropTypes.object.isRequired,

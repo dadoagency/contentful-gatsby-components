@@ -12,4 +12,9 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
   ],
+  siteMetadata: {
+    compliance: {
+      trustpilot: "https://www.trustpilot.com/",
+    },
+  },
 }

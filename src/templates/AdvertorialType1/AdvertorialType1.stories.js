@@ -2044,7 +2044,6 @@ Default.args = {
           borderHoverColour: null,
         },
       },
-      {},
     ],
   },
 }

@@ -11,7 +11,9 @@ TrustpilotReview.propTypes = {
   avatar: PropTypes.object,
   action: PropTypes.object,
 }
+
 export function TrustpilotReview({ title, body, avatar, action }) {
+  const url = useTrustpilotLink()
   const data = useStaticQuery(graphql`
     query facebookReviews {
       trustpilot: file(relativePath: { eq: "trustpilot.png" }) {
@@ -23,8 +25,6 @@ export function TrustpilotReview({ title, body, avatar, action }) {
       }
     }
   `)
-
-  const url = useTrustpilotLink()
 
   return (
     <TrustpilotReviewPure

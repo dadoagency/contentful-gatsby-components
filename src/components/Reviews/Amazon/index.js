@@ -8,7 +8,7 @@ AmazonReview.propTypes = {
   title: PropTypes.string.isRequired,
   body: PropTypes.node.isRequired,
   stars: PropTypes.number,
-  productLinkButton: PropTypes.object.isRequired,
+  productLinkButton: PropTypes.object,
 }
 
 export default function AmazonReview({

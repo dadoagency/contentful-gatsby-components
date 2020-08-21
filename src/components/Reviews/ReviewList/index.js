@@ -1,7 +1,7 @@
 import React from "react"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import renderOptions from "../../../utils/richText"
-import BasicReview from "../Trustpilot"
+import TrustpilotReview from "../Trustpilot"
 import ProductLinkButton from "../../ProductLinkButton"
 import AmazonReviewComponent from "../Amazon"
 import FacebookReviewComponent from "../Facebook"
@@ -15,7 +15,7 @@ const DynamicReviewList = ({ reviews }) => {
     <>
       {reviews &&
         reviews.map((review, index) => {
-          switch (review.__typename) {
+          switch (review.internal?.type) {
             case "ContentfulTrustpilotReview":
               return <TrustPilotReview review={review} key={index} />
             case "ContentfulFacebookReview":
@@ -41,7 +41,8 @@ const DynamicReviewList = ({ reviews }) => {
               return <TrustPilotReviewTypeD review={review} key={index} />
             default:
               console.log(
-                "unhandled review type. Will not render " + review.__typename
+                "unhandled review type. Will not render " +
+                  review.internal?.type
               )
               return null
           }
@@ -125,7 +126,7 @@ const TrustPilotReview = ({ review }) => {
   const renderedBody = documentToReactComponents(body.json, renderOptions)
   if (productLinkButton) {
     return (
-      <BasicReview
+      <TrustpilotReview
         title={title}
         body={renderedBody}
         action={
@@ -145,7 +146,7 @@ const TrustPilotReview = ({ review }) => {
     )
   }
   return (
-    <BasicReview
+    <TrustpilotReview
       title={title}
       body={renderedBody}
       avatar={avatar && avatar.localFile.childImageSharp.fixed}

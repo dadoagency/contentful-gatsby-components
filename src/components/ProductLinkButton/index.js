@@ -118,7 +118,6 @@ export function ProductLinkButtonPure({
               )}
             </>
           )}
-          !!
         </div>
       </Button>
     </ProductLink>

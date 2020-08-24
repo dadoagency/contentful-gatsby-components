@@ -15,7 +15,9 @@ const Template = args => {
 export const Default = Template.bind({})
 Default.args = {
   ...FooterStories.Default.args,
-  stickyProductButton: ProductLinkButtonStories.Text.args,
+  stickyProductButton: {
+    text: "text",
+  },
   headline: {
     json: {
       data: {},

@@ -4,7 +4,6 @@ import styleLeafNodes from "../../utils/styleLeafNodes"
 import { getFirstValue } from "../../utils/locale"
 
 const StyledText = ({ children, fields, inline }) => {
-  console.log(fields)
   let colour = getFirstValue(fields?.colour)
   let backgroundColor = getFirstValue(fields?.backgroundColor)
 

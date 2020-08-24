@@ -47,15 +47,6 @@ Default.args = {
         },
       ],
     },
-    {
-      url: "http://a.com",
-      params: [
-        {
-          key: "a",
-          value: "b",
-        },
-      ],
-    },
   ],
   testimonialSection: testimonialFixture,
 }

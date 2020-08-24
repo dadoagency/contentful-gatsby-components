@@ -102,6 +102,7 @@ const Map = ({ clickUrl }) => {
                             fontSize={14}
                             textAnchor="middle"
                             fill="#fff"
+                            pointerEvents="none"
                           >
                             {cur.id}
                           </text>
@@ -119,7 +120,11 @@ const Map = ({ clickUrl }) => {
           // eslint-disable-next-line
           <a
             key={`off-map-button-${key}`}
-            onClick={() => alert("CLICK")}
+            onClick={() => {
+              if (clickUrl) {
+                navigate(clickUrl)
+              }
+            }}
             onMouseEnter={() => handleHover(offsets[key])}
             onMouseLeave={() => handleHover("reset")}
             className="map-button"

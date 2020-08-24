@@ -18,7 +18,12 @@ export default ({
       <Helmet>
         <html className={className} lang={locale} />
       </Helmet>
-      <Header logoPosition={logoPosition} headerText={headerText} logo={logo} />
+      <Header
+        logoPosition={logoPosition}
+        headerText={headerText}
+        logo={logo}
+        extra={extra}
+      />
       <section className="site-data-container">
         <div className="site-data-wrapper section">{children}</div>
       </section>

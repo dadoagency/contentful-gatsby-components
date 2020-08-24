@@ -92,6 +92,7 @@ const AdvertorialType2 = ({
     <Layout
       className="advertorial-type-2"
       logo={logo}
+      logoPosition="left"
       extra={
         stickyProductButton ? (
           <ProductLinkButton

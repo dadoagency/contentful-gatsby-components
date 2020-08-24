@@ -11,9 +11,7 @@ const useRedirectDestination = candidates => {
       if (redirectDestination && redirectDestination.url) {
         const { url, params } = redirectDestination
         let queryString = ""
-        if (params) {
-          queryString = getQueryParam(params)
-        }
+        queryString = getQueryParam(params)
         window.history.replaceState(null, null, queryString)
         setRedirectDestination(url + queryString)
       }

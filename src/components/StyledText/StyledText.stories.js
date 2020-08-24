@@ -58,3 +58,9 @@ InlineBackgroundAndColor.args = {
   ...ColorAndBackgroundColor.args,
   inline: true,
 }
+
+export const Centered = Template.bind({})
+Centered.args = {
+  ...Default.args,
+  isCentered: true,
+}

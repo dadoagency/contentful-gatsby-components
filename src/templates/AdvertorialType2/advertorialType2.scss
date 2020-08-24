@@ -1,4 +1,5 @@
 html.advertorial-type-2 {
+  @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
   body {
     font-family: "Work Sans", sans-serif;
   }
@@ -6,7 +7,6 @@ html.advertorial-type-2 {
   @import "./importedStyles.scss";
 
   word-wrap: break-word;
-
   background: #fdfbf6;
 
   p:empty {
@@ -82,7 +82,6 @@ html.advertorial-type-2 {
         img {
           width: 18px;
           height: 18px;
-
           filter: invert(1);
         }
       }

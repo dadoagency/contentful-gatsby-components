@@ -55,6 +55,9 @@ export const AdvertorialType2Page = graphql`
       }
       reviews {
         ... on ContentfulTrustpilotReviewB {
+          internal {
+            type
+          }
           title
           body {
             json
@@ -104,19 +107,19 @@ const AdvertorialType2 = ({
       footer={
         <footer>
           <div className="site-footer-wrapper">
-            {footer && documentToReactComponents(footer.json, renderOptions)}
+            {footer && documentToReactComponents(footer?.json, renderOptions)}
           </div>
         </footer>
       }
     >
       <Tracking pixelId={facebookPixelId} />
       <div className="title">
-        {headline && documentToReactComponents(headline.json, renderOptions)}
+        {headline && documentToReactComponents(headline?.json, renderOptions)}
       </div>
       <div className="flex-wrapper">
         <Article
           body={
-            <>{body && documentToReactComponents(body.json, renderOptions)}</>
+            <>{body && documentToReactComponents(body?.json, renderOptions)}</>
           }
         />
 
@@ -128,7 +131,7 @@ const AdvertorialType2 = ({
                 subHeading={
                   <>
                     {documentToReactComponents(
-                      testimonialSection.subtitle.json,
+                      testimonialSection?.subtitle?.json,
                       renderOptions
                     )}
                   </>
@@ -142,7 +145,7 @@ const AdvertorialType2 = ({
                 subHeading={
                   <>
                     {documentToReactComponents(
-                      testimonialSection.subtitle.json,
+                      testimonialSection?.subtitle?.json,
                       renderOptions
                     )}
                   </>

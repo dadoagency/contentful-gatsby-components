@@ -69,3 +69,5 @@ yarn-error.log
 
 # build output
 dist/ 
+
+storybook-static

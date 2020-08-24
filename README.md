@@ -1,3 +1,7 @@
+Storybook: https://stories--5f43c1219b70f800227245f3.chromatic.com
+
+Chromatic: https://chromatic.com/library?appId=5f43c1219b70f800227245f3&master=master
+
 ## How to install
 
 `yarn add @dadoagency/contentful-gatsby-components`

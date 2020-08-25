@@ -2,7 +2,6 @@ import React from "react"
 import AmazonReview from "./index"
 import * as ProductLinkButtonStories from "../../ProductLinkButton/ProductLinkButton.stories"
 
-import starIcon from "../../../images/review_star.png"
 import ProductLinkButton from "../../ProductLinkButton"
 
 export default {

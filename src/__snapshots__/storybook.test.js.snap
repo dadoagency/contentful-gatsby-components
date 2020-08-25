@@ -1,5 +1,728 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Amazon Review Default 1`] = `
+<div
+  className="facebook-container"
+>
+  <div
+    style={
+      Object {
+        "fontFamily": "lato, arial, sans-serif",
+        "fontSize": "14px",
+      }
+    }
+  >
+    <div
+      className=" gatsby-image-wrapper"
+      style={
+        Object {
+          "display": "inline-block",
+          "height": 19,
+          "overflow": "hidden",
+          "position": "relative",
+          "width": 20,
+        }
+      }
+    >
+      <img
+        alt=""
+        aria-hidden={true}
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAACPElEQVQ4y41UPU8cMRC93UNEwsNHkQjaKEkRiSICRJ02AgmB+B0UUbrkP6QjBV0QuhSUiAZ5+QifAUGTtBQUSJHSRQhyx655Mx4v3jsgrPTk8Xr85s3Y41rtjs9lJGNhTSpza8aACbX1H9Ue/bGzW+/hse4DmAbsXyEYSMugj/qKzERKzCvg0u2RwzipAeq69h9lnkhV6qaMvrh9kG0zIW2pX8JZSOB2pSLfp5AAqcCabq+UXhSsbl3Irt2OqHyngZ5wSQD2T8oyPFQLOM+7HyDJTAsbrjXtjXtLFUrgZoX4KfAamATmkM48Nl94daYAaYEAGDkANYAPmM8Cb0A0BJ+ukPJ74BQO57KZa3UAHAIlmZAwPCmvs3Iuwab4/AHOEPQzpzWAiXXHvbzQBHJNsXlLpgpvbV5vYcwx/hNyS6ewX8YnvKwLEZGkWFXoicO/ptwAa05g94euSCPSb5JqRnlbqncAhyQCzBHQp4dYD0RpdI2+uu+yIW9TF9URa95nG3ZvO1n1IlvTj8XfvtiUdxDaKIilEd3TVelvf7kpNP2w1DHebKmo2JzurtgzQV2lDaXhQ39mZsoXGp3hiVpCtCH1aul9bGqtP4XsQqYxaUj5o9wzS1dSx4Nw8vTXd43U7kqDNsIZVJ4z/ygEQlosHwMpPK0gyGhh6Tn8FuRA9vRSWzrUnq91pBzZP/WSr6Gl3nb2txmGz5J/ffBwWBr0fUxJ7JSo0mewWdF0pD4tXxQti+4Zx3wVGFGVcqg38UaA6SfLuosAAAAASUVORK5CYII="
+        style={
+          Object {
+            "height": "100%",
+            "left": 0,
+            "objectFit": "cover",
+            "objectPosition": "center",
+            "opacity": 1,
+            "position": "absolute",
+            "top": 0,
+            "transitionDelay": "500ms",
+            "width": "100%",
+          }
+        }
+      />
+      <picture>
+        <source
+          srcSet="/static/15cf3f5b820b523c44b22fbadeb90e67/f7a9a/review_star.webp 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/c6edb/review_star.webp 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/44b89/review_star.webp 2x"
+          type="image/webp"
+        />
+        <source
+          srcSet="/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x"
+        />
+        <img
+          alt="Review star"
+          height={19}
+          loading="lazy"
+          onLoad={[Function]}
+          src="/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png"
+          srcSet="/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x"
+          style={
+            Object {
+              "height": "100%",
+              "left": 0,
+              "objectFit": "cover",
+              "objectPosition": "center",
+              "opacity": 0,
+              "position": "absolute",
+              "top": 0,
+              "transition": "opacity 500ms",
+              "width": "100%",
+            }
+          }
+          width={20}
+        />
+      </picture>
+      <noscript
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<picture><source type='image/webp' srcset=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/f7a9a/review_star.webp 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/c6edb/review_star.webp 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/44b89/review_star.webp 2x\\" /><source srcset=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x\\" /><img loading=\\"lazy\\" width=\\"20\\" height=\\"19\\" srcset=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x\\" src=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png\\" alt=\\"Review star\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+          }
+        }
+      />
+    </div>
+    <div
+      className=" gatsby-image-wrapper"
+      style={
+        Object {
+          "display": "inline-block",
+          "height": 19,
+          "overflow": "hidden",
+          "position": "relative",
+          "width": 20,
+        }
+      }
+    >
+      <img
+        alt=""
+        aria-hidden={true}
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAACPElEQVQ4y41UPU8cMRC93UNEwsNHkQjaKEkRiSICRJ02AgmB+B0UUbrkP6QjBV0QuhSUiAZ5+QifAUGTtBQUSJHSRQhyx655Mx4v3jsgrPTk8Xr85s3Y41rtjs9lJGNhTSpza8aACbX1H9Ue/bGzW+/hse4DmAbsXyEYSMugj/qKzERKzCvg0u2RwzipAeq69h9lnkhV6qaMvrh9kG0zIW2pX8JZSOB2pSLfp5AAqcCabq+UXhSsbl3Irt2OqHyngZ5wSQD2T8oyPFQLOM+7HyDJTAsbrjXtjXtLFUrgZoX4KfAamATmkM48Nl94daYAaYEAGDkANYAPmM8Cb0A0BJ+ukPJ74BQO57KZa3UAHAIlmZAwPCmvs3Iuwab4/AHOEPQzpzWAiXXHvbzQBHJNsXlLpgpvbV5vYcwx/hNyS6ewX8YnvKwLEZGkWFXoicO/ptwAa05g94euSCPSb5JqRnlbqncAhyQCzBHQp4dYD0RpdI2+uu+yIW9TF9URa95nG3ZvO1n1IlvTj8XfvtiUdxDaKIilEd3TVelvf7kpNP2w1DHebKmo2JzurtgzQV2lDaXhQ39mZsoXGp3hiVpCtCH1aul9bGqtP4XsQqYxaUj5o9wzS1dSx4Nw8vTXd43U7kqDNsIZVJ4z/ygEQlosHwMpPK0gyGhh6Tn8FuRA9vRSWzrUnq91pBzZP/WSr6Gl3nb2txmGz5J/ffBwWBr0fUxJ7JSo0mewWdF0pD4tXxQti+4Zx3wVGFGVcqg38UaA6SfLuosAAAAASUVORK5CYII="
+        style={
+          Object {
+            "height": "100%",
+            "left": 0,
+            "objectFit": "cover",
+            "objectPosition": "center",
+            "opacity": 1,
+            "position": "absolute",
+            "top": 0,
+            "transitionDelay": "500ms",
+            "width": "100%",
+          }
+        }
+      />
+      <picture>
+        <source
+          srcSet="/static/15cf3f5b820b523c44b22fbadeb90e67/f7a9a/review_star.webp 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/c6edb/review_star.webp 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/44b89/review_star.webp 2x"
+          type="image/webp"
+        />
+        <source
+          srcSet="/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x"
+        />
+        <img
+          alt="Review star"
+          height={19}
+          loading="lazy"
+          onLoad={[Function]}
+          src="/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png"
+          srcSet="/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x"
+          style={
+            Object {
+              "height": "100%",
+              "left": 0,
+              "objectFit": "cover",
+              "objectPosition": "center",
+              "opacity": 0,
+              "position": "absolute",
+              "top": 0,
+              "transition": "opacity 500ms",
+              "width": "100%",
+            }
+          }
+          width={20}
+        />
+      </picture>
+      <noscript
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<picture><source type='image/webp' srcset=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/f7a9a/review_star.webp 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/c6edb/review_star.webp 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/44b89/review_star.webp 2x\\" /><source srcset=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x\\" /><img loading=\\"lazy\\" width=\\"20\\" height=\\"19\\" srcset=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x\\" src=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png\\" alt=\\"Review star\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+          }
+        }
+      />
+    </div>
+    <div
+      className=" gatsby-image-wrapper"
+      style={
+        Object {
+          "display": "inline-block",
+          "height": 19,
+          "overflow": "hidden",
+          "position": "relative",
+          "width": 20,
+        }
+      }
+    >
+      <img
+        alt=""
+        aria-hidden={true}
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAACPElEQVQ4y41UPU8cMRC93UNEwsNHkQjaKEkRiSICRJ02AgmB+B0UUbrkP6QjBV0QuhSUiAZ5+QifAUGTtBQUSJHSRQhyx655Mx4v3jsgrPTk8Xr85s3Y41rtjs9lJGNhTSpza8aACbX1H9Ue/bGzW+/hse4DmAbsXyEYSMugj/qKzERKzCvg0u2RwzipAeq69h9lnkhV6qaMvrh9kG0zIW2pX8JZSOB2pSLfp5AAqcCabq+UXhSsbl3Irt2OqHyngZ5wSQD2T8oyPFQLOM+7HyDJTAsbrjXtjXtLFUrgZoX4KfAamATmkM48Nl94daYAaYEAGDkANYAPmM8Cb0A0BJ+ukPJ74BQO57KZa3UAHAIlmZAwPCmvs3Iuwab4/AHOEPQzpzWAiXXHvbzQBHJNsXlLpgpvbV5vYcwx/hNyS6ewX8YnvKwLEZGkWFXoicO/ptwAa05g94euSCPSb5JqRnlbqncAhyQCzBHQp4dYD0RpdI2+uu+yIW9TF9URa95nG3ZvO1n1IlvTj8XfvtiUdxDaKIilEd3TVelvf7kpNP2w1DHebKmo2JzurtgzQV2lDaXhQ39mZsoXGp3hiVpCtCH1aul9bGqtP4XsQqYxaUj5o9wzS1dSx4Nw8vTXd43U7kqDNsIZVJ4z/ygEQlosHwMpPK0gyGhh6Tn8FuRA9vRSWzrUnq91pBzZP/WSr6Gl3nb2txmGz5J/ffBwWBr0fUxJ7JSo0mewWdF0pD4tXxQti+4Zx3wVGFGVcqg38UaA6SfLuosAAAAASUVORK5CYII="
+        style={
+          Object {
+            "height": "100%",
+            "left": 0,
+            "objectFit": "cover",
+            "objectPosition": "center",
+            "opacity": 1,
+            "position": "absolute",
+            "top": 0,
+            "transitionDelay": "500ms",
+            "width": "100%",
+          }
+        }
+      />
+      <picture>
+        <source
+          srcSet="/static/15cf3f5b820b523c44b22fbadeb90e67/f7a9a/review_star.webp 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/c6edb/review_star.webp 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/44b89/review_star.webp 2x"
+          type="image/webp"
+        />
+        <source
+          srcSet="/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x"
+        />
+        <img
+          alt="Review star"
+          height={19}
+          loading="lazy"
+          onLoad={[Function]}
+          src="/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png"
+          srcSet="/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x"
+          style={
+            Object {
+              "height": "100%",
+              "left": 0,
+              "objectFit": "cover",
+              "objectPosition": "center",
+              "opacity": 0,
+              "position": "absolute",
+              "top": 0,
+              "transition": "opacity 500ms",
+              "width": "100%",
+            }
+          }
+          width={20}
+        />
+      </picture>
+      <noscript
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<picture><source type='image/webp' srcset=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/f7a9a/review_star.webp 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/c6edb/review_star.webp 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/44b89/review_star.webp 2x\\" /><source srcset=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x\\" /><img loading=\\"lazy\\" width=\\"20\\" height=\\"19\\" srcset=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x\\" src=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png\\" alt=\\"Review star\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+          }
+        }
+      />
+    </div>
+      
+    <div
+      className=" gatsby-image-wrapper"
+      style={
+        Object {
+          "display": "inline-block",
+          "height": 30,
+          "overflow": "hidden",
+          "position": "relative",
+          "width": 93,
+        }
+      }
+    >
+      <img
+        alt=""
+        aria-hidden={true}
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABiUlEQVQY02NgAAItLS0DbW1tRwd7e1Y9PT0dINtER0fHUFdXVxHI5wHK+xkaGooCxZXU1NRcgeISQKwA5FtNmjSJEagGpN8sKyuLgcHCwoIdqLldQ0PjBFBjDpDeDsSHgfiAurr6En19fQ9NTc09QPYiU1MTIKV2B8hvAOJZQDWrgHqqgfQ+ID4OMhTkOiktLc1+oMAaIJ6so6U5CejEGiC7Eqh7BlBjMVDNdKDLNqppaLooqajv0tLW9gbKzweKJwDpY0C5eiDdDuSHMABNlQdq3AXUuBAo0CAmr1miqKqdpaejVaCrrdmso6UBtEBzk4aG5gRgYLRaGWrsNtDXTQKqnwRyBFB/IlB/FZBfAfSpKygIGTwdLXgYGPRYfy93Vnk50yrgWr+VBAMK0GEBkf9X2tv+X2nV+X+FtRqI72xtKAiibe3s2FxcXVhcXV2ZGJSVlVG0/l5kaf1jvlnbj/mmE37MM6n4Ptck9+9C08rv80x7vs23iPkwz8blw1xLIZh6KUkpRmT9APF9cs4bmVUCAAAAAElFTkSuQmCC"
+        style={
+          Object {
+            "height": "100%",
+            "left": 0,
+            "objectFit": "cover",
+            "objectPosition": "center",
+            "opacity": 1,
+            "position": "absolute",
+            "top": 0,
+            "transitionDelay": "500ms",
+            "width": "100%",
+          }
+        }
+      />
+      <picture>
+        <source
+          srcSet=""
+        />
+        <img
+          alt="Amazon logo"
+          height={30}
+          loading="lazy"
+          onLoad={[Function]}
+          src=""
+          srcSet=""
+          style={
+            Object {
+              "height": "100%",
+              "left": 0,
+              "objectFit": "cover",
+              "objectPosition": "center",
+              "opacity": 0,
+              "position": "absolute",
+              "top": 0,
+              "transition": "opacity 500ms",
+              "width": "100%",
+            }
+          }
+          width={93}
+        />
+      </picture>
+      <noscript
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<picture><source srcset=\\"\\" /><img loading=\\"lazy\\" width=\\"93\\" height=\\"30\\" src=\\"\\" alt=\\"Amazon logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+          }
+        }
+      />
+    </div>
+       Verified Purchase
+  </div>
+  <div
+    style={
+      Object {
+        "borderBottom": "1px solid #CCC",
+        "color": "#444",
+        "fontSize": "1.1em",
+        "fontWeight": "bold",
+        "marginBottom": "5px",
+      }
+    }
+  >
+    A kind review
+  </div>
+  <div
+    style={
+      Object {
+        "fontFamily": "lato, arial, sans-serif",
+        "fontSize": "14px",
+        "marginTop": "1em",
+      }
+    }
+  >
+    Some text describing what a great service we provided
+  </div>
+  <div>
+    <center />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Amazon Review With Action 1`] = `
+<div
+  className="facebook-container"
+>
+  <div
+    style={
+      Object {
+        "fontFamily": "lato, arial, sans-serif",
+        "fontSize": "14px",
+      }
+    }
+  >
+    <div
+      className=" gatsby-image-wrapper"
+      style={
+        Object {
+          "display": "inline-block",
+          "height": 19,
+          "overflow": "hidden",
+          "position": "relative",
+          "width": 20,
+        }
+      }
+    >
+      <img
+        alt=""
+        aria-hidden={true}
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAACPElEQVQ4y41UPU8cMRC93UNEwsNHkQjaKEkRiSICRJ02AgmB+B0UUbrkP6QjBV0QuhSUiAZ5+QifAUGTtBQUSJHSRQhyx655Mx4v3jsgrPTk8Xr85s3Y41rtjs9lJGNhTSpza8aACbX1H9Ue/bGzW+/hse4DmAbsXyEYSMugj/qKzERKzCvg0u2RwzipAeq69h9lnkhV6qaMvrh9kG0zIW2pX8JZSOB2pSLfp5AAqcCabq+UXhSsbl3Irt2OqHyngZ5wSQD2T8oyPFQLOM+7HyDJTAsbrjXtjXtLFUrgZoX4KfAamATmkM48Nl94daYAaYEAGDkANYAPmM8Cb0A0BJ+ukPJ74BQO57KZa3UAHAIlmZAwPCmvs3Iuwab4/AHOEPQzpzWAiXXHvbzQBHJNsXlLpgpvbV5vYcwx/hNyS6ewX8YnvKwLEZGkWFXoicO/ptwAa05g94euSCPSb5JqRnlbqncAhyQCzBHQp4dYD0RpdI2+uu+yIW9TF9URa95nG3ZvO1n1IlvTj8XfvtiUdxDaKIilEd3TVelvf7kpNP2w1DHebKmo2JzurtgzQV2lDaXhQ39mZsoXGp3hiVpCtCH1aul9bGqtP4XsQqYxaUj5o9wzS1dSx4Nw8vTXd43U7kqDNsIZVJ4z/ygEQlosHwMpPK0gyGhh6Tn8FuRA9vRSWzrUnq91pBzZP/WSr6Gl3nb2txmGz5J/ffBwWBr0fUxJ7JSo0mewWdF0pD4tXxQti+4Zx3wVGFGVcqg38UaA6SfLuosAAAAASUVORK5CYII="
+        style={
+          Object {
+            "height": "100%",
+            "left": 0,
+            "objectFit": "cover",
+            "objectPosition": "center",
+            "opacity": 1,
+            "position": "absolute",
+            "top": 0,
+            "transitionDelay": "500ms",
+            "width": "100%",
+          }
+        }
+      />
+      <picture>
+        <source
+          srcSet="/static/15cf3f5b820b523c44b22fbadeb90e67/f7a9a/review_star.webp 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/c6edb/review_star.webp 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/44b89/review_star.webp 2x"
+          type="image/webp"
+        />
+        <source
+          srcSet="/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x"
+        />
+        <img
+          alt="Review star"
+          height={19}
+          loading="lazy"
+          onLoad={[Function]}
+          src="/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png"
+          srcSet="/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x"
+          style={
+            Object {
+              "height": "100%",
+              "left": 0,
+              "objectFit": "cover",
+              "objectPosition": "center",
+              "opacity": 0,
+              "position": "absolute",
+              "top": 0,
+              "transition": "opacity 500ms",
+              "width": "100%",
+            }
+          }
+          width={20}
+        />
+      </picture>
+      <noscript
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<picture><source type='image/webp' srcset=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/f7a9a/review_star.webp 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/c6edb/review_star.webp 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/44b89/review_star.webp 2x\\" /><source srcset=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x\\" /><img loading=\\"lazy\\" width=\\"20\\" height=\\"19\\" srcset=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x\\" src=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png\\" alt=\\"Review star\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+          }
+        }
+      />
+    </div>
+    <div
+      className=" gatsby-image-wrapper"
+      style={
+        Object {
+          "display": "inline-block",
+          "height": 19,
+          "overflow": "hidden",
+          "position": "relative",
+          "width": 20,
+        }
+      }
+    >
+      <img
+        alt=""
+        aria-hidden={true}
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAACPElEQVQ4y41UPU8cMRC93UNEwsNHkQjaKEkRiSICRJ02AgmB+B0UUbrkP6QjBV0QuhSUiAZ5+QifAUGTtBQUSJHSRQhyx655Mx4v3jsgrPTk8Xr85s3Y41rtjs9lJGNhTSpza8aACbX1H9Ue/bGzW+/hse4DmAbsXyEYSMugj/qKzERKzCvg0u2RwzipAeq69h9lnkhV6qaMvrh9kG0zIW2pX8JZSOB2pSLfp5AAqcCabq+UXhSsbl3Irt2OqHyngZ5wSQD2T8oyPFQLOM+7HyDJTAsbrjXtjXtLFUrgZoX4KfAamATmkM48Nl94daYAaYEAGDkANYAPmM8Cb0A0BJ+ukPJ74BQO57KZa3UAHAIlmZAwPCmvs3Iuwab4/AHOEPQzpzWAiXXHvbzQBHJNsXlLpgpvbV5vYcwx/hNyS6ewX8YnvKwLEZGkWFXoicO/ptwAa05g94euSCPSb5JqRnlbqncAhyQCzBHQp4dYD0RpdI2+uu+yIW9TF9URa95nG3ZvO1n1IlvTj8XfvtiUdxDaKIilEd3TVelvf7kpNP2w1DHebKmo2JzurtgzQV2lDaXhQ39mZsoXGp3hiVpCtCH1aul9bGqtP4XsQqYxaUj5o9wzS1dSx4Nw8vTXd43U7kqDNsIZVJ4z/ygEQlosHwMpPK0gyGhh6Tn8FuRA9vRSWzrUnq91pBzZP/WSr6Gl3nb2txmGz5J/ffBwWBr0fUxJ7JSo0mewWdF0pD4tXxQti+4Zx3wVGFGVcqg38UaA6SfLuosAAAAASUVORK5CYII="
+        style={
+          Object {
+            "height": "100%",
+            "left": 0,
+            "objectFit": "cover",
+            "objectPosition": "center",
+            "opacity": 1,
+            "position": "absolute",
+            "top": 0,
+            "transitionDelay": "500ms",
+            "width": "100%",
+          }
+        }
+      />
+      <picture>
+        <source
+          srcSet="/static/15cf3f5b820b523c44b22fbadeb90e67/f7a9a/review_star.webp 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/c6edb/review_star.webp 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/44b89/review_star.webp 2x"
+          type="image/webp"
+        />
+        <source
+          srcSet="/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x"
+        />
+        <img
+          alt="Review star"
+          height={19}
+          loading="lazy"
+          onLoad={[Function]}
+          src="/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png"
+          srcSet="/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x"
+          style={
+            Object {
+              "height": "100%",
+              "left": 0,
+              "objectFit": "cover",
+              "objectPosition": "center",
+              "opacity": 0,
+              "position": "absolute",
+              "top": 0,
+              "transition": "opacity 500ms",
+              "width": "100%",
+            }
+          }
+          width={20}
+        />
+      </picture>
+      <noscript
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<picture><source type='image/webp' srcset=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/f7a9a/review_star.webp 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/c6edb/review_star.webp 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/44b89/review_star.webp 2x\\" /><source srcset=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x\\" /><img loading=\\"lazy\\" width=\\"20\\" height=\\"19\\" srcset=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x\\" src=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png\\" alt=\\"Review star\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+          }
+        }
+      />
+    </div>
+    <div
+      className=" gatsby-image-wrapper"
+      style={
+        Object {
+          "display": "inline-block",
+          "height": 19,
+          "overflow": "hidden",
+          "position": "relative",
+          "width": 20,
+        }
+      }
+    >
+      <img
+        alt=""
+        aria-hidden={true}
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAACPElEQVQ4y41UPU8cMRC93UNEwsNHkQjaKEkRiSICRJ02AgmB+B0UUbrkP6QjBV0QuhSUiAZ5+QifAUGTtBQUSJHSRQhyx655Mx4v3jsgrPTk8Xr85s3Y41rtjs9lJGNhTSpza8aACbX1H9Ue/bGzW+/hse4DmAbsXyEYSMugj/qKzERKzCvg0u2RwzipAeq69h9lnkhV6qaMvrh9kG0zIW2pX8JZSOB2pSLfp5AAqcCabq+UXhSsbl3Irt2OqHyngZ5wSQD2T8oyPFQLOM+7HyDJTAsbrjXtjXtLFUrgZoX4KfAamATmkM48Nl94daYAaYEAGDkANYAPmM8Cb0A0BJ+ukPJ74BQO57KZa3UAHAIlmZAwPCmvs3Iuwab4/AHOEPQzpzWAiXXHvbzQBHJNsXlLpgpvbV5vYcwx/hNyS6ewX8YnvKwLEZGkWFXoicO/ptwAa05g94euSCPSb5JqRnlbqncAhyQCzBHQp4dYD0RpdI2+uu+yIW9TF9URa95nG3ZvO1n1IlvTj8XfvtiUdxDaKIilEd3TVelvf7kpNP2w1DHebKmo2JzurtgzQV2lDaXhQ39mZsoXGp3hiVpCtCH1aul9bGqtP4XsQqYxaUj5o9wzS1dSx4Nw8vTXd43U7kqDNsIZVJ4z/ygEQlosHwMpPK0gyGhh6Tn8FuRA9vRSWzrUnq91pBzZP/WSr6Gl3nb2txmGz5J/ffBwWBr0fUxJ7JSo0mewWdF0pD4tXxQti+4Zx3wVGFGVcqg38UaA6SfLuosAAAAASUVORK5CYII="
+        style={
+          Object {
+            "height": "100%",
+            "left": 0,
+            "objectFit": "cover",
+            "objectPosition": "center",
+            "opacity": 1,
+            "position": "absolute",
+            "top": 0,
+            "transitionDelay": "500ms",
+            "width": "100%",
+          }
+        }
+      />
+      <picture>
+        <source
+          srcSet="/static/15cf3f5b820b523c44b22fbadeb90e67/f7a9a/review_star.webp 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/c6edb/review_star.webp 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/44b89/review_star.webp 2x"
+          type="image/webp"
+        />
+        <source
+          srcSet="/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x"
+        />
+        <img
+          alt="Review star"
+          height={19}
+          loading="lazy"
+          onLoad={[Function]}
+          src="/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png"
+          srcSet="/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x"
+          style={
+            Object {
+              "height": "100%",
+              "left": 0,
+              "objectFit": "cover",
+              "objectPosition": "center",
+              "opacity": 0,
+              "position": "absolute",
+              "top": 0,
+              "transition": "opacity 500ms",
+              "width": "100%",
+            }
+          }
+          width={20}
+        />
+      </picture>
+      <noscript
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<picture><source type='image/webp' srcset=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/f7a9a/review_star.webp 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/c6edb/review_star.webp 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/44b89/review_star.webp 2x\\" /><source srcset=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x\\" /><img loading=\\"lazy\\" width=\\"20\\" height=\\"19\\" srcset=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png 1x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/a74cd/review_star.png 1.5x,
+/static/15cf3f5b820b523c44b22fbadeb90e67/0efb1/review_star.png 2x\\" src=\\"/static/15cf3f5b820b523c44b22fbadeb90e67/b22c5/review_star.png\\" alt=\\"Review star\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+          }
+        }
+      />
+    </div>
+      
+    <div
+      className=" gatsby-image-wrapper"
+      style={
+        Object {
+          "display": "inline-block",
+          "height": 30,
+          "overflow": "hidden",
+          "position": "relative",
+          "width": 93,
+        }
+      }
+    >
+      <img
+        alt=""
+        aria-hidden={true}
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABiUlEQVQY02NgAAItLS0DbW1tRwd7e1Y9PT0dINtER0fHUFdXVxHI5wHK+xkaGooCxZXU1NRcgeISQKwA5FtNmjSJEagGpN8sKyuLgcHCwoIdqLldQ0PjBFBjDpDeDsSHgfiAurr6En19fQ9NTc09QPYiU1MTIKV2B8hvAOJZQDWrgHqqgfQ+ID4OMhTkOiktLc1+oMAaIJ6so6U5CejEGiC7Eqh7BlBjMVDNdKDLNqppaLooqajv0tLW9gbKzweKJwDpY0C5eiDdDuSHMABNlQdq3AXUuBAo0CAmr1miqKqdpaejVaCrrdmso6UBtEBzk4aG5gRgYLRaGWrsNtDXTQKqnwRyBFB/IlB/FZBfAfSpKygIGTwdLXgYGPRYfy93Vnk50yrgWr+VBAMK0GEBkf9X2tv+X2nV+X+FtRqI72xtKAiibe3s2FxcXVhcXV2ZGJSVlVG0/l5kaf1jvlnbj/mmE37MM6n4Ptck9+9C08rv80x7vs23iPkwz8blw1xLIZh6KUkpRmT9APF9cs4bmVUCAAAAAElFTkSuQmCC"
+        style={
+          Object {
+            "height": "100%",
+            "left": 0,
+            "objectFit": "cover",
+            "objectPosition": "center",
+            "opacity": 1,
+            "position": "absolute",
+            "top": 0,
+            "transitionDelay": "500ms",
+            "width": "100%",
+          }
+        }
+      />
+      <picture>
+        <source
+          srcSet=""
+        />
+        <img
+          alt="Amazon logo"
+          height={30}
+          loading="lazy"
+          onLoad={[Function]}
+          src=""
+          srcSet=""
+          style={
+            Object {
+              "height": "100%",
+              "left": 0,
+              "objectFit": "cover",
+              "objectPosition": "center",
+              "opacity": 0,
+              "position": "absolute",
+              "top": 0,
+              "transition": "opacity 500ms",
+              "width": "100%",
+            }
+          }
+          width={93}
+        />
+      </picture>
+      <noscript
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<picture><source srcset=\\"\\" /><img loading=\\"lazy\\" width=\\"93\\" height=\\"30\\" src=\\"\\" alt=\\"Amazon logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+          }
+        }
+      />
+    </div>
+       Verified Purchase
+  </div>
+  <div
+    style={
+      Object {
+        "borderBottom": "1px solid #CCC",
+        "color": "#444",
+        "fontSize": "1.1em",
+        "fontWeight": "bold",
+        "marginBottom": "5px",
+      }
+    }
+  >
+    A kind review
+  </div>
+  <div
+    style={
+      Object {
+        "fontFamily": "lato, arial, sans-serif",
+        "fontSize": "14px",
+        "marginTop": "1em",
+      }
+    }
+  >
+    Some text describing what a great service we provided
+  </div>
+  <div>
+    <center>
+      <a
+        className="productLink "
+        href="default"
+      >
+        <div
+          className="sc-AxiKw gtoKoy page-btn"
+        >
+          <div
+            className="arrow-wrapper"
+          >
+            <span>
+              Click me
+            </span>
+          </div>
+        </div>
+      </a>
+    </center>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Article Default 1`] = `
 <div
   className="left-data-wrapper article"
@@ -78,6 +801,47 @@ exports[`Storyshots Article Default 1`] = `
     </div>
   </div>
 </div>
+`;
+
+exports[`Storyshots Button Bonus Text 1`] = `
+<a
+  className="productLink "
+  href="/"
+>
+  <div
+    className="sc-AxiKw gtoKoy page-btn"
+  >
+    <div
+      className="arrow-wrapper"
+    >
+      <p>
+        Click me
+      </p>
+      <span>
+        Bonus text
+      </span>
+    </div>
+  </div>
+</a>
+`;
+
+exports[`Storyshots Button Text 1`] = `
+<a
+  className="productLink "
+  href="/"
+>
+  <div
+    className="sc-AxiKw gtoKoy page-btn"
+  >
+    <div
+      className="arrow-wrapper"
+    >
+      <span>
+        Click me
+      </span>
+    </div>
+  </div>
+</a>
 `;
 
 exports[`Storyshots Footer Default 1`] = `
@@ -347,6 +1111,194 @@ exports[`Storyshots Image Max Width 1`] = `
       }
     }
   />
+</div>
+`;
+
+exports[`Storyshots Layout Default 1`] = `
+<div>
+  <section
+    className="site-logo-container header"
+  >
+    <div
+      className="sc-AxjAm gPHMU section site-logo-wrapper"
+    >
+      <div
+        className="site-logo"
+      >
+        <div
+          className=" gatsby-image-wrapper"
+          style={
+            Object {
+              "display": "inline-block",
+              "height": 150,
+              "overflow": "hidden",
+              "position": "relative",
+              "width": 150,
+            }
+          }
+        >
+          <picture>
+            <source
+              srcSet=""
+            />
+            <img
+              alt="Logo"
+              height={150}
+              loading="lazy"
+              onLoad={[Function]}
+              src="test-image-stub"
+              srcSet=""
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "transition": "opacity 500ms",
+                  "width": "100%",
+                }
+              }
+              width={150}
+            />
+          </picture>
+          <noscript
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<picture><source srcset=\\"\\" /><img loading=\\"lazy\\" width=\\"150\\" height=\\"150\\" src=\\"test-image-stub\\" alt=\\"Logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="sc-AxirZ lgbZhd"
+      >
+        <div>
+          Advertorial
+        </div>
+      </div>
+      <div
+        className="extra"
+      >
+        <div>
+          extra content
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="site-data-container"
+  >
+    <div
+      className="site-data-wrapper section"
+    >
+      <div>
+        the content
+      </div>
+    </div>
+  </section>
+  <footer
+    className="site-footer-container"
+  >
+    <div
+      className="site-footer-wrapper"
+    >
+      <div
+        className="copyrights"
+      >
+        <p>
+          Copyright © 
+          2020
+           
+          <a
+            href="/"
+          >
+            Dado
+          </a>
+        </p>
+      </div>
+      <div
+        className="footer-nav"
+      >
+        <a
+          href="/"
+        >
+          Link to somewhere
+        </a>
+        <a
+          href="/"
+        >
+          Link to nowhere
+        </a>
+      </div>
+      <div
+        className="footer-msg"
+      >
+        <div>
+          This is arbitrary content
+          <p>
+            that can be nested
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`Storyshots Product Card Default 1`] = `
+<div
+  className="meta-info product-card "
+>
+  <center>
+    <div
+      className="article-img-wrapper"
+    >
+      <img
+        alt="header"
+        src="https://via.placeholder.com/150"
+        style={
+          Object {
+            "width": undefined,
+          }
+        }
+      />
+    </div>
+  </center>
+  <div
+    className="figure caption"
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
+  >
+    <div>
+      <b>
+        This
+      </b>
+       is a sub heading
+    </div>
+  </div>
+  <a
+    className="productLink "
+    href="default"
+  >
+    <div
+      className="sc-AxiKw gtoKoy page-btn"
+    >
+      <div
+        className="arrow-wrapper"
+      >
+        <span>
+          Click me
+        </span>
+      </div>
+    </div>
+  </a>
 </div>
 `;
 

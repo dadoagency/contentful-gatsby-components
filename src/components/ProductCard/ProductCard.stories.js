@@ -1,6 +1,5 @@
 import React from "react"
 import ProductCard from "./index"
-// import Footer from "../Footer/index"
 import * as ImageStories from "../Image/Image.stories"
 import * as ButtonStories from "../ProductLinkButton/ProductLinkButton.stories"
 import ProductLinkButton from "../ProductLinkButton"

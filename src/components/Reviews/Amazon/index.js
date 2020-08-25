@@ -27,7 +27,6 @@ export default function AmazonReview({
         }
       }
       amazonLogo: file(relativePath: { eq: "amazon-logo.png" }) {
-        id
         childImageSharp {
           fixed(width: 93) {
             ...GatsbyImageSharpFixed
@@ -39,12 +38,12 @@ export default function AmazonReview({
 
   return (
     <AmazonReviewPure
-      logo={data.amazonLogo.childImageSharp.fixed}
+      logo={data?.amazonLogo?.childImageSharp?.fixed}
       title={title}
       body={body}
       productLinkButton={productLinkButton}
       numStars={stars}
-      starIcon={data.star.childImageSharp.fixed}
+      starIcon={data?.star?.childImageSharp?.fixed}
     />
   )
 }

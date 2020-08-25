@@ -844,6 +844,519 @@ exports[`Storyshots Button Text 1`] = `
 </a>
 `;
 
+exports[`Storyshots Facebook Review Default 1`] = `
+<div
+  className="facebook-container"
+>
+  <div
+    className="review-head"
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "borderBottom": "1px solid #CCC",
+        "color": "#444",
+        "display": "flex",
+        "fontSize": "1.1em",
+        "fontWeight": "bold",
+        "justifyContent": "space-between",
+        "marginBottom": "5px",
+      }
+    }
+  >
+    <div>
+      <span>
+        A kind review
+      </span>
+    </div>
+    <div
+      className="logo"
+      style={
+        Object {
+          "height": 15,
+          "marginBottom": "5px",
+        }
+      }
+    >
+      <a>
+        <div
+          className=" gatsby-image-wrapper"
+          style={
+            Object {
+              "display": "inline-block",
+              "height": 15,
+              "overflow": "hidden",
+              "position": "relative",
+              "width": 73,
+            }
+          }
+        >
+          <img
+            alt=""
+            aria-hidden={true}
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAA8UlEQVQY03WPvUoEMRSFp/MBfAQfQEszybiw2AhaKkwyP4KytSJYWa+Ntbq5yUyhsCBaqPhTKKKVWCiKhbAv4+dab+Bwzz3ncJIkWRmNsjKq926nkgmHzDLoTfIX6mZOF6E/XlTun5X111ndrqROeosbJ9OplV1dxDVdxiWCBfo2uS/4ame9ncHvZ1WcNWUweDupC5vzuW9M1XaT1PpzEEzVVBT/EPi7QCjsUDKCv6E9MQO44TefKh8cM18ofiCDLq9438yrRDu/BfZZzsCHdnKPeWTK2CX8TtkBLztEG+KfUnKHPlBOLuEXY27l8b9Uhr9uY3UFr+e/9wAAAABJRU5ErkJggg=="
+            style={
+              Object {
+                "height": "100%",
+                "left": 0,
+                "objectFit": "cover",
+                "objectPosition": "center",
+                "opacity": 1,
+                "position": "absolute",
+                "top": 0,
+                "transitionDelay": "500ms",
+                "width": "100%",
+              }
+            }
+          />
+          <picture>
+            <source
+              srcSet="/static/d1010c6ec089cff141523eb269214ad5/83af0/fb.webp 1x"
+              type="image/webp"
+            />
+            <source
+              srcSet="/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png 1x"
+            />
+            <img
+              alt="logo"
+              height={15}
+              loading="lazy"
+              onLoad={[Function]}
+              src="/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png"
+              srcSet="/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png 1x"
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "transition": "opacity 500ms",
+                  "width": "100%",
+                }
+              }
+              width={73}
+            />
+          </picture>
+          <noscript
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<picture><source type='image/webp' srcset=\\"/static/d1010c6ec089cff141523eb269214ad5/83af0/fb.webp 1x\\" /><source srcset=\\"/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png 1x\\" /><img loading=\\"lazy\\" width=\\"73\\" height=\\"15\\" srcset=\\"/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png 1x\\" src=\\"/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png\\" alt=\\"logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              }
+            }
+          />
+        </div>
+      </a>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "fontFamily": "lato, arial, sans-serif",
+        "fontSize": "14px",
+        "marginTop": "1em",
+      }
+    }
+  >
+    Some text describing what a great service we provided
+  </div>
+</div>
+`;
+
+exports[`Storyshots Facebook Review Type D 1`] = `
+<div
+  className="facebook-container"
+>
+  <div
+    className="review-head"
+    style={
+      Object {
+        "borderBottom": "1px solid #CCC",
+        "color": "#444",
+        "display": "flex",
+        "flexDirection": "column",
+        "fontSize": "1.1em",
+        "fontWeight": "bold",
+        "justifyContent": "space-between",
+        "marginBottom": "5px",
+      }
+    }
+  >
+    <div />
+    <div
+      className="logo"
+      style={
+        Object {
+          "alignSelf": "flex-start",
+          "height": 15,
+        }
+      }
+    >
+      <div
+        className=" gatsby-image-wrapper"
+        style={
+          Object {
+            "display": "inline-block",
+            "height": 15,
+            "overflow": "hidden",
+            "position": "relative",
+            "width": 73,
+          }
+        }
+      >
+        <img
+          alt=""
+          aria-hidden={true}
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAA8UlEQVQY03WPvUoEMRSFp/MBfAQfQEszybiw2AhaKkwyP4KytSJYWa+Ntbq5yUyhsCBaqPhTKKKVWCiKhbAv4+dab+Bwzz3ncJIkWRmNsjKq926nkgmHzDLoTfIX6mZOF6E/XlTun5X111ndrqROeosbJ9OplV1dxDVdxiWCBfo2uS/4ame9ncHvZ1WcNWUweDupC5vzuW9M1XaT1PpzEEzVVBT/EPi7QCjsUDKCv6E9MQO44TefKh8cM18ofiCDLq9438yrRDu/BfZZzsCHdnKPeWTK2CX8TtkBLztEG+KfUnKHPlBOLuEXY27l8b9Uhr9uY3UFr+e/9wAAAABJRU5ErkJggg=="
+          style={
+            Object {
+              "height": "100%",
+              "left": 0,
+              "objectFit": "cover",
+              "objectPosition": "center",
+              "opacity": 1,
+              "position": "absolute",
+              "top": 0,
+              "transitionDelay": "500ms",
+              "width": "100%",
+            }
+          }
+        />
+        <picture>
+          <source
+            srcSet="/static/d1010c6ec089cff141523eb269214ad5/83af0/fb.webp 1x"
+            type="image/webp"
+          />
+          <source
+            srcSet="/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png 1x"
+          />
+          <img
+            alt="logo"
+            height={15}
+            loading="lazy"
+            onLoad={[Function]}
+            src="/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png"
+            srcSet="/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png 1x"
+            style={
+              Object {
+                "height": "100%",
+                "left": 0,
+                "objectFit": "cover",
+                "objectPosition": "center",
+                "opacity": 0,
+                "position": "absolute",
+                "top": 0,
+                "transition": "opacity 500ms",
+                "width": "100%",
+              }
+            }
+            width={73}
+          />
+        </picture>
+        <noscript
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<picture><source type='image/webp' srcset=\\"/static/d1010c6ec089cff141523eb269214ad5/83af0/fb.webp 1x\\" /><source srcset=\\"/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png 1x\\" /><img loading=\\"lazy\\" width=\\"73\\" height=\\"15\\" srcset=\\"/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png 1x\\" src=\\"/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png\\" alt=\\"logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+            }
+          }
+        />
+      </div>
+    </div>
+    <span>
+      A kind review
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontFamily": "lato, arial, sans-serif",
+        "fontSize": "14px",
+        "marginTop": "1em",
+      }
+    }
+  >
+    Some text describing what a great service we provided
+  </div>
+  <div
+    className="page-btn-container"
+  />
+</div>
+`;
+
+exports[`Storyshots Facebook Review Type D With Action 1`] = `
+<div
+  className="facebook-container"
+>
+  <div
+    className="review-head"
+    style={
+      Object {
+        "borderBottom": "1px solid #CCC",
+        "color": "#444",
+        "display": "flex",
+        "flexDirection": "column",
+        "fontSize": "1.1em",
+        "fontWeight": "bold",
+        "justifyContent": "space-between",
+        "marginBottom": "5px",
+      }
+    }
+  >
+    <div />
+    <div
+      className="logo"
+      style={
+        Object {
+          "alignSelf": "flex-start",
+          "height": 15,
+        }
+      }
+    >
+      <div
+        className=" gatsby-image-wrapper"
+        style={
+          Object {
+            "display": "inline-block",
+            "height": 15,
+            "overflow": "hidden",
+            "position": "relative",
+            "width": 73,
+          }
+        }
+      >
+        <img
+          alt=""
+          aria-hidden={true}
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAA8UlEQVQY03WPvUoEMRSFp/MBfAQfQEszybiw2AhaKkwyP4KytSJYWa+Ntbq5yUyhsCBaqPhTKKKVWCiKhbAv4+dab+Bwzz3ncJIkWRmNsjKq926nkgmHzDLoTfIX6mZOF6E/XlTun5X111ndrqROeosbJ9OplV1dxDVdxiWCBfo2uS/4ame9ncHvZ1WcNWUweDupC5vzuW9M1XaT1PpzEEzVVBT/EPi7QCjsUDKCv6E9MQO44TefKh8cM18ofiCDLq9438yrRDu/BfZZzsCHdnKPeWTK2CX8TtkBLztEG+KfUnKHPlBOLuEXY27l8b9Uhr9uY3UFr+e/9wAAAABJRU5ErkJggg=="
+          style={
+            Object {
+              "height": "100%",
+              "left": 0,
+              "objectFit": "cover",
+              "objectPosition": "center",
+              "opacity": 1,
+              "position": "absolute",
+              "top": 0,
+              "transitionDelay": "500ms",
+              "width": "100%",
+            }
+          }
+        />
+        <picture>
+          <source
+            srcSet="/static/d1010c6ec089cff141523eb269214ad5/83af0/fb.webp 1x"
+            type="image/webp"
+          />
+          <source
+            srcSet="/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png 1x"
+          />
+          <img
+            alt="logo"
+            height={15}
+            loading="lazy"
+            onLoad={[Function]}
+            src="/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png"
+            srcSet="/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png 1x"
+            style={
+              Object {
+                "height": "100%",
+                "left": 0,
+                "objectFit": "cover",
+                "objectPosition": "center",
+                "opacity": 0,
+                "position": "absolute",
+                "top": 0,
+                "transition": "opacity 500ms",
+                "width": "100%",
+              }
+            }
+            width={73}
+          />
+        </picture>
+        <noscript
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<picture><source type='image/webp' srcset=\\"/static/d1010c6ec089cff141523eb269214ad5/83af0/fb.webp 1x\\" /><source srcset=\\"/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png 1x\\" /><img loading=\\"lazy\\" width=\\"73\\" height=\\"15\\" srcset=\\"/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png 1x\\" src=\\"/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png\\" alt=\\"logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+            }
+          }
+        />
+      </div>
+    </div>
+    <span>
+      A kind review
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontFamily": "lato, arial, sans-serif",
+        "fontSize": "14px",
+        "marginTop": "1em",
+      }
+    }
+  >
+    Some text describing what a great service we provided
+  </div>
+  <div
+    className="page-btn-container"
+  >
+    <a
+      className="productLink "
+      href="default"
+    >
+      <div
+        className="sc-AxiKw gtoKoy page-btn"
+      >
+        <div
+          className="arrow-wrapper"
+        >
+          <span>
+            Click me
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Facebook Review With Action 1`] = `
+<div
+  className="facebook-container"
+>
+  <div
+    className="review-head"
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "borderBottom": "1px solid #CCC",
+        "color": "#444",
+        "display": "flex",
+        "fontSize": "1.1em",
+        "fontWeight": "bold",
+        "justifyContent": "space-between",
+        "marginBottom": "5px",
+      }
+    }
+  >
+    <div>
+      <span>
+        A kind review
+      </span>
+    </div>
+    <div
+      className="logo"
+      style={
+        Object {
+          "height": 15,
+          "marginBottom": "5px",
+        }
+      }
+    >
+      <a>
+        <div
+          className=" gatsby-image-wrapper"
+          style={
+            Object {
+              "display": "inline-block",
+              "height": 15,
+              "overflow": "hidden",
+              "position": "relative",
+              "width": 73,
+            }
+          }
+        >
+          <img
+            alt=""
+            aria-hidden={true}
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAA8UlEQVQY03WPvUoEMRSFp/MBfAQfQEszybiw2AhaKkwyP4KytSJYWa+Ntbq5yUyhsCBaqPhTKKKVWCiKhbAv4+dab+Bwzz3ncJIkWRmNsjKq926nkgmHzDLoTfIX6mZOF6E/XlTun5X111ndrqROeosbJ9OplV1dxDVdxiWCBfo2uS/4ame9ncHvZ1WcNWUweDupC5vzuW9M1XaT1PpzEEzVVBT/EPi7QCjsUDKCv6E9MQO44TefKh8cM18ofiCDLq9438yrRDu/BfZZzsCHdnKPeWTK2CX8TtkBLztEG+KfUnKHPlBOLuEXY27l8b9Uhr9uY3UFr+e/9wAAAABJRU5ErkJggg=="
+            style={
+              Object {
+                "height": "100%",
+                "left": 0,
+                "objectFit": "cover",
+                "objectPosition": "center",
+                "opacity": 1,
+                "position": "absolute",
+                "top": 0,
+                "transitionDelay": "500ms",
+                "width": "100%",
+              }
+            }
+          />
+          <picture>
+            <source
+              srcSet="/static/d1010c6ec089cff141523eb269214ad5/83af0/fb.webp 1x"
+              type="image/webp"
+            />
+            <source
+              srcSet="/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png 1x"
+            />
+            <img
+              alt="logo"
+              height={15}
+              loading="lazy"
+              onLoad={[Function]}
+              src="/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png"
+              srcSet="/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png 1x"
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "transition": "opacity 500ms",
+                  "width": "100%",
+                }
+              }
+              width={73}
+            />
+          </picture>
+          <noscript
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<picture><source type='image/webp' srcset=\\"/static/d1010c6ec089cff141523eb269214ad5/83af0/fb.webp 1x\\" /><source srcset=\\"/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png 1x\\" /><img loading=\\"lazy\\" width=\\"73\\" height=\\"15\\" srcset=\\"/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png 1x\\" src=\\"/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png\\" alt=\\"logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              }
+            }
+          />
+        </div>
+      </a>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "fontFamily": "lato, arial, sans-serif",
+        "fontSize": "14px",
+        "marginTop": "1em",
+      }
+    }
+  >
+    Some text describing what a great service we provided
+  </div>
+  <a
+    className="productLink "
+    href="default"
+  >
+    <div
+      className="sc-AxiKw gtoKoy page-btn"
+    >
+      <div
+        className="arrow-wrapper"
+      >
+        <span>
+          Click me
+        </span>
+      </div>
+    </div>
+  </a>
+</div>
+`;
+
 exports[`Storyshots Footer Default 1`] = `
 <footer
   className="site-footer-container"

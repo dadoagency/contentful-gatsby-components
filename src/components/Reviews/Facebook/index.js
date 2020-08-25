@@ -23,7 +23,7 @@ const FacebookReview = ({ title, body, avatar, productLinkButton }) => {
       body={body}
       avatar={avatar}
       productLinkButton={productLinkButton}
-      logo={data.fb.childImageSharp.fixed}
+      logo={data?.fb?.childImageSharp?.fixed}
     />
   )
 }

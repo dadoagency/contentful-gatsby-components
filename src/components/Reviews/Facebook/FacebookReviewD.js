@@ -28,7 +28,7 @@ export default function FacebookReviewD({ title, body, avatar, action }) {
       body={body}
       avatar={avatar}
       action={action}
-      logo={data.facebook.childImageSharp.fixed}
+      logo={data?.facebook?.childImageSharp?.fixed}
     />
   )
 }
@@ -56,7 +56,7 @@ export function FacebookReviewDPure({ avatar, logo, title, body, action }) {
         </div>
         <div
           style={{
-            height: logo.height,
+            height: logo?.height,
             alignSelf: "flex-start",
           }}
           className="logo"

@@ -35,6 +35,7 @@ Fixed.args = {
     height: 150,
     originalName: "150-placeholder.png",
     src: placeholder,
+    srcSet: "",
     width: 150,
   },
 }

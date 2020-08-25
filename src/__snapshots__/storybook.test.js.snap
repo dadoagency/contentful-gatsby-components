@@ -234,6 +234,122 @@ exports[`Storyshots Header Default 1`] = `
 </section>
 `;
 
+exports[`Storyshots Image Caption 1`] = `
+<div
+  className="article-img-wrapper"
+>
+  <img
+    alt="a placeholder"
+    src="https://via.placeholder.com/150"
+    style={
+      Object {
+        "width": undefined,
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "fontWeight": 700,
+        "margin": 0,
+        "padding": 0,
+        "width": "auto",
+      }
+    }
+  >
+    <div>
+      An Image Caption
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Image Default 1`] = `
+<div
+  className="article-img-wrapper"
+>
+  <img
+    alt="a placeholder"
+    src="https://via.placeholder.com/150"
+    style={
+      Object {
+        "width": undefined,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots Image Fixed 1`] = `
+<div
+  className="article-img-wrapper"
+>
+  <div
+    className=" gatsby-image-wrapper"
+    style={
+      Object {
+        "display": "inline-block",
+        "height": 150,
+        "overflow": "hidden",
+        "position": "relative",
+        "width": 150,
+      }
+    }
+  >
+    <picture>
+      <source
+        srcSet=""
+      />
+      <img
+        alt=""
+        height={150}
+        loading="lazy"
+        onLoad={[Function]}
+        src="test-image-stub"
+        srcSet=""
+        style={
+          Object {
+            "height": "100%",
+            "left": 0,
+            "objectFit": "cover",
+            "objectPosition": "center",
+            "opacity": 0,
+            "position": "absolute",
+            "top": 0,
+            "transition": "opacity 500ms",
+            "width": "100%",
+          }
+        }
+        width={150}
+      />
+    </picture>
+    <noscript
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<picture><source srcset=\\"\\" /><img loading=\\"lazy\\" width=\\"150\\" height=\\"150\\" src=\\"test-image-stub\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Image Max Width 1`] = `
+<div
+  className="article-img-wrapper"
+>
+  <img
+    alt="a placeholder"
+    src="https://via.placeholder.com/150"
+    style={
+      Object {
+        "width": 100,
+      }
+    }
+  />
+</div>
+`;
+
 exports[`Storyshots Styled Text Background Color 1`] = `
 <div
   className="styledText undefined"

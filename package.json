@@ -68,6 +68,9 @@
   "keywords": [
     "gatsby"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "build": "webpack --mode=production",
     "watch": "webpack -w",

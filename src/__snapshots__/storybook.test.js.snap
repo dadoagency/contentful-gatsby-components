@@ -4569,47 +4569,6 @@ exports[`Storyshots Article Default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Button Bonus Text 1`] = `
-<a
-  className="productLink "
-  href="/"
->
-  <div
-    className="sc-AxiKw gtoKoy page-btn"
-  >
-    <div
-      className="arrow-wrapper"
-    >
-      <p>
-        Click me
-      </p>
-      <span>
-        Bonus text
-      </span>
-    </div>
-  </div>
-</a>
-`;
-
-exports[`Storyshots Button Text 1`] = `
-<a
-  className="productLink "
-  href="/"
->
-  <div
-    className="sc-AxiKw gtoKoy page-btn"
-  >
-    <div
-      className="arrow-wrapper"
-    >
-      <span>
-        Click me
-      </span>
-    </div>
-  </div>
-</a>
-`;
-
 exports[`Storyshots Facebook Review Default 1`] = `
 <div
   className="facebook-container"
@@ -5579,6 +5538,47 @@ exports[`Storyshots Product Card Default 1`] = `
     </div>
   </a>
 </div>
+`;
+
+exports[`Storyshots Product Link Button Bonus Text 1`] = `
+<a
+  className="productLink "
+  href="/"
+>
+  <div
+    className="sc-AxiKw gtoKoy page-btn"
+  >
+    <div
+      className="arrow-wrapper"
+    >
+      <p>
+        Click me
+      </p>
+      <span>
+        Bonus text
+      </span>
+    </div>
+  </div>
+</a>
+`;
+
+exports[`Storyshots Product Link Button Text 1`] = `
+<a
+  className="productLink "
+  href="/"
+>
+  <div
+    className="sc-AxiKw gtoKoy page-btn"
+  >
+    <div
+      className="arrow-wrapper"
+    >
+      <span>
+        Click me
+      </span>
+    </div>
+  </div>
+</a>
 `;
 
 exports[`Storyshots Styled Text Background Color 1`] = `

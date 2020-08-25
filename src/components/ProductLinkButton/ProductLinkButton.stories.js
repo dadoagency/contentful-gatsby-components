@@ -1,8 +1,8 @@
 import React from "react"
-import { ProductLinkButtonPure } from "."
+import { ProductLinkButtonPure } from "./"
 
 export default {
-  title: "Button",
+  title: "Product Link Button",
   component: ProductLinkButtonPure,
 }
 // We create a “template” of how args map to rendering

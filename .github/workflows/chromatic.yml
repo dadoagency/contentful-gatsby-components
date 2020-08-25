@@ -13,7 +13,15 @@ jobs:
     # the list of steps that the action will go through
     steps:
       - uses: actions/checkout@v1
-      - run: yarn
+      # cache dependencies
+      - name: Cache node modules
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: yarn-deps-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            yarn-deps-${{ hashFiles('yarn.lock') }}
+
       - run: yarn test
       #- run: yarn build-storybook
       - uses: chromaui/action@v1

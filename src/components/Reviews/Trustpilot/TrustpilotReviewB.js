@@ -26,10 +26,10 @@ const TrustpilotReviewB = ({ title, body, ...props }) => {
   return (
     <TrustpilotReviewBPure
       logoLink={url}
-      logo={data.tp.childImageSharp.fixed}
+      logo={data?.tp?.childImageSharp?.fixed}
       body={body}
       title={title}
-      starsLogo={data.stars.childImageSharp.fixed}
+      starsLogo={data?.stars?.childImageSharp?.fixed}
     />
   )
 }

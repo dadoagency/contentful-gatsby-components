@@ -13,7 +13,7 @@ TrustpilotReviewD.propTypes = {
 export default function TrustpilotReviewD({ title, body, avatar, action }) {
   const data = useStaticQuery(graphql`
     query trustPilotD {
-      trustpilot: file(relativePath: { eq: "trustpilot-stars.png" }) {
+      stars: file(relativePath: { eq: "trustpilot-stars.png" }) {
         childImageSharp {
           fixed(width: 90) {
             ...GatsbyImageSharpFixed_withWebp
@@ -28,7 +28,7 @@ export default function TrustpilotReviewD({ title, body, avatar, action }) {
     <TrustpilotReviewDPure
       title={title}
       avatar={avatar}
-      logo={data.trustpilot.childImageSharp.fixed}
+      logo={data?.stars?.childImageSharp?.fixed}
       logoLink={url}
       body={body}
       action={action}

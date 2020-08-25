@@ -29,7 +29,7 @@ export function TrustpilotReview({ title, body, avatar, action }) {
   return (
     <TrustpilotReviewPure
       title={title}
-      logo={data.trustpilot.childImageSharp.fixed}
+      logo={data?.trustpilot?.childImageSharp?.fixed}
       logoLink={url}
       avatar={avatar}
       body={body}

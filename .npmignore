@@ -1,2 +1,11 @@
 node_modules/
 tests/ 
+__mocks__/
+public/
+.storybook
+storybook-static/
+dist/
+*.env
+.cache/
+coverage/
+*.log

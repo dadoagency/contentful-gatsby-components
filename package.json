@@ -1,6 +1,6 @@
 {
   "name": "@dadoagency/contentful-gatsby-components",
-  "version": "4.0.0",
+  "version": "4.0.1-canary.1a66559.0",
   "main": "index.js",
   "author": "dado",
   "private": false,
@@ -74,6 +74,9 @@
     "storybook": "NODE_ENV=test start-storybook -s public -p 6006",
     "build-storybook": "NODE_ENV=test build-storybook -s public",
     "test": "jest",
-    "release": "auto shipit"
+    "version": "npm version `auto version` -m 'Bump version to: %s [skip ci]'",
+    "publish": "npm publish && git push --follow-tags --set-upstream origin $branch",
+    "release": "auto changelog && yarn run version && yarn run publish && auto release"
+
   }
 }

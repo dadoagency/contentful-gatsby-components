@@ -4,7 +4,7 @@ import * as FooterStories from "../../components/Footer/Footer.stories"
 import petlabLogo from "../../images/Petlab-logo.png"
 import HeadlineFixture from "./___fixtures___/headline"
 import BodyFixture from "./___fixtures___/body"
-import footerFixture from "./___fixtures___/body"
+import footerFixture from "./___fixtures___/footer"
 import testimonialFixture from "./___fixtures___/testimonialSection"
 
 export default {

@@ -40,6 +40,7 @@
     "@storybook/addons": "^6.0.10",
     "@storybook/react": "^6.0.0",
     "@testing-library/react": "^9.5.0",
+    "auto": "^9.52.0",
     "babel-jest": "^26.3.0",
     "babel-loader": "^8.1.0",
     "babel-plugin-remove-graphql-queries": "^2.9.17",
@@ -72,6 +73,8 @@
     "watch": "webpack -w",
     "storybook": "NODE_ENV=test start-storybook -s public -p 6006",
     "build-storybook": "NODE_ENV=test build-storybook -s public",
-    "test": "jest"
+    "test": "jest",
+    "release": "auto shipit"
+
   }
 }

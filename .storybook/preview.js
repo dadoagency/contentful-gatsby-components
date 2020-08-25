@@ -1,4 +1,8 @@
 import { action } from "@storybook/addon-actions"
+import { addDecorator } from "@storybook/react"
+import { withA11y } from "@storybook/addon-a11y"
+
+addDecorator(withA11y)
 
 // Gatsby's Link overrides:
 // Gatsby Link calls the `enqueue` & `hovering` methods on the global variable ___loader.

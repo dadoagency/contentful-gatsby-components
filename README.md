@@ -38,11 +38,3 @@ module.exports = {
 yarn
 yarn link
 ```
-
-### TODO:
-
----
-
-- [ ] tp widgets
-- [ ] write tests
-- [ ] fix errors

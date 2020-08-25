@@ -34,3 +34,4 @@ jobs:
         with:
           projectToken: ${{ secrets.chroma_token }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          exitOnceUploaded: true

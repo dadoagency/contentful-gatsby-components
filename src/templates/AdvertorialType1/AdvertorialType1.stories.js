@@ -26,6 +26,7 @@ Default.args = {
   logo: {
     aspectRatio: 4.473684210526316,
     src: petlabLogo,
+    srcSet: "",
     base64:
       "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABcRAAAXEQHKJvM/AAAAjUlEQVQY05WOQQoCMQxFW0VwIYpQFMZZtAgjLnQhuG1P0Nz/OL7fKYKICwOPpMnPb1ws5v6J9EP/0ecRYMR8JK/hkHLdx2xbWKZsR9jQvzZ9bprQtNkGCL3/NpxggAfs4MxQ5hfyivyEE9S+GGDq2jvcOMB/nasfVDOcKbZIpbo4116oVujyvutlJp3iBXwXJpWT4bHDAAAAAElFTkSuQmCC",
     height: 38,

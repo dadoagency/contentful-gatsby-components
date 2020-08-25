@@ -1,5 +1,1485 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots AdvertorialType1 Default 1`] = `
+<div>
+  <section
+    className="site-logo-container header"
+  >
+    <div
+      className="sc-AxjAm gPHMU section site-logo-wrapper"
+    >
+      <div
+        className="site-logo"
+      >
+        <div
+          className=" gatsby-image-wrapper"
+          style={
+            Object {
+              "display": "inline-block",
+              "height": 38,
+              "overflow": "hidden",
+              "position": "relative",
+              "width": 170,
+            }
+          }
+        >
+          <img
+            alt=""
+            aria-hidden={true}
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABcRAAAXEQHKJvM/AAAAjUlEQVQY05WOQQoCMQxFW0VwIYpQFMZZtAgjLnQhuG1P0Nz/OL7fKYKICwOPpMnPb1ws5v6J9EP/0ecRYMR8JK/hkHLdx2xbWKZsR9jQvzZ9bprQtNkGCL3/NpxggAfs4MxQ5hfyivyEE9S+GGDq2jvcOMB/nasfVDOcKbZIpbo4116oVujyvutlJp3iBXwXJpWT4bHDAAAAAElFTkSuQmCC"
+            style={
+              Object {
+                "height": "100%",
+                "left": 0,
+                "objectFit": "cover",
+                "objectPosition": "center",
+                "opacity": 1,
+                "position": "absolute",
+                "top": 0,
+                "transitionDelay": "500ms",
+                "width": "100%",
+              }
+            }
+          />
+          <img
+            alt=""
+            aria-hidden={true}
+            src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='170'%20height='38'%20viewBox='0%200%20170%2038'%20preserveAspectRatio='none'/%3e"
+            style={
+              Object {
+                "height": "100%",
+                "left": 0,
+                "objectFit": "cover",
+                "objectPosition": "center",
+                "opacity": 1,
+                "position": "absolute",
+                "top": 0,
+                "transitionDelay": "500ms",
+                "width": "100%",
+              }
+            }
+          />
+          <picture>
+            <source
+              srcSet=""
+            />
+            <img
+              alt="Logo"
+              height={38}
+              loading="lazy"
+              onLoad={[Function]}
+              src="test-image-stub"
+              srcSet=""
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "transition": "opacity 500ms",
+                  "width": "100%",
+                }
+              }
+              width={170}
+            />
+          </picture>
+          <noscript
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<picture><source srcset=\\"\\" /><img loading=\\"lazy\\" width=\\"170\\" height=\\"38\\" src=\\"test-image-stub\\" alt=\\"Logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="sc-AxirZ lgbZhd"
+      >
+        <div>
+          Advertorial
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="site-data-container"
+  >
+    <div
+      className="site-data-wrapper section"
+    >
+      <div />
+      <div
+        className="left-data-wrapper article"
+      >
+        <div
+          className="article-data-container"
+        >
+          <div
+            className="title"
+          >
+            <h1>
+              "Dogs Suffering From Scratching & Paw Licking Are Having Their Quality Of Life Transformed... Thanks To These Chews"
+            </h1>
+            <p>
+              by 
+              <b>
+                Michael F. (4 Minute Read)
+              </b>
+            </p>
+          </div>
+        </div>
+        <div
+          className="article-creator-wrapper"
+        >
+          <div
+            className="creator-data-wrapper"
+          >
+            <div
+              className="creator-comment-wrapper body"
+            >
+              <center>
+                <div
+                  className="article-img-wrapper"
+                >
+                  <img
+                    src="//images.ctfassets.net/xihufpic5pn1/lAvvGQw1wmmbPzbmqyOst/f0f0d1e0d0f938d8f47c8e7d8aa5aec1/lucy-image1.jpg"
+                    style={
+                      Object {
+                        "borderRadius": "0",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </div>
+              </center>
+              <p>
+                <b>
+                  If you want to improve the quality of your dog's life, then this could be one of the most important articles you'll read.
+                </b>
+              </p>
+              <p>
+                Most owners see their dogs constantly scratching & licking their paws and think they are “just grooming” never realizing they could actually be suffering from severe allergies...
+              </p>
+              <p>
+                Allergies is one of the most common problems that gets diagnosed in veterinary medicine. With 1000s of dog’s suffering from this condition every year, but their owners sadly not taking action!
+              </p>
+              <center>
+                <div
+                  className="article-img-wrapper"
+                >
+                  <img
+                    src="//images.ctfassets.net/xihufpic5pn1/5aqAqLIefYXhYYce17kbpf/91aedc6da1813211fc2b137a896f4f76/lucy-image2.jpg"
+                    style={
+                      Object {
+                        "borderRadius": "0",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </div>
+              </center>
+              <p>
+                Lucy was one of those 1000s of dogs suffering from allergies, without her owners realizing…
+              </p>
+              <p>
+                Throughout the day she would constantly lick her paws, bite and scratch. 
+                <b>
+                  Lucy was living in constant discomfort everyday…
+                </b>
+              </p>
+              <p>
+                These symptoms can quickly escalate into a vicious cycle where the scratching irritates their skin more and more… leading to painful wounds & sores!
+              </p>
+              <p>
+                Luckily, Lucy’s owner read about allergies and spotted the symptoms...
+              </p>
+              <center>
+                <div
+                  className="article-img-wrapper"
+                >
+                  <img
+                    src="//images.ctfassets.net/xihufpic5pn1/23AHJVphft8JIkB2WePZyh/7d3d8b426639b6538c2d21814124e832/lucy-image3.png"
+                    style={
+                      Object {
+                        "borderRadius": "0",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                  <div
+                    style={
+                      Object {
+                        "fontWeight": 700,
+                        "margin": 0,
+                        "padding": 0,
+                        "width": "auto",
+                      }
+                    }
+                  >
+                    <p>
+                      <b>
+                        
+                      </b>
+                    </p>
+                  </div>
+                </div>
+              </center>
+              <p>
+                <b>
+                  She was constantly licking her paws until she found these chews
+                </b>
+              </p>
+              <p>
+                After doing some research online, she saw these new itch relief chews had amazing reviews, and had helped 1000s of dogs across the USA! They also offered a 90 day guarantee, so she thought she had nothing to lose…
+              </p>
+              <center>
+                <div
+                  className="article-img-wrapper"
+                >
+                  <img
+                    src="//images.ctfassets.net/xihufpic5pn1/1pAwsROivVyuuSdKiVQFlc/82e4e63e5f73cc7eb2371be71efe179c/lucy-image4.png"
+                    style={
+                      Object {
+                        "borderRadius": "0",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </div>
+              </center>
+              <p>
+                "I'M NOT RICH BUT I COULDN'T AFFORD NOT TO GET THESE"
+              </p>
+              <p>
+                Costing a tiny 0.75 cents a day when you get the value pack, Lucy's owner told us "it's a no brainer to try for any dog owner" - especially after seeing the rave reviews and success stories...
+              </p>
+              <p>
+                In just the 
+                <b>
+                  first week
+                </b>
+                , Lucy had stopped scratching excessively. She seemed much more comfortable and relaxed than she had been in a long time.
+              </p>
+              <p>
+                <b>
+                  Week 2
+                </b>
+                 and the results of the chews were clear as day. Lucy no longer licked her paws constantly, she was able to just lie down in peace. It was heartwarming to see.
+              </p>
+              <p>
+                By 
+                <b>
+                  week 3
+                </b>
+                 Lucy was a completely different dog. Without the excessive licking her hair had started to grow back! Her coat just looked shinier & healthier. It was amazing to see.
+              </p>
+              <p>
+                <b>
+                  PRESENT DAY:
+                </b>
+                 Lucy is back to loving life again...
+              </p>
+              <a
+                className="productLink "
+                href=""
+              >
+                <div
+                  className="sc-AxiKw cYjhjW page-btn"
+                >
+                  <div
+                    className="arrow-wrapper"
+                  >
+                    <span>
+                      See Pre-order Offers Available Now! 
+                    </span>
+                    <div
+                      className="arrow-img"
+                    >
+                      <div
+                        className="article-img-wrapper"
+                      >
+                        <img
+                          src="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png"
+                          style={
+                            Object {
+                              "width": undefined,
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <center>
+                <div
+                  className="article-img-wrapper"
+                >
+                  <img
+                    src="//images.ctfassets.net/xihufpic5pn1/3Tm764Mtq3CVak8xkrLStV/75ff11a569524f0f8bc32e83c6a73cd2/lucy-image5.png"
+                    style={
+                      Object {
+                        "borderRadius": "0",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                  <div
+                    style={
+                      Object {
+                        "fontWeight": 700,
+                        "margin": 0,
+                        "padding": 0,
+                        "width": "auto",
+                      }
+                    }
+                  >
+                    <p>
+                      <b>
+                        Today, Lucy loves being outside more than ever!
+                      </b>
+                    </p>
+                  </div>
+                </div>
+              </center>
+              <p>
+                <b>
+                  SO, WHAT ARE THESE AMAZING CHEWS?
+                </b>
+              </p>
+              <p>
+                They’re called Petlab Co Itch Relief chews and they’re changing the lives of thousands of dogs across America!
+              </p>
+              <p>
+                Designed by experts, to support your dog’s immune system that helps them fight off everyday allergens. The formula, which is rich in omega 3 & 6, vitamins and minerals essential for healthy skin and coat then gets to work in no time, helping to promote a soft, silky, shiny and healthy coat for your pup.
+              </p>
+              <p>
+                <b>
+                  Petlab Co proudly manufactures the product in Denver, Colorado
+                </b>
+                 using the perfect balance of premium, effective ingredients that are safe to use for all dogs, including:
+              </p>
+              <div
+                className="styledText "
+                style={
+                  Object {
+                    "color": "#019DD9",
+                  }
+                }
+              >
+                <ul>
+                  <li>
+                    <p>
+                      Turmeric Curcumin
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Flaxseed
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Salmon Oil
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Honey
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Vitamin E
+                    </p>
+                  </li>
+                </ul>
+                <p>
+                  
+                </p>
+              </div>
+              <p>
+                It’s been in such high demand that 
+                <b>
+                  dog owners across the country are stockpiling
+                </b>
+                 it to protect their pups this spring & summer. The company completely sold out in under 30 days, with over 
+                <b>
+                  35,375 tubs being sold in April 2020 alone!
+                </b>
+              </p>
+              <p>
+                Petlab Co understands that 
+                <b>
+                  April through September is the worst time of year for your dog’s allergies
+                </b>
+                 so they are working overtime to manufacture another batch of these Itch Relief chews to 
+                <b>
+                  be delivered on 22nd June.
+                </b>
+              </p>
+              <div
+                className="styledText "
+                style={
+                  Object {
+                    "color": null,
+                  }
+                }
+              >
+                <p>
+                  <b
+                    style={
+                      Object {
+                        "backgroundColor": null,
+                      }
+                    }
+                  >
+                    They expect this next batch to sell out before it is even finished manufacturing, which is why they are urging you to reserve your presale order now!
+                  </b>
+                </p>
+              </div>
+              <p>
+                The best part though? Reserving your presale order now means you
+                <b>
+                   get it 100% risk-free with Petlab Co’s 90 day money-back guarantee.
+                </b>
+                 PLUS they’re offering a 
+                <b>
+                  25% discount
+                </b>
+                 for all new customers, so you’d be silly not to secure it now.
+              </p>
+              <p>
+                Reserve your presale order here:
+              </p>
+              <a
+                className="productLink "
+                href=""
+              >
+                <div
+                  className="sc-AxiKw cYjhjW page-btn"
+                >
+                  <div
+                    className="arrow-wrapper"
+                  >
+                    <span>
+                      See Pre-order Offers Available Now! 
+                    </span>
+                    <div
+                      className="arrow-img"
+                    >
+                      <div
+                        className="article-img-wrapper"
+                      >
+                        <img
+                          src="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png"
+                          style={
+                            Object {
+                              "width": undefined,
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <p>
+                The company has had hundreds of 5* reviews of their products, and countless customers have personally messaged us to say how impressed and happy they are with their products. It's one of the reasons we do what we do - seeing the results 1st hand of the positive changes our products can make to dogs across America.
+              </p>
+              <p>
+                You can see some of the positive 5* reviews below…
+              </p>
+              <center>
+                <div
+                  className="article-img-wrapper"
+                >
+                  <img
+                    src="//images.ctfassets.net/xihufpic5pn1/7CxCfHCxdrAijwYeJXlIuP/effa98b45fa252d8b76d74a821b1d0a0/trust.png"
+                    style={
+                      Object {
+                        "borderRadius": "0",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </div>
+              </center>
+              <p>
+                Remember, excessive itching is not always normal in dogs, and it could be a sign of nutrient deficiency that you can’t afford to ignore. Take advantage of Petlab's 90 day risk free, 100% guarantee and click the button below to 
+                <b>
+                  reserve your presale order today for our Itch Relief Chews
+                </b>
+                . They could make a real difference to their skin and coat health.
+              </p>
+              <center>
+                <div
+                  className="article-img-wrapper"
+                >
+                  <img
+                    src="//images.ctfassets.net/xihufpic5pn1/2W1mvbWBuX0WFQqYTCKeVw/d099de0ef8b08b04b4d683c88dd6fb7a/product.png"
+                    style={
+                      Object {
+                        "borderRadius": "0",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </div>
+              </center>
+              <a
+                className="productLink "
+                href=""
+              >
+                <div
+                  className="sc-AxiKw cYjhjW page-btn"
+                >
+                  <div
+                    className="arrow-wrapper"
+                  >
+                    <span>
+                      See Pre-order Offers Available Now! 
+                    </span>
+                    <div
+                      className="arrow-img"
+                    >
+                      <div
+                        className="article-img-wrapper"
+                      >
+                        <img
+                          src="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png"
+                          style={
+                            Object {
+                              "width": undefined,
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <p>
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="right-data-wrapper reviews"
+      >
+        <div
+          className="meta-info product-card "
+        >
+          <center>
+            <div
+              className="article-img-wrapper"
+            >
+              <div
+                className=" gatsby-image-wrapper"
+                style={
+                  Object {
+                    "maxHeight": null,
+                    "maxWidth": null,
+                    "overflow": "hidden",
+                    "position": "relative",
+                  }
+                }
+              >
+                <div
+                  aria-hidden={true}
+                  style={
+                    Object {
+                      "paddingBottom": "135.5%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAYAAAB836/YAAAACXBIWXMAABcRAAAXEQHKJvM/AAAAB3RJTUUH5AcdDSADVQdGLQAABShJREFUSMd9VTtsHFUUPe/Nf3+2Y8eOYztZx598IErSxAUSiAIKqjSQAgkaGlpqKiRoqJEo6UBCAgkkkAWKREEQSMQJciIiSBTkTzZrZ73fmZ2ZnRnOe7tr1ggxu2/f7Pvcd+8599wnwCeKupDSXA6C4KUoiq7EcbQURfFckiSTbIU0TS3DMLhGxr1e3AHEU8dxdl3XfcB+I5/PfZ+myX3bdiFqtX04jvtJo9F8gxtFlmU8IAINQb1zDL1eD5ZlqbMRhqEed1wXjm3DZqNRuK7zuWHI6zKfy+V6veRNbhIYedSm0XZkjh8MxoaHJkn6Ko1OSkmz/7d59IDDvv/9r0eaXKANCiEwwEn3vu8jjmOEEUNMM5imqedUeOoZrlX7Dp0QQpr8rw0qnLphF0kv0YY0hvxIISENiSiOkIYp0iTVIYIAuY6LQqGg50iQctugh8IjuwknjCHwaoMCf0iO8mLooWp9Z4QmSo0rZ7g+i2PXNbvd8H0uMugtnh7UUas3sM9+d2cX9f2n6HYDbcR1PdieC5shK3Y9ejQ+PobyqXnMHJ9STogwjD4wP/t6fe3L9RvqSJjEJc9N9UYTtUoF1e0dVHYrmJqaQGl8HDGhEvTIHkRCIDE+PY1zy4twbQuXLpy9Kjfu3Te2K9U+LnqNZG6ZI+8WQzM18Lb1jzHPdVAq5BSUDNvAXq2OH36+JU0pBWYmJ3B2cQHjY0V6KRETuzMzE6jvzaLrd0iKoRNZWjYyRsK8JYERYhJk5ovwg1AfapmmFM3W3h9Bp7lM6WmgKSFNRrvTRqNRJ+sxMTS0IhQJyrhivk+Uge9u/oatSg31ZhuvX3u5Ytp0yR9J5mz4y7E/H27BMgQxbWvvV1fOaIOjK8+cmsXt3//ShK6U56QCSx4Rx8j7yRNT2NjYxNrVy3hSrWHncRXl03Mj6gEuri4i6hFvZkIh7wplUAxnsyMWMy7I4cTMFLa2K2xPcPnS+f70UdXj+asXB4pR0qOHA7kfrstGtFouz+uZkG6YhjlSHAT+LWqhtKyyYxiyArZLhfhBgDgMcPvOJmZnJrWnp4lVGMbY2qlgrFQc6LyHC+dWMOI2A88yc3hCzHSwdOL2822sWECpmEeRvVSiF9BGDxotHUVEo//CvU9KfyRjYt7BzVt30Wy20Kg+QYfFN2LBcJjErkfDlFrYS+mxpzFLuO3jD59BEtZ5UITS5PyAlMEJ55dPIc1SdDo+atXjeEzp2cySLr0yLQeG7cBy7MOyZTCa1N9G5nkM3zrEUGYDIspzMxgr5BF0fQSdU2i2zqPV6mgpqoJQZKnKBrVQVSFlEEYOadyGW1hS8pTmxt374tsbN7Ewd4Kh5Mmk0OrotltoN5uUWYRnzy3Cy+Vg0agqIEKVMapFyS0ROcjCNHFLCY8vzS/Wf5SffrWOJZYhVY1Vbeu029jb2kaVzSfzi4sn8d47r2DOfgjhPyIb+wyZcpxYZlgvwCq/SE89wmIJY/XK2rsPHm3ZEwRcFUsVii6sTJ+ix1AtlmEjwy+/buLSfAclj1Wpx5s0Y+GNa7DihzCCe4AzDdObgfnWa9fStYsXYLJMKabafoB6va5r4cFeFaFf1yHmWCc3Gw6WVhmyYWliTKeA3LFpuBOziFOOW+OpuVJe+GZqrHBdVRIF9vAebrVaR25CxeqwaWMqX1XlJu4J50OKgUGvi0aj4bFMvR0E3edoaIGbj3FTkc0joTb/m+qQwc2mfhLORTQa8L3FXDmgJLd5vf9UKhU/+hvkPafNhxZShgAAAABJRU5ErkJggg=="
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "cover",
+                      "objectPosition": "center",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 0,
+                      "transitionDelay": "500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <source
+                    sizes="(max-width: 800px) 100vw, 800px"
+                    srcSet="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50&fm=webp 200w"
+                    type="image/webp"
+                  />
+                  <source
+                    sizes="(max-width: 800px) 100vw, 800px"
+                    srcSet="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w"
+                  />
+                  <img
+                    alt="header"
+                    loading="lazy"
+                    onLoad={[Function]}
+                    sizes="(max-width: 800px) 100vw, 800px"
+                    src="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=800&q=50"
+                    srcSet="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "objectFit": "cover",
+                        "objectPosition": "center",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "transition": "opacity 500ms",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </picture>
+                <noscript
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<picture><source type='image/webp' srcset=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50&fm=webp 200w\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" /><source srcset=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" srcset=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w\\" src=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=800&q=50\\" alt=\\"header\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </center>
+          <div
+            className="figure caption"
+            style={
+              Object {
+                "marginTop": 0,
+              }
+            }
+          >
+            <p>
+              subtitle
+            </p>
+          </div>
+        </div>
+        <div
+          className="reviews-list"
+        >
+          <div
+            className="facebook-container"
+          >
+            <div
+              className="review-head"
+              style={
+                Object {
+                  "alignItems": "flex-end",
+                  "borderBottom": "1px solid #CCC",
+                  "color": "#444",
+                  "display": "flex",
+                  "fontSize": "1.1em",
+                  "fontWeight": "bold",
+                  "justifyContent": "space-between",
+                  "marginBottom": "5px",
+                }
+              }
+            >
+              <div>
+                <span>
+                  test facebook review
+                </span>
+              </div>
+              <div
+                className="logo"
+                style={
+                  Object {
+                    "height": 15,
+                    "marginBottom": "5px",
+                  }
+                }
+              >
+                <a>
+                  <div
+                    className=" gatsby-image-wrapper"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "height": 15,
+                        "overflow": "hidden",
+                        "position": "relative",
+                        "width": 73,
+                      }
+                    }
+                  >
+                    <img
+                      alt=""
+                      aria-hidden={true}
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAA8UlEQVQY03WPvUoEMRSFp/MBfAQfQEszybiw2AhaKkwyP4KytSJYWa+Ntbq5yUyhsCBaqPhTKKKVWCiKhbAv4+dab+Bwzz3ncJIkWRmNsjKq926nkgmHzDLoTfIX6mZOF6E/XlTun5X111ndrqROeosbJ9OplV1dxDVdxiWCBfo2uS/4ame9ncHvZ1WcNWUweDupC5vzuW9M1XaT1PpzEEzVVBT/EPi7QCjsUDKCv6E9MQO44TefKh8cM18ofiCDLq9438yrRDu/BfZZzsCHdnKPeWTK2CX8TtkBLztEG+KfUnKHPlBOLuEXY27l8b9Uhr9uY3UFr+e/9wAAAABJRU5ErkJggg=="
+                      style={
+                        Object {
+                          "height": "100%",
+                          "left": 0,
+                          "objectFit": "cover",
+                          "objectPosition": "center",
+                          "opacity": 1,
+                          "position": "absolute",
+                          "top": 0,
+                          "transitionDelay": "500ms",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                    <picture>
+                      <source
+                        srcSet="/static/d1010c6ec089cff141523eb269214ad5/83af0/fb.webp 1x"
+                        type="image/webp"
+                      />
+                      <source
+                        srcSet="/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png 1x"
+                      />
+                      <img
+                        alt="logo"
+                        height={15}
+                        loading="lazy"
+                        onLoad={[Function]}
+                        src="/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png"
+                        srcSet="/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png 1x"
+                        style={
+                          Object {
+                            "height": "100%",
+                            "left": 0,
+                            "objectFit": "cover",
+                            "objectPosition": "center",
+                            "opacity": 0,
+                            "position": "absolute",
+                            "top": 0,
+                            "transition": "opacity 500ms",
+                            "width": "100%",
+                          }
+                        }
+                        width={73}
+                      />
+                    </picture>
+                    <noscript
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "<picture><source type='image/webp' srcset=\\"/static/d1010c6ec089cff141523eb269214ad5/83af0/fb.webp 1x\\" /><source srcset=\\"/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png 1x\\" /><img loading=\\"lazy\\" width=\\"73\\" height=\\"15\\" srcset=\\"/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png 1x\\" src=\\"/static/d1010c6ec089cff141523eb269214ad5/fa4ca/fb.png\\" alt=\\"logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                        }
+                      }
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              style={
+                Object {
+                  "fontFamily": "lato, arial, sans-serif",
+                  "fontSize": "14px",
+                  "marginTop": "1em",
+                }
+              }
+            >
+              <p>
+                this is a test facebook review
+              </p>
+            </div>
+          </div>
+          <div
+            className="facebook-container"
+          >
+            <div
+              className="review-head"
+              style={
+                Object {
+                  "alignItems": "flex-end",
+                  "borderBottom": "1px solid #CCC",
+                  "color": "#444",
+                  "display": "flex",
+                  "fontSize": "1.1em",
+                  "fontWeight": "bold",
+                  "justifyContent": "space-between",
+                  "marginBottom": "5px",
+                }
+              }
+            >
+              <div>
+                <span>
+                  Professional and Effective
+                </span>
+              </div>
+              <div
+                className="logo"
+                style={
+                  Object {
+                    "height": 17,
+                    "marginBottom": "5px",
+                  }
+                }
+              >
+                <a
+                  href="https://www.trustpilot.com/"
+                >
+                  <div
+                    className=" gatsby-image-wrapper"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "height": 17,
+                        "overflow": "hidden",
+                        "position": "relative",
+                        "width": 90,
+                      }
+                    }
+                  >
+                    <img
+                      alt=""
+                      aria-hidden={true}
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAABQklEQVQY0y2Py0oCARSGTwXdiMKN3aA2rYMW0Tv0CLUIegBdVDppGWEOQrhoZQ/gIvAy0jiXamYsJYiCLASDxAY0CjLKyNBRm9MZaHHgnJ//+38OAL/RokFIuV+6RE8MJAaBdzVI++0WvVFIuT5p2iC5EYTNNAhMDkTaUy6LeSKG/78N4gxYzh2hu3iCg7KvSiI3dxPGUCnTmcmELFPCdrpb9xdVXLyPWAFZCs2vFOK4/ihhn7RVIU2cvz7E/dKFOa0FTYg83+LlVxmH5J0qcA5uqRDDD+Ons3AVRkg6E1NasF5u1NCjqwjHa1kqyUffC5iu6Tgg+yrAOcXVhyS+Nb/N2cyBCaNne+0xlcUe0ftKbfFhzY+TKtsks0lwtFfaro0rbMemBehl5hwEz51dY9GuBCxGJ4YfUf04obBGv+xr/QFo2L5KxjR3fwAAAABJRU5ErkJggg=="
+                      style={
+                        Object {
+                          "height": "100%",
+                          "left": 0,
+                          "objectFit": "cover",
+                          "objectPosition": "center",
+                          "opacity": 1,
+                          "position": "absolute",
+                          "top": 0,
+                          "transitionDelay": "500ms",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                    <picture>
+                      <source
+                        srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/8099b/trustpilot-stars.png 1x"
+                      />
+                      <img
+                        alt="logo"
+                        height={17}
+                        loading="lazy"
+                        onLoad={[Function]}
+                        src="/static/3e37f12bdcbc6186e3f2de9be8302100/8099b/trustpilot-stars.png"
+                        srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/8099b/trustpilot-stars.png 1x"
+                        style={
+                          Object {
+                            "height": "100%",
+                            "left": 0,
+                            "objectFit": "cover",
+                            "objectPosition": "center",
+                            "opacity": 0,
+                            "position": "absolute",
+                            "top": 0,
+                            "transition": "opacity 500ms",
+                            "width": "100%",
+                          }
+                        }
+                        width={90}
+                      />
+                    </picture>
+                    <noscript
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "<picture><source srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/8099b/trustpilot-stars.png 1x\\" /><img loading=\\"lazy\\" width=\\"90\\" height=\\"17\\" srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/8099b/trustpilot-stars.png 1x\\" src=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/8099b/trustpilot-stars.png\\" alt=\\"logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                        }
+                      }
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              style={
+                Object {
+                  "fontFamily": "lato, arial, sans-serif",
+                  "fontSize": "14px",
+                  "marginTop": "1em",
+                }
+              }
+            >
+              <p>
+                Amazing business. My pit was having some hip issues, she would run in the field and immediately would start limping. The limping continued for 2 or so days, and she just wasn’t herself. After giving her the Joint chews, she seems invincible. Running like her young self and enjoying every moment! Can’t thank you enough PetLab!
+              </p>
+            </div>
+            <div
+              className="page-btn-container"
+            >
+              <a
+                className="productLink "
+                href=""
+              >
+                <div
+                  className="sc-AxiKw iGSET page-btn"
+                >
+                  <div
+                    className="arrow-wrapper"
+                  >
+                    <span>
+                      See Pre-order Offers Available Now! 
+                    </span>
+                    <div
+                      className="arrow-img"
+                    >
+                      <div
+                        className="article-img-wrapper"
+                      >
+                        <div
+                          className=" gatsby-image-wrapper"
+                          style={
+                            Object {
+                              "display": "inline-block",
+                              "height": 12,
+                              "overflow": "hidden",
+                              "position": "relative",
+                              "width": 12,
+                            }
+                          }
+                        >
+                          <img
+                            alt=""
+                            aria-hidden={true}
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH5AcTDRgZXyV0nwAAAH9JREFUKM+d0TEOAQEQheFBQbsuodlriOg0DrBHoHEOLqNwBqqVUEpoHWCbT0GisEbir/9M3nsTCgc3S4Nox8yTi0qvTZh7czTJBdgpc4HG2jAT4G6lnwlwMo7oxndGsVVmQkTkF84x7dR/hWxssprpUHXb1D+fVdi7WrwiffAA/VPmDiTtZFMAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAAElFTkSuQmCC"
+                            style={
+                              Object {
+                                "height": "100%",
+                                "left": 0,
+                                "objectFit": "cover",
+                                "objectPosition": "center",
+                                "opacity": 1,
+                                "position": "absolute",
+                                "top": 0,
+                                "transitionDelay": "500ms",
+                                "width": "100%",
+                              }
+                            }
+                          />
+                          <picture>
+                            <source
+                              srcSet="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&h=12&q=50&fm=webp 1x"
+                              type="image/webp"
+                            />
+                            <source
+                              srcSet="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&h=12&q=50 1x"
+                            />
+                            <img
+                              alt=""
+                              height={12}
+                              loading="lazy"
+                              onLoad={[Function]}
+                              src="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&q=50"
+                              srcSet="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&h=12&q=50 1x"
+                              style={
+                                Object {
+                                  "height": "100%",
+                                  "left": 0,
+                                  "objectFit": "cover",
+                                  "objectPosition": "center",
+                                  "opacity": 0,
+                                  "position": "absolute",
+                                  "top": 0,
+                                  "transition": "opacity 500ms",
+                                  "width": "100%",
+                                }
+                              }
+                              width={12}
+                            />
+                          </picture>
+                          <noscript
+                            dangerouslySetInnerHTML={
+                              Object {
+                                "__html": "<picture><source type='image/webp' srcset=\\"//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&h=12&q=50&fm=webp 1x\\" /><source srcset=\\"//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&h=12&q=50 1x\\" /><img loading=\\"lazy\\" width=\\"12\\" height=\\"12\\" srcset=\\"//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&h=12&q=50 1x\\" src=\\"//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&q=50\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                              }
+                            }
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer
+    className="site-footer-container"
+  >
+    <div
+      className="site-footer-wrapper"
+    >
+      <div
+        className="copyrights"
+      >
+        <p>
+          Copyright © 
+          2020
+           
+          <a
+            href="/"
+          >
+            Dado
+          </a>
+        </p>
+      </div>
+      <div
+        className="footer-nav"
+      >
+        <a
+          href="/"
+        >
+          Link to somewhere
+        </a>
+        <a
+          href="/"
+        >
+          Link to nowhere
+        </a>
+      </div>
+      <div
+        className="footer-msg"
+      >
+        <center>
+          <div
+            className="article-img-wrapper"
+          >
+            <img
+              src="//images.ctfassets.net/xihufpic5pn1/lAvvGQw1wmmbPzbmqyOst/f0f0d1e0d0f938d8f47c8e7d8aa5aec1/lucy-image1.jpg"
+              style={
+                Object {
+                  "borderRadius": "0",
+                  "width": "100%",
+                }
+              }
+            />
+          </div>
+        </center>
+        <p>
+          <b>
+            If you want to improve the quality of your dog's life, then this could be one of the most important articles you'll read.
+          </b>
+        </p>
+        <p>
+          Most owners see their dogs constantly scratching & licking their paws and think they are “just grooming” never realizing they could actually be suffering from severe allergies...
+        </p>
+        <p>
+          Allergies is one of the most common problems that gets diagnosed in veterinary medicine. With 1000s of dog’s suffering from this condition every year, but their owners sadly not taking action!
+        </p>
+        <center>
+          <div
+            className="article-img-wrapper"
+          >
+            <img
+              src="//images.ctfassets.net/xihufpic5pn1/5aqAqLIefYXhYYce17kbpf/91aedc6da1813211fc2b137a896f4f76/lucy-image2.jpg"
+              style={
+                Object {
+                  "borderRadius": "0",
+                  "width": "100%",
+                }
+              }
+            />
+          </div>
+        </center>
+        <p>
+          Lucy was one of those 1000s of dogs suffering from allergies, without her owners realizing…
+        </p>
+        <p>
+          Throughout the day she would constantly lick her paws, bite and scratch. 
+          <b>
+            Lucy was living in constant discomfort everyday…
+          </b>
+        </p>
+        <p>
+          These symptoms can quickly escalate into a vicious cycle where the scratching irritates their skin more and more… leading to painful wounds & sores!
+        </p>
+        <p>
+          Luckily, Lucy’s owner read about allergies and spotted the symptoms...
+        </p>
+        <center>
+          <div
+            className="article-img-wrapper"
+          >
+            <img
+              src="//images.ctfassets.net/xihufpic5pn1/23AHJVphft8JIkB2WePZyh/7d3d8b426639b6538c2d21814124e832/lucy-image3.png"
+              style={
+                Object {
+                  "borderRadius": "0",
+                  "width": "100%",
+                }
+              }
+            />
+            <div
+              style={
+                Object {
+                  "fontWeight": 700,
+                  "margin": 0,
+                  "padding": 0,
+                  "width": "auto",
+                }
+              }
+            >
+              <p>
+                <b>
+                  
+                </b>
+              </p>
+            </div>
+          </div>
+        </center>
+        <p>
+          <b>
+            She was constantly licking her paws until she found these chews
+          </b>
+        </p>
+        <p>
+          After doing some research online, she saw these new itch relief chews had amazing reviews, and had helped 1000s of dogs across the USA! They also offered a 90 day guarantee, so she thought she had nothing to lose…
+        </p>
+        <center>
+          <div
+            className="article-img-wrapper"
+          >
+            <img
+              src="//images.ctfassets.net/xihufpic5pn1/1pAwsROivVyuuSdKiVQFlc/82e4e63e5f73cc7eb2371be71efe179c/lucy-image4.png"
+              style={
+                Object {
+                  "borderRadius": "0",
+                  "width": "100%",
+                }
+              }
+            />
+          </div>
+        </center>
+        <p>
+          "I'M NOT RICH BUT I COULDN'T AFFORD NOT TO GET THESE"
+        </p>
+        <p>
+          Costing a tiny 0.75 cents a day when you get the value pack, Lucy's owner told us "it's a no brainer to try for any dog owner" - especially after seeing the rave reviews and success stories...
+        </p>
+        <p>
+          In just the 
+          <b>
+            first week
+          </b>
+          , Lucy had stopped scratching excessively. She seemed much more comfortable and relaxed than she had been in a long time.
+        </p>
+        <p>
+          <b>
+            Week 2
+          </b>
+           and the results of the chews were clear as day. Lucy no longer licked her paws constantly, she was able to just lie down in peace. It was heartwarming to see.
+        </p>
+        <p>
+          By 
+          <b>
+            week 3
+          </b>
+           Lucy was a completely different dog. Without the excessive licking her hair had started to grow back! Her coat just looked shinier & healthier. It was amazing to see.
+        </p>
+        <p>
+          <b>
+            PRESENT DAY:
+          </b>
+           Lucy is back to loving life again...
+        </p>
+        <a
+          className="productLink "
+          href=""
+        >
+          <div
+            className="sc-AxiKw cYjhjW page-btn"
+          >
+            <div
+              className="arrow-wrapper"
+            >
+              <span>
+                See Pre-order Offers Available Now! 
+              </span>
+              <div
+                className="arrow-img"
+              >
+                <div
+                  className="article-img-wrapper"
+                >
+                  <img
+                    src="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png"
+                    style={
+                      Object {
+                        "width": undefined,
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <center>
+          <div
+            className="article-img-wrapper"
+          >
+            <img
+              src="//images.ctfassets.net/xihufpic5pn1/3Tm764Mtq3CVak8xkrLStV/75ff11a569524f0f8bc32e83c6a73cd2/lucy-image5.png"
+              style={
+                Object {
+                  "borderRadius": "0",
+                  "width": "100%",
+                }
+              }
+            />
+            <div
+              style={
+                Object {
+                  "fontWeight": 700,
+                  "margin": 0,
+                  "padding": 0,
+                  "width": "auto",
+                }
+              }
+            >
+              <p>
+                <b>
+                  Today, Lucy loves being outside more than ever!
+                </b>
+              </p>
+            </div>
+          </div>
+        </center>
+        <p>
+          <b>
+            SO, WHAT ARE THESE AMAZING CHEWS?
+          </b>
+        </p>
+        <p>
+          They’re called Petlab Co Itch Relief chews and they’re changing the lives of thousands of dogs across America!
+        </p>
+        <p>
+          Designed by experts, to support your dog’s immune system that helps them fight off everyday allergens. The formula, which is rich in omega 3 & 6, vitamins and minerals essential for healthy skin and coat then gets to work in no time, helping to promote a soft, silky, shiny and healthy coat for your pup.
+        </p>
+        <p>
+          <b>
+            Petlab Co proudly manufactures the product in Denver, Colorado
+          </b>
+           using the perfect balance of premium, effective ingredients that are safe to use for all dogs, including:
+        </p>
+        <div
+          className="styledText "
+          style={
+            Object {
+              "color": "#019DD9",
+            }
+          }
+        >
+          <ul>
+            <li>
+              <p>
+                Turmeric Curcumin
+              </p>
+            </li>
+            <li>
+              <p>
+                Flaxseed
+              </p>
+            </li>
+            <li>
+              <p>
+                Salmon Oil
+              </p>
+            </li>
+            <li>
+              <p>
+                Honey
+              </p>
+            </li>
+            <li>
+              <p>
+                Vitamin E
+              </p>
+            </li>
+          </ul>
+          <p>
+            
+          </p>
+        </div>
+        <p>
+          It’s been in such high demand that 
+          <b>
+            dog owners across the country are stockpiling
+          </b>
+           it to protect their pups this spring & summer. The company completely sold out in under 30 days, with over 
+          <b>
+            35,375 tubs being sold in April 2020 alone!
+          </b>
+        </p>
+        <p>
+          Petlab Co understands that 
+          <b>
+            April through September is the worst time of year for your dog’s allergies
+          </b>
+           so they are working overtime to manufacture another batch of these Itch Relief chews to 
+          <b>
+            be delivered on 22nd June.
+          </b>
+        </p>
+        <div
+          className="styledText "
+          style={
+            Object {
+              "color": null,
+            }
+          }
+        >
+          <p>
+            <b
+              style={
+                Object {
+                  "backgroundColor": null,
+                }
+              }
+            >
+              They expect this next batch to sell out before it is even finished manufacturing, which is why they are urging you to reserve your presale order now!
+            </b>
+          </p>
+        </div>
+        <p>
+          The best part though? Reserving your presale order now means you
+          <b>
+             get it 100% risk-free with Petlab Co’s 90 day money-back guarantee.
+          </b>
+           PLUS they’re offering a 
+          <b>
+            25% discount
+          </b>
+           for all new customers, so you’d be silly not to secure it now.
+        </p>
+        <p>
+          Reserve your presale order here:
+        </p>
+        <a
+          className="productLink "
+          href=""
+        >
+          <div
+            className="sc-AxiKw cYjhjW page-btn"
+          >
+            <div
+              className="arrow-wrapper"
+            >
+              <span>
+                See Pre-order Offers Available Now! 
+              </span>
+              <div
+                className="arrow-img"
+              >
+                <div
+                  className="article-img-wrapper"
+                >
+                  <img
+                    src="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png"
+                    style={
+                      Object {
+                        "width": undefined,
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <p>
+          The company has had hundreds of 5* reviews of their products, and countless customers have personally messaged us to say how impressed and happy they are with their products. It's one of the reasons we do what we do - seeing the results 1st hand of the positive changes our products can make to dogs across America.
+        </p>
+        <p>
+          You can see some of the positive 5* reviews below…
+        </p>
+        <center>
+          <div
+            className="article-img-wrapper"
+          >
+            <img
+              src="//images.ctfassets.net/xihufpic5pn1/7CxCfHCxdrAijwYeJXlIuP/effa98b45fa252d8b76d74a821b1d0a0/trust.png"
+              style={
+                Object {
+                  "borderRadius": "0",
+                  "width": "100%",
+                }
+              }
+            />
+          </div>
+        </center>
+        <p>
+          Remember, excessive itching is not always normal in dogs, and it could be a sign of nutrient deficiency that you can’t afford to ignore. Take advantage of Petlab's 90 day risk free, 100% guarantee and click the button below to 
+          <b>
+            reserve your presale order today for our Itch Relief Chews
+          </b>
+          . They could make a real difference to their skin and coat health.
+        </p>
+        <center>
+          <div
+            className="article-img-wrapper"
+          >
+            <img
+              src="//images.ctfassets.net/xihufpic5pn1/2W1mvbWBuX0WFQqYTCKeVw/d099de0ef8b08b04b4d683c88dd6fb7a/product.png"
+              style={
+                Object {
+                  "borderRadius": "0",
+                  "width": "100%",
+                }
+              }
+            />
+          </div>
+        </center>
+        <a
+          className="productLink "
+          href=""
+        >
+          <div
+            className="sc-AxiKw cYjhjW page-btn"
+          >
+            <div
+              className="arrow-wrapper"
+            >
+              <span>
+                See Pre-order Offers Available Now! 
+              </span>
+              <div
+                className="arrow-img"
+              >
+                <div
+                  className="article-img-wrapper"
+                >
+                  <img
+                    src="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png"
+                    style={
+                      Object {
+                        "width": undefined,
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <p>
+          
+        </p>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
+
 exports[`Storyshots Amazon Review Default 1`] = `
 <div
   className="facebook-container"

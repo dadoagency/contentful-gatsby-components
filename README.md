@@ -1,6 +1,6 @@
-Storybook: https://storybook--5f43c1219b70f800227245f3.chromatic.com
+Storybook: https://master--5f43c1219b70f800227245f3.chromatic.com
 
-Chromatic: https://chromatic.com/library?appId=5f43c1219b70f800227245f3&branch=storybook
+Chromatic: https://chromatic.com/library?appId=5f43c1219b70f800227245f3&branch=master
 
 ## How to install
 

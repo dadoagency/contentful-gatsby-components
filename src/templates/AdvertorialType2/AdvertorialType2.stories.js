@@ -29,6 +29,7 @@ Default.args = {
   logo: {
     height: 25,
     src: petlabLogo,
+    srcSet: "",
     width: 280,
     aspectRatio: 11.2,
   },

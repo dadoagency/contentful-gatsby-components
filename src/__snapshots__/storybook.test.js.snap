@@ -1,5 +1,2291 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Advertorial Type 2 Default 1`] = `
+<div>
+  <section
+    className="site-logo-container header"
+  >
+    <div
+      className="sc-AxjAm gPHMU section site-logo-wrapper"
+    >
+      <div
+        className="site-logo"
+      >
+        <div
+          className=" gatsby-image-wrapper"
+          style={
+            Object {
+              "display": "inline-block",
+              "height": 25,
+              "overflow": "hidden",
+              "position": "relative",
+              "width": 280,
+            }
+          }
+        >
+          <picture>
+            <source
+              srcSet=""
+            />
+            <img
+              alt="Logo"
+              height={25}
+              loading="lazy"
+              onLoad={[Function]}
+              src="test-image-stub"
+              srcSet=""
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "transition": "opacity 500ms",
+                  "width": "100%",
+                }
+              }
+              width={280}
+            />
+          </picture>
+          <noscript
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<picture><source srcset=\\"\\" /><img loading=\\"lazy\\" width=\\"280\\" height=\\"25\\" src=\\"test-image-stub\\" alt=\\"Logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              }
+            }
+          />
+        </div>
+      </div>
+      
+      <div
+        className="extra"
+      >
+        <a
+          className="productLink "
+          href=""
+        >
+          <div
+            className="sc-AxiKw gtoKoy page-btn"
+          >
+            <div
+              className="arrow-wrapper"
+            >
+              <span>
+                Click me
+              </span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section
+    className="site-data-container"
+  >
+    <div
+      className="site-data-wrapper section"
+    >
+      <div />
+      <div
+        className="title"
+      >
+        <h1>
+          "Older Dogs Are Finding Their Inner Puppy And Feeling Young Again... Thanks To These Chews"
+        </h1>
+        <p>
+          
+        </p>
+      </div>
+      <div
+        className="flex-wrapper"
+      >
+        <div
+          className="left-data-wrapper article"
+        >
+          <div
+            className="article-data-container"
+          />
+          <div
+            className="article-creator-wrapper"
+          >
+            <div
+              className="creator-data-wrapper"
+            >
+              <div
+                className="creator-comment-wrapper body"
+              >
+                <center>
+                  <div
+                    className="article-img-wrapper"
+                  >
+                    <img
+                      src="//images.ctfassets.net/xihufpic5pn1/43Zd1iXBcznUSLZk4S1C7F/df6d079eb8e07db6c678598bf91ccd48/ezgif-1-70a053fc6be0.gif"
+                      style={
+                        Object {
+                          "borderRadius": "0",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                  </div>
+                </center>
+                <div
+                  className="section"
+                >
+                  <p>
+                    <b>
+                      “A dog with healthier joints is typically more likely to live a longer life. If you invest in keeping their joints in shape, you’re giving them the best shot at living well into their later years in good health”
+                    </b>
+                  </p>
+                  <p>
+                    After my friend's dog died, he told me 'she was young at heart and wanted to play but she just couldn't get up'.
+                  </p>
+                  <p>
+                    <u>
+                      If our dogs could stay and play fetch with us forever, they would. 
+                    </u>
+                    Unfortunately...
+                  </p>
+                  <p>
+                    1 in 4 of the 77 million dogs in America will be potentially diagnosed with joint issues at some point in their life. What many dog owners don’t realise is the fact that these worsening joint issues can severely reduce their lifespan. So this begs the question, how then can you protect the health of your dog’s joints?
+                  </p>
+                  <p>
+                    Well, these new delicious join treats could be the answer - and daisy’s inspiring story below is proof.
+                  </p>
+                </div>
+                <center>
+                  <div
+                    className="article-img-wrapper"
+                  >
+                    <img
+                      src="//images.ctfassets.net/xihufpic5pn1/1X4D2dDbOFzeAmy5PWm6Zc/7d75394a0bc7750d06b961b03fd7a96f/dog_lab_resting_pl3.jpg"
+                      style={
+                        Object {
+                          "borderRadius": "0",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                    <div
+                      style={
+                        Object {
+                          "fontWeight": 700,
+                          "margin": 0,
+                          "padding": 0,
+                          "width": "auto",
+                        }
+                      }
+                    >
+                      <p>
+                        <b>
+                          Standing was painful enough for her until she found these chews
+                        </b>
+                      </p>
+                    </div>
+                  </div>
+                </center>
+                <div
+                  className="section"
+                >
+                  <h3>
+                    WHY DO JOINT PROBLEMS NEED URGENT ATTENTION?
+                  </h3>
+                  <p>
+                    Joint pain is called a silent killer for a reason. Daisy's joint pain was unnoticeable at first. As time went on, she started to slow down, limp and struggled to stand...
+                  </p>
+                  <p>
+                    Eventually, it seemed like the life had left her body and she had nothing to do but wait for her time to end.
+                  </p>
+                  <p>
+                    <b>
+                      Her owner, Lisa, dreaded the thought of putting her down but couldn't see her in any more pain.
+                    </b>
+                  </p>
+                  <p>
+                    But one fateful day, she saw a Facebook post about a joint supporting supplement for dogs. As she did more research, she saw that 
+                    <b>
+                      thousands of other dog owners had tried them and had amazing success.
+                    </b>
+                  </p>
+                </div>
+                <center>
+                  <div
+                    className="article-img-wrapper"
+                  >
+                    <img
+                      src="//images.ctfassets.net/xihufpic5pn1/49798kWEDyei896s9994Bk/f3ddc3c17e3d5b23d3c53fc8225003c9/altitude_JHC_amazon_review_collage-min_1_jpg-1583177856109.jpg"
+                      style={
+                        Object {
+                          "borderRadius": "0",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                  </div>
+                </center>
+                <div
+                  className="section"
+                >
+                  <h3>
+                    "I'M NOT RICH BUT I COULDN'T AFFORD NOT TO GET THESE"
+                  </h3>
+                  <p>
+                    
+
+                    <span
+                      className="styledText "
+                      style={
+                        Object {
+                          "color": "#FF0000",
+                        }
+                      }
+                    >
+                      <p>
+                        Just a few cents a day
+                      </p>
+                    </span>
+                    **, and as Ali, a Petlab customer put it: "it's a no brainer to try for any dog owner" - especially after seeing the rave reviews and success stories. 
+                    <span
+                      className="styledText "
+                      style={
+                        Object {
+                          "color": null,
+                        }
+                      }
+                    >
+                      <p>
+                        <b
+                          style={
+                            Object {
+                              "backgroundColor": null,
+                            }
+                          }
+                        >
+                          Additionally, with stock running critically low and the global manufacturing system in chaos due to the coronavirus - owners are being urged to snap up the limited joint chews today (orders within the next 24 hours only are guaranteed to be delivered on time).
+                        </b>
+                      </p>
+                    </span>
+                    
+                  </p>
+                  <a
+                    className="productLink "
+                    href=""
+                  >
+                    <div
+                      className="sc-AxiKw gtoKoy page-btn"
+                    >
+                      <div
+                        className="arrow-wrapper"
+                      >
+                        <span>
+                          SEE JOINT CARE CHEW OFFERS
+                        </span>
+                        <div
+                          className="arrow-img"
+                        >
+                          <div
+                            className="article-img-wrapper"
+                          >
+                            <img
+                              src="//images.ctfassets.net/xihufpic5pn1/2mCgqutzsb6vXSWhAJ06a4/29198111da036dc2dd34d43a99bbfda8/angle-double-right.svg"
+                              style={
+                                Object {
+                                  "width": undefined,
+                                }
+                              }
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <p>
+                    Plus there are several options if you just want to try one or two tubs using the risk free money back guarantee. The fast shipping from USA meant Daisy's owner was able to get him started ASAP.
+                  </p>
+                  <p>
+                    <b>
+                      In just the first week,
+                    </b>
+                     Daisy began to get up in the morning far easier than the last few months. She rose from her bed with a renewed energy that hadn't been seen in a long time.
+                  </p>
+                  <p>
+                    <b>
+                      Week 2
+                    </b>
+                     and the results of the chews were clear as day. Daisy was walking around day to day, painkiller free, like she did in her younger days. It was heartwarming to see.
+                  </p>
+                  <p>
+                    <b>
+                      By week 3
+                    </b>
+                     Daisy was a completely different dog. There were even moments during the third week where Daisy ran for little! Daisy's transformation was complete.
+                  </p>
+                  <p>
+                    <b>
+                      PRESENT DAY:
+                    </b>
+                     Daisy is back to being a 'support dog' and bringing joy to the lives of us humans. Her story is more than just 'a dog that was able to walk after crippling joint problems'...
+                  </p>
+                  <p>
+                    It's a reminder that true strength comes from bringing joy to other living things. Human or dog...
+                  </p>
+                </div>
+                <center>
+                  <div
+                    className="article-img-wrapper"
+                  >
+                    <img
+                      src="//images.ctfassets.net/xihufpic5pn1/3zJz55oXx3wAKiYjLqkZQ4/d152dba01fb7daaf22695ca0c3ed12e1/altitude_Hnetcom-image_1_.gif-1583174217604.gif"
+                      style={
+                        Object {
+                          "borderRadius": "0",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                    <div
+                      style={
+                        Object {
+                          "fontWeight": 700,
+                          "margin": 0,
+                          "padding": 0,
+                          "width": "auto",
+                        }
+                      }
+                    >
+                      <p>
+                        <b>
+                          Today, Daisy's tail wags stronger than ever!
+                        </b>
+                      </p>
+                    </div>
+                  </div>
+                </center>
+                <div
+                  className="section"
+                >
+                  <h3>
+                    SO WHAT'S THE TRICK?
+                  </h3>
+                  <p>
+                    It's called 
+                    <a
+                      href="https://promos.thepetlabco.com/jointcarechews/chews25?id=mcx_jhc_lpg_innerpuppy_list&utm_source=mcx_jhc_lpg_innerpuppy_list&utm_medium=mcx_jhc_lpg_innerpuppy_list&utm_campaign=mcx_jhc_lpg_innerpuppy_list&utm_term=mcx_jhc_lpg_innerpuppy_list"
+                    >
+                      Petlab Joint Care Chews
+                    </a>
+                     and they are designed to maximize joint health in dogs which as prior mentioned, could mean they stay around that little bit longer with us. They contain some of the strongest 
+                    <b>
+                      joint care ingredients
+                    </b>
+                     available today and are designed to be both 
+                    <b>
+                      corrective AND preventative
+                    </b>
+                     - meaning they are good for younger dogs too.
+                  </p>
+                </div>
+                <center>
+                  <div
+                    className="article-img-wrapper"
+                  >
+                    <img
+                      src="//images.ctfassets.net/xihufpic5pn1/1mvXTeyxRBAtMylUSohHX4/0ffdd9f9010499533b718ea425eb6739/altitude_happydog_1jpg-1582331287753.jpg"
+                      style={
+                        Object {
+                          "borderRadius": "0",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                    <div
+                      style={
+                        Object {
+                          "fontWeight": 700,
+                          "margin": 0,
+                          "padding": 0,
+                          "width": "auto",
+                        }
+                      }
+                    >
+                      <p>
+                        <b>
+                          Put the spring back in their step and help them love life again
+                        </b>
+                      </p>
+                    </div>
+                  </div>
+                </center>
+                <div
+                  className="section"
+                >
+                  <h3>
+                    WHAT ARE THE INGREDIENTS?
+                  </h3>
+                  <p>
+                    Here are some of the ingredients in every chew that help with healthy bones and joints 
+                    <b>
+                      (a full list of ingredients can be found by clicking one of the orange buttons below)
+                    </b>
+                    ...
+                  </p>
+                  <ul>
+                    <li>
+                      <p>
+                        <b>
+                          Glucosamine 
+                        </b>
+                        - May stimulate the production of proteoglycans which can help maintain the health and resilience of joints and connective tissue.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <b>
+                          Turmeric Curcumin 
+                        </b>
+                        - Helps maintain healthy bone and joint function
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <b>
+                          Salmon Oil 
+                        </b>
+                        - A fatty acid which is vital to everyday health, strong muscles and healthy joints.
+                      </p>
+                    </li>
+                  </ul>
+                  <a
+                    className="productLink "
+                    href=""
+                  >
+                    <div
+                      className="sc-AxiKw gtoKoy page-btn"
+                    >
+                      <div
+                        className="arrow-wrapper"
+                      >
+                        <span>
+                          SEE JOINT CARE CHEW OFFERS
+                        </span>
+                        <div
+                          className="arrow-img"
+                        >
+                          <div
+                            className="article-img-wrapper"
+                          >
+                            <img
+                              src="//images.ctfassets.net/xihufpic5pn1/2mCgqutzsb6vXSWhAJ06a4/29198111da036dc2dd34d43a99bbfda8/angle-double-right.svg"
+                              style={
+                                Object {
+                                  "width": undefined,
+                                }
+                              }
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <p>
+                    It contains a whole host of ingredients designed to enhance bone and joint health.
+                  </p>
+                  <p>
+                    Whats more impressive are the 
+                    <b>
+                      incredible reviews
+                    </b>
+                     on the Joint Care chew. Hundreds of Americans have posted online about how much the Joint Care chews have changed their dogs’s lives (It has hundreds of perfect 
+                    <b>
+                      5 star ratings on Trustpilot
+                    </b>
+                    ):
+                  </p>
+                </div>
+                <center>
+                  <div
+                    className="article-img-wrapper"
+                  >
+                    <img
+                      src="//images.ctfassets.net/xihufpic5pn1/54KxPFja5mx0OISZAEAFFU/aa9bf7a620a8322454d53bb21b28b9be/trustpilot_review_jhc.png"
+                      style={
+                        Object {
+                          "borderRadius": "0",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                  </div>
+                </center>
+                <div
+                  className="section"
+                >
+                  <p>
+                    If you've got a dog, then you should give them these chews - it could be 
+                    <b>
+                      lifechanging
+                    </b>
+                     for them, and do more than just help them with their joints...
+                  </p>
+                  <p>
+                    It could remind them 
+                    <u>
+                      they have that young puppy inside them,
+                    </u>
+                     waiting to get out and play just like the old days. 
+                    <b>
+                      I can't think of a greater gift for them.
+                    </b>
+                  </p>
+                  <p>
+                    Right now you can give the 
+                    <a
+                      href="https://promos.thepetlabco.com/jointcarechews/chews25?id=mcx_jhc_lpg_innerpuppy_list&utm_source=mcx_jhc_lpg_innerpuppy_list&utm_medium=mcx_jhc_lpg_innerpuppy_list&utm_campaign=mcx_jhc_lpg_innerpuppy_list&utm_term=mcx_jhc_lpg_innerpuppy_list"
+                    >
+                      Joint Care Chews
+                    </a>
+                     a try 100% risk free with Petlab Co's 
+                    <b>
+                      90-Day Money Back Guarantee.
+                    </b>
+                     PLUS they have a 
+                    <b>
+                      25% discount
+                    </b>
+                     for all new customers, so you'd be silly not to give it a try.
+                  </p>
+                  <p>
+                    And if that wasn't enough, we have a special reader offer through this link only...
+                  </p>
+                  <div
+                    className="special-offer"
+                    style={
+                      Object {
+                        "backgroundColor": "#ffffe0",
+                        "border": "4px dashed black",
+                        "padding": "5px",
+                      }
+                    }
+                  >
+                    <p>
+                      
+                      <span
+                        className="styledText "
+                        style={
+                          Object {
+                            "color": "#FF0000",
+                          }
+                        }
+                      >
+                        <p>
+                          <b
+                            style={
+                              Object {
+                                "backgroundColor": null,
+                              }
+                            }
+                          >
+                            SPECIAL READER OFFER:
+                          </b>
+                        </p>
+                      </span>
+                      When you try Joint Health Chews today you will also get access to Petlab's 'Facebook Advisor' group. 
+                      <b>
+                        Normally $14.95 - but you'll get it 100% FREE.
+                      </b>
+                       It's filled with great tips and professional advice from vets to make sure you never worry about your dog's health or happiness again. 
+                      <b>
+                        But HURRY, this offer might expire soon!
+                      </b>
+                    </p>
+                  </div>
+                  <p>
+                    To learn more about the product and grab the amazing discount, click the orange button below.
+                  </p>
+                  <a
+                    className="productLink "
+                    href=""
+                  >
+                    <div
+                      className="sc-AxiKw gtoKoy page-btn"
+                    >
+                      <div
+                        className="arrow-wrapper"
+                      >
+                        <span>
+                          SEE JOINT CARE CHEW OFFERS
+                        </span>
+                        <div
+                          className="arrow-img"
+                        >
+                          <div
+                            className="article-img-wrapper"
+                          >
+                            <img
+                              src="//images.ctfassets.net/xihufpic5pn1/2mCgqutzsb6vXSWhAJ06a4/29198111da036dc2dd34d43a99bbfda8/angle-double-right.svg"
+                              style={
+                                Object {
+                                  "width": undefined,
+                                }
+                              }
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <div
+                    className="styledText "
+                    style={
+                      Object {
+                        "color": "#F42A3F",
+                      }
+                    }
+                  >
+                    <p>
+                      <b
+                        style={
+                          Object {
+                            "backgroundColor": null,
+                          }
+                        }
+                      >
+                        JUST A FEW CENTS A DAY, no matter what income level you're on, it's possible to make sure your dog gets the treatment they deserve.
+                      </b>
+                    </p>
+                  </div>
+                  <center>
+                    <div
+                      className="article-img-wrapper"
+                    >
+                      <img
+                        src="//images.ctfassets.net/xihufpic5pn1/6r5KY5Js09jtze0BZ7oeef/2c08b0b6550f3ca441f5acbdab202850/altitude_jointcaretubpng-1582280315318.png"
+                        style={
+                          Object {
+                            "borderRadius": "0",
+                            "width": "100%",
+                          }
+                        }
+                      />
+                    </div>
+                  </center>
+                  <a
+                    className="productLink "
+                    href=""
+                  >
+                    <div
+                      className="sc-AxiKw gtoKoy page-btn"
+                    >
+                      <div
+                        className="arrow-wrapper"
+                      >
+                        <span>
+                          SEE JOINT CARE CHEW OFFERS
+                        </span>
+                        <div
+                          className="arrow-img"
+                        >
+                          <div
+                            className="article-img-wrapper"
+                          >
+                            <img
+                              src="//images.ctfassets.net/xihufpic5pn1/2mCgqutzsb6vXSWhAJ06a4/29198111da036dc2dd34d43a99bbfda8/angle-double-right.svg"
+                              style={
+                                Object {
+                                  "width": undefined,
+                                }
+                              }
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <p>
+                    
+                  </p>
+                </div>
+                <p>
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="right-sidebar"
+        >
+          <div
+            className="right-data-wrapper reviews"
+          >
+            <div
+              className="meta-info product-card "
+            >
+              <center>
+                <div
+                  className="article-img-wrapper"
+                >
+                  <div
+                    className=" gatsby-image-wrapper"
+                    style={
+                      Object {
+                        "maxHeight": null,
+                        "maxWidth": null,
+                        "overflow": "hidden",
+                        "position": "relative",
+                      }
+                    }
+                  >
+                    <div
+                      aria-hidden={true}
+                      style={
+                        Object {
+                          "paddingBottom": "135.5%",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                    <img
+                      alt=""
+                      aria-hidden={true}
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAYAAAB836/YAAAACXBIWXMAABcRAAAXEQHKJvM/AAAAB3RJTUUH5AcdDSADVQdGLQAABShJREFUSMd9VTtsHFUUPe/Nf3+2Y8eOYztZx598IErSxAUSiAIKqjSQAgkaGlpqKiRoqJEo6UBCAgkkkAWKREEQSMQJciIiSBTkTzZrZ73fmZ2ZnRnOe7tr1ggxu2/f7Pvcd+8599wnwCeKupDSXA6C4KUoiq7EcbQURfFckiSTbIU0TS3DMLhGxr1e3AHEU8dxdl3XfcB+I5/PfZ+myX3bdiFqtX04jvtJo9F8gxtFlmU8IAINQb1zDL1eD5ZlqbMRhqEed1wXjm3DZqNRuK7zuWHI6zKfy+V6veRNbhIYedSm0XZkjh8MxoaHJkn6Ko1OSkmz/7d59IDDvv/9r0eaXKANCiEwwEn3vu8jjmOEEUNMM5imqedUeOoZrlX7Dp0QQpr8rw0qnLphF0kv0YY0hvxIISENiSiOkIYp0iTVIYIAuY6LQqGg50iQctugh8IjuwknjCHwaoMCf0iO8mLooWp9Z4QmSo0rZ7g+i2PXNbvd8H0uMugtnh7UUas3sM9+d2cX9f2n6HYDbcR1PdieC5shK3Y9ejQ+PobyqXnMHJ9STogwjD4wP/t6fe3L9RvqSJjEJc9N9UYTtUoF1e0dVHYrmJqaQGl8HDGhEvTIHkRCIDE+PY1zy4twbQuXLpy9Kjfu3Te2K9U+LnqNZG6ZI+8WQzM18Lb1jzHPdVAq5BSUDNvAXq2OH36+JU0pBWYmJ3B2cQHjY0V6KRETuzMzE6jvzaLrd0iKoRNZWjYyRsK8JYERYhJk5ovwg1AfapmmFM3W3h9Bp7lM6WmgKSFNRrvTRqNRJ+sxMTS0IhQJyrhivk+Uge9u/oatSg31ZhuvX3u5Ytp0yR9J5mz4y7E/H27BMgQxbWvvV1fOaIOjK8+cmsXt3//ShK6U56QCSx4Rx8j7yRNT2NjYxNrVy3hSrWHncRXl03Mj6gEuri4i6hFvZkIh7wplUAxnsyMWMy7I4cTMFLa2K2xPcPnS+f70UdXj+asXB4pR0qOHA7kfrstGtFouz+uZkG6YhjlSHAT+LWqhtKyyYxiyArZLhfhBgDgMcPvOJmZnJrWnp4lVGMbY2qlgrFQc6LyHC+dWMOI2A88yc3hCzHSwdOL2822sWECpmEeRvVSiF9BGDxotHUVEo//CvU9KfyRjYt7BzVt30Wy20Kg+QYfFN2LBcJjErkfDlFrYS+mxpzFLuO3jD59BEtZ5UITS5PyAlMEJ55dPIc1SdDo+atXjeEzp2cySLr0yLQeG7cBy7MOyZTCa1N9G5nkM3zrEUGYDIspzMxgr5BF0fQSdU2i2zqPV6mgpqoJQZKnKBrVQVSFlEEYOadyGW1hS8pTmxt374tsbN7Ewd4Kh5Mmk0OrotltoN5uUWYRnzy3Cy+Vg0agqIEKVMapFyS0ROcjCNHFLCY8vzS/Wf5SffrWOJZYhVY1Vbeu029jb2kaVzSfzi4sn8d47r2DOfgjhPyIb+wyZcpxYZlgvwCq/SE89wmIJY/XK2rsPHm3ZEwRcFUsVii6sTJ+ix1AtlmEjwy+/buLSfAclj1Wpx5s0Y+GNa7DihzCCe4AzDdObgfnWa9fStYsXYLJMKabafoB6va5r4cFeFaFf1yHmWCc3Gw6WVhmyYWliTKeA3LFpuBOziFOOW+OpuVJe+GZqrHBdVRIF9vAebrVaR25CxeqwaWMqX1XlJu4J50OKgUGvi0aj4bFMvR0E3edoaIGbj3FTkc0joTb/m+qQwc2mfhLORTQa8L3FXDmgJLd5vf9UKhU/+hvkPafNhxZShgAAAABJRU5ErkJggg=="
+                      style={
+                        Object {
+                          "height": "100%",
+                          "left": 0,
+                          "objectFit": "cover",
+                          "objectPosition": "center",
+                          "opacity": 1,
+                          "position": "absolute",
+                          "top": 0,
+                          "transitionDelay": "500ms",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                    <picture>
+                      <source
+                        sizes="(max-width: 800px) 100vw, 800px"
+                        srcSet="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50&fm=webp 200w"
+                        type="image/webp"
+                      />
+                      <source
+                        sizes="(max-width: 800px) 100vw, 800px"
+                        srcSet="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w"
+                      />
+                      <img
+                        alt="header"
+                        loading="lazy"
+                        onLoad={[Function]}
+                        sizes="(max-width: 800px) 100vw, 800px"
+                        src="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=800&q=50"
+                        srcSet="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w"
+                        style={
+                          Object {
+                            "height": "100%",
+                            "left": 0,
+                            "objectFit": "cover",
+                            "objectPosition": "center",
+                            "opacity": 0,
+                            "position": "absolute",
+                            "top": 0,
+                            "transition": "opacity 500ms",
+                            "width": "100%",
+                          }
+                        }
+                      />
+                    </picture>
+                    <noscript
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "<picture><source type='image/webp' srcset=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50&fm=webp 200w\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" /><source srcset=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" srcset=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w\\" src=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=800&q=50\\" alt=\\"header\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </center>
+              <div
+                className="figure caption"
+                style={
+                  Object {
+                    "marginTop": 0,
+                  }
+                }
+              />
+            </div>
+            <div
+              className="reviews-list"
+            >
+              <div
+                className="righttestibox trustpilot-review-b"
+              >
+                <div
+                  className="text-center"
+                >
+                  <a
+                    href="https://www.trustpilot.com/"
+                  >
+                    <div
+                      className="article-img-wrapper"
+                    >
+                      <div
+                        className=" gatsby-image-wrapper"
+                        style={
+                          Object {
+                            "display": "inline-block",
+                            "height": 37,
+                            "overflow": "hidden",
+                            "position": "relative",
+                            "width": 90,
+                          }
+                        }
+                      >
+                        <img
+                          alt=""
+                          aria-hidden={true}
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABPklEQVQoz2MI3FjLAAMBQHbKswUMkjJSDBISEmAMAjAaBpDFkeXExcUhhgRuqmMF0qwBG2oZww60M/AwMDFISkkygRTANCFhRnQ+kjpGsMmBm+vZgAaWMlADAF3nDzRsOdDQV0FbGqYF72wyEuLks5eQlCwG2igPxKxQV7ACMReQrQ/EQkDMAcRKQGwJxJxAzAvEhgz+66r4gYadjjrW/d99bu4icNhISmgDJduBOAloSBKQdgHiCiAuAOI6IC4E4jgQGyjfBqTTgHQGkJ7E4L2shBloYBOQrgbiApCB0sryokDJLKAiKyAOAGKQ4dlA3ApkxwDpLhAfyK4H0iCfFALZiUA6B+RldqAruUAGRR7u4fffWM0CYktKSyF7lQ/IBnmXG4iZgdgJiGWhMQuKPF5oEHDAw9J7eSkLNeIEAEwdVryKCuM9AAAAAElFTkSuQmCC"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 1,
+                              "position": "absolute",
+                              "top": 0,
+                              "transitionDelay": "500ms",
+                              "width": "100%",
+                            }
+                          }
+                        />
+                        <picture>
+                          <source
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/ef0c7/trustpilot.webp 1x,
+/static/ca264bd75dd191d289892bee83e52e55/88075/trustpilot.webp 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/1a890/trustpilot.webp 2x"
+                            type="image/webp"
+                          />
+                          <source
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x"
+                          />
+                          <img
+                            alt="trustpilot logo"
+                            height={37}
+                            loading="lazy"
+                            onLoad={[Function]}
+                            src="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png"
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x"
+                            style={
+                              Object {
+                                "height": "100%",
+                                "left": 0,
+                                "objectFit": "cover",
+                                "objectPosition": "center",
+                                "opacity": 0,
+                                "position": "absolute",
+                                "top": 0,
+                                "transition": "opacity 500ms",
+                                "width": "100%",
+                              }
+                            }
+                            width={90}
+                          />
+                        </picture>
+                        <noscript
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "<picture><source type='image/webp' srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/ef0c7/trustpilot.webp 1x,
+/static/ca264bd75dd191d289892bee83e52e55/88075/trustpilot.webp 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/1a890/trustpilot.webp 2x\\" /><source srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x\\" /><img loading=\\"lazy\\" width=\\"90\\" height=\\"37\\" srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x\\" src=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png\\" alt=\\"trustpilot logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div>
+                  <p>
+                    The joint formula has worked wonders for my old dog. He used to limp after going for walks, and now he runs around like he's ready to go again! Thanks Petlab!
+                  </p>
+                </div>
+                <div
+                  className="user"
+                >
+                  <strong>
+                    Awesome Product
+                  </strong>
+                  <div
+                    className="article-img-wrapper"
+                  >
+                    <div
+                      className=" gatsby-image-wrapper"
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "height": 20,
+                          "overflow": "hidden",
+                          "position": "relative",
+                          "width": 106,
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAABQklEQVQY0y2Py0oCARSGTwXdiMKN3aA2rYMW0Tv0CLUIegBdVDppGWEOQrhoZQ/gIvAy0jiXamYsJYiCLASDxAY0CjLKyNBRm9MZaHHgnJ//+38OAL/RokFIuV+6RE8MJAaBdzVI++0WvVFIuT5p2iC5EYTNNAhMDkTaUy6LeSKG/78N4gxYzh2hu3iCg7KvSiI3dxPGUCnTmcmELFPCdrpb9xdVXLyPWAFZCs2vFOK4/ihhn7RVIU2cvz7E/dKFOa0FTYg83+LlVxmH5J0qcA5uqRDDD+Ons3AVRkg6E1NasF5u1NCjqwjHa1kqyUffC5iu6Tgg+yrAOcXVhyS+Nb/N2cyBCaNne+0xlcUe0ftKbfFhzY+TKtsks0lwtFfaro0rbMemBehl5hwEz51dY9GuBCxGJ4YfUf04obBGv+xr/QFo2L5KxjR3fwAAAABJRU5ErkJggg=="
+                        style={
+                          Object {
+                            "height": "100%",
+                            "left": 0,
+                            "objectFit": "cover",
+                            "objectPosition": "center",
+                            "opacity": 1,
+                            "position": "absolute",
+                            "top": 0,
+                            "transitionDelay": "500ms",
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <picture>
+                        <source
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/eb523/trustpilot-stars.webp 1x"
+                          type="image/webp"
+                        />
+                        <source
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x"
+                        />
+                        <img
+                          alt="petlab logo"
+                          height={20}
+                          loading="lazy"
+                          onLoad={[Function]}
+                          src="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png"
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 0,
+                              "position": "absolute",
+                              "top": 0,
+                              "transition": "opacity 500ms",
+                              "width": "100%",
+                            }
+                          }
+                          width={106}
+                        />
+                      </picture>
+                      <noscript
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<picture><source type='image/webp' srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/eb523/trustpilot-stars.webp 1x\\" /><source srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x\\" /><img loading=\\"lazy\\" width=\\"106\\" height=\\"20\\" srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x\\" src=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png\\" alt=\\"petlab logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                          }
+                        }
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="righttestibox trustpilot-review-b"
+              >
+                <div
+                  className="text-center"
+                >
+                  <a
+                    href="https://www.trustpilot.com/"
+                  >
+                    <div
+                      className="article-img-wrapper"
+                    >
+                      <div
+                        className=" gatsby-image-wrapper"
+                        style={
+                          Object {
+                            "display": "inline-block",
+                            "height": 37,
+                            "overflow": "hidden",
+                            "position": "relative",
+                            "width": 90,
+                          }
+                        }
+                      >
+                        <img
+                          alt=""
+                          aria-hidden={true}
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABPklEQVQoz2MI3FjLAAMBQHbKswUMkjJSDBISEmAMAjAaBpDFkeXExcUhhgRuqmMF0qwBG2oZww60M/AwMDFISkkygRTANCFhRnQ+kjpGsMmBm+vZgAaWMlADAF3nDzRsOdDQV0FbGqYF72wyEuLks5eQlCwG2igPxKxQV7ACMReQrQ/EQkDMAcRKQGwJxJxAzAvEhgz+66r4gYadjjrW/d99bu4icNhISmgDJduBOAloSBKQdgHiCiAuAOI6IC4E4jgQGyjfBqTTgHQGkJ7E4L2shBloYBOQrgbiApCB0sryokDJLKAiKyAOAGKQ4dlA3ApkxwDpLhAfyK4H0iCfFALZiUA6B+RldqAruUAGRR7u4fffWM0CYktKSyF7lQ/IBnmXG4iZgdgJiGWhMQuKPF5oEHDAw9J7eSkLNeIEAEwdVryKCuM9AAAAAElFTkSuQmCC"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 1,
+                              "position": "absolute",
+                              "top": 0,
+                              "transitionDelay": "500ms",
+                              "width": "100%",
+                            }
+                          }
+                        />
+                        <picture>
+                          <source
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/ef0c7/trustpilot.webp 1x,
+/static/ca264bd75dd191d289892bee83e52e55/88075/trustpilot.webp 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/1a890/trustpilot.webp 2x"
+                            type="image/webp"
+                          />
+                          <source
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x"
+                          />
+                          <img
+                            alt="trustpilot logo"
+                            height={37}
+                            loading="lazy"
+                            onLoad={[Function]}
+                            src="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png"
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x"
+                            style={
+                              Object {
+                                "height": "100%",
+                                "left": 0,
+                                "objectFit": "cover",
+                                "objectPosition": "center",
+                                "opacity": 0,
+                                "position": "absolute",
+                                "top": 0,
+                                "transition": "opacity 500ms",
+                                "width": "100%",
+                              }
+                            }
+                            width={90}
+                          />
+                        </picture>
+                        <noscript
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "<picture><source type='image/webp' srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/ef0c7/trustpilot.webp 1x,
+/static/ca264bd75dd191d289892bee83e52e55/88075/trustpilot.webp 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/1a890/trustpilot.webp 2x\\" /><source srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x\\" /><img loading=\\"lazy\\" width=\\"90\\" height=\\"37\\" srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x\\" src=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png\\" alt=\\"trustpilot logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div>
+                  <p>
+                    Using your joint care and seems to be doing wonders for my 14 year old.
+                  </p>
+                </div>
+                <div
+                  className="user"
+                >
+                  <strong>
+                    Sfointhefog
+                  </strong>
+                  <div
+                    className="article-img-wrapper"
+                  >
+                    <div
+                      className=" gatsby-image-wrapper"
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "height": 20,
+                          "overflow": "hidden",
+                          "position": "relative",
+                          "width": 106,
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAABQklEQVQY0y2Py0oCARSGTwXdiMKN3aA2rYMW0Tv0CLUIegBdVDppGWEOQrhoZQ/gIvAy0jiXamYsJYiCLASDxAY0CjLKyNBRm9MZaHHgnJ//+38OAL/RokFIuV+6RE8MJAaBdzVI++0WvVFIuT5p2iC5EYTNNAhMDkTaUy6LeSKG/78N4gxYzh2hu3iCg7KvSiI3dxPGUCnTmcmELFPCdrpb9xdVXLyPWAFZCs2vFOK4/ihhn7RVIU2cvz7E/dKFOa0FTYg83+LlVxmH5J0qcA5uqRDDD+Ons3AVRkg6E1NasF5u1NCjqwjHa1kqyUffC5iu6Tgg+yrAOcXVhyS+Nb/N2cyBCaNne+0xlcUe0ftKbfFhzY+TKtsks0lwtFfaro0rbMemBehl5hwEz51dY9GuBCxGJ4YfUf04obBGv+xr/QFo2L5KxjR3fwAAAABJRU5ErkJggg=="
+                        style={
+                          Object {
+                            "height": "100%",
+                            "left": 0,
+                            "objectFit": "cover",
+                            "objectPosition": "center",
+                            "opacity": 1,
+                            "position": "absolute",
+                            "top": 0,
+                            "transitionDelay": "500ms",
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <picture>
+                        <source
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/eb523/trustpilot-stars.webp 1x"
+                          type="image/webp"
+                        />
+                        <source
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x"
+                        />
+                        <img
+                          alt="petlab logo"
+                          height={20}
+                          loading="lazy"
+                          onLoad={[Function]}
+                          src="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png"
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 0,
+                              "position": "absolute",
+                              "top": 0,
+                              "transition": "opacity 500ms",
+                              "width": "100%",
+                            }
+                          }
+                          width={106}
+                        />
+                      </picture>
+                      <noscript
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<picture><source type='image/webp' srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/eb523/trustpilot-stars.webp 1x\\" /><source srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x\\" /><img loading=\\"lazy\\" width=\\"106\\" height=\\"20\\" srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x\\" src=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png\\" alt=\\"petlab logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                          }
+                        }
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="righttestibox trustpilot-review-b"
+              >
+                <div
+                  className="text-center"
+                >
+                  <a
+                    href="https://www.trustpilot.com/"
+                  >
+                    <div
+                      className="article-img-wrapper"
+                    >
+                      <div
+                        className=" gatsby-image-wrapper"
+                        style={
+                          Object {
+                            "display": "inline-block",
+                            "height": 37,
+                            "overflow": "hidden",
+                            "position": "relative",
+                            "width": 90,
+                          }
+                        }
+                      >
+                        <img
+                          alt=""
+                          aria-hidden={true}
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABPklEQVQoz2MI3FjLAAMBQHbKswUMkjJSDBISEmAMAjAaBpDFkeXExcUhhgRuqmMF0qwBG2oZww60M/AwMDFISkkygRTANCFhRnQ+kjpGsMmBm+vZgAaWMlADAF3nDzRsOdDQV0FbGqYF72wyEuLks5eQlCwG2igPxKxQV7ACMReQrQ/EQkDMAcRKQGwJxJxAzAvEhgz+66r4gYadjjrW/d99bu4icNhISmgDJduBOAloSBKQdgHiCiAuAOI6IC4E4jgQGyjfBqTTgHQGkJ7E4L2shBloYBOQrgbiApCB0sryokDJLKAiKyAOAGKQ4dlA3ApkxwDpLhAfyK4H0iCfFALZiUA6B+RldqAruUAGRR7u4fffWM0CYktKSyF7lQ/IBnmXG4iZgdgJiGWhMQuKPF5oEHDAw9J7eSkLNeIEAEwdVryKCuM9AAAAAElFTkSuQmCC"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 1,
+                              "position": "absolute",
+                              "top": 0,
+                              "transitionDelay": "500ms",
+                              "width": "100%",
+                            }
+                          }
+                        />
+                        <picture>
+                          <source
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/ef0c7/trustpilot.webp 1x,
+/static/ca264bd75dd191d289892bee83e52e55/88075/trustpilot.webp 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/1a890/trustpilot.webp 2x"
+                            type="image/webp"
+                          />
+                          <source
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x"
+                          />
+                          <img
+                            alt="trustpilot logo"
+                            height={37}
+                            loading="lazy"
+                            onLoad={[Function]}
+                            src="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png"
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x"
+                            style={
+                              Object {
+                                "height": "100%",
+                                "left": 0,
+                                "objectFit": "cover",
+                                "objectPosition": "center",
+                                "opacity": 0,
+                                "position": "absolute",
+                                "top": 0,
+                                "transition": "opacity 500ms",
+                                "width": "100%",
+                              }
+                            }
+                            width={90}
+                          />
+                        </picture>
+                        <noscript
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "<picture><source type='image/webp' srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/ef0c7/trustpilot.webp 1x,
+/static/ca264bd75dd191d289892bee83e52e55/88075/trustpilot.webp 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/1a890/trustpilot.webp 2x\\" /><source srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x\\" /><img loading=\\"lazy\\" width=\\"90\\" height=\\"37\\" srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x\\" src=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png\\" alt=\\"trustpilot logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div>
+                  <p>
+                    I have noticed a significant improvment in my 15 year old dogs activity level since I have been giving him the joint health supplement. Thank you for providing an excellent product. I will continue to purchase this product for all of my dogs.
+                  </p>
+                </div>
+                <div
+                  className="user"
+                >
+                  <strong>
+                    Kim Levine
+                  </strong>
+                  <div
+                    className="article-img-wrapper"
+                  >
+                    <div
+                      className=" gatsby-image-wrapper"
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "height": 20,
+                          "overflow": "hidden",
+                          "position": "relative",
+                          "width": 106,
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAABQklEQVQY0y2Py0oCARSGTwXdiMKN3aA2rYMW0Tv0CLUIegBdVDppGWEOQrhoZQ/gIvAy0jiXamYsJYiCLASDxAY0CjLKyNBRm9MZaHHgnJ//+38OAL/RokFIuV+6RE8MJAaBdzVI++0WvVFIuT5p2iC5EYTNNAhMDkTaUy6LeSKG/78N4gxYzh2hu3iCg7KvSiI3dxPGUCnTmcmELFPCdrpb9xdVXLyPWAFZCs2vFOK4/ihhn7RVIU2cvz7E/dKFOa0FTYg83+LlVxmH5J0qcA5uqRDDD+Ons3AVRkg6E1NasF5u1NCjqwjHa1kqyUffC5iu6Tgg+yrAOcXVhyS+Nb/N2cyBCaNne+0xlcUe0ftKbfFhzY+TKtsks0lwtFfaro0rbMemBehl5hwEz51dY9GuBCxGJ4YfUf04obBGv+xr/QFo2L5KxjR3fwAAAABJRU5ErkJggg=="
+                        style={
+                          Object {
+                            "height": "100%",
+                            "left": 0,
+                            "objectFit": "cover",
+                            "objectPosition": "center",
+                            "opacity": 1,
+                            "position": "absolute",
+                            "top": 0,
+                            "transitionDelay": "500ms",
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <picture>
+                        <source
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/eb523/trustpilot-stars.webp 1x"
+                          type="image/webp"
+                        />
+                        <source
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x"
+                        />
+                        <img
+                          alt="petlab logo"
+                          height={20}
+                          loading="lazy"
+                          onLoad={[Function]}
+                          src="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png"
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 0,
+                              "position": "absolute",
+                              "top": 0,
+                              "transition": "opacity 500ms",
+                              "width": "100%",
+                            }
+                          }
+                          width={106}
+                        />
+                      </picture>
+                      <noscript
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<picture><source type='image/webp' srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/eb523/trustpilot-stars.webp 1x\\" /><source srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x\\" /><img loading=\\"lazy\\" width=\\"106\\" height=\\"20\\" srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x\\" src=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png\\" alt=\\"petlab logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                          }
+                        }
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="righttestibox trustpilot-review-b"
+              >
+                <div
+                  className="text-center"
+                >
+                  <a
+                    href="https://www.trustpilot.com/"
+                  >
+                    <div
+                      className="article-img-wrapper"
+                    >
+                      <div
+                        className=" gatsby-image-wrapper"
+                        style={
+                          Object {
+                            "display": "inline-block",
+                            "height": 37,
+                            "overflow": "hidden",
+                            "position": "relative",
+                            "width": 90,
+                          }
+                        }
+                      >
+                        <img
+                          alt=""
+                          aria-hidden={true}
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABPklEQVQoz2MI3FjLAAMBQHbKswUMkjJSDBISEmAMAjAaBpDFkeXExcUhhgRuqmMF0qwBG2oZww60M/AwMDFISkkygRTANCFhRnQ+kjpGsMmBm+vZgAaWMlADAF3nDzRsOdDQV0FbGqYF72wyEuLks5eQlCwG2igPxKxQV7ACMReQrQ/EQkDMAcRKQGwJxJxAzAvEhgz+66r4gYadjjrW/d99bu4icNhISmgDJduBOAloSBKQdgHiCiAuAOI6IC4E4jgQGyjfBqTTgHQGkJ7E4L2shBloYBOQrgbiApCB0sryokDJLKAiKyAOAGKQ4dlA3ApkxwDpLhAfyK4H0iCfFALZiUA6B+RldqAruUAGRR7u4fffWM0CYktKSyF7lQ/IBnmXG4iZgdgJiGWhMQuKPF5oEHDAw9J7eSkLNeIEAEwdVryKCuM9AAAAAElFTkSuQmCC"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 1,
+                              "position": "absolute",
+                              "top": 0,
+                              "transitionDelay": "500ms",
+                              "width": "100%",
+                            }
+                          }
+                        />
+                        <picture>
+                          <source
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/ef0c7/trustpilot.webp 1x,
+/static/ca264bd75dd191d289892bee83e52e55/88075/trustpilot.webp 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/1a890/trustpilot.webp 2x"
+                            type="image/webp"
+                          />
+                          <source
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x"
+                          />
+                          <img
+                            alt="trustpilot logo"
+                            height={37}
+                            loading="lazy"
+                            onLoad={[Function]}
+                            src="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png"
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x"
+                            style={
+                              Object {
+                                "height": "100%",
+                                "left": 0,
+                                "objectFit": "cover",
+                                "objectPosition": "center",
+                                "opacity": 0,
+                                "position": "absolute",
+                                "top": 0,
+                                "transition": "opacity 500ms",
+                                "width": "100%",
+                              }
+                            }
+                            width={90}
+                          />
+                        </picture>
+                        <noscript
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "<picture><source type='image/webp' srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/ef0c7/trustpilot.webp 1x,
+/static/ca264bd75dd191d289892bee83e52e55/88075/trustpilot.webp 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/1a890/trustpilot.webp 2x\\" /><source srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x\\" /><img loading=\\"lazy\\" width=\\"90\\" height=\\"37\\" srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x\\" src=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png\\" alt=\\"trustpilot logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div>
+                  <p>
+                    Just love these supplements for my dog!!! He’s more spunkier & doesn’t shed all over my house. Joint Chews & shedding formula saved us!!!!
+                  </p>
+                </div>
+                <div
+                  className="user"
+                >
+                  <strong>
+                    Happy Mommy!
+                  </strong>
+                  <div
+                    className="article-img-wrapper"
+                  >
+                    <div
+                      className=" gatsby-image-wrapper"
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "height": 20,
+                          "overflow": "hidden",
+                          "position": "relative",
+                          "width": 106,
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAABQklEQVQY0y2Py0oCARSGTwXdiMKN3aA2rYMW0Tv0CLUIegBdVDppGWEOQrhoZQ/gIvAy0jiXamYsJYiCLASDxAY0CjLKyNBRm9MZaHHgnJ//+38OAL/RokFIuV+6RE8MJAaBdzVI++0WvVFIuT5p2iC5EYTNNAhMDkTaUy6LeSKG/78N4gxYzh2hu3iCg7KvSiI3dxPGUCnTmcmELFPCdrpb9xdVXLyPWAFZCs2vFOK4/ihhn7RVIU2cvz7E/dKFOa0FTYg83+LlVxmH5J0qcA5uqRDDD+Ons3AVRkg6E1NasF5u1NCjqwjHa1kqyUffC5iu6Tgg+yrAOcXVhyS+Nb/N2cyBCaNne+0xlcUe0ftKbfFhzY+TKtsks0lwtFfaro0rbMemBehl5hwEz51dY9GuBCxGJ4YfUf04obBGv+xr/QFo2L5KxjR3fwAAAABJRU5ErkJggg=="
+                        style={
+                          Object {
+                            "height": "100%",
+                            "left": 0,
+                            "objectFit": "cover",
+                            "objectPosition": "center",
+                            "opacity": 1,
+                            "position": "absolute",
+                            "top": 0,
+                            "transitionDelay": "500ms",
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <picture>
+                        <source
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/eb523/trustpilot-stars.webp 1x"
+                          type="image/webp"
+                        />
+                        <source
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x"
+                        />
+                        <img
+                          alt="petlab logo"
+                          height={20}
+                          loading="lazy"
+                          onLoad={[Function]}
+                          src="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png"
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 0,
+                              "position": "absolute",
+                              "top": 0,
+                              "transition": "opacity 500ms",
+                              "width": "100%",
+                            }
+                          }
+                          width={106}
+                        />
+                      </picture>
+                      <noscript
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<picture><source type='image/webp' srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/eb523/trustpilot-stars.webp 1x\\" /><source srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x\\" /><img loading=\\"lazy\\" width=\\"106\\" height=\\"20\\" srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x\\" src=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png\\" alt=\\"petlab logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                          }
+                        }
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="righttestibox trustpilot-review-b"
+              >
+                <div
+                  className="text-center"
+                >
+                  <a
+                    href="https://www.trustpilot.com/"
+                  >
+                    <div
+                      className="article-img-wrapper"
+                    >
+                      <div
+                        className=" gatsby-image-wrapper"
+                        style={
+                          Object {
+                            "display": "inline-block",
+                            "height": 37,
+                            "overflow": "hidden",
+                            "position": "relative",
+                            "width": 90,
+                          }
+                        }
+                      >
+                        <img
+                          alt=""
+                          aria-hidden={true}
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABPklEQVQoz2MI3FjLAAMBQHbKswUMkjJSDBISEmAMAjAaBpDFkeXExcUhhgRuqmMF0qwBG2oZww60M/AwMDFISkkygRTANCFhRnQ+kjpGsMmBm+vZgAaWMlADAF3nDzRsOdDQV0FbGqYF72wyEuLks5eQlCwG2igPxKxQV7ACMReQrQ/EQkDMAcRKQGwJxJxAzAvEhgz+66r4gYadjjrW/d99bu4icNhISmgDJduBOAloSBKQdgHiCiAuAOI6IC4E4jgQGyjfBqTTgHQGkJ7E4L2shBloYBOQrgbiApCB0sryokDJLKAiKyAOAGKQ4dlA3ApkxwDpLhAfyK4H0iCfFALZiUA6B+RldqAruUAGRR7u4fffWM0CYktKSyF7lQ/IBnmXG4iZgdgJiGWhMQuKPF5oEHDAw9J7eSkLNeIEAEwdVryKCuM9AAAAAElFTkSuQmCC"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 1,
+                              "position": "absolute",
+                              "top": 0,
+                              "transitionDelay": "500ms",
+                              "width": "100%",
+                            }
+                          }
+                        />
+                        <picture>
+                          <source
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/ef0c7/trustpilot.webp 1x,
+/static/ca264bd75dd191d289892bee83e52e55/88075/trustpilot.webp 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/1a890/trustpilot.webp 2x"
+                            type="image/webp"
+                          />
+                          <source
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x"
+                          />
+                          <img
+                            alt="trustpilot logo"
+                            height={37}
+                            loading="lazy"
+                            onLoad={[Function]}
+                            src="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png"
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x"
+                            style={
+                              Object {
+                                "height": "100%",
+                                "left": 0,
+                                "objectFit": "cover",
+                                "objectPosition": "center",
+                                "opacity": 0,
+                                "position": "absolute",
+                                "top": 0,
+                                "transition": "opacity 500ms",
+                                "width": "100%",
+                              }
+                            }
+                            width={90}
+                          />
+                        </picture>
+                        <noscript
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "<picture><source type='image/webp' srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/ef0c7/trustpilot.webp 1x,
+/static/ca264bd75dd191d289892bee83e52e55/88075/trustpilot.webp 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/1a890/trustpilot.webp 2x\\" /><source srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x\\" /><img loading=\\"lazy\\" width=\\"90\\" height=\\"37\\" srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x\\" src=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png\\" alt=\\"trustpilot logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div>
+                  <p>
+                    My black lab is 12 yrs old. She is not in bad shape by any means, her weight in good, teeth great, and plagued with stiff knees and brittle nails. I got this product like 3 4 days ago. She is running around the yard like a adolescent dog already. I'm mind blown away by this chewy supliment. I'm so impressed it's trippy
+                  </p>
+                </div>
+                <div
+                  className="user"
+                >
+                  <strong>
+                    William McNulty
+                  </strong>
+                  <div
+                    className="article-img-wrapper"
+                  >
+                    <div
+                      className=" gatsby-image-wrapper"
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "height": 20,
+                          "overflow": "hidden",
+                          "position": "relative",
+                          "width": 106,
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAABQklEQVQY0y2Py0oCARSGTwXdiMKN3aA2rYMW0Tv0CLUIegBdVDppGWEOQrhoZQ/gIvAy0jiXamYsJYiCLASDxAY0CjLKyNBRm9MZaHHgnJ//+38OAL/RokFIuV+6RE8MJAaBdzVI++0WvVFIuT5p2iC5EYTNNAhMDkTaUy6LeSKG/78N4gxYzh2hu3iCg7KvSiI3dxPGUCnTmcmELFPCdrpb9xdVXLyPWAFZCs2vFOK4/ihhn7RVIU2cvz7E/dKFOa0FTYg83+LlVxmH5J0qcA5uqRDDD+Ons3AVRkg6E1NasF5u1NCjqwjHa1kqyUffC5iu6Tgg+yrAOcXVhyS+Nb/N2cyBCaNne+0xlcUe0ftKbfFhzY+TKtsks0lwtFfaro0rbMemBehl5hwEz51dY9GuBCxGJ4YfUf04obBGv+xr/QFo2L5KxjR3fwAAAABJRU5ErkJggg=="
+                        style={
+                          Object {
+                            "height": "100%",
+                            "left": 0,
+                            "objectFit": "cover",
+                            "objectPosition": "center",
+                            "opacity": 1,
+                            "position": "absolute",
+                            "top": 0,
+                            "transitionDelay": "500ms",
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <picture>
+                        <source
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/eb523/trustpilot-stars.webp 1x"
+                          type="image/webp"
+                        />
+                        <source
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x"
+                        />
+                        <img
+                          alt="petlab logo"
+                          height={20}
+                          loading="lazy"
+                          onLoad={[Function]}
+                          src="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png"
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 0,
+                              "position": "absolute",
+                              "top": 0,
+                              "transition": "opacity 500ms",
+                              "width": "100%",
+                            }
+                          }
+                          width={106}
+                        />
+                      </picture>
+                      <noscript
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<picture><source type='image/webp' srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/eb523/trustpilot-stars.webp 1x\\" /><source srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x\\" /><img loading=\\"lazy\\" width=\\"106\\" height=\\"20\\" srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x\\" src=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png\\" alt=\\"petlab logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                          }
+                        }
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="righttestibox trustpilot-review-b"
+              >
+                <div
+                  className="text-center"
+                >
+                  <a
+                    href="https://www.trustpilot.com/"
+                  >
+                    <div
+                      className="article-img-wrapper"
+                    >
+                      <div
+                        className=" gatsby-image-wrapper"
+                        style={
+                          Object {
+                            "display": "inline-block",
+                            "height": 37,
+                            "overflow": "hidden",
+                            "position": "relative",
+                            "width": 90,
+                          }
+                        }
+                      >
+                        <img
+                          alt=""
+                          aria-hidden={true}
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABPklEQVQoz2MI3FjLAAMBQHbKswUMkjJSDBISEmAMAjAaBpDFkeXExcUhhgRuqmMF0qwBG2oZww60M/AwMDFISkkygRTANCFhRnQ+kjpGsMmBm+vZgAaWMlADAF3nDzRsOdDQV0FbGqYF72wyEuLks5eQlCwG2igPxKxQV7ACMReQrQ/EQkDMAcRKQGwJxJxAzAvEhgz+66r4gYadjjrW/d99bu4icNhISmgDJduBOAloSBKQdgHiCiAuAOI6IC4E4jgQGyjfBqTTgHQGkJ7E4L2shBloYBOQrgbiApCB0sryokDJLKAiKyAOAGKQ4dlA3ApkxwDpLhAfyK4H0iCfFALZiUA6B+RldqAruUAGRR7u4fffWM0CYktKSyF7lQ/IBnmXG4iZgdgJiGWhMQuKPF5oEHDAw9J7eSkLNeIEAEwdVryKCuM9AAAAAElFTkSuQmCC"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 1,
+                              "position": "absolute",
+                              "top": 0,
+                              "transitionDelay": "500ms",
+                              "width": "100%",
+                            }
+                          }
+                        />
+                        <picture>
+                          <source
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/ef0c7/trustpilot.webp 1x,
+/static/ca264bd75dd191d289892bee83e52e55/88075/trustpilot.webp 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/1a890/trustpilot.webp 2x"
+                            type="image/webp"
+                          />
+                          <source
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x"
+                          />
+                          <img
+                            alt="trustpilot logo"
+                            height={37}
+                            loading="lazy"
+                            onLoad={[Function]}
+                            src="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png"
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x"
+                            style={
+                              Object {
+                                "height": "100%",
+                                "left": 0,
+                                "objectFit": "cover",
+                                "objectPosition": "center",
+                                "opacity": 0,
+                                "position": "absolute",
+                                "top": 0,
+                                "transition": "opacity 500ms",
+                                "width": "100%",
+                              }
+                            }
+                            width={90}
+                          />
+                        </picture>
+                        <noscript
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "<picture><source type='image/webp' srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/ef0c7/trustpilot.webp 1x,
+/static/ca264bd75dd191d289892bee83e52e55/88075/trustpilot.webp 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/1a890/trustpilot.webp 2x\\" /><source srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x\\" /><img loading=\\"lazy\\" width=\\"90\\" height=\\"37\\" srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x\\" src=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png\\" alt=\\"trustpilot logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div>
+                  <p>
+                    As I stated on your website, I thank you so very much, you saved my German Shepherd's life. She went from me forcing food down her to eating all her food. Thank you and your team for find a chew that will help dogs and cats get better as they age. I totally am glad I purchased the chews for the joints, thank you so very much
+                  </p>
+                </div>
+                <div
+                  className="user"
+                >
+                  <strong>
+                    Carol Duffert
+                  </strong>
+                  <div
+                    className="article-img-wrapper"
+                  >
+                    <div
+                      className=" gatsby-image-wrapper"
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "height": 20,
+                          "overflow": "hidden",
+                          "position": "relative",
+                          "width": 106,
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAABQklEQVQY0y2Py0oCARSGTwXdiMKN3aA2rYMW0Tv0CLUIegBdVDppGWEOQrhoZQ/gIvAy0jiXamYsJYiCLASDxAY0CjLKyNBRm9MZaHHgnJ//+38OAL/RokFIuV+6RE8MJAaBdzVI++0WvVFIuT5p2iC5EYTNNAhMDkTaUy6LeSKG/78N4gxYzh2hu3iCg7KvSiI3dxPGUCnTmcmELFPCdrpb9xdVXLyPWAFZCs2vFOK4/ihhn7RVIU2cvz7E/dKFOa0FTYg83+LlVxmH5J0qcA5uqRDDD+Ons3AVRkg6E1NasF5u1NCjqwjHa1kqyUffC5iu6Tgg+yrAOcXVhyS+Nb/N2cyBCaNne+0xlcUe0ftKbfFhzY+TKtsks0lwtFfaro0rbMemBehl5hwEz51dY9GuBCxGJ4YfUf04obBGv+xr/QFo2L5KxjR3fwAAAABJRU5ErkJggg=="
+                        style={
+                          Object {
+                            "height": "100%",
+                            "left": 0,
+                            "objectFit": "cover",
+                            "objectPosition": "center",
+                            "opacity": 1,
+                            "position": "absolute",
+                            "top": 0,
+                            "transitionDelay": "500ms",
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <picture>
+                        <source
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/eb523/trustpilot-stars.webp 1x"
+                          type="image/webp"
+                        />
+                        <source
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x"
+                        />
+                        <img
+                          alt="petlab logo"
+                          height={20}
+                          loading="lazy"
+                          onLoad={[Function]}
+                          src="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png"
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 0,
+                              "position": "absolute",
+                              "top": 0,
+                              "transition": "opacity 500ms",
+                              "width": "100%",
+                            }
+                          }
+                          width={106}
+                        />
+                      </picture>
+                      <noscript
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<picture><source type='image/webp' srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/eb523/trustpilot-stars.webp 1x\\" /><source srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x\\" /><img loading=\\"lazy\\" width=\\"106\\" height=\\"20\\" srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x\\" src=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png\\" alt=\\"petlab logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                          }
+                        }
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="righttestibox trustpilot-review-b"
+              >
+                <div
+                  className="text-center"
+                >
+                  <a
+                    href="https://www.trustpilot.com/"
+                  >
+                    <div
+                      className="article-img-wrapper"
+                    >
+                      <div
+                        className=" gatsby-image-wrapper"
+                        style={
+                          Object {
+                            "display": "inline-block",
+                            "height": 37,
+                            "overflow": "hidden",
+                            "position": "relative",
+                            "width": 90,
+                          }
+                        }
+                      >
+                        <img
+                          alt=""
+                          aria-hidden={true}
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABPklEQVQoz2MI3FjLAAMBQHbKswUMkjJSDBISEmAMAjAaBpDFkeXExcUhhgRuqmMF0qwBG2oZww60M/AwMDFISkkygRTANCFhRnQ+kjpGsMmBm+vZgAaWMlADAF3nDzRsOdDQV0FbGqYF72wyEuLks5eQlCwG2igPxKxQV7ACMReQrQ/EQkDMAcRKQGwJxJxAzAvEhgz+66r4gYadjjrW/d99bu4icNhISmgDJduBOAloSBKQdgHiCiAuAOI6IC4E4jgQGyjfBqTTgHQGkJ7E4L2shBloYBOQrgbiApCB0sryokDJLKAiKyAOAGKQ4dlA3ApkxwDpLhAfyK4H0iCfFALZiUA6B+RldqAruUAGRR7u4fffWM0CYktKSyF7lQ/IBnmXG4iZgdgJiGWhMQuKPF5oEHDAw9J7eSkLNeIEAEwdVryKCuM9AAAAAElFTkSuQmCC"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 1,
+                              "position": "absolute",
+                              "top": 0,
+                              "transitionDelay": "500ms",
+                              "width": "100%",
+                            }
+                          }
+                        />
+                        <picture>
+                          <source
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/ef0c7/trustpilot.webp 1x,
+/static/ca264bd75dd191d289892bee83e52e55/88075/trustpilot.webp 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/1a890/trustpilot.webp 2x"
+                            type="image/webp"
+                          />
+                          <source
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x"
+                          />
+                          <img
+                            alt="trustpilot logo"
+                            height={37}
+                            loading="lazy"
+                            onLoad={[Function]}
+                            src="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png"
+                            srcSet="/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x"
+                            style={
+                              Object {
+                                "height": "100%",
+                                "left": 0,
+                                "objectFit": "cover",
+                                "objectPosition": "center",
+                                "opacity": 0,
+                                "position": "absolute",
+                                "top": 0,
+                                "transition": "opacity 500ms",
+                                "width": "100%",
+                              }
+                            }
+                            width={90}
+                          />
+                        </picture>
+                        <noscript
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "<picture><source type='image/webp' srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/ef0c7/trustpilot.webp 1x,
+/static/ca264bd75dd191d289892bee83e52e55/88075/trustpilot.webp 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/1a890/trustpilot.webp 2x\\" /><source srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x\\" /><img loading=\\"lazy\\" width=\\"90\\" height=\\"37\\" srcset=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png 1x,
+/static/ca264bd75dd191d289892bee83e52e55/6b065/trustpilot.png 1.5x,
+/static/ca264bd75dd191d289892bee83e52e55/e0491/trustpilot.png 2x\\" src=\\"/static/ca264bd75dd191d289892bee83e52e55/8099b/trustpilot.png\\" alt=\\"trustpilot logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div>
+                  <p>
+                    My wife found this month's ago on Facebook. We have a 10 plus year old Beagle rescue. She has a form of Hip Displacia. It was so sad watching her struggle to go upstairs and even get up sometimes. Been using your product for a few months and the results have been AMAZING. Thank you for helping our pets! For most of us they are our children.
+                  </p>
+                </div>
+                <div
+                  className="user"
+                >
+                  <strong>
+                    Brandi Tenlen
+                  </strong>
+                  <div
+                    className="article-img-wrapper"
+                  >
+                    <div
+                      className=" gatsby-image-wrapper"
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "height": 20,
+                          "overflow": "hidden",
+                          "position": "relative",
+                          "width": 106,
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAABQklEQVQY0y2Py0oCARSGTwXdiMKN3aA2rYMW0Tv0CLUIegBdVDppGWEOQrhoZQ/gIvAy0jiXamYsJYiCLASDxAY0CjLKyNBRm9MZaHHgnJ//+38OAL/RokFIuV+6RE8MJAaBdzVI++0WvVFIuT5p2iC5EYTNNAhMDkTaUy6LeSKG/78N4gxYzh2hu3iCg7KvSiI3dxPGUCnTmcmELFPCdrpb9xdVXLyPWAFZCs2vFOK4/ihhn7RVIU2cvz7E/dKFOa0FTYg83+LlVxmH5J0qcA5uqRDDD+Ons3AVRkg6E1NasF5u1NCjqwjHa1kqyUffC5iu6Tgg+yrAOcXVhyS+Nb/N2cyBCaNne+0xlcUe0ftKbfFhzY+TKtsks0lwtFfaro0rbMemBehl5hwEz51dY9GuBCxGJ4YfUf04obBGv+xr/QFo2L5KxjR3fwAAAABJRU5ErkJggg=="
+                        style={
+                          Object {
+                            "height": "100%",
+                            "left": 0,
+                            "objectFit": "cover",
+                            "objectPosition": "center",
+                            "opacity": 1,
+                            "position": "absolute",
+                            "top": 0,
+                            "transitionDelay": "500ms",
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <picture>
+                        <source
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/eb523/trustpilot-stars.webp 1x"
+                          type="image/webp"
+                        />
+                        <source
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x"
+                        />
+                        <img
+                          alt="petlab logo"
+                          height={20}
+                          loading="lazy"
+                          onLoad={[Function]}
+                          src="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png"
+                          srcSet="/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 0,
+                              "position": "absolute",
+                              "top": 0,
+                              "transition": "opacity 500ms",
+                              "width": "100%",
+                            }
+                          }
+                          width={106}
+                        />
+                      </picture>
+                      <noscript
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<picture><source type='image/webp' srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/eb523/trustpilot-stars.webp 1x\\" /><source srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x\\" /><img loading=\\"lazy\\" width=\\"106\\" height=\\"20\\" srcset=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png 1x\\" src=\\"/static/3e37f12bdcbc6186e3f2de9be8302100/1b8fb/trustpilot-stars.png\\" alt=\\"petlab logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                          }
+                        }
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="meta-info product-card floating"
+          >
+            <center>
+              <div
+                className="article-img-wrapper"
+              >
+                <div
+                  className=" gatsby-image-wrapper"
+                  style={
+                    Object {
+                      "maxHeight": null,
+                      "maxWidth": null,
+                      "overflow": "hidden",
+                      "position": "relative",
+                    }
+                  }
+                >
+                  <div
+                    aria-hidden={true}
+                    style={
+                      Object {
+                        "paddingBottom": "135.5%",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                  <img
+                    alt=""
+                    aria-hidden={true}
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAYAAAB836/YAAAACXBIWXMAABcRAAAXEQHKJvM/AAAAB3RJTUUH5AcdDSADVQdGLQAABShJREFUSMd9VTtsHFUUPe/Nf3+2Y8eOYztZx598IErSxAUSiAIKqjSQAgkaGlpqKiRoqJEo6UBCAgkkkAWKREEQSMQJciIiSBTkTzZrZ73fmZ2ZnRnOe7tr1ggxu2/f7Pvcd+8599wnwCeKupDSXA6C4KUoiq7EcbQURfFckiSTbIU0TS3DMLhGxr1e3AHEU8dxdl3XfcB+I5/PfZ+myX3bdiFqtX04jvtJo9F8gxtFlmU8IAINQb1zDL1eD5ZlqbMRhqEed1wXjm3DZqNRuK7zuWHI6zKfy+V6veRNbhIYedSm0XZkjh8MxoaHJkn6Ko1OSkmz/7d59IDDvv/9r0eaXKANCiEwwEn3vu8jjmOEEUNMM5imqedUeOoZrlX7Dp0QQpr8rw0qnLphF0kv0YY0hvxIISENiSiOkIYp0iTVIYIAuY6LQqGg50iQctugh8IjuwknjCHwaoMCf0iO8mLooWp9Z4QmSo0rZ7g+i2PXNbvd8H0uMugtnh7UUas3sM9+d2cX9f2n6HYDbcR1PdieC5shK3Y9ejQ+PobyqXnMHJ9STogwjD4wP/t6fe3L9RvqSJjEJc9N9UYTtUoF1e0dVHYrmJqaQGl8HDGhEvTIHkRCIDE+PY1zy4twbQuXLpy9Kjfu3Te2K9U+LnqNZG6ZI+8WQzM18Lb1jzHPdVAq5BSUDNvAXq2OH36+JU0pBWYmJ3B2cQHjY0V6KRETuzMzE6jvzaLrd0iKoRNZWjYyRsK8JYERYhJk5ovwg1AfapmmFM3W3h9Bp7lM6WmgKSFNRrvTRqNRJ+sxMTS0IhQJyrhivk+Uge9u/oatSg31ZhuvX3u5Ytp0yR9J5mz4y7E/H27BMgQxbWvvV1fOaIOjK8+cmsXt3//ShK6U56QCSx4Rx8j7yRNT2NjYxNrVy3hSrWHncRXl03Mj6gEuri4i6hFvZkIh7wplUAxnsyMWMy7I4cTMFLa2K2xPcPnS+f70UdXj+asXB4pR0qOHA7kfrstGtFouz+uZkG6YhjlSHAT+LWqhtKyyYxiyArZLhfhBgDgMcPvOJmZnJrWnp4lVGMbY2qlgrFQc6LyHC+dWMOI2A88yc3hCzHSwdOL2822sWECpmEeRvVSiF9BGDxotHUVEo//CvU9KfyRjYt7BzVt30Wy20Kg+QYfFN2LBcJjErkfDlFrYS+mxpzFLuO3jD59BEtZ5UITS5PyAlMEJ55dPIc1SdDo+atXjeEzp2cySLr0yLQeG7cBy7MOyZTCa1N9G5nkM3zrEUGYDIspzMxgr5BF0fQSdU2i2zqPV6mgpqoJQZKnKBrVQVSFlEEYOadyGW1hS8pTmxt374tsbN7Ewd4Kh5Mmk0OrotltoN5uUWYRnzy3Cy+Vg0agqIEKVMapFyS0ROcjCNHFLCY8vzS/Wf5SffrWOJZYhVY1Vbeu029jb2kaVzSfzi4sn8d47r2DOfgjhPyIb+wyZcpxYZlgvwCq/SE89wmIJY/XK2rsPHm3ZEwRcFUsVii6sTJ+ix1AtlmEjwy+/buLSfAclj1Wpx5s0Y+GNa7DihzCCe4AzDdObgfnWa9fStYsXYLJMKabafoB6va5r4cFeFaFf1yHmWCc3Gw6WVhmyYWliTKeA3LFpuBOziFOOW+OpuVJe+GZqrHBdVRIF9vAebrVaR25CxeqwaWMqX1XlJu4J50OKgUGvi0aj4bFMvR0E3edoaIGbj3FTkc0joTb/m+qQwc2mfhLORTQa8L3FXDmgJLd5vf9UKhU/+hvkPafNhxZShgAAAABJRU5ErkJggg=="
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "objectFit": "cover",
+                        "objectPosition": "center",
+                        "opacity": 1,
+                        "position": "absolute",
+                        "top": 0,
+                        "transitionDelay": "500ms",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                  <picture>
+                    <source
+                      sizes="(max-width: 800px) 100vw, 800px"
+                      srcSet="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50&fm=webp 200w"
+                      type="image/webp"
+                    />
+                    <source
+                      sizes="(max-width: 800px) 100vw, 800px"
+                      srcSet="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w"
+                    />
+                    <img
+                      alt="header"
+                      loading="lazy"
+                      onLoad={[Function]}
+                      sizes="(max-width: 800px) 100vw, 800px"
+                      src="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=800&q=50"
+                      srcSet="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w"
+                      style={
+                        Object {
+                          "height": "100%",
+                          "left": 0,
+                          "objectFit": "cover",
+                          "objectPosition": "center",
+                          "opacity": 0,
+                          "position": "absolute",
+                          "top": 0,
+                          "transition": "opacity 500ms",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                  </picture>
+                  <noscript
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "<picture><source type='image/webp' srcset=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50&fm=webp 200w\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" /><source srcset=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" srcset=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w\\" src=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=800&q=50\\" alt=\\"header\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </center>
+            <div
+              className="figure caption"
+              style={
+                Object {
+                  "marginTop": 0,
+                }
+              }
+            />
+          </div>
+          <div
+            className="social-icons"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div
+      className="site-footer-wrapper"
+    >
+      <p>
+        THIS IS AN ADVERTORIAL AND NOT AN ACTUAL NEWS ARTICLE, BLOG, OR CONSUMER PROTECTION UPDATE
+      </p>
+      <p>
+        © 2020 Petlab Co. ALL RIGHTS RESERVED.
+      </p>
+      <p>
+        These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.
+      </p>
+      <p>
+        Study showing the efficacy of glucosamine in alleviating joint pain: 
+        <a
+          href="https://www.ncbi.nlm.nih.gov/pubmed/16647870"
+        >
+          https://www.ncbi.nlm.nih.gov/pubmed/16647870
+        </a>
+        
+      </p>
+      <p>
+        Study showing the efficacy of Chondroitin in alleviating joint pain: 
+        <a
+          href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5356289/"
+        >
+          https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5356289/
+        </a>
+        
+      </p>
+      <p>
+        Study showing the efficacy of Fish Oil in alleviating joint pain: 
+        <a
+          href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3514349/"
+        >
+          https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3514349/
+        </a>
+        
+      </p>
+      <p>
+        Study showing the efficacy of Magnesium in alleviating joint pain: 
+        <a
+          href="https://www.ncbi.nlm.nih.gov/pubmed/10663389"
+        >
+          https://www.ncbi.nlm.nih.gov/pubmed/10663389
+        </a>
+        
+      </p>
+      <p>
+        Study showing the efficacy of Vitamin C & E in alleviating joint pain: 
+        <a
+          href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3700444/"
+        >
+          https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3700444/
+        </a>
+        
+      </p>
+      <p>
+        
+        <a
+          href="http://www.digitaljournal.com/pr/4375307"
+        >
+          http://www.digitaljournal.com/pr/4375307
+        </a>
+        
+      </p>
+      <p>
+        1/2/3 Pet dental care | American Veterinary Medical ... - AVMA." 
+        <a
+          href="https://www.avma.org/resources-tools/pet-owners/petcare/pet-dental-care."
+        >
+          https://www.avma.org/resources-tools/pet-owners/petcare/pet-dental-care.
+        </a>
+        
+      </p>
+      <p>
+        
+      </p>
+      <p>
+        
+      </p>
+    </div>
+  </footer>
+</div>
+`;
+
 exports[`Storyshots AdvertorialType1 Default 1`] = `
 <div>
   <section

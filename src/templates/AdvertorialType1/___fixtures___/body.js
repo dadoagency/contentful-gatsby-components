@@ -1,4 +1,6 @@
-module.exports = {
+import placeholderImage from "../../../images/150-placeholder.png"
+
+export default {
   json: {
     data: {},
     content: [
@@ -74,8 +76,7 @@ module.exports = {
                     },
                     file: {
                       "en-US": {
-                        url:
-                          "//images.ctfassets.net/xihufpic5pn1/lAvvGQw1wmmbPzbmqyOst/f0f0d1e0d0f938d8f47c8e7d8aa5aec1/lucy-image1.jpg",
+                        url: placeholderImage,
                         details: {
                           size: 532731,
                           image: {
@@ -207,8 +208,7 @@ module.exports = {
                     },
                     file: {
                       "en-US": {
-                        url:
-                          "//images.ctfassets.net/xihufpic5pn1/5aqAqLIefYXhYYce17kbpf/91aedc6da1813211fc2b137a896f4f76/lucy-image2.jpg",
+                        url: placeholderImage,
                         details: {
                           size: 32656,
                           image: {
@@ -359,8 +359,7 @@ module.exports = {
                     },
                     file: {
                       "en-US": {
-                        url:
-                          "//images.ctfassets.net/xihufpic5pn1/23AHJVphft8JIkB2WePZyh/7d3d8b426639b6538c2d21814124e832/lucy-image3.png",
+                        url: placeholderImage,
                         details: {
                           size: 409035,
                           image: {
@@ -503,8 +502,7 @@ module.exports = {
                     },
                     file: {
                       "en-US": {
-                        url:
-                          "//images.ctfassets.net/xihufpic5pn1/1pAwsROivVyuuSdKiVQFlc/82e4e63e5f73cc7eb2371be71efe179c/lucy-image4.png",
+                        url: placeholderImage,
                         details: {
                           size: 32156,
                           image: {
@@ -823,8 +821,7 @@ module.exports = {
                     },
                     file: {
                       "en-US": {
-                        url:
-                          "//images.ctfassets.net/xihufpic5pn1/3Tm764Mtq3CVak8xkrLStV/75ff11a569524f0f8bc32e83c6a73cd2/lucy-image5.png",
+                        url: placeholderImage,
                         details: {
                           size: 636879,
                           image: {
@@ -1500,8 +1497,7 @@ module.exports = {
                     },
                     file: {
                       "en-US": {
-                        url:
-                          "//images.ctfassets.net/xihufpic5pn1/7CxCfHCxdrAijwYeJXlIuP/effa98b45fa252d8b76d74a821b1d0a0/trust.png",
+                        url: placeholderImage,
                         details: {
                           size: 69649,
                           image: {
@@ -1620,8 +1616,7 @@ module.exports = {
                     },
                     file: {
                       "en-US": {
-                        url:
-                          "//images.ctfassets.net/xihufpic5pn1/2W1mvbWBuX0WFQqYTCKeVw/d099de0ef8b08b04b4d683c88dd6fb7a/product.png",
+                        url: placeholderImage,
                         details: {
                           size: 1145051,
                           image: {

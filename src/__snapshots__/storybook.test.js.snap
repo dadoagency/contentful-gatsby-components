@@ -2423,7 +2423,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
                   className="article-img-wrapper"
                 >
                   <img
-                    src="//images.ctfassets.net/xihufpic5pn1/lAvvGQw1wmmbPzbmqyOst/f0f0d1e0d0f938d8f47c8e7d8aa5aec1/lucy-image1.jpg"
+                    src="test-image-stub"
                     style={
                       Object {
                         "borderRadius": "0",
@@ -2449,7 +2449,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
                   className="article-img-wrapper"
                 >
                   <img
-                    src="//images.ctfassets.net/xihufpic5pn1/5aqAqLIefYXhYYce17kbpf/91aedc6da1813211fc2b137a896f4f76/lucy-image2.jpg"
+                    src="test-image-stub"
                     style={
                       Object {
                         "borderRadius": "0",
@@ -2479,7 +2479,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
                   className="article-img-wrapper"
                 >
                   <img
-                    src="//images.ctfassets.net/xihufpic5pn1/23AHJVphft8JIkB2WePZyh/7d3d8b426639b6538c2d21814124e832/lucy-image3.png"
+                    src="test-image-stub"
                     style={
                       Object {
                         "borderRadius": "0",
@@ -2518,7 +2518,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
                   className="article-img-wrapper"
                 >
                   <img
-                    src="//images.ctfassets.net/xihufpic5pn1/1pAwsROivVyuuSdKiVQFlc/82e4e63e5f73cc7eb2371be71efe179c/lucy-image4.png"
+                    src="test-image-stub"
                     style={
                       Object {
                         "borderRadius": "0",
@@ -2597,7 +2597,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
                   className="article-img-wrapper"
                 >
                   <img
-                    src="//images.ctfassets.net/xihufpic5pn1/3Tm764Mtq3CVak8xkrLStV/75ff11a569524f0f8bc32e83c6a73cd2/lucy-image5.png"
+                    src="test-image-stub"
                     style={
                       Object {
                         "borderRadius": "0",
@@ -2776,7 +2776,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
                   className="article-img-wrapper"
                 >
                   <img
-                    src="//images.ctfassets.net/xihufpic5pn1/7CxCfHCxdrAijwYeJXlIuP/effa98b45fa252d8b76d74a821b1d0a0/trust.png"
+                    src="test-image-stub"
                     style={
                       Object {
                         "borderRadius": "0",
@@ -2798,7 +2798,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
                   className="article-img-wrapper"
                 >
                   <img
-                    src="//images.ctfassets.net/xihufpic5pn1/2W1mvbWBuX0WFQqYTCKeVw/d099de0ef8b08b04b4d683c88dd6fb7a/product.png"
+                    src="test-image-stub"
                     style={
                       Object {
                         "borderRadius": "0",
@@ -2877,41 +2877,20 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
                     }
                   }
                 />
-                <img
-                  alt=""
-                  aria-hidden={true}
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAYAAAB836/YAAAACXBIWXMAABcRAAAXEQHKJvM/AAAAB3RJTUUH5AcdDSADVQdGLQAABShJREFUSMd9VTtsHFUUPe/Nf3+2Y8eOYztZx598IErSxAUSiAIKqjSQAgkaGlpqKiRoqJEo6UBCAgkkkAWKREEQSMQJciIiSBTkTzZrZ73fmZ2ZnRnOe7tr1ggxu2/f7Pvcd+8599wnwCeKupDSXA6C4KUoiq7EcbQURfFckiSTbIU0TS3DMLhGxr1e3AHEU8dxdl3XfcB+I5/PfZ+myX3bdiFqtX04jvtJo9F8gxtFlmU8IAINQb1zDL1eD5ZlqbMRhqEed1wXjm3DZqNRuK7zuWHI6zKfy+V6veRNbhIYedSm0XZkjh8MxoaHJkn6Ko1OSkmz/7d59IDDvv/9r0eaXKANCiEwwEn3vu8jjmOEEUNMM5imqedUeOoZrlX7Dp0QQpr8rw0qnLphF0kv0YY0hvxIISENiSiOkIYp0iTVIYIAuY6LQqGg50iQctugh8IjuwknjCHwaoMCf0iO8mLooWp9Z4QmSo0rZ7g+i2PXNbvd8H0uMugtnh7UUas3sM9+d2cX9f2n6HYDbcR1PdieC5shK3Y9ejQ+PobyqXnMHJ9STogwjD4wP/t6fe3L9RvqSJjEJc9N9UYTtUoF1e0dVHYrmJqaQGl8HDGhEvTIHkRCIDE+PY1zy4twbQuXLpy9Kjfu3Te2K9U+LnqNZG6ZI+8WQzM18Lb1jzHPdVAq5BSUDNvAXq2OH36+JU0pBWYmJ3B2cQHjY0V6KRETuzMzE6jvzaLrd0iKoRNZWjYyRsK8JYERYhJk5ovwg1AfapmmFM3W3h9Bp7lM6WmgKSFNRrvTRqNRJ+sxMTS0IhQJyrhivk+Uge9u/oatSg31ZhuvX3u5Ytp0yR9J5mz4y7E/H27BMgQxbWvvV1fOaIOjK8+cmsXt3//ShK6U56QCSx4Rx8j7yRNT2NjYxNrVy3hSrWHncRXl03Mj6gEuri4i6hFvZkIh7wplUAxnsyMWMy7I4cTMFLa2K2xPcPnS+f70UdXj+asXB4pR0qOHA7kfrstGtFouz+uZkG6YhjlSHAT+LWqhtKyyYxiyArZLhfhBgDgMcPvOJmZnJrWnp4lVGMbY2qlgrFQc6LyHC+dWMOI2A88yc3hCzHSwdOL2822sWECpmEeRvVSiF9BGDxotHUVEo//CvU9KfyRjYt7BzVt30Wy20Kg+QYfFN2LBcJjErkfDlFrYS+mxpzFLuO3jD59BEtZ5UITS5PyAlMEJ55dPIc1SdDo+atXjeEzp2cySLr0yLQeG7cBy7MOyZTCa1N9G5nkM3zrEUGYDIspzMxgr5BF0fQSdU2i2zqPV6mgpqoJQZKnKBrVQVSFlEEYOadyGW1hS8pTmxt374tsbN7Ewd4Kh5Mmk0OrotltoN5uUWYRnzy3Cy+Vg0agqIEKVMapFyS0ROcjCNHFLCY8vzS/Wf5SffrWOJZYhVY1Vbeu029jb2kaVzSfzi4sn8d47r2DOfgjhPyIb+wyZcpxYZlgvwCq/SE89wmIJY/XK2rsPHm3ZEwRcFUsVii6sTJ+ix1AtlmEjwy+/buLSfAclj1Wpx5s0Y+GNa7DihzCCe4AzDdObgfnWa9fStYsXYLJMKabafoB6va5r4cFeFaFf1yHmWCc3Gw6WVhmyYWliTKeA3LFpuBOziFOOW+OpuVJe+GZqrHBdVRIF9vAebrVaR25CxeqwaWMqX1XlJu4J50OKgUGvi0aj4bFMvR0E3edoaIGbj3FTkc0joTb/m+qQwc2mfhLORTQa8L3FXDmgJLd5vf9UKhU/+hvkPafNhxZShgAAAABJRU5ErkJggg=="
-                  style={
-                    Object {
-                      "height": "100%",
-                      "left": 0,
-                      "objectFit": "cover",
-                      "objectPosition": "center",
-                      "opacity": 1,
-                      "position": "absolute",
-                      "top": 0,
-                      "transitionDelay": "500ms",
-                      "width": "100%",
-                    }
-                  }
-                />
+                
                 <picture>
+                  
                   <source
                     sizes="(max-width: 800px) 100vw, 800px"
-                    srcSet="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50&fm=webp 200w"
-                    type="image/webp"
-                  />
-                  <source
-                    sizes="(max-width: 800px) 100vw, 800px"
-                    srcSet="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w"
+                    srcSet=""
                   />
                   <img
                     alt="header"
                     loading="lazy"
                     onLoad={[Function]}
                     sizes="(max-width: 800px) 100vw, 800px"
-                    src="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=800&q=50"
-                    srcSet="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w"
+                    src="test-image-stub"
+                    srcSet=""
                     style={
                       Object {
                         "height": "100%",
@@ -2930,7 +2909,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
                 <noscript
                   dangerouslySetInnerHTML={
                     Object {
-                      "__html": "<picture><source type='image/webp' srcset=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50&fm=webp 200w\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" /><source srcset=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" srcset=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w\\" src=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=800&q=50\\" alt=\\"header\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                      "__html": "<picture><source srcset=\\"\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" src=\\"test-image-stub\\" alt=\\"header\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
                     }
                   }
                 />

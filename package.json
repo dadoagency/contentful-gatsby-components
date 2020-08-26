@@ -78,6 +78,6 @@
     "storybook": "NODE_ENV=test start-storybook -s public -p 6006",
     "build-storybook": "NODE_ENV=test build-storybook -s public",
     "test": "jest",
-    "release": "auto shipit"
+    "release": "auto shipit -vv"
   }
 }

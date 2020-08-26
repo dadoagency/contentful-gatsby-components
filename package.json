@@ -69,7 +69,7 @@
     "gatsby"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
+    "registry": "https://skimdb.npmjs.com/registry/",
     "access": "public"
   },
   "scripts": {

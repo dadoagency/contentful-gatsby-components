@@ -9,3 +9,8 @@ dist/
 .cache/
 coverage/
 *.log
+.github
+*.snap
+*.test.js
+*.stories.js
+___fixtures___

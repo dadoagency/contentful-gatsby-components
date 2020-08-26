@@ -122,7 +122,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                     className="article-img-wrapper"
                   >
                     <img
-                      src="//images.ctfassets.net/xihufpic5pn1/43Zd1iXBcznUSLZk4S1C7F/df6d079eb8e07db6c678598bf91ccd48/ezgif-1-70a053fc6be0.gif"
+                      src="test-image-stub"
                       style={
                         Object {
                           "borderRadius": "0",
@@ -161,7 +161,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                     className="article-img-wrapper"
                   >
                     <img
-                      src="//images.ctfassets.net/xihufpic5pn1/1X4D2dDbOFzeAmy5PWm6Zc/7d75394a0bc7750d06b961b03fd7a96f/dog_lab_resting_pl3.jpg"
+                      src="test-image-stub"
                       style={
                         Object {
                           "borderRadius": "0",
@@ -216,7 +216,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                     className="article-img-wrapper"
                   >
                     <img
-                      src="//images.ctfassets.net/xihufpic5pn1/49798kWEDyei896s9994Bk/f3ddc3c17e3d5b23d3c53fc8225003c9/altitude_JHC_amazon_review_collage-min_1_jpg-1583177856109.jpg"
+                      src="test-image-stub"
                       style={
                         Object {
                           "borderRadius": "0",
@@ -338,7 +338,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                     className="article-img-wrapper"
                   >
                     <img
-                      src="//images.ctfassets.net/xihufpic5pn1/3zJz55oXx3wAKiYjLqkZQ4/d152dba01fb7daaf22695ca0c3ed12e1/altitude_Hnetcom-image_1_.gif-1583174217604.gif"
+                      src="test-image-stub"
                       style={
                         Object {
                           "borderRadius": "0",
@@ -393,7 +393,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                     className="article-img-wrapper"
                   >
                     <img
-                      src="//images.ctfassets.net/xihufpic5pn1/1mvXTeyxRBAtMylUSohHX4/0ffdd9f9010499533b718ea425eb6739/altitude_happydog_1jpg-1582331287753.jpg"
+                      src="test-image-stub"
                       style={
                         Object {
                           "borderRadius": "0",
@@ -510,7 +510,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                     className="article-img-wrapper"
                   >
                     <img
-                      src="//images.ctfassets.net/xihufpic5pn1/54KxPFja5mx0OISZAEAFFU/aa9bf7a620a8322454d53bb21b28b9be/trustpilot_review_jhc.png"
+                      src="test-image-stub"
                       style={
                         Object {
                           "borderRadius": "0",
@@ -662,7 +662,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                       className="article-img-wrapper"
                     >
                       <img
-                        src="//images.ctfassets.net/xihufpic5pn1/6r5KY5Js09jtze0BZ7oeef/2c08b0b6550f3ca441f5acbdab202850/altitude_jointcaretubpng-1582280315318.png"
+                        src="test-image-stub"
                         style={
                           Object {
                             "borderRadius": "0",
@@ -767,22 +767,18 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                       }
                     />
                     <picture>
+                      
                       <source
                         sizes="(max-width: 800px) 100vw, 800px"
-                        srcSet="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50&fm=webp 200w"
-                        type="image/webp"
-                      />
-                      <source
-                        sizes="(max-width: 800px) 100vw, 800px"
-                        srcSet="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w"
+                        srcSet=""
                       />
                       <img
                         alt="header"
                         loading="lazy"
                         onLoad={[Function]}
                         sizes="(max-width: 800px) 100vw, 800px"
-                        src="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=800&q=50"
-                        srcSet="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w"
+                        src="test-image-stub"
+                        srcSet=""
                         style={
                           Object {
                             "height": "100%",
@@ -801,7 +797,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                     <noscript
                       dangerouslySetInnerHTML={
                         Object {
-                          "__html": "<picture><source type='image/webp' srcset=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50&fm=webp 200w\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" /><source srcset=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" srcset=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w\\" src=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=800&q=50\\" alt=\\"header\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                          "__html": "<picture><source srcset=\\"\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" src=\\"test-image-stub\\" alt=\\"header\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
                         }
                       }
                     />
@@ -2142,22 +2138,18 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                     }
                   />
                   <picture>
+                    
                     <source
                       sizes="(max-width: 800px) 100vw, 800px"
-                      srcSet="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50&fm=webp 200w"
-                      type="image/webp"
-                    />
-                    <source
-                      sizes="(max-width: 800px) 100vw, 800px"
-                      srcSet="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w"
+                      srcSet=""
                     />
                     <img
                       alt="header"
                       loading="lazy"
                       onLoad={[Function]}
                       sizes="(max-width: 800px) 100vw, 800px"
-                      src="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=800&q=50"
-                      srcSet="//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w"
+                      src="test-image-stub"
+                      srcSet=""
                       style={
                         Object {
                           "height": "100%",
@@ -2176,7 +2168,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                   <noscript
                     dangerouslySetInnerHTML={
                       Object {
-                        "__html": "<picture><source type='image/webp' srcset=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50&fm=webp 200w\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" /><source srcset=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" srcset=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=200&h=271&q=50 200w\\" src=\\"//images.ctfassets.net/xihufpic5pn1/7qBn9PlGF0FnSbCfzwJNN6/a0041d959ecdd2e6d1b0e1fc5dcc4651/JointCareChews-200px__1_.png?w=800&q=50\\" alt=\\"header\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                        "__html": "<picture><source srcset=\\"\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" src=\\"test-image-stub\\" alt=\\"header\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
                       }
                     }
                   />

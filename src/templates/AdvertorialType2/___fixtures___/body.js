@@ -1,4 +1,6 @@
-module.exports = {
+import placeHolderImage from "../../../images/150-placeholder.png"
+
+export default {
   json: {
     data: {},
     content: [
@@ -70,8 +72,7 @@ module.exports = {
                     },
                     file: {
                       "en-US": {
-                        url:
-                          "//images.ctfassets.net/xihufpic5pn1/43Zd1iXBcznUSLZk4S1C7F/df6d079eb8e07db6c678598bf91ccd48/ezgif-1-70a053fc6be0.gif",
+                        url: placeHolderImage,
                         details: {
                           size: 1791652,
                           image: {
@@ -289,8 +290,7 @@ module.exports = {
                     },
                     file: {
                       "en-US": {
-                        url:
-                          "//images.ctfassets.net/xihufpic5pn1/1X4D2dDbOFzeAmy5PWm6Zc/7d75394a0bc7750d06b961b03fd7a96f/dog_lab_resting_pl3.jpg",
+                        url: placeHolderImage,
                         details: {
                           size: 63555,
                           image: {
@@ -533,8 +533,7 @@ module.exports = {
                     },
                     file: {
                       "en-US": {
-                        url:
-                          "//images.ctfassets.net/xihufpic5pn1/49798kWEDyei896s9994Bk/f3ddc3c17e3d5b23d3c53fc8225003c9/altitude_JHC_amazon_review_collage-min_1_jpg-1583177856109.jpg",
+                        url: placeHolderImage,
                         details: {
                           size: 185818,
                           image: {
@@ -1059,8 +1058,7 @@ module.exports = {
                     },
                     file: {
                       "en-US": {
-                        url:
-                          "//images.ctfassets.net/xihufpic5pn1/3zJz55oXx3wAKiYjLqkZQ4/d152dba01fb7daaf22695ca0c3ed12e1/altitude_Hnetcom-image_1_.gif-1583174217604.gif",
+                        url: placeHolderImage,
                         details: {
                           size: 1836233,
                           image: {
@@ -1304,8 +1302,7 @@ module.exports = {
                     },
                     file: {
                       "en-US": {
-                        url:
-                          "//images.ctfassets.net/xihufpic5pn1/1mvXTeyxRBAtMylUSohHX4/0ffdd9f9010499533b718ea425eb6739/altitude_happydog_1jpg-1582331287753.jpg",
+                        url: placeHolderImage,
                         details: {
                           size: 156714,
                           image: {
@@ -1755,8 +1752,7 @@ module.exports = {
                     },
                     file: {
                       "en-US": {
-                        url:
-                          "//images.ctfassets.net/xihufpic5pn1/54KxPFja5mx0OISZAEAFFU/aa9bf7a620a8322454d53bb21b28b9be/trustpilot_review_jhc.png",
+                        url: placeHolderImage,
                         details: {
                           size: 142532,
                           image: {
@@ -2383,8 +2379,7 @@ module.exports = {
                                   },
                                   file: {
                                     "en-US": {
-                                      url:
-                                        "//images.ctfassets.net/xihufpic5pn1/6r5KY5Js09jtze0BZ7oeef/2c08b0b6550f3ca441f5acbdab202850/altitude_jointcaretubpng-1582280315318.png",
+                                      url: placeHolderImage,
                                       details: {
                                         size: 85609,
                                         image: {

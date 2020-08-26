@@ -1,6 +1,6 @@
 {
   "name": "@dadoagency/contentful-gatsby-components",
-  "version": "4.0.5",
+  "version": "4.1.0",
   "main": "index.js",
   "author": "dado",
   "private": false,
@@ -71,7 +71,6 @@
   "publishConfig": {
     "registry": "http://registry.npmjs.org",
     "access": "public"
-    
   },
   "scripts": {
     "build": "webpack --mode=production",

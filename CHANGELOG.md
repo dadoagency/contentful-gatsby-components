@@ -1,3 +1,23 @@
+# v4.0.4 (Wed Aug 26 2020)
+
+#### 🐛 Bug Fix
+
+- release workflow [#28](https://github.com/dadoagency/contentful-gatsby-components/pull/28) (16000925@vcconnect.co.za [@Geimaj](https://github.com/Geimaj))
+- publish config [#27](https://github.com/dadoagency/contentful-gatsby-components/pull/27) (16000925@vcconnect.co.za [@Geimaj](https://github.com/Geimaj))
+- Storybook [#26](https://github.com/dadoagency/contentful-gatsby-components/pull/26) (16000925@vcconnect.co.za [@Geimaj](https://github.com/Geimaj))
+- scripts [#25](https://github.com/dadoagency/contentful-gatsby-components/pull/25) (16000925@vcconnect.co.za [@Geimaj](https://github.com/Geimaj))
+- Storybook [#24](https://github.com/dadoagency/contentful-gatsby-components/pull/24) (16000925@vcconnect.co.za [@Geimaj](https://github.com/Geimaj))
+- Revert "update readme" [#22](https://github.com/dadoagency/contentful-gatsby-components/pull/22) ([@Geimaj](https://github.com/Geimaj))
+- update readme [#21](https://github.com/dadoagency/contentful-gatsby-components/pull/21) (16000925@vcconnect.co.za [@Geimaj](https://github.com/Geimaj))
+- Storybook [#20](https://github.com/dadoagency/contentful-gatsby-components/pull/20) (16000925@vcconnect.co.za [@Geimaj](https://github.com/Geimaj))
+
+#### Authors: 2
+
+- geimaj (16000925@vcconnect.co.za)
+- Jamie Gregory ([@Geimaj](https://github.com/Geimaj))
+
+---
+
 # v4.0.3 (Wed Aug 26 2020)
 
 #### 🐛 Bug Fix

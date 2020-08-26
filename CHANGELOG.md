@@ -1,3 +1,22 @@
+# v4.1.0 (Wed Aug 26 2020)
+
+#### 🚀 Enhancement
+
+- Storybook [#29](https://github.com/dadoagency/contentful-gatsby-components/pull/29) (16000925@vcconnect.co.za [@Geimaj](https://github.com/Geimaj))
+
+#### 🐛 Bug Fix
+
+- update registry [#32](https://github.com/dadoagency/contentful-gatsby-components/pull/32) (16000925@vcconnect.co.za [@Geimaj](https://github.com/Geimaj))
+- update registry [#31](https://github.com/dadoagency/contentful-gatsby-components/pull/31) (16000925@vcconnect.co.za [@Geimaj](https://github.com/Geimaj))
+- verbose releases [#30](https://github.com/dadoagency/contentful-gatsby-components/pull/30) (16000925@vcconnect.co.za [@Geimaj](https://github.com/Geimaj))
+
+#### Authors: 2
+
+- geimaj (16000925@vcconnect.co.za)
+- Jamie Gregory ([@Geimaj](https://github.com/Geimaj))
+
+---
+
 # v4.0.4 (Wed Aug 26 2020)
 
 #### 🐛 Bug Fix

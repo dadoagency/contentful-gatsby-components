@@ -6,6 +6,7 @@ import PageContext from "../../context/PageContext"
 import Image from "../Image"
 import { graphql } from "gatsby"
 import styled from "styled-components"
+import ClientOnly from "../ClientOnly"
 
 ProductLinkButtonPure.propTypes = {
   cta: PropTypes.string.isRequired,
@@ -64,11 +65,13 @@ export default function ProductLinkButton({ cta, ...props }) {
   const { redirectDestination } = useContext(PageContext)
 
   return (
-    <ProductLinkButtonPure
-      cta={cta}
-      {...props}
-      redirectDestination={redirectDestination}
-    />
+    <ClientOnly>
+      <ProductLinkButtonPure
+        cta={cta}
+        {...props}
+        redirectDestination={redirectDestination}
+      />
+    </ClientOnly>
   )
 }
 

@@ -1,3 +1,16 @@
+# v4.1.1 (Mon Sep 07 2020)
+
+#### 🐛 Bug Fix
+
+- Develop [#34](https://github.com/dadoagency/contentful-gatsby-components/pull/34) (16000925@vcconnect.co.za [@Geimaj](https://github.com/Geimaj))
+
+#### Authors: 2
+
+- geimaj (16000925@vcconnect.co.za)
+- Jamie Gregory ([@Geimaj](https://github.com/Geimaj))
+
+---
+
 # v4.1.0 (Wed Aug 26 2020)
 
 #### 🚀 Enhancement

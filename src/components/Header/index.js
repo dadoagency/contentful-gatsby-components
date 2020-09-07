@@ -49,24 +49,20 @@ const Overlay = styled.div`
 `
 
 function Header({ logoPosition, headerText, logo, extra }) {
-  if (!logoPosition) {
-    logoPosition = "left"
+  let logoPos = "left"
+  // Need to check that it exists before running toLowerCase() method
+  if (logoPosition) {
+    logoPos = logoPosition.toLowerCase()
   }
   let textPosition = ""
-  if (
-    logoPosition.toLowerCase() === "left" ||
-    logoPosition.toLowerCase() === "right"
-  ) {
+  if (logoPos === "left" || logoPos === "right") {
     textPosition = "center"
-  } else if (logoPosition.toLowerCase() === "center") {
+  } else if (logoPos === "center") {
     textPosition = "left"
   }
   return (
     <section className="site-logo-container header">
-      <Wrapper
-        logoPosition={logoPosition.toLowerCase()}
-        className="section site-logo-wrapper"
-      >
+      <Wrapper logoPosition={logoPos} className="section site-logo-wrapper">
         <div className="site-logo">
           {logo && <GatsbyImage fixed={logo} alt="Logo" />}
         </div>

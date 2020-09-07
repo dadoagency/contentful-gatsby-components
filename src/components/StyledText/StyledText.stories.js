@@ -64,3 +64,14 @@ Centered.args = {
   ...Default.args,
   isCentered: true,
 }
+
+export const Superscript = Template.bind({})
+Superscript.args = {
+  component: StyledTextPure,
+  color: "red",
+  children: (
+    <p>
+      I'm styled text with a superscript point<code>1</code>
+    </p>
+  ),
+}

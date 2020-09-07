@@ -66,7 +66,7 @@ export function TrustpilotReviewDPure({
         </div>
         <div
           style={{
-            height: logo.height,
+            height: 'auto',
             alignSelf: "flex-start",
           }}
           className="logo"

@@ -28,3 +28,10 @@ Default.args = {
   },
   headerText: "Advertorial",
 }
+
+export const CenterLogo = Template.bind({})
+CenterLogo.args = {
+  ...Default.args,
+  logoPosition: "center",
+  headerText: "",
+}

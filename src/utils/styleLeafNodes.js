@@ -1,4 +1,4 @@
-import { cloneElement } from "react"
+import React, { cloneElement } from "react"
 
 export default function styleLeafNodes(Element, style) {
   if (
@@ -12,9 +12,13 @@ export default function styleLeafNodes(Element, style) {
 
     if (hasReactChildren) {
       return cloneElement(Element, {
-        children: Element.props.children.map(child => {
+        children: Element.props.children.map((child, index) => {
           if (child.$$typeof) {
-            return styleLeafNodes(child, style)
+            return (
+              <React.Fragment key={index}>
+                {styleLeafNodes(child, style)}
+              </React.Fragment>
+            )
           }
           return child
         }),

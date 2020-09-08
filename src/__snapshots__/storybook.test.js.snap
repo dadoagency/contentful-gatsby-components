@@ -5040,6 +5040,7 @@ exports[`Storyshots Styled Text Superscript 1`] = `
   }
 >
   <p>
+    I'm styled text with a superscript point
     <code
       style={
         Object {

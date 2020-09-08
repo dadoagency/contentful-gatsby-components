@@ -16,7 +16,7 @@ export default function styleLeafNodes(Element, style) {
           if (child.$$typeof) {
             return styleLeafNodes(child, style)
           }
-          return null
+          return child
         }),
       })
     } else {

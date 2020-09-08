@@ -56,7 +56,7 @@ export function FacebookReviewDPure({ avatar, logo, title, body, action }) {
         </div>
         <div
           style={{
-            height: logo?.height,
+            height: 'auto',
             alignSelf: "flex-start",
           }}
           className="logo"

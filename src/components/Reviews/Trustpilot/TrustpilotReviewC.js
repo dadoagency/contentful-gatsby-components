@@ -41,7 +41,7 @@ export function TrustpilotReviewCPure({
         </div>
         <div
           style={{
-            height: logo.height,
+            height: 'auto',
             alignSelf: "center",
           }}
           className="logo"

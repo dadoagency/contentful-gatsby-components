@@ -1,3 +1,15 @@
+# v4.1.2 (Tue Sep 08 2020)
+
+#### 🐛 Bug Fix
+
+- Changes to review logo and Header logic [#35](https://github.com/dadoagency/contentful-gatsby-components/pull/35) ([@martink-rsa](https://github.com/martink-rsa))
+
+#### Authors: 1
+
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v4.1.1 (Mon Sep 07 2020)
 
 #### 🐛 Bug Fix

@@ -1,3 +1,15 @@
+# v4.1.3 (Wed Sep 09 2020)
+
+#### 🐛 Bug Fix
+
+- Fixed backgroundColor -> backgroundColour [#36](https://github.com/dadoagency/contentful-gatsby-components/pull/36) ([@martink-rsa](https://github.com/martink-rsa))
+
+#### Authors: 1
+
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v4.1.2 (Tue Sep 08 2020)
 
 #### 🐛 Bug Fix

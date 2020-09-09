@@ -5,7 +5,7 @@ import { getFirstValue } from "../../utils/locale"
 
 const StyledText = ({ children, fields, inline }) => {
   let colour = getFirstValue(fields?.colour)
-  let backgroundColor = getFirstValue(fields?.backgroundColor)
+  let backgroundColor = getFirstValue(fields?.backgroundColour)
   let isCentered = getFirstValue(fields?.centerText)
   let fontClass = ""
   if (fields.baseFontSize) {

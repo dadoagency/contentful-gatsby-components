@@ -243,7 +243,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                         <b
                           style={
                             Object {
-                              "backgroundColor": null,
+                              "backgroundColor": "#FFFF00",
                             }
                           }
                         >
@@ -2534,7 +2534,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
                   <b
                     style={
                       Object {
-                        "backgroundColor": null,
+                        "backgroundColor": "#FFFF00",
                       }
                     }
                   >

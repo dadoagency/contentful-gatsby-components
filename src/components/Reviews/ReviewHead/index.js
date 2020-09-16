@@ -7,7 +7,7 @@ const ReviewHead = ({ title, logo, logoLink, avatar, ...props }) => (
     {...props}
     style={{
       display: "flex",
-      alignItems: "flex-end",
+      alignItems: "center",
       justifyContent: "space-between",
       fontWeight: "bold",
       fontSize: "1.1em",
@@ -24,8 +24,7 @@ const ReviewHead = ({ title, logo, logoLink, avatar, ...props }) => (
     </div>
     <div
       style={{
-        height: logo?.height,
-        marginBottom: "5px",
+        height: "100%",
       }}
       className="logo"
     >

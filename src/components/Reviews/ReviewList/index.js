@@ -79,12 +79,33 @@ const AmazonReview = ({ review }) => {
 const FaceBookReview = ({ review }) => {
   const { title, body, avatar, productLinkButton } = review
   const renderedBody = documentToReactComponents(body.json, renderOptions)
+  if (productLinkButton) {
+    return (
+      <FacebookReviewComponent
+        title={title}
+        body={renderedBody}
+        avatar={avatar}
+        productLinkButton={
+          <ProductLinkButton
+            cta={productLinkButton.text}
+            cta2={productLinkButton.additionalText}
+            icon={productLinkButton.icon}
+            bgColour={productLinkButton.bgColour}
+            bgHoverColour={productLinkButton.bgHoverColour}
+            fontColour={productLinkButton.fontColour}
+            fontHoverColour={productLinkButton.fontHoverColour}
+            borderColour={productLinkButton.borderColour}
+            borderHoverColour={productLinkButton.borderHoverColour}
+          />
+        }
+      />
+    )
+  }
   return (
     <FacebookReviewComponent
       title={title}
       body={renderedBody}
       avatar={avatar}
-      productLinkButton={productLinkButton}
     />
   )
 }

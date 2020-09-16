@@ -13,7 +13,7 @@ TrustpilotReviewD.propTypes = {
 export default function TrustpilotReviewD({ title, body, avatar, action }) {
   const data = useStaticQuery(graphql`
     query trustPilotD {
-      stars: file(relativePath: { eq: "trustpilot-stars.png" }) {
+      tpWithStars: file(relativePath: { eq: "trustpilot-w-stars.png" }) {
         childImageSharp {
           fixed(width: 90) {
             ...GatsbyImageSharpFixed_withWebp
@@ -23,12 +23,12 @@ export default function TrustpilotReviewD({ title, body, avatar, action }) {
     }
   `)
   const url = useTrustpilotLink()
-
+  console.log(data)
   return (
     <TrustpilotReviewDPure
       title={title}
       avatar={avatar}
-      logo={data?.stars?.childImageSharp?.fixed}
+      logo={data?.tpWithStars?.childImageSharp?.fixed}
       logoLink={url}
       body={body}
       action={action}
@@ -44,6 +44,7 @@ export function TrustpilotReviewDPure({
   body,
   action,
 }) {
+  console.log(logo)
   return (
     <div className="facebook-container">
       <div
@@ -66,7 +67,7 @@ export function TrustpilotReviewDPure({
         </div>
         <div
           style={{
-            height: 'auto',
+            height: "auto",
             alignSelf: "flex-start",
           }}
           className="logo"

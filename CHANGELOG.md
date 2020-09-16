@@ -1,3 +1,15 @@
+# v4.1.4 (Wed Sep 16 2020)
+
+#### 🐛 Bug Fix
+
+- Added new logos, minor height adjustment [#37](https://github.com/dadoagency/contentful-gatsby-components/pull/37) ([@martink-rsa](https://github.com/martink-rsa))
+
+#### Authors: 1
+
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v4.1.3 (Wed Sep 09 2020)
 
 #### 🐛 Bug Fix

@@ -142,8 +142,8 @@ html.advertorial-type-1 {
   .article-img-wrapper img {
     width: 100%;
     display: block;
-    margin-bottom: 0.5em;
   }
+
   .article-img-wrapper p {
     font-weight: 500;
     font-size: 0.9em !important;
@@ -177,11 +177,21 @@ html.advertorial-type-1 {
   .creator-comment-wrapper ul li {
     font-weight: 400 !important;
   }
-  .creator-comment-wrapper p {
+  .creator-comment-wrapper > p   {
+
     color: #4a4a4a;
     font-size: 1.1em;
     margin-bottom: 1em;
   }
+  .creator-comment-wrapper .styledText p {
+    margin-bottom: 1em;
+    font-size: 1.1em;
+  }
+
+  .creator-comment-wrapper > center {
+    margin-bottom: 1em;
+  }
+
   .blueColor {
     color: #019dd9 !important;
     font-weight: bold;

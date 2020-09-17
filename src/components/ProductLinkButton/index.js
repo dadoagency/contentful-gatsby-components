@@ -43,20 +43,20 @@ ProductLinkButtonPure.defaultProps = {
 }
 
 const Button = styled.div`
-  background-color: ${props => props.bgColour};
-  color: ${props => props.fontColour};
-  border: 1px solid ${props => props.borderColour};
+  background-color: ${props => props.bgColour} !important;
+  color: ${props => props.fontColour} !important;
+  border: 1px solid ${props => props.borderColour} !important;
   p,
   span {
-    color: ${props => props.fontColour};
+    color: ${props => props.fontColour} !important;
   }
   &:hover {
-    background-color: ${props => props.bgHoverColour};
-    color: ${props => props.fontHoverColour};
-    border: 1px solid ${props => props.borderHoverColour};
+    background-color: ${props => props.bgHoverColour} !important;
+    color: ${props => props.fontHoverColour} !important;
+    border: 1px solid ${props => props.borderHoverColour} !important;
     p,
     span {
-      color: ${props => props.fontHoverColour};
+      color: ${props => props.fontHoverColour} !important;
     }
   }
 `
@@ -100,28 +100,15 @@ export function ProductLinkButtonPure({
         borderColour={borderColour}
         borderHoverColour={borderHoverColour}
       >
-        <div className="arrow-wrapper">
-          {cta2 ? (
-            <>
-              <p>{cta}</p>
-              <span>{cta2}</span>
-              {icon && (
-                <div className="arrow-img">
-                  <Image {...icon} />
-                </div>
-              )}
-            </>
-          ) : (
-            <>
-              <span>{cta}</span>
-              {icon && (
-                <div className="arrow-img">
-                  <Image {...icon} />
-                </div>
-              )}
-            </>
-          )}
+        <div className="page-btn-text">
+          <p>{cta}</p>
+          {cta2 && <p>{cta2}</p>}
         </div>
+        {icon && (
+          <div className="arrow-img">
+            <Image {...icon} />
+          </div>
+        )}
       </Button>
     </ProductLink>
   )

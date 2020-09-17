@@ -4816,17 +4816,17 @@ exports[`Storyshots Product Link Button Bonus Text 1`] = `
   href="/"
 >
   <div
-    className="sc-AxiKw gtoKoy page-btn"
+    className="sc-AxiKw ctDMxK page-btn"
   >
     <div
-      className="arrow-wrapper"
+      className="page-btn-text"
     >
       <p>
         Click me
       </p>
-      <span>
+      <p>
         Bonus text
-      </span>
+      </p>
     </div>
   </div>
 </a>
@@ -4838,14 +4838,14 @@ exports[`Storyshots Product Link Button Text 1`] = `
   href="/"
 >
   <div
-    className="sc-AxiKw gtoKoy page-btn"
+    className="sc-AxiKw ctDMxK page-btn"
   >
     <div
-      className="arrow-wrapper"
+      className="page-btn-text"
     >
-      <span>
+      <p>
         Click me
-      </span>
+      </p>
     </div>
   </div>
 </a>

@@ -15,5 +15,5 @@ it("has an href", () => {
   expect(
     div.querySelector('a[href="https://learnstorybook.com"]')
   ).not.toBeNull()
-  expect(div.querySelector("span").textContent).toEqual("Click Me")
+  expect(div.querySelector("p").textContent).toEqual("Click Me")
 })

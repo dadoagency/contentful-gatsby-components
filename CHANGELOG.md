@@ -1,3 +1,15 @@
+# v4.1.5 (Thu Sep 17 2020)
+
+#### 🐛 Bug Fix
+
+- PLB: Fixes the button style override and image positioning [#38](https://github.com/dadoagency/contentful-gatsby-components/pull/38) ([@martink-rsa](https://github.com/martink-rsa))
+
+#### Authors: 1
+
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v4.1.4 (Wed Sep 16 2020)
 
 #### 🐛 Bug Fix

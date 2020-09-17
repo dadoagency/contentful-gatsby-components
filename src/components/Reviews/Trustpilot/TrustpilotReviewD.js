@@ -23,7 +23,6 @@ export default function TrustpilotReviewD({ title, body, avatar, action }) {
     }
   `)
   const url = useTrustpilotLink()
-  console.log(data)
   return (
     <TrustpilotReviewDPure
       title={title}
@@ -44,7 +43,6 @@ export function TrustpilotReviewDPure({
   body,
   action,
 }) {
-  console.log(logo)
   return (
     <div className="facebook-container">
       <div

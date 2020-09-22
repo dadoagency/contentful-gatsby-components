@@ -1,3 +1,15 @@
+# v4.1.6 (Tue Sep 22 2020)
+
+#### 🐛 Bug Fix
+
+- Fixed the CSS for the button colours [#39](https://github.com/dadoagency/contentful-gatsby-components/pull/39) ([@martink-rsa](https://github.com/martink-rsa))
+
+#### Authors: 1
+
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v4.1.5 (Thu Sep 17 2020)
 
 #### 🐛 Bug Fix

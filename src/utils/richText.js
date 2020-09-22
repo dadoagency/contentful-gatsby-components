@@ -138,42 +138,48 @@ const renderOptions = {
 
             let buttonBgColour
             if (bgColour) {
-              buttonBgColour = `${getLocaleValueOrDefault(bgColour)} !important`
+              buttonBgColour = `${getLocaleValueOrDefault(
+                bgColour
+              )} !important;`
             }
 
             let buttonBgHoverColour
             if (bgHoverColour) {
               buttonBgHoverColour = `${getLocaleValueOrDefault(
                 bgHoverColour
-              )} !important`
+              )} !important;`
             }
 
             let buttonFontColour
             if (fontColour) {
               buttonFontColour = `${getLocaleValueOrDefault(
                 fontColour
-              )} !important`
+              )} !important;`
             }
 
             let buttonFontHoverColour
             if (fontHoverColour) {
               buttonFontHoverColour = `${getLocaleValueOrDefault(
                 fontHoverColour
-              )} !important`
+              )} !important;`
             }
 
             let buttonBorderColour
             if (borderColour) {
               buttonBorderColour = `${getLocaleValueOrDefault(
                 borderColour
-              )} !important`
+              )} !important;`
+            } else {
+              buttonBorderColour = "none"
             }
 
             let buttonBorderHoverColour
             if (borderHoverColour) {
               buttonBorderHoverColour = `${getLocaleValueOrDefault(
                 borderHoverColour
-              )} !important`
+              )} !important;`
+            } else {
+              buttonBorderHoverColour = "none"
             }
 
             return (

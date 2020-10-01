@@ -1,3 +1,15 @@
+# v4.2.0 (Thu Oct 01 2020)
+
+#### 🚀 Enhancement
+
+- RichText: Added section [#40](https://github.com/dadoagency/contentful-gatsby-components/pull/40) ([@martink-rsa](https://github.com/martink-rsa))
+
+#### Authors: 1
+
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v4.1.6 (Tue Sep 22 2020)
 
 #### 🐛 Bug Fix

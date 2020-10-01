@@ -195,7 +195,6 @@ const renderOptions = {
                 borderHoverColour={buttonBorderHoverColour}
               />
             )
-
           case "section":
             return (
               <section>

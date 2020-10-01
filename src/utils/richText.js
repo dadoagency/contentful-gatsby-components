@@ -196,6 +196,15 @@ const renderOptions = {
               />
             )
 
+          case "section":
+            return (
+              <section>
+                {documentToReactComponents(
+                  getLocaleValueOrDefault(node.data.target.fields.body),
+                  renderOptions
+                )}
+              </section>
+            )
           case "styledText":
             return (
               <StyledText fields={node.data.target.fields}>

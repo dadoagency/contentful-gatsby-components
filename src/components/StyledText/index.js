@@ -46,6 +46,7 @@ export function StyledTextPure({
 }) {
   const style = {
     color,
+    backgroundColor,
   }
 
   if (isCentered) {

@@ -1,3 +1,15 @@
+# v4.2.1 (Fri Oct 02 2020)
+
+#### 🐛 Bug Fix
+
+- Moved backgroundColor to parent of the styled text [#41](https://github.com/dadoagency/contentful-gatsby-components/pull/41) ([@martink-rsa](https://github.com/martink-rsa))
+
+#### Authors: 1
+
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v4.2.0 (Thu Oct 01 2020)
 
 #### 🚀 Enhancement

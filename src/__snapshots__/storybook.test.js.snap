@@ -2142,6 +2142,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
                 className="styledText "
                 style={
                   Object {
+                    "backgroundColor": null,
                     "color": "#019DD9",
                   }
                 }
@@ -2201,6 +2202,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
                 className="styledText "
                 style={
                   Object {
+                    "backgroundColor": "#FFFF00",
                     "color": null,
                   }
                 }
@@ -3407,6 +3409,7 @@ exports[`Storyshots Article Default 1`] = `
               className="styledText undefined"
               style={
                 Object {
+                  "backgroundColor": undefined,
                   "color": "red",
                 }
               }
@@ -3429,6 +3432,7 @@ exports[`Storyshots Article Default 1`] = `
               className="styledText undefined"
               style={
                 Object {
+                  "backgroundColor": undefined,
                   "color": "red",
                 }
               }
@@ -4531,6 +4535,7 @@ exports[`Storyshots Styled Text Background Color 1`] = `
   className="styledText undefined"
   style={
     Object {
+      "backgroundColor": "red",
       "color": undefined,
     }
   }
@@ -4547,11 +4552,37 @@ exports[`Storyshots Styled Text Background Color 1`] = `
 </div>
 `;
 
+exports[`Storyshots Styled Text Background Color With Bold 1`] = `
+<div
+  className="styledText undefined"
+  style={
+    Object {
+      "backgroundColor": "red",
+      "color": undefined,
+    }
+  }
+>
+  <div>
+    I'm styled text, and 
+    <b
+      style={
+        Object {
+          "backgroundColor": "red",
+        }
+      }
+    >
+      I am bold text
+    </b>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Styled Text Centered 1`] = `
 <div
   className="styledText undefined"
   style={
     Object {
+      "backgroundColor": undefined,
       "color": undefined,
       "textAlign": "center",
     }
@@ -4574,6 +4605,7 @@ exports[`Storyshots Styled Text Color And Background Color 1`] = `
   className="styledText undefined"
   style={
     Object {
+      "backgroundColor": "red",
       "color": "white",
     }
   }
@@ -4595,6 +4627,7 @@ exports[`Storyshots Styled Text Colored 1`] = `
   className="styledText undefined"
   style={
     Object {
+      "backgroundColor": undefined,
       "color": "red",
     }
   }
@@ -4616,6 +4649,7 @@ exports[`Storyshots Styled Text Default 1`] = `
   className="styledText undefined"
   style={
     Object {
+      "backgroundColor": undefined,
       "color": undefined,
     }
   }
@@ -4637,6 +4671,7 @@ exports[`Storyshots Styled Text Inline 1`] = `
   className="styledText undefined"
   style={
     Object {
+      "backgroundColor": undefined,
       "color": undefined,
     }
   }
@@ -4658,6 +4693,7 @@ exports[`Storyshots Styled Text Inline Background 1`] = `
   className="styledText undefined"
   style={
     Object {
+      "backgroundColor": "red",
       "color": undefined,
     }
   }
@@ -4679,6 +4715,7 @@ exports[`Storyshots Styled Text Inline Background And Color 1`] = `
   className="styledText undefined"
   style={
     Object {
+      "backgroundColor": "red",
       "color": "white",
     }
   }
@@ -4695,11 +4732,37 @@ exports[`Storyshots Styled Text Inline Background And Color 1`] = `
 </span>
 `;
 
+exports[`Storyshots Styled Text Inline Background Color With Bold 1`] = `
+<span
+  className="styledText undefined"
+  style={
+    Object {
+      "backgroundColor": "red",
+      "color": undefined,
+    }
+  }
+>
+  <div>
+    I'm styled text, and 
+    <b
+      style={
+        Object {
+          "backgroundColor": "red",
+        }
+      }
+    >
+      I am bold text
+    </b>
+  </div>
+</span>
+`;
+
 exports[`Storyshots Styled Text Inline Colored 1`] = `
 <span
   className="styledText undefined"
   style={
     Object {
+      "backgroundColor": undefined,
       "color": "red",
     }
   }
@@ -4721,6 +4784,7 @@ exports[`Storyshots Styled Text Superscript 1`] = `
   className="styledText undefined"
   style={
     Object {
+      "backgroundColor": undefined,
       "color": "red",
     }
   }

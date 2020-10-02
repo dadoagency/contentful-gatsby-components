@@ -75,3 +75,20 @@ Superscript.args = {
     </p>
   ),
 }
+
+export const BackgroundColorWithBold = Template.bind({})
+BackgroundColorWithBold.args = {
+  component: StyledTextPure,
+  backgroundColor: "red",
+  children: (
+    <div>
+      I'm styled text, and <b>I am bold text</b>
+    </div>
+  ),
+}
+
+export const InlineBackgroundColorWithBold = Template.bind({})
+InlineBackgroundColorWithBold.args = {
+  ...BackgroundColorWithBold.args,
+  inline: true,
+}

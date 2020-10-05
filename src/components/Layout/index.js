@@ -1,11 +1,13 @@
 import React from "react"
 import Header from "../Header"
 import { Helmet } from "react-helmet"
+import * as S from "./Layout.style"
 
 export default ({
   children,
   className,
   locale,
+  fixedHeader,
   logoPosition,
   headerText,
   logo,
@@ -19,14 +21,15 @@ export default ({
         <html className={className} lang={locale} />
       </Helmet>
       <Header
+        fixedHeader={fixedHeader}
         logoPosition={logoPosition}
         headerText={headerText}
         logo={logo}
         extra={extra}
       />
-      <section className="site-data-container">
+      <S.Section fixedHeader={fixedHeader}>
         <div className="site-data-wrapper section">{children}</div>
-      </section>
+      </S.Section>
       {footer}
     </div>
   )

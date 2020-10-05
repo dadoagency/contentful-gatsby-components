@@ -3,6 +3,7 @@ type ContentfulAdvertorialType1 implements Node @infer {
   path: String
   facebookPixelId: String
   redirectDestinations: [ContentfulRedirectDestination] @link(by: "id", from: "redirectDestinations___NODE")
+  fixedHeader: Boolean
   logoPosition: String
   headerText: String
   testimonialSection: ContentfulTestimonialSection @link(by: "id", from: "testimonialSection___NODE")

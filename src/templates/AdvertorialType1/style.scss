@@ -83,7 +83,6 @@ html.advertorial-type-1 {
   .site-logo-wrapper {
     display: flex;
     padding: 16px;
-    justify-content: space-between;
     align-items: center;
   }
   .site-logo {
@@ -116,9 +115,6 @@ html.advertorial-type-1 {
   }
   .site-nav-wrapper a:hover {
     color: #2290bd;
-  }
-  .site-data-container {
-    margin-top: 88px;
   }
   .site-data-wrapper {
     display: flex;
@@ -177,8 +173,7 @@ html.advertorial-type-1 {
   .creator-comment-wrapper ul li {
     font-weight: 400 !important;
   }
-  .creator-comment-wrapper > p   {
-
+  .creator-comment-wrapper > p {
     color: #4a4a4a;
     font-size: 1.1em;
     margin-bottom: 1em;
@@ -394,10 +389,10 @@ html.advertorial-type-1 {
   }
 
   .trustpilot-review-c {
-      /* margin-top: 2em; */
-      padding: 2em;
-      background-color: #f7f7f7;
-      border-bottom: 3px solid #c4e7d9;
+    /* margin-top: 2em; */
+    padding: 2em;
+    background-color: #f7f7f7;
+    border-bottom: 3px solid #c4e7d9;
   }
 
   .site-footer-container {
@@ -463,8 +458,6 @@ html.advertorial-type-1 {
 
   .image-carousel-mobile-wrapper {
     padding: 0 10px;
-
-
   }
 
   .image-carousel-mobile-title {
@@ -474,7 +467,6 @@ html.advertorial-type-1 {
     font-size: 16px;
     line-height: 26px;
     margin-top: 20px;
-
   }
 
   .image-carousel-mobile-images-container {
@@ -505,8 +497,6 @@ html.advertorial-type-1 {
       justify-content: center;
     }
   }
-
-
 
   @media (max-width: 992px) {
     .site-data-wrapper {
@@ -572,7 +562,7 @@ html.advertorial-type-1 {
   @media (max-width: 630px) {
     h3 {
       font-size: 24.336px;
-      line-height:36.504px;
+      line-height: 36.504px;
     }
     .article-data-container h1,
     .creator-tips h1 {

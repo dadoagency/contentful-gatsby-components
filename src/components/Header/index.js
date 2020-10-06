@@ -2,6 +2,7 @@ import React from "react"
 import GatsbyImage from "gatsby-image"
 import styled from "styled-components"
 import propTypes from "prop-types"
+import * as S from "./Header.style"
 
 /* The header can be refactored to use classes instead of styled-components
         where it will get justify-content 'flex-start', 'center' and 'flex-end'
@@ -45,10 +46,11 @@ const Overlay = styled.div`
   position: absolute;
   top: 0;
   height: 100%;
-  width: 100%;
+  width: calc(100% - 32px);
+  pointer-events: none;
 `
 
-function Header({ logoPosition, headerText, logo, extra }) {
+function Header({ fixedHeader, logoPosition, headerText, logo, extra }) {
   let logoPos = "left"
   // Need to check that it exists before running toLowerCase() method
   if (logoPosition) {
@@ -61,7 +63,7 @@ function Header({ logoPosition, headerText, logo, extra }) {
     textPosition = "left"
   }
   return (
-    <section className="site-logo-container header">
+    <S.Section fixedHeader={fixedHeader}>
       <Wrapper logoPosition={logoPos} className="section site-logo-wrapper">
         <div className="site-logo">
           {logo && <GatsbyImage fixed={logo} alt="Logo" />}
@@ -73,7 +75,7 @@ function Header({ logoPosition, headerText, logo, extra }) {
         )}
         {extra && <div className="extra">{extra}</div>}
       </Wrapper>
-    </section>
+    </S.Section>
   )
 }
 

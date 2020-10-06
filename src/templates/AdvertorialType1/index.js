@@ -23,6 +23,7 @@ export const AdvertorialType1Page = graphql`
         value
       }
     }
+    fixedHeader
     logoPosition
     headerText
     headline {
@@ -120,6 +121,7 @@ const AdvertorialType1 = ({
   headline,
   body,
   node_locale,
+  fixedHeader,
   logoPosition,
   headerText,
   logo,
@@ -138,12 +140,12 @@ const AdvertorialType1 = ({
   const documentTitle = (
     <>{documentToReactComponents(headline?.json, renderOptions)}</>
   )
-
   return (
     <Layout
       className="advertorial-type-1"
       references={references}
       locale={node_locale}
+      fixedHeader={fixedHeader}
       logoPosition={logoPosition}
       headerText={headerText}
       logo={logo}
@@ -184,6 +186,7 @@ const AdvertorialType1 = ({
 AdvertorialType1.propTypes = {
   logo: PropTypes.object.isRequired,
   facebookPixelId: PropTypes.string,
+  fixedHeader: PropTypes.bool,
   logoPosition: PropTypes.string,
   headerText: PropTypes.string,
   headline: PropTypes.shape({

@@ -3,10 +3,10 @@
 exports[`Storyshots Advertorial Type 2 Default 1`] = `
 <div>
   <section
-    className="site-logo-container header"
+    className="sc-AxjAm fKrPcQ"
   >
     <div
-      className="sc-AxjAm gPHMU section site-logo-wrapper"
+      className="sc-AxirZ cJWBMj section site-logo-wrapper"
     >
       <div
         className="site-logo"
@@ -66,7 +66,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
     </div>
   </section>
   <section
-    className="site-data-container"
+    className="sc-AxhUy YZaqM"
   >
     <div
       className="site-data-wrapper section"
@@ -1811,10 +1811,10 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
 exports[`Storyshots AdvertorialType1 Default 1`] = `
 <div>
   <section
-    className="site-logo-container header"
+    className="sc-AxjAm fKrPcQ"
   >
     <div
-      className="sc-AxjAm gPHMU section site-logo-wrapper"
+      className="sc-AxirZ cJWBMj section site-logo-wrapper"
     >
       <div
         className="site-logo"
@@ -1904,7 +1904,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
         </div>
       </div>
       <div
-        className="sc-AxirZ lgbZhd"
+        className="sc-AxiKw cBIGLh"
       >
         <div>
           Advertorial
@@ -1913,7 +1913,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
     </div>
   </section>
   <section
-    className="site-data-container"
+    className="sc-AxhUy YZaqM"
   >
     <div
       className="site-data-wrapper section"
@@ -3984,10 +3984,10 @@ exports[`Storyshots Footer Default 1`] = `
 
 exports[`Storyshots Header Center Logo 1`] = `
 <section
-  className="site-logo-container header"
+  className="sc-AxjAm fKrPcQ"
 >
   <div
-    className="sc-AxjAm bmmEux section site-logo-wrapper"
+    className="sc-AxirZ cAAKdK section site-logo-wrapper"
   >
     <div
       className="site-logo"
@@ -4083,10 +4083,10 @@ exports[`Storyshots Header Center Logo 1`] = `
 
 exports[`Storyshots Header Default 1`] = `
 <section
-  className="site-logo-container header"
+  className="sc-AxjAm fKrPcQ"
 >
   <div
-    className="sc-AxjAm gPHMU section site-logo-wrapper"
+    className="sc-AxirZ cJWBMj section site-logo-wrapper"
   >
     <div
       className="site-logo"
@@ -4176,7 +4176,7 @@ exports[`Storyshots Header Default 1`] = `
       </div>
     </div>
     <div
-      className="sc-AxirZ lgbZhd"
+      className="sc-AxiKw cBIGLh"
     >
       <div>
         Advertorial
@@ -4320,10 +4320,10 @@ exports[`Storyshots ImageCarouselMobile Default 1`] = `
 exports[`Storyshots Layout Default 1`] = `
 <div>
   <section
-    className="site-logo-container header"
+    className="sc-AxjAm fKrPcQ"
   >
     <div
-      className="sc-AxjAm gPHMU section site-logo-wrapper"
+      className="sc-AxirZ cJWBMj section site-logo-wrapper"
     >
       <div
         className="site-logo"
@@ -4377,7 +4377,7 @@ exports[`Storyshots Layout Default 1`] = `
         </div>
       </div>
       <div
-        className="sc-AxirZ lgbZhd"
+        className="sc-AxiKw cBIGLh"
       >
         <div>
           Advertorial
@@ -4393,7 +4393,7 @@ exports[`Storyshots Layout Default 1`] = `
     </div>
   </section>
   <section
-    className="site-data-container"
+    className="sc-AxhUy YZaqM"
   >
     <div
       className="site-data-wrapper section"
@@ -4495,7 +4495,7 @@ exports[`Storyshots Product Link Button Bonus Text 1`] = `
   href="/"
 >
   <div
-    className="sc-AxiKw ctDMxK page-btn"
+    className="sc-AxhCb eGrfbO page-btn"
   >
     <div
       className="page-btn-text"
@@ -4517,7 +4517,7 @@ exports[`Storyshots Product Link Button Text 1`] = `
   href="/"
 >
   <div
-    className="sc-AxiKw ctDMxK page-btn"
+    className="sc-AxhCb eGrfbO page-btn"
   >
     <div
       className="page-btn-text"

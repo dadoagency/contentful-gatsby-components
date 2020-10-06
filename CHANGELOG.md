@@ -1,3 +1,15 @@
+# v4.2.2 (Tue Oct 06 2020)
+
+#### 🐛 Bug Fix
+
+- Advertorial 1: Header logo position fix and fixed header option [#42](https://github.com/dadoagency/contentful-gatsby-components/pull/42) ([@martink-rsa](https://github.com/martink-rsa))
+
+#### Authors: 1
+
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v4.2.1 (Fri Oct 02 2020)
 
 #### 🐛 Bug Fix

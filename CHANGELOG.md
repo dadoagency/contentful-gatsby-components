@@ -1,3 +1,15 @@
+# v4.2.3 (Mon Oct 12 2020)
+
+#### 🐛 Bug Fix
+
+- Changed links to open in new tab [#44](https://github.com/dadoagency/contentful-gatsby-components/pull/44) ([@martink-rsa](https://github.com/martink-rsa))
+
+#### Authors: 1
+
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v4.2.2 (Tue Oct 06 2020)
 
 #### 🐛 Bug Fix

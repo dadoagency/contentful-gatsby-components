@@ -25,7 +25,13 @@ const Image = ({
   }
   return (
     <div className="article-img-wrapper">
-      {hyperlink ? <a href={hyperlink}>{image}</a> : image}
+      {hyperlink ? (
+        <a href={hyperlink} target="_blank" rel="noopener">
+          {image}
+        </a>
+      ) : (
+        image
+      )}
       {caption ? (
         <div
           style={{

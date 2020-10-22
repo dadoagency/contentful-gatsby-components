@@ -138,37 +138,29 @@ const renderOptions = {
 
             let buttonBgColour
             if (bgColour) {
-              buttonBgColour = `${getLocaleValueOrDefault(
-                bgColour
-              )} !important;`
+              buttonBgColour = `${getLocaleValueOrDefault(bgColour)}`
             }
 
             let buttonBgHoverColour
             if (bgHoverColour) {
-              buttonBgHoverColour = `${getLocaleValueOrDefault(
-                bgHoverColour
-              )} !important;`
+              buttonBgHoverColour = `${getLocaleValueOrDefault(bgHoverColour)}`
             }
 
             let buttonFontColour
             if (fontColour) {
-              buttonFontColour = `${getLocaleValueOrDefault(
-                fontColour
-              )} !important;`
+              buttonFontColour = `${getLocaleValueOrDefault(fontColour)}`
             }
 
             let buttonFontHoverColour
             if (fontHoverColour) {
               buttonFontHoverColour = `${getLocaleValueOrDefault(
                 fontHoverColour
-              )} !important;`
+              )}`
             }
 
             let buttonBorderColour
             if (borderColour) {
-              buttonBorderColour = `${getLocaleValueOrDefault(
-                borderColour
-              )} !important;`
+              buttonBorderColour = `${getLocaleValueOrDefault(borderColour)}`
             } else {
               buttonBorderColour = "none"
             }
@@ -177,7 +169,7 @@ const renderOptions = {
             if (borderHoverColour) {
               buttonBorderHoverColour = `${getLocaleValueOrDefault(
                 borderHoverColour
-              )} !important;`
+              )}`
             } else {
               buttonBorderHoverColour = "none"
             }

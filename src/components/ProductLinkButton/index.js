@@ -43,20 +43,20 @@ ProductLinkButtonPure.defaultProps = {
 }
 
 const Button = styled.div`
-  background-color: ${props => props.bgColour} !important;
-  color: ${props => props.fontColour} !important;
-  border: 1px solid ${props => props.borderColour} !important;
+  background-color: ${props => props.bgColour + " !important"};
+  color: ${props => props.fontColour + " !important"};
+  border: 1px solid ${props => props.borderColour + " !important"};
   p,
   span {
-    color: ${props => props.fontColour} !important;
+    color: ${props => props.fontColour + " !important"};
   }
   &:hover {
-    background-color: ${props => props.bgHoverColour} !important;
-    color: ${props => props.fontHoverColour} !important;
-    border: 1px solid ${props => props.borderHoverColour} !important;
+    background-color: ${props => props.bgHoverColour + " !important"};
+    color: ${props => props.fontHoverColour + " !important"};
+    border: 1px solid ${props => props.borderHoverColour + " !important"};
     p,
     span {
-      color: ${props => props.fontHoverColour} !important;
+      color: ${props => props.fontHoverColour + " !important"};
     }
   }
 `

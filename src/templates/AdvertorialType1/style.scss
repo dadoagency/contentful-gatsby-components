@@ -8,9 +8,7 @@ html.advertorial-type-1 {
   body {
     height: 100%;
     margin: 0;
-    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
-      sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-      "Noto Color Emoji";
+    font-family: "Work Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -37,9 +35,13 @@ html.advertorial-type-1 {
   }
   h3 {
     color: #1d1d1d;
-    font-size: 1.17em;
+    // font-size: 1.17em;
+    font-size: 24px;
     font-weight: 600;
     line-height: 1.6;
+    margin: 20px 0;
+    font-size: 20px;
+
   }
   ul {
     margin: 0px;
@@ -142,7 +144,7 @@ html.advertorial-type-1 {
 
   .article-img-wrapper p {
     font-weight: 500;
-    font-size: 0.9em !important;
+    font-size: 18px;
     color: #000 !important;
     text-align: center;
   }
@@ -174,13 +176,13 @@ html.advertorial-type-1 {
     font-weight: 400 !important;
   }
   .creator-comment-wrapper > p {
-    color: #4a4a4a;
-    font-size: 1.1em;
+    color: #505050;
+    font-size: 16px;
     margin-bottom: 1em;
   }
   .creator-comment-wrapper .styledText p {
     margin-bottom: 1em;
-    font-size: 1.1em;
+    font-size: 16px;
   }
 
   .creator-comment-wrapper > center {
@@ -561,7 +563,8 @@ html.advertorial-type-1 {
   }
   @media (max-width: 630px) {
     h3 {
-      font-size: 24.336px;
+      // font-size: 24.336px;
+      font-size: 20px;
       line-height: 36.504px;
     }
     .article-data-container h1,
@@ -571,7 +574,7 @@ html.advertorial-type-1 {
 
     .creator-comment-wrapper p,
     .article-img-wrapper p {
-      font-size: 0.9em;
+      font-size: 16px;
     }
     .footer-nav span {
       display: block;
@@ -581,7 +584,8 @@ html.advertorial-type-1 {
   @media (max-width: 400px) {
     .page-btn span,
     .page-btn p {
-      font-size: 0.8em !important;
+      // font-size: 0.8em !important;
+      font-size: 16px;
     }
 
     .site-logo img {
@@ -592,7 +596,7 @@ html.advertorial-type-1 {
     }
     .creator-comment-wrapper p,
     .article-img-wrapper p {
-      font-size: 0.8em;
+      font-size: 16px;
     }
   }
   @media (max-width: 325px) {
@@ -613,3 +617,34 @@ html.advertorial-type-1 {
     }
   }
 }
+
+.review-head {
+  span {
+    letter-spacing: -0.4px;
+  }
+}
+
+.page-btn {
+  .page-btn-text {
+    p {
+      font-size: 16px;
+  font-weight: 700;
+    }
+  }
+  @media (max-width: 390px) {
+    padding: 0.5em 0;
+  }
+}
+
+.product-card {
+  .page-btn {
+    .page-btn-text {
+      p {
+    font-size: 18px !important;
+    font-weight: 700;
+      }
+    }
+
+  }
+}
+

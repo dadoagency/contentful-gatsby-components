@@ -4495,7 +4495,7 @@ exports[`Storyshots Product Link Button Bonus Text 1`] = `
   href="/"
 >
   <div
-    className="sc-AxhCb eGrfbO page-btn"
+    className="sc-AxhCb cblOCC page-btn"
   >
     <div
       className="page-btn-text"
@@ -4517,7 +4517,7 @@ exports[`Storyshots Product Link Button Text 1`] = `
   href="/"
 >
   <div
-    className="sc-AxhCb eGrfbO page-btn"
+    className="sc-AxhCb cblOCC page-btn"
   >
     <div
       className="page-btn-text"

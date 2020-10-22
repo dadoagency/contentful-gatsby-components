@@ -1,3 +1,15 @@
+# v4.2.4 (Thu Oct 22 2020)
+
+#### 🐛 Bug Fix
+
+- Adjusted Adv 1 sizes to match Adv 3, fixed PLB [#45](https://github.com/dadoagency/contentful-gatsby-components/pull/45) ([@martink-rsa](https://github.com/martink-rsa))
+
+#### Authors: 1
+
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v4.2.3 (Mon Oct 12 2020)
 
 #### 🐛 Bug Fix

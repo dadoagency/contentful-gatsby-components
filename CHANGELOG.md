@@ -1,3 +1,15 @@
+# v4.2.5 (Mon Nov 09 2020)
+
+#### 🐛 Bug Fix
+
+- Added a return to the redirect hook [#46](https://github.com/dadoagency/contentful-gatsby-components/pull/46) ([@martink-rsa](https://github.com/martink-rsa))
+
+#### Authors: 1
+
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v4.2.4 (Thu Oct 22 2020)
 
 #### 🐛 Bug Fix

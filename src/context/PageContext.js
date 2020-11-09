@@ -8,6 +8,7 @@ const PageContext = React.createContext(defaultState)
 
 const PageProvider = ({ children }) => {
   const [redirectDestination, setRedirectDestination] = useState("")
+
   return (
     <PageContext.Provider
       value={{

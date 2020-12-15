@@ -1,3 +1,15 @@
+# v4.3.0 (Tue Dec 15 2020)
+
+#### 🚀 Enhancement
+
+- Advertorial 3 [#47](https://github.com/dadoagency/contentful-gatsby-components/pull/47) ([@martink-rsa](https://github.com/martink-rsa))
+
+#### Authors: 1
+
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v4.2.5 (Mon Nov 09 2020)
 
 #### 🐛 Bug Fix

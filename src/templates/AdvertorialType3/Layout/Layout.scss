@@ -1,0 +1,45 @@
+$xs: 600px;
+$s: 768px;
+$m: 992px;
+$l: 1200px;
+$xl: 1480px;
+
+html,
+body {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  color: #1d1d1d;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+p:empty {
+  display: none;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.36;
+  text-align: center;
+  margin: 0 0 10px;
+  @media (max-width: $m) {
+    font-size: 24px;
+  }
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

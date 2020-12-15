@@ -1,0 +1,179 @@
+html.advertorial-type-3 {
+  body {
+    font-family: Work Sans, sans-serif;
+    background: #fdfbf6;
+    font-size: 16px;
+  }
+  h1 {
+    color: red;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    @media only screen and (min-width: 768px) {
+      font-size: 30px;
+      line-height: 40px;
+    }
+    @media only screen and (min-width: 992px) {
+      font-size: 38px;
+      line-height: 48px;
+    }
+    @media only screen and (min-width: 1200px) {
+      font-size: 43px;
+      line-height: 53px;
+    }
+    @media only screen and (min-width: 1280px) {
+      font-size: 48px;
+      line-height: 58px;
+    }
+  }
+  .productLink {
+    text-decoration: none;
+
+    .page-btn {
+      display: flex;
+      width: 100%;
+      font-size: 18px;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: #fff;
+      text-align: center;
+      box-shadow: 10px 10px 19px -4px rgba(0, 0, 0, 0.33);
+      padding: 18px 20px;
+      border: none;
+      border-radius: 5px;
+      .arrow-img {
+        div {
+          height: auto;
+          margin-top: 6px;
+        }
+      }
+
+      .arrow-wrapper {
+        background: none !important;
+      }
+      p,
+      span {
+        font-size: 18px !important;
+        line-height: 24px !important;
+        font-weight: 700 !important;
+        margin: 0;
+      }
+    }
+  }
+  .article-img-wrapper {
+    font-size: 10px;
+    div {
+      background: #fdfbf6;
+      p {
+        margin: 0;
+        font-size: 10px;
+        font-weight: normal;
+        color: #212529;
+        line-height: normal;
+      }
+    }
+  }
+  .image-carousel-mobile-wrapper {
+    padding: 0 10px;
+  }
+
+  .image-carousel-mobile-title {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+  }
+
+  .image-carousel-mobile-images-container {
+    margin-bottom: 1em;
+    .slick-track {
+      display: flex;
+      align-items: center;
+    }
+    a {
+      height: 100%;
+      display: block;
+    }
+    img {
+      margin-top: 0;
+      display: inline-block;
+      vertical-align: middle;
+      margin: 10px 10px 0 10px;
+      text-align: center;
+      @media (max-width: 499px) {
+        margin: 0;
+        width: 80% !important;
+      }
+    }
+    @media (min-width: 499px) {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  @font-face {
+    font-family: slick;
+    font-weight: 400;
+    font-style: normal;
+    src: url(../../assets/fonts/slick.eot);
+    src: url(../../assets/fonts/slick.eot?#iefix) format("embedded-opentype"),
+      url(../../assets/fonts/slick.woff) format("woff"),
+      url(../../assets/fonts/slick.ttf) format("truetype"),
+      url(../../assets/fonts/slick.svg#slick) format("svg");
+  }
+  .slick-next,
+  .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    box-shadow: none;
+    color: #1c3121;
+    outline: 0;
+    background: 0 0;
+  }
+
+  .slick-next:before,
+  .slick-prev:before {
+    font-size: 20px;
+    line-height: 1;
+    opacity: 0.75;
+    color: #fff;
+    color: #1c3121;
+  }
+  .slick-prev {
+    left: -20px;
+  }
+  [dir="rtl"] .slick-prev {
+    right: -20px;
+    left: auto;
+  }
+  .slick-prev:before {
+    content: "←";
+  }
+  .slick-next:before,
+  [dir="rtl"] .slick-prev:before {
+    content: "→";
+  }
+  .slick-next {
+    right: -20px;
+  }
+  [dir="rtl"] .slick-next {
+    right: auto;
+    left: -20px;
+  }
+  [dir="rtl"] .slick-next:before {
+    content: "→";
+  }
+}

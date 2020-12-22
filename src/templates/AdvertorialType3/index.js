@@ -71,7 +71,7 @@ function AdvertorialType3(props) {
 
   const logo = props.logo.src
 
-  const heroTitle = node.heroTitle
+  const heroTitle = node.heading
   const heroImg = node.heroImage.image.fluid
   const heroSection = node.heroSection.json
   const mainSection = node.body.json

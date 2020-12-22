@@ -189,12 +189,12 @@ const renderOptions = {
             )
           case "section":
             return (
-              <section>
+              <div className="section">
                 {documentToReactComponents(
-                  getLocaleValueOrDefault(node.data.target.fields.body),
+                  getLocaleValueOrDefault(node.data.target.fields.content),
                   renderOptions
                 )}
-              </section>
+              </div>
             )
           case "styledText":
             return (
@@ -230,15 +230,6 @@ const renderOptions = {
               >
                 {documentToReactComponents(
                   getLocaleValueOrDefault(node.data.target.fields.body),
-                  renderOptions
-                )}
-              </div>
-            )
-          case "section":
-            return (
-              <div className="section">
-                {documentToReactComponents(
-                  getLocaleValueOrDefault(node.data.target.fields.content),
                   renderOptions
                 )}
               </div>

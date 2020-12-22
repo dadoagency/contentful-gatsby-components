@@ -1,3 +1,15 @@
+# v4.3.2 (Tue Dec 22 2020)
+
+#### 🐛 Bug Fix
+
+- fix: removed duplicate section in nodes [#53](https://github.com/dadoagency/contentful-gatsby-components/pull/53) ([@martink-rsa](https://github.com/martink-rsa))
+
+#### Authors: 1
+
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v4.3.1 (Tue Dec 22 2020)
 
 #### 🐛 Bug Fix

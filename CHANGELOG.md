@@ -1,3 +1,19 @@
+# v4.3.1 (Tue Dec 22 2020)
+
+#### 🐛 Bug Fix
+
+- bugfix: webpack font support [#52](https://github.com/dadoagency/contentful-gatsby-components/pull/52) ([@martink-rsa](https://github.com/martink-rsa))
+- Changed heroTitle to heading [#51](https://github.com/dadoagency/contentful-gatsby-components/pull/51) ([@chesteralan](https://github.com/chesteralan))
+- Fixed the import [#49](https://github.com/dadoagency/contentful-gatsby-components/pull/49) ([@martink-rsa](https://github.com/martink-rsa))
+- Added export for Adv. 3 [#48](https://github.com/dadoagency/contentful-gatsby-components/pull/48) ([@martink-rsa](https://github.com/martink-rsa))
+
+#### Authors: 2
+
+- [@chesteralan](https://github.com/chesteralan)
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v4.3.0 (Tue Dec 15 2020)
 
 #### 🚀 Enhancement

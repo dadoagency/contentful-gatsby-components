@@ -1,6 +1,6 @@
 import React from "react"
 import * as S from "./Hero.style"
-import ArticleImage from "@dadoagency/contentful-gatsby-components/src/components/Image/index"
+import ArticleImage from "../../../components/Image/index"
 
 function Hero({ image, body }) {
   return (

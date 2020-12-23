@@ -41,7 +41,7 @@ export const TrustpilotReviewB2Pure = ({
   title,
   starsLogo,
 }) => (
-<div class="review trustpilot-review-b v2" style={{
+<div className="review trustpilot-review-b v2" style={{
     padding: '20px 0'
 }}>
     <div>

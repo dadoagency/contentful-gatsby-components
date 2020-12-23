@@ -5,9 +5,9 @@ import ArticleImage from "../../../components/Image/index"
 function Hero({ image, body }) {
   return (
     <S.Wrapper>
-      <ArticleImage fluid={image} alt="Logo" />
-      <S.Caption>Actual Customer. Results may vary.</S.Caption>
-      <S.HeroBody>{body}</S.HeroBody>
+      <ArticleImage fluid={image} alt="Logo" className="hero-image" />
+      <S.Caption className="hero-disclaimer">Actual Customer. Results may vary.</S.Caption>
+      <S.HeroBody className="hero-body">{body}</S.HeroBody>
     </S.Wrapper>
   )
 }

@@ -1,3 +1,15 @@
+# v4.3.3 (Wed Dec 23 2020)
+
+#### 🐛 Bug Fix
+
+- fix: change css selector for section [#54](https://github.com/dadoagency/contentful-gatsby-components/pull/54) ([@martink-rsa](https://github.com/martink-rsa))
+
+#### Authors: 1
+
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v4.3.2 (Tue Dec 22 2020)
 
 #### 🐛 Bug Fix

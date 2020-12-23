@@ -17,7 +17,7 @@ export const MainContainer = styled.div`
   padding: 0;
   box-shadow: 0 0 28px -1px rgba(0, 0, 0, 0.05);
   background: #fff;
-  section {
+  .section {
     padding: 20px 20px;
     @media (min-width: 992px) {
       padding: 20px 30px;

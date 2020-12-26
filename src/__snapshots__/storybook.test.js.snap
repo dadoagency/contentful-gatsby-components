@@ -2241,7 +2241,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
                   be delivered on 22nd June.
                 </b>
               </p>
-              <div
+              <span
                 className="styledText "
                 style={
                   Object {
@@ -2259,7 +2259,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
                 >
                   They expect this next batch to sell out before it is even finished manufacturing, which is why they are urging you to reserve your presale order now!
                 </b>
-              </div>
+              </span>
               <p>
                 The best part though? Reserving your presale order now means you
                 <b>
@@ -3622,7 +3622,7 @@ exports[`Storyshots Article Default 1`] = `
           <p>
             This is an example of styled text
              
-            <div
+            <span
               className="styledText undefined"
               style={
                 Object {
@@ -3631,7 +3631,7 @@ exports[`Storyshots Article Default 1`] = `
                 }
               }
             >
-              <div
+              <span
                 style={
                   Object {
                     "backgroundColor": undefined,
@@ -3639,8 +3639,8 @@ exports[`Storyshots Article Default 1`] = `
                 }
               >
                 I'm styled text
-              </div>
-            </div>
+              </span>
+            </span>
           </p>
           <p>
             This is an example of inline styled text
@@ -3654,7 +3654,7 @@ exports[`Storyshots Article Default 1`] = `
                 }
               }
             >
-              <div
+              <span
                 style={
                   Object {
                     "backgroundColor": undefined,
@@ -3662,7 +3662,7 @@ exports[`Storyshots Article Default 1`] = `
                 }
               >
                 I'm styled text
-              </div>
+              </span>
             </span>
           </p>
         </div>
@@ -4777,7 +4777,7 @@ exports[`Storyshots Product Link Button Text 1`] = `
 `;
 
 exports[`Storyshots Styled Text Background Color 1`] = `
-<div
+<span
   className="styledText undefined"
   style={
     Object {
@@ -4786,7 +4786,7 @@ exports[`Storyshots Styled Text Background Color 1`] = `
     }
   }
 >
-  <div
+  <span
     style={
       Object {
         "backgroundColor": "red",
@@ -4794,12 +4794,12 @@ exports[`Storyshots Styled Text Background Color 1`] = `
     }
   >
     I'm styled text
-  </div>
-</div>
+  </span>
+</span>
 `;
 
 exports[`Storyshots Styled Text Background Color With Bold 1`] = `
-<div
+<span
   className="styledText undefined"
   style={
     Object {
@@ -4808,7 +4808,7 @@ exports[`Storyshots Styled Text Background Color With Bold 1`] = `
     }
   }
 >
-  <div>
+  <span>
     I'm styled text, and 
     <b
       style={
@@ -4819,12 +4819,12 @@ exports[`Storyshots Styled Text Background Color With Bold 1`] = `
     >
       I am bold text
     </b>
-  </div>
-</div>
+  </span>
+</span>
 `;
 
 exports[`Storyshots Styled Text Centered 1`] = `
-<div
+<span
   className="styledText undefined"
   style={
     Object {
@@ -4834,7 +4834,7 @@ exports[`Storyshots Styled Text Centered 1`] = `
     }
   }
 >
-  <div
+  <span
     style={
       Object {
         "backgroundColor": undefined,
@@ -4842,12 +4842,12 @@ exports[`Storyshots Styled Text Centered 1`] = `
     }
   >
     I'm styled text
-  </div>
-</div>
+  </span>
+</span>
 `;
 
 exports[`Storyshots Styled Text Color And Background Color 1`] = `
-<div
+<span
   className="styledText undefined"
   style={
     Object {
@@ -4856,7 +4856,7 @@ exports[`Storyshots Styled Text Color And Background Color 1`] = `
     }
   }
 >
-  <div
+  <span
     style={
       Object {
         "backgroundColor": "red",
@@ -4864,12 +4864,12 @@ exports[`Storyshots Styled Text Color And Background Color 1`] = `
     }
   >
     I'm styled text
-  </div>
-</div>
+  </span>
+</span>
 `;
 
 exports[`Storyshots Styled Text Colored 1`] = `
-<div
+<span
   className="styledText undefined"
   style={
     Object {
@@ -4878,7 +4878,7 @@ exports[`Storyshots Styled Text Colored 1`] = `
     }
   }
 >
-  <div
+  <span
     style={
       Object {
         "backgroundColor": undefined,
@@ -4886,12 +4886,12 @@ exports[`Storyshots Styled Text Colored 1`] = `
     }
   >
     I'm styled text
-  </div>
-</div>
+  </span>
+</span>
 `;
 
 exports[`Storyshots Styled Text Default 1`] = `
-<div
+<span
   className="styledText undefined"
   style={
     Object {
@@ -4900,7 +4900,7 @@ exports[`Storyshots Styled Text Default 1`] = `
     }
   }
 >
-  <div
+  <span
     style={
       Object {
         "backgroundColor": undefined,
@@ -4908,8 +4908,8 @@ exports[`Storyshots Styled Text Default 1`] = `
     }
   >
     I'm styled text
-  </div>
-</div>
+  </span>
+</span>
 `;
 
 exports[`Storyshots Styled Text Inline 1`] = `
@@ -4922,7 +4922,7 @@ exports[`Storyshots Styled Text Inline 1`] = `
     }
   }
 >
-  <div
+  <span
     style={
       Object {
         "backgroundColor": undefined,
@@ -4930,7 +4930,7 @@ exports[`Storyshots Styled Text Inline 1`] = `
     }
   >
     I'm styled text
-  </div>
+  </span>
 </span>
 `;
 
@@ -4944,7 +4944,7 @@ exports[`Storyshots Styled Text Inline Background 1`] = `
     }
   }
 >
-  <div
+  <span
     style={
       Object {
         "backgroundColor": "red",
@@ -4952,7 +4952,7 @@ exports[`Storyshots Styled Text Inline Background 1`] = `
     }
   >
     I'm styled text
-  </div>
+  </span>
 </span>
 `;
 
@@ -4966,7 +4966,7 @@ exports[`Storyshots Styled Text Inline Background And Color 1`] = `
     }
   }
 >
-  <div
+  <span
     style={
       Object {
         "backgroundColor": "red",
@@ -4974,7 +4974,7 @@ exports[`Storyshots Styled Text Inline Background And Color 1`] = `
     }
   >
     I'm styled text
-  </div>
+  </span>
 </span>
 `;
 
@@ -4988,7 +4988,7 @@ exports[`Storyshots Styled Text Inline Background Color With Bold 1`] = `
     }
   }
 >
-  <div>
+  <span>
     I'm styled text, and 
     <b
       style={
@@ -4999,7 +4999,7 @@ exports[`Storyshots Styled Text Inline Background Color With Bold 1`] = `
     >
       I am bold text
     </b>
-  </div>
+  </span>
 </span>
 `;
 
@@ -5013,7 +5013,7 @@ exports[`Storyshots Styled Text Inline Colored 1`] = `
     }
   }
 >
-  <div
+  <span
     style={
       Object {
         "backgroundColor": undefined,
@@ -5021,12 +5021,12 @@ exports[`Storyshots Styled Text Inline Colored 1`] = `
     }
   >
     I'm styled text
-  </div>
+  </span>
 </span>
 `;
 
 exports[`Storyshots Styled Text Superscript 1`] = `
-<div
+<span
   className="styledText undefined"
   style={
     Object {
@@ -5045,7 +5045,7 @@ exports[`Storyshots Styled Text Superscript 1`] = `
   >
     1
   </code>
-</div>
+</span>
 `;
 
 exports[`Storyshots Trustpilot Review Default 1`] = `

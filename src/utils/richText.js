@@ -198,7 +198,7 @@ const renderOptions = {
             )
           case "styledText":
             return (
-              <StyledText fields={node.data.target.fields}>
+              <StyledText inline={false} fields={node.data.target.fields}>
                 {documentToReactComponents(
                   getLocaleValueOrDefault(node.data.target.fields.text),
                   renderOptions

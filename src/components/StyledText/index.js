@@ -54,10 +54,12 @@ export function StyledTextPure({
   }
 
   const Wrapper = ({ children, ...props }) => {
+    let isInline = inline ?? true
     if( getFirstValue(children).type === 'p' ) {
+      isInline = true
       children = getFirstValue(children).props.children
     }
-    if (inline) {
+    if (isInline) {
       return <span {...props}>{children}</span>
     } else {
       return <div {...props}>{children}</div>

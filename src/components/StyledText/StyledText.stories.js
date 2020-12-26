@@ -12,7 +12,7 @@ const Template = args => {
 export const Default = Template.bind({})
 Default.args = {
   component: StyledTextPure,
-  children: <div>I'm styled text</div>,
+  children: <span>I'm styled text</span>,
 }
 
 export const Colored = Template.bind({})
@@ -81,9 +81,9 @@ BackgroundColorWithBold.args = {
   component: StyledTextPure,
   backgroundColor: "red",
   children: (
-    <div>
+    <span>
       I'm styled text, and <b>I am bold text</b>
-    </div>
+    </span>
   ),
 }
 

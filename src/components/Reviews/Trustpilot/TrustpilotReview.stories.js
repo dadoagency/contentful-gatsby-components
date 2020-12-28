@@ -11,6 +11,7 @@ export default {
   title: "Trustpilot Review",
   component: TrustpilotReview,
 }
+
 const Template = args => {
   return <args.component {...args} />
 }
@@ -33,6 +34,13 @@ export const TypeB = Template.bind({})
 TypeB.args = {
   ...Default.args,
   component: TrustpilotReviewB,
+}
+
+export const TypeBVersion2 = Template.bind({})
+TypeBVersion2.args = {
+  ...Default.args,
+  component: TrustpilotReviewB,
+  version: 2
 }
 
 export const TypeC = Template.bind({})

@@ -9,6 +9,7 @@ import ProductCard from "./src/components/ProductCard"
 import ProductLinkButton from "./src/components/ProductLinkButton"
 import TrustpilotReview from "./src/components/Reviews/Trustpilot/index"
 import TrustpilotReviewB from "./src/components/Reviews/Trustpilot/TrustpilotReviewB"
+import TrustpilotReviewB2 from "./src/components/Reviews/Trustpilot/TrustpilotReviewB2"
 import TrustpilotReviewC from "./src/components/Reviews/Trustpilot/TrustpilotReviewC"
 
 //util
@@ -36,6 +37,7 @@ export {
   AdvertorialType2,
   TrustpilotReview,
   TrustpilotReviewB,
+  TrustpilotReviewB2,
   TrustpilotReviewC,
   AdvertorialType3,
 }

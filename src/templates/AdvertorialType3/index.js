@@ -51,6 +51,9 @@ export const AdvertorialType3Page = graphql`
       body {
         json
       }
+      footer {
+        json
+      }
     }
 `
 
@@ -75,6 +78,7 @@ function AdvertorialType3(props) {
   const heroImg = node.heroImage.image.fluid
   const heroSection = node.heroSection.json
   const mainSection = node.body.json
+  const footerSection = node.footer ? node.footer.json : null
 
   return (
     <>
@@ -84,6 +88,7 @@ function AdvertorialType3(props) {
         logo={logo}
         footerLinks={footerLinks}
         companyDetails={companyDetails}
+        footerSection={footerSection}
         headerContentRight={documentToReactComponents(
           headerContentRight,
           renderOptions

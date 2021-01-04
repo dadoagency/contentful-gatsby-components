@@ -1,7 +1,9 @@
 import React from "react"
 import * as S from "./Footer.style"
+import renderOptions from "../../utils/richText"
+import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 
-function Footer({ links, companyDetails }) {
+function DefaultFooter({ links, companyDetails }) {
   const { name, url } = companyDetails
   return (
     <S.Wrapper>
@@ -27,4 +29,15 @@ function Footer({ links, companyDetails }) {
     </S.Wrapper>
   )
 }
+
+function Adv3Footer({footerSection}) {
+  return <S.Wrapper>
+{documentToReactComponents(footerSection,renderOptions)}
+  </S.Wrapper>
+}
+
+function Footer({ links, companyDetails, footerSection }) {
+  return footerSection ? <Adv3Footer footerSection={footerSection} /> : <DefaultFooter links={links} companyDetails={companyDetails} />
+}
+
 export default Footer

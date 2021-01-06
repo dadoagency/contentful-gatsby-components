@@ -237,6 +237,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
 
                     <span
                       className="styledText "
+                      inline=""
                       style={
                         Object {
                           "backgroundColor": null,
@@ -249,6 +250,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                     **, and as Ali, a Petlab customer put it: "it's a no brainer to try for any dog owner" - especially after seeing the rave reviews and success stories. 
                     <span
                       className="styledText "
+                      inline=""
                       style={
                         Object {
                           "backgroundColor": "#FFFF00",
@@ -576,6 +578,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                       
                       <span
                         className="styledText "
+                        inline=""
                         style={
                           Object {
                             "backgroundColor": null,
@@ -642,6 +645,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                   </div>
                   <span
                     className="styledText "
+                    inline=""
                     style={
                       Object {
                         "backgroundColor": null,
@@ -2700,6 +2704,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
               </p>
               <span
                 className="styledText "
+                inline=""
                 style={
                   Object {
                     "backgroundColor": "#FFFF00",
@@ -3279,7 +3284,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
       >
         <p>
           Copyright © 
-          2020
+          2021
            
           <a
             href="/"
@@ -4081,6 +4086,7 @@ exports[`Storyshots Article Default 1`] = `
              
             <span
               className="styledText undefined"
+              inline=""
               style={
                 Object {
                   "backgroundColor": undefined,
@@ -4104,6 +4110,7 @@ exports[`Storyshots Article Default 1`] = `
              
             <span
               className="styledText undefined"
+              inline=""
               style={
                 Object {
                   "backgroundColor": undefined,
@@ -4656,7 +4663,7 @@ exports[`Storyshots Footer Default 1`] = `
     >
       <p>
         Copyright © 
-        2020
+        2021
          
         <a
           href="/"
@@ -5117,7 +5124,7 @@ exports[`Storyshots Layout Default 1`] = `
       >
         <p>
           Copyright © 
-          2020
+          2021
            
           <a
             href="/"
@@ -5236,6 +5243,7 @@ exports[`Storyshots Product Link Button Text 1`] = `
 exports[`Storyshots Styled Text Background Color 1`] = `
 <span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": "red",
@@ -5258,6 +5266,7 @@ exports[`Storyshots Styled Text Background Color 1`] = `
 exports[`Storyshots Styled Text Background Color With Bold 1`] = `
 <span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": "red",
@@ -5283,6 +5292,7 @@ exports[`Storyshots Styled Text Background Color With Bold 1`] = `
 exports[`Storyshots Styled Text Centered 1`] = `
 <span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": undefined,
@@ -5306,6 +5316,7 @@ exports[`Storyshots Styled Text Centered 1`] = `
 exports[`Storyshots Styled Text Color And Background Color 1`] = `
 <span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": "red",
@@ -5328,6 +5339,7 @@ exports[`Storyshots Styled Text Color And Background Color 1`] = `
 exports[`Storyshots Styled Text Colored 1`] = `
 <span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": undefined,
@@ -5350,6 +5362,7 @@ exports[`Storyshots Styled Text Colored 1`] = `
 exports[`Storyshots Styled Text Default 1`] = `
 <span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": undefined,
@@ -5372,6 +5385,7 @@ exports[`Storyshots Styled Text Default 1`] = `
 exports[`Storyshots Styled Text Inline 1`] = `
 <span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": undefined,
@@ -5394,6 +5408,7 @@ exports[`Storyshots Styled Text Inline 1`] = `
 exports[`Storyshots Styled Text Inline Background 1`] = `
 <span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": "red",
@@ -5416,6 +5431,7 @@ exports[`Storyshots Styled Text Inline Background 1`] = `
 exports[`Storyshots Styled Text Inline Background And Color 1`] = `
 <span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": "red",
@@ -5438,6 +5454,7 @@ exports[`Storyshots Styled Text Inline Background And Color 1`] = `
 exports[`Storyshots Styled Text Inline Background Color With Bold 1`] = `
 <span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": "red",
@@ -5463,6 +5480,7 @@ exports[`Storyshots Styled Text Inline Background Color With Bold 1`] = `
 exports[`Storyshots Styled Text Inline Colored 1`] = `
 <span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": undefined,
@@ -5485,6 +5503,7 @@ exports[`Storyshots Styled Text Inline Colored 1`] = `
 exports[`Storyshots Styled Text Superscript 1`] = `
 <span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": undefined,

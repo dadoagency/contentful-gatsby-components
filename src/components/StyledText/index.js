@@ -60,6 +60,7 @@ export function StyledTextPure({
       children = getFirstValue(children).props.children
     }
     if (isInline) {
+      props.inline = ''
       return <span {...props}>{children}</span>
     } else {
       return <div {...props}>{children}</div>

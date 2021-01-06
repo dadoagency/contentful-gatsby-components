@@ -237,6 +237,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
 
                     <span
                       className="styledText "
+                      inline=""
                       style={
                         Object {
                           "backgroundColor": null,
@@ -244,13 +245,12 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                         }
                       }
                     >
-                      <p>
-                        Just a few cents a day
-                      </p>
+                      Just a few cents a day
                     </span>
                     **, and as Ali, a Petlab customer put it: "it's a no brainer to try for any dog owner" - especially after seeing the rave reviews and success stories. 
                     <span
                       className="styledText "
+                      inline=""
                       style={
                         Object {
                           "backgroundColor": "#FFFF00",
@@ -258,17 +258,15 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                         }
                       }
                     >
-                      <p>
-                        <b
-                          style={
-                            Object {
-                              "backgroundColor": "#FFFF00",
-                            }
+                      <b
+                        style={
+                          Object {
+                            "backgroundColor": "#FFFF00",
                           }
-                        >
-                          Additionally, with stock running critically low and the global manufacturing system in chaos due to the coronavirus - owners are being urged to snap up the limited joint chews today (orders within the next 24 hours only are guaranteed to be delivered on time).
-                        </b>
-                      </p>
+                        }
+                      >
+                        Additionally, with stock running critically low and the global manufacturing system in chaos due to the coronavirus - owners are being urged to snap up the limited joint chews today (orders within the next 24 hours only are guaranteed to be delivered on time).
+                      </b>
                     </span>
                     
                   </p>
@@ -580,6 +578,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                       
                       <span
                         className="styledText "
+                        inline=""
                         style={
                           Object {
                             "backgroundColor": null,
@@ -587,17 +586,15 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                           }
                         }
                       >
-                        <p>
-                          <b
-                            style={
-                              Object {
-                                "backgroundColor": null,
-                              }
+                        <b
+                          style={
+                            Object {
+                              "backgroundColor": null,
                             }
-                          >
-                            SPECIAL READER OFFER:
-                          </b>
-                        </p>
+                          }
+                        >
+                          SPECIAL READER OFFER:
+                        </b>
                       </span>
                       When you try Joint Health Chews today you will also get access to Petlab's 'Facebook Advisor' group. 
                       <b>
@@ -646,8 +643,9 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                       </div>
                     </a>
                   </div>
-                  <div
+                  <span
                     className="styledText "
+                    inline=""
                     style={
                       Object {
                         "backgroundColor": null,
@@ -655,18 +653,16 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                       }
                     }
                   >
-                    <p>
-                      <b
-                        style={
-                          Object {
-                            "backgroundColor": null,
-                          }
+                    <b
+                      style={
+                        Object {
+                          "backgroundColor": null,
                         }
-                      >
-                        JUST A FEW CENTS A DAY, no matter what income level you're on, it's possible to make sure your dog gets the treatment they deserve.
-                      </b>
-                    </p>
-                  </div>
+                      }
+                    >
+                      JUST A FEW CENTS A DAY, no matter what income level you're on, it's possible to make sure your dog gets the treatment they deserve.
+                    </b>
+                  </span>
                   <center>
                     <div
                       className="article-img-wrapper"
@@ -2706,8 +2702,9 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
                   be delivered on 22nd June.
                 </b>
               </p>
-              <div
+              <span
                 className="styledText "
+                inline=""
                 style={
                   Object {
                     "backgroundColor": "#FFFF00",
@@ -2715,18 +2712,16 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
                   }
                 }
               >
-                <p>
-                  <b
-                    style={
-                      Object {
-                        "backgroundColor": "#FFFF00",
-                      }
+                <b
+                  style={
+                    Object {
+                      "backgroundColor": "#FFFF00",
                     }
-                  >
-                    They expect this next batch to sell out before it is even finished manufacturing, which is why they are urging you to reserve your presale order now!
-                  </b>
-                </p>
-              </div>
+                  }
+                >
+                  They expect this next batch to sell out before it is even finished manufacturing, which is why they are urging you to reserve your presale order now!
+                </b>
+              </span>
               <p>
                 The best part though? Reserving your presale order now means you
                 <b>
@@ -3289,7 +3284,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
       >
         <p>
           Copyright © 
-          2020
+          2021
            
           <a
             href="/"
@@ -4089,8 +4084,9 @@ exports[`Storyshots Article Default 1`] = `
           <p>
             This is an example of styled text
              
-            <div
+            <span
               className="styledText undefined"
+              inline=""
               style={
                 Object {
                   "backgroundColor": undefined,
@@ -4098,7 +4094,7 @@ exports[`Storyshots Article Default 1`] = `
                 }
               }
             >
-              <div
+              <span
                 style={
                   Object {
                     "backgroundColor": undefined,
@@ -4106,14 +4102,15 @@ exports[`Storyshots Article Default 1`] = `
                 }
               >
                 I'm styled text
-              </div>
-            </div>
+              </span>
+            </span>
           </p>
           <p>
             This is an example of inline styled text
              
             <span
               className="styledText undefined"
+              inline=""
               style={
                 Object {
                   "backgroundColor": undefined,
@@ -4121,7 +4118,7 @@ exports[`Storyshots Article Default 1`] = `
                 }
               }
             >
-              <div
+              <span
                 style={
                   Object {
                     "backgroundColor": undefined,
@@ -4129,7 +4126,7 @@ exports[`Storyshots Article Default 1`] = `
                 }
               >
                 I'm styled text
-              </div>
+              </span>
             </span>
           </p>
         </div>
@@ -4666,7 +4663,7 @@ exports[`Storyshots Footer Default 1`] = `
     >
       <p>
         Copyright © 
-        2020
+        2021
          
         <a
           href="/"
@@ -5127,7 +5124,7 @@ exports[`Storyshots Layout Default 1`] = `
       >
         <p>
           Copyright © 
-          2020
+          2021
            
           <a
             href="/"
@@ -5244,8 +5241,9 @@ exports[`Storyshots Product Link Button Text 1`] = `
 `;
 
 exports[`Storyshots Styled Text Background Color 1`] = `
-<div
+<span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": "red",
@@ -5253,7 +5251,7 @@ exports[`Storyshots Styled Text Background Color 1`] = `
     }
   }
 >
-  <div
+  <span
     style={
       Object {
         "backgroundColor": "red",
@@ -5261,13 +5259,14 @@ exports[`Storyshots Styled Text Background Color 1`] = `
     }
   >
     I'm styled text
-  </div>
-</div>
+  </span>
+</span>
 `;
 
 exports[`Storyshots Styled Text Background Color With Bold 1`] = `
-<div
+<span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": "red",
@@ -5275,7 +5274,7 @@ exports[`Storyshots Styled Text Background Color With Bold 1`] = `
     }
   }
 >
-  <div>
+  <span>
     I'm styled text, and 
     <b
       style={
@@ -5286,13 +5285,14 @@ exports[`Storyshots Styled Text Background Color With Bold 1`] = `
     >
       I am bold text
     </b>
-  </div>
-</div>
+  </span>
+</span>
 `;
 
 exports[`Storyshots Styled Text Centered 1`] = `
-<div
+<span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": undefined,
@@ -5301,7 +5301,7 @@ exports[`Storyshots Styled Text Centered 1`] = `
     }
   }
 >
-  <div
+  <span
     style={
       Object {
         "backgroundColor": undefined,
@@ -5309,13 +5309,14 @@ exports[`Storyshots Styled Text Centered 1`] = `
     }
   >
     I'm styled text
-  </div>
-</div>
+  </span>
+</span>
 `;
 
 exports[`Storyshots Styled Text Color And Background Color 1`] = `
-<div
+<span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": "red",
@@ -5323,7 +5324,7 @@ exports[`Storyshots Styled Text Color And Background Color 1`] = `
     }
   }
 >
-  <div
+  <span
     style={
       Object {
         "backgroundColor": "red",
@@ -5331,13 +5332,14 @@ exports[`Storyshots Styled Text Color And Background Color 1`] = `
     }
   >
     I'm styled text
-  </div>
-</div>
+  </span>
+</span>
 `;
 
 exports[`Storyshots Styled Text Colored 1`] = `
-<div
+<span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": undefined,
@@ -5345,7 +5347,7 @@ exports[`Storyshots Styled Text Colored 1`] = `
     }
   }
 >
-  <div
+  <span
     style={
       Object {
         "backgroundColor": undefined,
@@ -5353,13 +5355,14 @@ exports[`Storyshots Styled Text Colored 1`] = `
     }
   >
     I'm styled text
-  </div>
-</div>
+  </span>
+</span>
 `;
 
 exports[`Storyshots Styled Text Default 1`] = `
-<div
+<span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": undefined,
@@ -5367,7 +5370,7 @@ exports[`Storyshots Styled Text Default 1`] = `
     }
   }
 >
-  <div
+  <span
     style={
       Object {
         "backgroundColor": undefined,
@@ -5375,13 +5378,14 @@ exports[`Storyshots Styled Text Default 1`] = `
     }
   >
     I'm styled text
-  </div>
-</div>
+  </span>
+</span>
 `;
 
 exports[`Storyshots Styled Text Inline 1`] = `
 <span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": undefined,
@@ -5389,7 +5393,7 @@ exports[`Storyshots Styled Text Inline 1`] = `
     }
   }
 >
-  <div
+  <span
     style={
       Object {
         "backgroundColor": undefined,
@@ -5397,13 +5401,14 @@ exports[`Storyshots Styled Text Inline 1`] = `
     }
   >
     I'm styled text
-  </div>
+  </span>
 </span>
 `;
 
 exports[`Storyshots Styled Text Inline Background 1`] = `
 <span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": "red",
@@ -5411,7 +5416,7 @@ exports[`Storyshots Styled Text Inline Background 1`] = `
     }
   }
 >
-  <div
+  <span
     style={
       Object {
         "backgroundColor": "red",
@@ -5419,13 +5424,14 @@ exports[`Storyshots Styled Text Inline Background 1`] = `
     }
   >
     I'm styled text
-  </div>
+  </span>
 </span>
 `;
 
 exports[`Storyshots Styled Text Inline Background And Color 1`] = `
 <span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": "red",
@@ -5433,7 +5439,7 @@ exports[`Storyshots Styled Text Inline Background And Color 1`] = `
     }
   }
 >
-  <div
+  <span
     style={
       Object {
         "backgroundColor": "red",
@@ -5441,13 +5447,14 @@ exports[`Storyshots Styled Text Inline Background And Color 1`] = `
     }
   >
     I'm styled text
-  </div>
+  </span>
 </span>
 `;
 
 exports[`Storyshots Styled Text Inline Background Color With Bold 1`] = `
 <span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": "red",
@@ -5455,7 +5462,7 @@ exports[`Storyshots Styled Text Inline Background Color With Bold 1`] = `
     }
   }
 >
-  <div>
+  <span>
     I'm styled text, and 
     <b
       style={
@@ -5466,13 +5473,14 @@ exports[`Storyshots Styled Text Inline Background Color With Bold 1`] = `
     >
       I am bold text
     </b>
-  </div>
+  </span>
 </span>
 `;
 
 exports[`Storyshots Styled Text Inline Colored 1`] = `
 <span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": undefined,
@@ -5480,7 +5488,7 @@ exports[`Storyshots Styled Text Inline Colored 1`] = `
     }
   }
 >
-  <div
+  <span
     style={
       Object {
         "backgroundColor": undefined,
@@ -5488,13 +5496,14 @@ exports[`Storyshots Styled Text Inline Colored 1`] = `
     }
   >
     I'm styled text
-  </div>
+  </span>
 </span>
 `;
 
 exports[`Storyshots Styled Text Superscript 1`] = `
-<div
+<span
   className="styledText undefined"
+  inline=""
   style={
     Object {
       "backgroundColor": undefined,
@@ -5502,19 +5511,17 @@ exports[`Storyshots Styled Text Superscript 1`] = `
     }
   }
 >
-  <p>
-    I'm styled text with a superscript point
-    <code
-      style={
-        Object {
-          "backgroundColor": undefined,
-        }
+  I'm styled text with a superscript point
+  <code
+    style={
+      Object {
+        "backgroundColor": undefined,
       }
-    >
-      1
-    </code>
-  </p>
-</div>
+    }
+  >
+    1
+  </code>
+</span>
 `;
 
 exports[`Storyshots Trustpilot Review Default 1`] = `

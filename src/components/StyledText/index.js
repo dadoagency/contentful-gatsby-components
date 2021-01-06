@@ -24,7 +24,7 @@ const StyledText = ({ children, fields, inline }) => {
         fontClass = "font-size-m"
     }
   }
-  let predefinedStyle = getFirstValue(fields?.predefinedStyle)
+  let predefinedStyle = getFirstValue(fields?.predefinedStyle) || '';
   return (
     <StyledTextPure
       color={colour}

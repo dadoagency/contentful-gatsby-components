@@ -236,7 +236,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                     
 
                     <span
-                      className="styledText  null"
+                      className="styledText  "
                       style={
                         Object {
                           "backgroundColor": null,
@@ -250,7 +250,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                     </span>
                     **, and as Ali, a Petlab customer put it: "it's a no brainer to try for any dog owner" - especially after seeing the rave reviews and success stories. 
                     <span
-                      className="styledText  null"
+                      className="styledText  "
                       style={
                         Object {
                           "backgroundColor": "#FFFF00",
@@ -579,7 +579,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                     <p>
                       
                       <span
-                        className="styledText  null"
+                        className="styledText  "
                         style={
                           Object {
                             "backgroundColor": null,
@@ -647,7 +647,7 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                     </a>
                   </div>
                   <div
-                    className="styledText  null"
+                    className="styledText  "
                     style={
                       Object {
                         "backgroundColor": null,
@@ -2647,7 +2647,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
                  using the perfect balance of premium, effective ingredients that are safe to use for all dogs, including:
               </p>
               <div
-                className="styledText  null"
+                className="styledText  "
                 style={
                   Object {
                     "backgroundColor": null,
@@ -2707,7 +2707,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
                 </b>
               </p>
               <div
-                className="styledText  null"
+                className="styledText  "
                 style={
                   Object {
                     "backgroundColor": "#FFFF00",
@@ -3289,7 +3289,7 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
       >
         <p>
           Copyright © 
-          2020
+          2021
            
           <a
             href="/"
@@ -4666,7 +4666,7 @@ exports[`Storyshots Footer Default 1`] = `
     >
       <p>
         Copyright © 
-        2020
+        2021
          
         <a
           href="/"
@@ -5127,7 +5127,7 @@ exports[`Storyshots Layout Default 1`] = `
       >
         <p>
           Copyright © 
-          2020
+          2021
            
           <a
             href="/"

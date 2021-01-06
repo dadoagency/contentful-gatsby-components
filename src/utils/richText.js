@@ -9,6 +9,7 @@ import ProductLinkButton from "../components/ProductLinkButton"
 import StyledText from "../components/StyledText"
 import Map from "../components/Map"
 import ImageCarouselMobile from "../components/ImageCarouselMobile"
+import TrustpilotReviewB from "../components/Reviews/Trustpilot/TrustpilotReviewB"
 
 const renderOptions = {
   renderNode: {
@@ -234,6 +235,12 @@ const renderOptions = {
                 )}
               </div>
             )
+          case "trustpilotReviewB":
+              const review_title = getLocaleValueOrDefault(node.data.target.fields.title)
+              const review_body = documentToReactComponents(getLocaleValueOrDefault(node.data.target.fields.body),renderOptions)
+              return (
+                <TrustpilotReviewB title={review_title} body={review_body} version={2} />
+              )
           default:
             console.log(
               "unknown embedded block entry type. Will not render " +

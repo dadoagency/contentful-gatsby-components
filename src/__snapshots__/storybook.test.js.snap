@@ -6183,26 +6183,7 @@ exports[`Storyshots Trustpilot Review Type D With Action 1`] = `
   </div>
   <div
     className="page-btn-container"
-  >
-    <div>
-      <a
-        className="productLink "
-        href="default"
-      >
-        <div
-          className="sc-hKgILt ejfxQN page-btn"
-        >
-          <div
-            className="page-btn-text"
-          >
-            <p>
-              Click me
-            </p>
-          </div>
-        </div>
-      </a>
-    </div>
-  </div>
+  />
 </div>
 `;
 

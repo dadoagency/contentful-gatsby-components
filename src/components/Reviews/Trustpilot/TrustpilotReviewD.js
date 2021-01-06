@@ -71,7 +71,9 @@ export function TrustpilotReviewDPure({
           className="logo"
         >
           <a href={logoLink}>
+          {logo ? (
             <GatsbyImage fixed={logo} alt="logo" />
+            ) : null}
           </a>
         </div>
         <span>{title}</span>

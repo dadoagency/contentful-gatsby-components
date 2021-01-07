@@ -14,6 +14,7 @@ export default ({
   headerLinks,
   footerLinks,
   companyDetails,
+  footerSection,
   pageTitle,
   ...props
 }) => {
@@ -24,7 +25,7 @@ export default ({
       </Helmet>
       <Header logo={logo} headerContentRight={headerContentRight} />
       {children}
-      <Footer links={footerLinks} companyDetails={companyDetails} />
+      <Footer links={footerLinks} companyDetails={companyDetails} footerSection={footerSection} />
     </div>
   )
 }

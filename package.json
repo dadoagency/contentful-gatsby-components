@@ -76,7 +76,7 @@
   },
   "scripts": {
     "build": "webpack --mode=production",
-    "watch": "webpack -w",
+    "watch-yalc": "nodemon -x 'yalc push --changed'",
     "storybook": "NODE_ENV=test start-storybook -s public -p 6006",
     "build-storybook": "NODE_ENV=test build-storybook -s public",
     "test": "jest",

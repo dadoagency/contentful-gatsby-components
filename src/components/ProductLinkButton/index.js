@@ -89,8 +89,6 @@ export function ProductLinkButtonPure({
   redirectDestination,
   ...props
 }) {
-  console.log("PRODUCT LINK BUTTON")
-  console.log("TEST 100")
   return (
     <ProductLink redirectDestination={redirectDestination} {...props}>
       <Button

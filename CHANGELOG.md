@@ -1,3 +1,15 @@
+# v5.0.3 (Thu Jan 07 2021)
+
+#### 🐛 Bug Fix
+
+- chore: yalc watch mode [#67](https://github.com/dadoagency/contentful-gatsby-components/pull/67) ([@martink-rsa](https://github.com/martink-rsa))
+
+#### Authors: 1
+
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v5.0.2 (Thu Jan 07 2021)
 
 #### 🐛 Bug Fix

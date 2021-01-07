@@ -38,6 +38,5 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           yarn install
-          npm rebuild node-sass
           yarn build
           yarn release

@@ -1,0 +1,31 @@
+.styledText {
+  * {
+    color: inherit;
+  }
+  ul,
+  li,
+  p {
+    color: inherit !important;
+  }
+  h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+  }
+
+  &.font-size-s {
+    font-size: 0.8rem;
+  }
+  &.font-size-m {
+    font-size: 1rem;
+  }
+  &.font-size-l {
+    font-size: 1.1rem;
+  }
+}
+
+span.styledText {
+  * {
+    display: inline;
+  }
+}

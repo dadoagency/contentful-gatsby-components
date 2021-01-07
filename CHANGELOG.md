@@ -1,3 +1,15 @@
+# v5.0.1 (Thu Jan 07 2021)
+
+#### 🐛 Bug Fix
+
+- chore: added check that labels are present [#64](https://github.com/dadoagency/contentful-gatsby-components/pull/64) ([@martink-rsa](https://github.com/martink-rsa))
+
+#### Authors: 1
+
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v5.0.0 (Thu Jan 07 2021)
 
 #### 💥 Breaking Change

@@ -1,4 +1,0 @@
-{
-  // "presets": [["babel-preset-gatsby-package", { "browser": true }], "sass-loader"]
-  "presets": ["@babel/preset-env", "@babel/preset-react"]
-}

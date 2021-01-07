@@ -8,7 +8,6 @@
     "@babel/runtime": "^7.9.6",
     "@contentful/rich-text-react-renderer": "^14.1.1",
     "@contentful/rich-text-types": "^14.1.1",
-    "@dadoagency/contentful-gatsby-components": "file:.yalc/@dadoagency/contentful-gatsby-components",
     "gatsby-plugin-sharp": "^2.6.19",
     "gatsby-source-filesystem": "^2.3.19",
     "gatsby-transformer-sharp": "^2.5.11",

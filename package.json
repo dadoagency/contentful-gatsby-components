@@ -1,6 +1,6 @@
 {
   "name": "@dadoagency/contentful-gatsby-components",
-  "version": "4.3.3",
+  "version": "5.0.0",
   "main": "index.js",
   "author": "dado",
   "private": false,

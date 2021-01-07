@@ -1,3 +1,29 @@
+# v5.0.0 (Thu Jan 07 2021)
+
+#### 💥 Breaking Change
+
+- Embedded Block - Review B [#55](https://github.com/dadoagency/contentful-gatsby-components/pull/55) ([@chesteralan](https://github.com/chesteralan))
+
+#### 🚀 Enhancement
+
+- fix: updated yarn.lock [#63](https://github.com/dadoagency/contentful-gatsby-components/pull/63) ([@martink-rsa](https://github.com/martink-rsa))
+- fix: removed old imports for version 2 of trustpilot review b [#61](https://github.com/dadoagency/contentful-gatsby-components/pull/61) ([@martink-rsa](https://github.com/martink-rsa))
+- Advertorial 3 Footer RichText Field [#60](https://github.com/dadoagency/contentful-gatsby-components/pull/60) ([@chesteralan](https://github.com/chesteralan))
+
+#### 🐛 Bug Fix
+
+- Removed lock [#62](https://github.com/dadoagency/contentful-gatsby-components/pull/62) ([@martink-rsa](https://github.com/martink-rsa))
+- Adding Predefined Style Class Name to Styled Text [#56](https://github.com/dadoagency/contentful-gatsby-components/pull/56) ([@chesteralan](https://github.com/chesteralan))
+- Fixing Gatsby Image error [#58](https://github.com/dadoagency/contentful-gatsby-components/pull/58) ([@chesteralan](https://github.com/chesteralan))
+- Adding class names [#57](https://github.com/dadoagency/contentful-gatsby-components/pull/57) ([@chesteralan](https://github.com/chesteralan))
+
+#### Authors: 2
+
+- [@chesteralan](https://github.com/chesteralan)
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v4.3.3 (Wed Dec 23 2020)
 
 #### 🐛 Bug Fix

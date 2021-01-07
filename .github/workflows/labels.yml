@@ -10,4 +10,4 @@ jobs:
         with:
           mode: exactly
           count: 1
-          labels: "semver:patch, semver:minor, semver:major"
+          labels: "patch, minor, major"

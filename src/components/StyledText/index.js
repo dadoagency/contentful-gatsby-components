@@ -24,6 +24,7 @@ const StyledText = ({ children, fields, inline }) => {
         fontClass = "font-size-m"
     }
   }
+  let predefinedStyle = getFirstValue(fields?.predefinedStyle) || '';
   return (
     <StyledTextPure
       color={colour}
@@ -32,6 +33,7 @@ const StyledText = ({ children, fields, inline }) => {
       isCentered={isCentered}
       children={children}
       fontClass={fontClass}
+      predefinedStyle={predefinedStyle}
     />
   )
 }
@@ -43,6 +45,7 @@ export function StyledTextPure({
   inline,
   isCentered,
   fontClass,
+  predefinedStyle,
 }) {
   const style = {
     color,
@@ -62,7 +65,7 @@ export function StyledTextPure({
   }
 
   return (
-    <Wrapper className={`styledText ${fontClass}`} style={style}>
+    <Wrapper className={`styledText ${fontClass} ${predefinedStyle}`} style={style}>
       {Children.map(children, child => {
         return styleLeafNodes(child, { backgroundColor })
       })}

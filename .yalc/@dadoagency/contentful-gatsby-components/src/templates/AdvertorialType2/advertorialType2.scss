@@ -1,0 +1,133 @@
+html.advertorial-type-2 {
+  @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
+  body {
+    font-family: "Work Sans", sans-serif;
+  }
+
+  @import "./importedStyles.scss";
+
+  word-wrap: break-word;
+  background: #fdfbf6;
+
+  p:empty {
+    display: none;
+  }
+
+  .header.site-logo-container {
+    background-color: #213f4e;
+    padding: 15px 0;
+  }
+  .site-logo-wrapper {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .extra {
+    position: fixed;
+    z-index: 9999;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    left: 0;
+
+    .page-btn {
+      margin: 0;
+    }
+  }
+
+  .flex-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .site-data-container {
+    max-width: 100%;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 30px 0;
+  }
+
+  .site-data-wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+
+  .productLink {
+    .page-btn {
+      width: 100%;
+      display: inline-block;
+      font-size: 18px;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: 700;
+      background: #f86c1f;
+      text-align: center;
+      box-shadow: 10px 10px 19px -4px rgba(0, 0, 0, 0.33);
+      padding: 18px 20px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 25px;
+
+      .arrow-img {
+        // display: inline;
+
+        img {
+          width: 18px;
+          height: 18px;
+          filter: invert(1);
+        }
+      }
+    }
+  }
+
+  .reviews-list {
+    display: none;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+    .social-icon {
+      margin: 0 2px;
+    }
+  }
+
+  footer {
+    background: #213f4e;
+    padding: 5px 0 120px;
+
+    .site-footer-wrapper {
+      p,
+      a {
+        color: #fff;
+        font-size: 14px;
+        line-height: 24px;
+      }
+
+      a {
+        font-weight: 700;
+      }
+
+      max-width: 750px;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  @import "./article.scss";
+  @import "./product-card.scss";
+  @import "./mediaQueries.scss";
+  @import "./product-link-button.scss";
+}

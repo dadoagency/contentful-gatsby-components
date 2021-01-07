@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "@dadoagency/contentful-gatsby-components": {
+      "signature": "7bebeb3453adb14d0afb4c6da82e490e",
+      "file": true
+    }
+  }
+}

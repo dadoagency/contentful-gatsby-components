@@ -1,3 +1,15 @@
+# v5.0.2 (Thu Jan 07 2021)
+
+#### 🐛 Bug Fix
+
+- fix: removed the yalc files from erred command [#66](https://github.com/dadoagency/contentful-gatsby-components/pull/66) ([@martink-rsa](https://github.com/martink-rsa))
+
+#### Authors: 1
+
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v5.0.1 (Thu Jan 07 2021)
 
 #### 🐛 Bug Fix

@@ -87,6 +87,7 @@ export function ProductLinkButtonPure({
   borderHoverColour,
   children,
   redirectDestination,
+  svgIcon,
   ...props
 }) {
   return (
@@ -107,6 +108,11 @@ export function ProductLinkButtonPure({
         {icon && (
           <div className="arrow-img">
             <Image {...icon} />
+          </div>
+        )}
+        {svgIcon && (
+          <div className="arrow-img arrow-img-svg">
+            <img src={svgIcon} alt="Right chevron" />
           </div>
         )}
       </Button>

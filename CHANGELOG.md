@@ -1,3 +1,15 @@
+# v5.0.4 (Tue Jan 26 2021)
+
+#### 🐛 Bug Fix
+
+- feat: plb svg icons added [#69](https://github.com/dadoagency/contentful-gatsby-components/pull/69) ([@martink-rsa](https://github.com/martink-rsa))
+
+#### Authors: 1
+
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v5.0.3 (Thu Jan 07 2021)
 
 #### 🐛 Bug Fix

@@ -8,5 +8,5 @@ export default function ClientOnly({ children, ...delegated }) {
   if (!hasMounted) {
     return null
   }
-  return <div {...delegated}>{children}</div>
+  return <React.Fragment {...delegated}>{children}</React.Fragment>
 }

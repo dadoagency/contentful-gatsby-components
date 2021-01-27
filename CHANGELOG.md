@@ -1,3 +1,15 @@
+# v5.0.5 (Wed Jan 27 2021)
+
+#### 🐛 Bug Fix
+
+- fix: removed div wrapper from plb [#70](https://github.com/dadoagency/contentful-gatsby-components/pull/70) ([@martink-rsa](https://github.com/martink-rsa))
+
+#### Authors: 1
+
+- Martin Kruger ([@martink-rsa](https://github.com/martink-rsa))
+
+---
+
 # v5.0.4 (Tue Jan 26 2021)
 
 #### 🐛 Bug Fix

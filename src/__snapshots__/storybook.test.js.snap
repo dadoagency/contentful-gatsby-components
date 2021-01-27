@@ -61,24 +61,22 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
       <div
         className="extra"
       >
-        <div>
-          <a
-            className="productLink "
-            href="https://promo.thepetlabco.com/jointcarechew/index.php?utm_medium=utmtimsval&id=tims_test"
+        <a
+          className="productLink "
+          href="https://promo.thepetlabco.com/jointcarechew/index.php?utm_medium=utmtimsval&id=tims_test"
+        >
+          <div
+            className="sc-hKgILt ejfxQN page-btn"
           >
             <div
-              className="sc-hKgILt ejfxQN page-btn"
+              className="page-btn-text"
             >
-              <div
-                className="page-btn-text"
-              >
-                <p>
-                  Click me
-                </p>
-              </div>
+              <p>
+                Click me
+              </p>
             </div>
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
     </div>
   </section>
@@ -272,40 +270,38 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                     </span>
                     
                   </p>
-                  <div>
-                    <a
-                      className="productLink "
-                      href="https://promo.thepetlabco.com/jointcarechew/index.php?utm_medium=utmtimsval&id=tims_test"
+                  <a
+                    className="productLink "
+                    href="https://promo.thepetlabco.com/jointcarechew/index.php?utm_medium=utmtimsval&id=tims_test"
+                  >
+                    <div
+                      className="sc-hKgILt cCrLEg page-btn"
                     >
                       <div
-                        className="sc-hKgILt cCrLEg page-btn"
+                        className="page-btn-text"
+                      >
+                        <p>
+                          SEE JOINT CARE CHEW OFFERS
+                        </p>
+                      </div>
+                      <div
+                        className="arrow-img"
                       >
                         <div
-                          className="page-btn-text"
+                          className="article-img-wrapper"
                         >
-                          <p>
-                            SEE JOINT CARE CHEW OFFERS
-                          </p>
-                        </div>
-                        <div
-                          className="arrow-img"
-                        >
-                          <div
-                            className="article-img-wrapper"
-                          >
-                            <img
-                              src="//images.ctfassets.net/xihufpic5pn1/2mCgqutzsb6vXSWhAJ06a4/29198111da036dc2dd34d43a99bbfda8/angle-double-right.svg"
-                              style={
-                                Object {
-                                  "width": undefined,
-                                }
+                          <img
+                            src="//images.ctfassets.net/xihufpic5pn1/2mCgqutzsb6vXSWhAJ06a4/29198111da036dc2dd34d43a99bbfda8/angle-double-right.svg"
+                            style={
+                              Object {
+                                "width": undefined,
                               }
-                            />
-                          </div>
+                            }
+                          />
                         </div>
                       </div>
-                    </a>
-                  </div>
+                    </div>
+                  </a>
                   <p>
                     Plus there are several options if you just want to try one or two tubs using the risk free money back guarantee. The fast shipping from USA meant Daisy's owner was able to get him started ASAP.
                   </p>
@@ -462,40 +458,38 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                       </p>
                     </li>
                   </ul>
-                  <div>
-                    <a
-                      className="productLink "
-                      href="https://promo.thepetlabco.com/jointcarechew/index.php?utm_medium=utmtimsval&id=tims_test"
+                  <a
+                    className="productLink "
+                    href="https://promo.thepetlabco.com/jointcarechew/index.php?utm_medium=utmtimsval&id=tims_test"
+                  >
+                    <div
+                      className="sc-hKgILt cCrLEg page-btn"
                     >
                       <div
-                        className="sc-hKgILt cCrLEg page-btn"
+                        className="page-btn-text"
+                      >
+                        <p>
+                          SEE JOINT CARE CHEW OFFERS
+                        </p>
+                      </div>
+                      <div
+                        className="arrow-img"
                       >
                         <div
-                          className="page-btn-text"
+                          className="article-img-wrapper"
                         >
-                          <p>
-                            SEE JOINT CARE CHEW OFFERS
-                          </p>
-                        </div>
-                        <div
-                          className="arrow-img"
-                        >
-                          <div
-                            className="article-img-wrapper"
-                          >
-                            <img
-                              src="//images.ctfassets.net/xihufpic5pn1/2mCgqutzsb6vXSWhAJ06a4/29198111da036dc2dd34d43a99bbfda8/angle-double-right.svg"
-                              style={
-                                Object {
-                                  "width": undefined,
-                                }
+                          <img
+                            src="//images.ctfassets.net/xihufpic5pn1/2mCgqutzsb6vXSWhAJ06a4/29198111da036dc2dd34d43a99bbfda8/angle-double-right.svg"
+                            style={
+                              Object {
+                                "width": undefined,
                               }
-                            />
-                          </div>
+                            }
+                          />
                         </div>
                       </div>
-                    </a>
-                  </div>
+                    </div>
+                  </a>
                   <p>
                     It contains a whole host of ingredients designed to enhance bone and joint health.
                   </p>
@@ -612,40 +606,38 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                   <p>
                     To learn more about the product and grab the amazing discount, click the orange button below.
                   </p>
-                  <div>
-                    <a
-                      className="productLink "
-                      href="https://promo.thepetlabco.com/jointcarechew/index.php?utm_medium=utmtimsval&id=tims_test"
+                  <a
+                    className="productLink "
+                    href="https://promo.thepetlabco.com/jointcarechew/index.php?utm_medium=utmtimsval&id=tims_test"
+                  >
+                    <div
+                      className="sc-hKgILt cCrLEg page-btn"
                     >
                       <div
-                        className="sc-hKgILt cCrLEg page-btn"
+                        className="page-btn-text"
+                      >
+                        <p>
+                          SEE JOINT CARE CHEW OFFERS
+                        </p>
+                      </div>
+                      <div
+                        className="arrow-img"
                       >
                         <div
-                          className="page-btn-text"
+                          className="article-img-wrapper"
                         >
-                          <p>
-                            SEE JOINT CARE CHEW OFFERS
-                          </p>
-                        </div>
-                        <div
-                          className="arrow-img"
-                        >
-                          <div
-                            className="article-img-wrapper"
-                          >
-                            <img
-                              src="//images.ctfassets.net/xihufpic5pn1/2mCgqutzsb6vXSWhAJ06a4/29198111da036dc2dd34d43a99bbfda8/angle-double-right.svg"
-                              style={
-                                Object {
-                                  "width": undefined,
-                                }
+                          <img
+                            src="//images.ctfassets.net/xihufpic5pn1/2mCgqutzsb6vXSWhAJ06a4/29198111da036dc2dd34d43a99bbfda8/angle-double-right.svg"
+                            style={
+                              Object {
+                                "width": undefined,
                               }
-                            />
-                          </div>
+                            }
+                          />
                         </div>
                       </div>
-                    </a>
-                  </div>
+                    </div>
+                  </a>
                   <div
                     className="styledText  "
                     style={
@@ -682,40 +674,38 @@ exports[`Storyshots Advertorial Type 2 Default 1`] = `
                       />
                     </div>
                   </center>
-                  <div>
-                    <a
-                      className="productLink "
-                      href="https://promo.thepetlabco.com/jointcarechew/index.php?utm_medium=utmtimsval&id=tims_test"
+                  <a
+                    className="productLink "
+                    href="https://promo.thepetlabco.com/jointcarechew/index.php?utm_medium=utmtimsval&id=tims_test"
+                  >
+                    <div
+                      className="sc-hKgILt cCrLEg page-btn"
                     >
                       <div
-                        className="sc-hKgILt cCrLEg page-btn"
+                        className="page-btn-text"
+                      >
+                        <p>
+                          SEE JOINT CARE CHEW OFFERS
+                        </p>
+                      </div>
+                      <div
+                        className="arrow-img"
                       >
                         <div
-                          className="page-btn-text"
+                          className="article-img-wrapper"
                         >
-                          <p>
-                            SEE JOINT CARE CHEW OFFERS
-                          </p>
-                        </div>
-                        <div
-                          className="arrow-img"
-                        >
-                          <div
-                            className="article-img-wrapper"
-                          >
-                            <img
-                              src="//images.ctfassets.net/xihufpic5pn1/2mCgqutzsb6vXSWhAJ06a4/29198111da036dc2dd34d43a99bbfda8/angle-double-right.svg"
-                              style={
-                                Object {
-                                  "width": undefined,
-                                }
+                          <img
+                            src="//images.ctfassets.net/xihufpic5pn1/2mCgqutzsb6vXSWhAJ06a4/29198111da036dc2dd34d43a99bbfda8/angle-double-right.svg"
+                            style={
+                              Object {
+                                "width": undefined,
                               }
-                            />
-                          </div>
+                            }
+                          />
                         </div>
                       </div>
-                    </a>
-                  </div>
+                    </div>
+                  </a>
                   <p>
                     
                   </p>
@@ -2564,40 +2554,38 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
                 </b>
                  Lucy is back to loving life again...
               </p>
-              <div>
-                <a
-                  className="productLink "
-                  href="https://promo.thepetlabco.com/jointcarechew/index.php?utm_medium=utmtimsval&id=tims_test"
+              <a
+                className="productLink "
+                href="https://promo.thepetlabco.com/jointcarechew/index.php?utm_medium=utmtimsval&id=tims_test"
+              >
+                <div
+                  className="sc-hKgILt dznIHw page-btn"
                 >
                   <div
-                    className="sc-hKgILt dznIHw page-btn"
+                    className="page-btn-text"
+                  >
+                    <p>
+                      See Pre-order Offers Available Now! 
+                    </p>
+                  </div>
+                  <div
+                    className="arrow-img"
                   >
                     <div
-                      className="page-btn-text"
+                      className="article-img-wrapper"
                     >
-                      <p>
-                        See Pre-order Offers Available Now! 
-                      </p>
-                    </div>
-                    <div
-                      className="arrow-img"
-                    >
-                      <div
-                        className="article-img-wrapper"
-                      >
-                        <img
-                          src="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png"
-                          style={
-                            Object {
-                              "width": undefined,
-                            }
+                      <img
+                        src="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png"
+                        style={
+                          Object {
+                            "width": undefined,
                           }
-                        />
-                      </div>
+                        }
+                      />
                     </div>
                   </div>
-                </a>
-              </div>
+                </div>
+              </a>
               <center>
                 <div
                   className="article-img-wrapper"
@@ -2741,40 +2729,38 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
               <p>
                 Reserve your presale order here:
               </p>
-              <div>
-                <a
-                  className="productLink "
-                  href="https://promo.thepetlabco.com/jointcarechew/index.php?utm_medium=utmtimsval&id=tims_test"
+              <a
+                className="productLink "
+                href="https://promo.thepetlabco.com/jointcarechew/index.php?utm_medium=utmtimsval&id=tims_test"
+              >
+                <div
+                  className="sc-hKgILt dznIHw page-btn"
                 >
                   <div
-                    className="sc-hKgILt dznIHw page-btn"
+                    className="page-btn-text"
+                  >
+                    <p>
+                      See Pre-order Offers Available Now! 
+                    </p>
+                  </div>
+                  <div
+                    className="arrow-img"
                   >
                     <div
-                      className="page-btn-text"
+                      className="article-img-wrapper"
                     >
-                      <p>
-                        See Pre-order Offers Available Now! 
-                      </p>
-                    </div>
-                    <div
-                      className="arrow-img"
-                    >
-                      <div
-                        className="article-img-wrapper"
-                      >
-                        <img
-                          src="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png"
-                          style={
-                            Object {
-                              "width": undefined,
-                            }
+                      <img
+                        src="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png"
+                        style={
+                          Object {
+                            "width": undefined,
                           }
-                        />
-                      </div>
+                        }
+                      />
                     </div>
                   </div>
-                </a>
-              </div>
+                </div>
+              </a>
               <p>
                 The company has had hundreds of 5* reviews of their products, and countless customers have personally messaged us to say how impressed and happy they are with their products. It's one of the reasons we do what we do - seeing the results 1st hand of the positive changes our products can make to dogs across America.
               </p>
@@ -2818,40 +2804,38 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
                   />
                 </div>
               </center>
-              <div>
-                <a
-                  className="productLink "
-                  href="https://promo.thepetlabco.com/jointcarechew/index.php?utm_medium=utmtimsval&id=tims_test"
+              <a
+                className="productLink "
+                href="https://promo.thepetlabco.com/jointcarechew/index.php?utm_medium=utmtimsval&id=tims_test"
+              >
+                <div
+                  className="sc-hKgILt dznIHw page-btn"
                 >
                   <div
-                    className="sc-hKgILt dznIHw page-btn"
+                    className="page-btn-text"
+                  >
+                    <p>
+                      See Pre-order Offers Available Now! 
+                    </p>
+                  </div>
+                  <div
+                    className="arrow-img"
                   >
                     <div
-                      className="page-btn-text"
+                      className="article-img-wrapper"
                     >
-                      <p>
-                        See Pre-order Offers Available Now! 
-                      </p>
-                    </div>
-                    <div
-                      className="arrow-img"
-                    >
-                      <div
-                        className="article-img-wrapper"
-                      >
-                        <img
-                          src="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png"
-                          style={
-                            Object {
-                              "width": undefined,
-                            }
+                      <img
+                        src="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png"
+                        style={
+                          Object {
+                            "width": undefined,
                           }
-                        />
-                      </div>
+                        }
+                      />
                     </div>
                   </div>
-                </a>
-              </div>
+                </div>
+              </a>
               <p>
                 
               </p>
@@ -3177,101 +3161,99 @@ exports[`Storyshots AdvertorialType1 Default 1`] = `
             <div
               className="page-btn-container"
             >
-              <div>
-                <a
-                  className="productLink "
-                  href="https://promo.thepetlabco.com/jointcarechew/index.php?utm_medium=utmtimsval&id=tims_test"
+              <a
+                className="productLink "
+                href="https://promo.thepetlabco.com/jointcarechew/index.php?utm_medium=utmtimsval&id=tims_test"
+              >
+                <div
+                  className="sc-hKgILt bNVESA page-btn"
                 >
                   <div
-                    className="sc-hKgILt bNVESA page-btn"
+                    className="page-btn-text"
+                  >
+                    <p>
+                      See Pre-order Offers Available Now! 
+                    </p>
+                  </div>
+                  <div
+                    className="arrow-img"
                   >
                     <div
-                      className="page-btn-text"
-                    >
-                      <p>
-                        See Pre-order Offers Available Now! 
-                      </p>
-                    </div>
-                    <div
-                      className="arrow-img"
+                      className="article-img-wrapper"
                     >
                       <div
-                        className="article-img-wrapper"
+                        className=" gatsby-image-wrapper"
+                        style={
+                          Object {
+                            "display": "inline-block",
+                            "height": 12,
+                            "overflow": "hidden",
+                            "position": "relative",
+                            "width": 12,
+                          }
+                        }
                       >
-                        <div
-                          className=" gatsby-image-wrapper"
+                        <img
+                          alt=""
+                          aria-hidden={true}
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH5AcTDRgZXyV0nwAAAH9JREFUKM+d0TEOAQEQheFBQbsuodlriOg0DrBHoHEOLqNwBqqVUEpoHWCbT0GisEbir/9M3nsTCgc3S4Nox8yTi0qvTZh7czTJBdgpc4HG2jAT4G6lnwlwMo7oxndGsVVmQkTkF84x7dR/hWxssprpUHXb1D+fVdi7WrwiffAA/VPmDiTtZFMAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAAElFTkSuQmCC"
                           style={
                             Object {
-                              "display": "inline-block",
-                              "height": 12,
-                              "overflow": "hidden",
-                              "position": "relative",
-                              "width": 12,
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 1,
+                              "position": "absolute",
+                              "top": 0,
+                              "transitionDelay": "500ms",
+                              "width": "100%",
                             }
                           }
-                        >
+                        />
+                        <picture>
+                          <source
+                            srcSet="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&h=12&q=50&fm=webp 1x"
+                            type="image/webp"
+                          />
+                          <source
+                            srcSet="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&h=12&q=50 1x"
+                          />
                           <img
                             alt=""
-                            aria-hidden={true}
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH5AcTDRgZXyV0nwAAAH9JREFUKM+d0TEOAQEQheFBQbsuodlriOg0DrBHoHEOLqNwBqqVUEpoHWCbT0GisEbir/9M3nsTCgc3S4Nox8yTi0qvTZh7czTJBdgpc4HG2jAT4G6lnwlwMo7oxndGsVVmQkTkF84x7dR/hWxssprpUHXb1D+fVdi7WrwiffAA/VPmDiTtZFMAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAAElFTkSuQmCC"
+                            height={12}
+                            loading="lazy"
+                            onLoad={[Function]}
+                            src="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&q=50"
+                            srcSet="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&h=12&q=50 1x"
                             style={
                               Object {
                                 "height": "100%",
                                 "left": 0,
                                 "objectFit": "cover",
                                 "objectPosition": "center",
-                                "opacity": 1,
+                                "opacity": 0,
                                 "position": "absolute",
                                 "top": 0,
-                                "transitionDelay": "500ms",
+                                "transition": "opacity 500ms",
                                 "width": "100%",
                               }
                             }
+                            width={12}
                           />
-                          <picture>
-                            <source
-                              srcSet="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&h=12&q=50&fm=webp 1x"
-                              type="image/webp"
-                            />
-                            <source
-                              srcSet="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&h=12&q=50 1x"
-                            />
-                            <img
-                              alt=""
-                              height={12}
-                              loading="lazy"
-                              onLoad={[Function]}
-                              src="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&q=50"
-                              srcSet="//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&h=12&q=50 1x"
-                              style={
-                                Object {
-                                  "height": "100%",
-                                  "left": 0,
-                                  "objectFit": "cover",
-                                  "objectPosition": "center",
-                                  "opacity": 0,
-                                  "position": "absolute",
-                                  "top": 0,
-                                  "transition": "opacity 500ms",
-                                  "width": "100%",
-                                }
-                              }
-                              width={12}
-                            />
-                          </picture>
-                          <noscript
-                            dangerouslySetInnerHTML={
-                              Object {
-                                "__html": "<picture><source type='image/webp' srcset=\\"//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&h=12&q=50&fm=webp 1x\\" /><source srcset=\\"//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&h=12&q=50 1x\\" /><img loading=\\"lazy\\" width=\\"12\\" height=\\"12\\" srcset=\\"//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&h=12&q=50 1x\\" src=\\"//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&q=50\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-                              }
+                        </picture>
+                        <noscript
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "<picture><source type='image/webp' srcset=\\"//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&h=12&q=50&fm=webp 1x\\" /><source srcset=\\"//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&h=12&q=50 1x\\" /><img loading=\\"lazy\\" width=\\"12\\" height=\\"12\\" srcset=\\"//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&h=12&q=50 1x\\" src=\\"//images.ctfassets.net/xihufpic5pn1/3bS4Qyz2HKD5clkX4jjA2A/917d7a3ad99cd33fb552b780297a8cd4/right.png?w=12&q=50\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
                             }
-                          />
-                        </div>
+                          }
+                        />
                       </div>
                     </div>
                   </div>
-                </a>
-              </div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -4034,24 +4016,22 @@ exports[`Storyshots Amazon Review With Action 1`] = `
   </div>
   <div>
     <center>
-      <div>
-        <a
-          className="productLink "
-          href="default"
+      <a
+        className="productLink "
+        href="default"
+      >
+        <div
+          className="sc-hKgILt ejfxQN page-btn"
         >
           <div
-            className="sc-hKgILt ejfxQN page-btn"
+            className="page-btn-text"
           >
-            <div
-              className="page-btn-text"
-            >
-              <p>
-                Click me
-              </p>
-            </div>
+            <p>
+              Click me
+            </p>
           </div>
-        </a>
-      </div>
+        </div>
+      </a>
     </center>
   </div>
 </div>
@@ -4495,24 +4475,22 @@ exports[`Storyshots Facebook Review Type D With Action 1`] = `
   <div
     className="page-btn-container"
   >
-    <div>
-      <a
-        className="productLink "
-        href="default"
+    <a
+      className="productLink "
+      href="default"
+    >
+      <div
+        className="sc-hKgILt ejfxQN page-btn"
       >
         <div
-          className="sc-hKgILt ejfxQN page-btn"
+          className="page-btn-text"
         >
-          <div
-            className="page-btn-text"
-          >
-            <p>
-              Click me
-            </p>
-          </div>
+          <p>
+            Click me
+          </p>
         </div>
-      </a>
-    </div>
+      </div>
+    </a>
   </div>
 </div>
 `;
@@ -4633,24 +4611,22 @@ exports[`Storyshots Facebook Review With Action 1`] = `
   >
     Some text describing what a great service we provided
   </div>
-  <div>
-    <a
-      className="productLink "
-      href="default"
+  <a
+    className="productLink "
+    href="default"
+  >
+    <div
+      className="sc-hKgILt ejfxQN page-btn"
     >
       <div
-        className="sc-hKgILt ejfxQN page-btn"
+        className="page-btn-text"
       >
-        <div
-          className="page-btn-text"
-        >
-          <p>
-            Click me
-          </p>
-        </div>
+        <p>
+          Click me
+        </p>
       </div>
-    </a>
-  </div>
+    </div>
+  </a>
 </div>
 `;
 
@@ -6275,24 +6251,22 @@ exports[`Storyshots Trustpilot Review Type C With Action 1`] = `
   <div
     className="page-btn-container"
   >
-    <div>
-      <a
-        className="productLink "
-        href="default"
+    <a
+      className="productLink "
+      href="default"
+    >
+      <div
+        className="sc-hKgILt ejfxQN page-btn"
       >
         <div
-          className="sc-hKgILt ejfxQN page-btn"
+          className="page-btn-text"
         >
-          <div
-            className="page-btn-text"
-          >
-            <p>
-              Click me
-            </p>
-          </div>
+          <p>
+            Click me
+          </p>
         </div>
-      </a>
-    </div>
+      </div>
+    </a>
   </div>
 </div>
 `;
@@ -6522,24 +6496,22 @@ exports[`Storyshots Trustpilot Review With Action 1`] = `
   <div
     className="page-btn-container"
   >
-    <div>
-      <a
-        className="productLink "
-        href="default"
+    <a
+      className="productLink "
+      href="default"
+    >
+      <div
+        className="sc-hKgILt ejfxQN page-btn"
       >
         <div
-          className="sc-hKgILt ejfxQN page-btn"
+          className="page-btn-text"
         >
-          <div
-            className="page-btn-text"
-          >
-            <p>
-              Click me
-            </p>
-          </div>
+          <p>
+            Click me
+          </p>
         </div>
-      </a>
-    </div>
+      </div>
+    </a>
   </div>
 </div>
 `;

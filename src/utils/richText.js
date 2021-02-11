@@ -274,7 +274,22 @@ const renderOptions = {
   },
   renderMark: {
     [MARKS.CODE]: (node, children) => {
-      return <sup>{node}</sup>
+      if(typeof node === 'object') {
+        switch(node.type) {
+          case 'u':
+            return <sub>{node.props.children}</sub>
+        }
+      }
+      return <code>{node}</code>
+    },
+    [MARKS.UNDERLINE]: (node, children) => {
+      if(typeof node === 'object') {
+        switch(node.type) {
+          case 'code':
+            return <sup>{node.props.children}</sup>
+        }
+      }
+      return <u>{node}</u>
     },
   },
 }

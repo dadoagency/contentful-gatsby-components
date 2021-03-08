@@ -98,7 +98,7 @@ function AdvertorialType3(props) {
         <Container>
           <h1>{heroTitle}</h1>
           <S.MainWrapper>
-            <S.MainContainer>
+            <S.MainContainer className="body-container">
               <Hero
                 image={heroImg}
                 body={documentToReactComponents(heroSection, renderOptions)}

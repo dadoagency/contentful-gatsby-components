@@ -1,3 +1,15 @@
+# v5.0.6 (Mon Mar 08 2021)
+
+#### 🐛 Bug Fix
+
+- Advertorial Type 3: adding `body-container` class [#71](https://github.com/dadoagency/contentful-gatsby-components/pull/71) ([@chesteralan](https://github.com/chesteralan))
+
+#### Authors: 1
+
+- [@chesteralan](https://github.com/chesteralan)
+
+---
+
 # v5.0.5 (Wed Jan 27 2021)
 
 #### 🐛 Bug Fix

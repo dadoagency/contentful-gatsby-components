@@ -10,17 +10,17 @@ export const Container = styled.div`
     margin-bottom: 3rem;
     & > a {
         text-decoration: none;
-        &:hover {
-            text-decoration: underline;
-        }
     }
 `;
 
 export const Details = styled.div`
     padding: 1.5rem;
-    color:#000;
+    color: #424242;
     & p > b {
         color: #E26447;
+    }
+    & h3:hover {
+        text-decoration: underline;
     }
 `
 
@@ -28,5 +28,17 @@ export const Image = styled.div`
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
-    min-height: 234px;
+    min-height: 192px;
+    position: relative;
+    & > img {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+        opacity: 1;
+        transition: opacity 500ms ease 0s;
+    }
 `

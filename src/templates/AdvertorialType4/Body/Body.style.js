@@ -11,13 +11,22 @@ export const Container = styled.div`
     max-width: 1310px;
     margin-left: auto;
     margin-right: auto;
+    @media screen and (max-width:890px) {
+        flex-direction: column;
+    }
 `;
 
 export const ColLeft = styled.div`
 width: 60%;
+@media screen and (max-width:890px) {
+    width: 100%;
+}
 `;
 
 export const ColRight = styled.div`
 width: 30%;
+@media screen and (max-width:890px) {
+    width: 100%;
+}
 `;
 

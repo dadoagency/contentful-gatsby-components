@@ -7,6 +7,7 @@ font-size: 46px;
 line-height: 52px;
 margin-bottom: .5rem;
 margin-top: 0;
+color: #424242;
 `
 export const Categorization = styled.div`
 display: flex;

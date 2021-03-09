@@ -1,22 +1,17 @@
 import React from 'react'
-import styled from 'styled-components';
+import * as S from './Footer.style'
+import renderOptions from "../../../utils/richText"
+import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 
-const Container = styled.div``;
-const Row = styled.div`
-display:flex;
-align-items: center;
-min-height: 90px;
-max-width: 1310px;
-margin-right: auto;
-margin-left: auto;
-`;
-const Col = styled.div``;
-
-export default (props) => {
-    console.log("Footer", props);
+export default ({json, footerLinks}) => {
     return (
-        <Container>
-            
-        </Container>
+        <S.Container>
+            {documentToReactComponents(json, renderOptions)}
+            <S.Row>
+                {footerLinks.map(({text,url}) => {
+                    return <S.Col key={text} target="_blank" href={url}>{text}</S.Col>
+                })}
+            </S.Row>
+        </S.Container>
     )
 }

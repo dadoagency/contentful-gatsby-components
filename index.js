@@ -17,6 +17,7 @@ import renderOptions from "./src/utils/richText"
 import AdvertorialType1 from "./src/templates/AdvertorialType1"
 import AdvertorialType2 from "./src/templates/AdvertorialType2"
 import AdvertorialType3 from "./src/templates/AdvertorialType3"
+import AdvertorialType4 from "./src/templates/AdvertorialType4"
 
 const RichText = {
   renderOptions,
@@ -38,4 +39,5 @@ export {
   TrustpilotReviewB,
   TrustpilotReviewC,
   AdvertorialType3,
+  AdvertorialType4
 }

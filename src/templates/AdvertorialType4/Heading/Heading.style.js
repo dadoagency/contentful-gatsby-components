@@ -16,11 +16,15 @@ align-items: center;
 margin-bottom: 15px;
 margin-top: 0;
 `
-export const Title = styled.div`
+export const Title = styled.a`
 color: #E26447;
 font-weight: 600;
 font-size: 16px;
 text-transform: uppercase;
+text-decoration: none;
+&:hover {
+    text-decoration: underline;
+}
 `
 export const Line = styled.div`
 background: #E26447;
@@ -62,11 +66,15 @@ color: #969696;
 flex: 1 1;
 font-weight:bold;
 `
-export const Name = styled.span`
+export const Name = styled.a`
 margin: 0 5px;
 color: #E26447;
 font-weight: 600;
 font-size: 16px;
 text-transform: uppercase;
+text-decoration: none;
+&:hover {
+    text-decoration: underline;
+}
 `
 export const Date = styled.span``

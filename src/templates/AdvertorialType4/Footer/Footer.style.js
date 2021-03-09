@@ -9,6 +9,8 @@ export const Container = styled.div`
     font-weight: 200;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
 `;
 export const Row1 = styled.div`
     display:block;

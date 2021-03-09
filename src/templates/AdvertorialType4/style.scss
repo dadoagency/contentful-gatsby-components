@@ -1,0 +1,94 @@
+@import "./typography.css";
+
+.advertorial-type-4 {
+    font-family: 'Fira Sans', sans-serif;
+    .content {
+      color: #424242;
+      margin-bottom: 100px;
+
+      @media screen and (max-width:890px) {
+          margin-bottom: 20px;
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        text-align: inherit;
+      }
+      p {
+        font-family: Rubik, sans-serif;
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 30px;
+        color: #47474D;
+      }
+      .article-img-wrapper {
+        margin: 1rem 0;
+        & > img {
+          box-shadow: 0 0 20px #DDD;
+          border: 5px solid #fff;
+          width: 100%;
+  
+          border-radius: 0;
+        } 
+        & p {
+          margin: 0;
+        }
+      }
+      .productLink {
+        text-decoration: none;
+        
+        .page-btn {
+          border-color: #AE462C!important;
+          background: #E26447!important;
+          color: #FFFFFF !important;
+          border-bottom: 3px solid #AE462C!important;
+          border-radius: 8px!important;
+          font-weight: 600!important;
+          padding: 10px 22px!important;
+          & p {
+            font-size: 18px;
+            font-weight: 600;
+            height: auto;
+            line-height: 30px;
+          }
+          & .article-img-wrapper {
+            margin: 0;
+            margin-left: 20px;
+            & img {
+              box-shadow:none;
+              border: none;
+            }
+          }
+          &:hover {
+            background: #AE462C!important;
+            border-color: #AE462C!important;
+          }
+        }
+      }
+
+      .special-offer > p {
+        margin: 0;
+      }
+
+      .toc-box {
+        background: #E5E8F1;
+        border: none;
+        padding: 20px 30px;
+        margin: 30px 0;
+        & ul {
+          @media screen and (max-width:890px) {
+            padding-inline-start: 0px;
+          }
+        }
+        & li {
+          list-style-type: none;
+          margin-bottom: 10px;
+          & p {
+            margin: 0;
+          }
+        }
+      }
+
+
+    }
+}
+

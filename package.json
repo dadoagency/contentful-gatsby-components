@@ -8,7 +8,7 @@
     "@babel/runtime": "^7.9.6",
     "@contentful/rich-text-react-renderer": "^14.1.1",
     "@contentful/rich-text-types": "^14.1.1",
-    "gatsby-plugin-sharp": "^2.6.19",
+    "gatsby-plugin-sharp": "^4.25.1",
     "gatsby-source-filesystem": "^2.3.19",
     "gatsby-transformer-sharp": "^2.5.11",
     "react": "^17.0.1",
